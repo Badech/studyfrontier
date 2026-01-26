@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "faqs": "FAQs",
+    "apply": "Apply Now",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Your Gateway to U.S. Universities",
+      "subtitle": "Professional guidance for international students seeking academic excellence abroad",
+      "description": "Education consulting services connecting students with accredited American universities through legitimate academic pathways.",
+      "cta": "Schedule a Consultation"
+    },
+    "trust": {
+      "title": "Trust & Transparency",
+      "subtitle": "Our commitment to ethical, legal student consulting",
+      "ethical": {
+        "title": "Ethical & Legal Consulting",
+        "description": "We adhere to all Moroccan and international education consulting regulations and ethical standards."
+      },
+      "accredited": {
+        "title": "Accredited Universities Only",
+        "description": "We work exclusively with accredited U.S. institutions recognized by the U.S. Department of Education."
+      },
+      "realistic": {
+        "title": "Real Academic Pathways Only",
+        "description": "No visa guarantees. We provide honest guidance and realistic academic pathways based on your qualifications."
+      }
+    },
+    "network": {
+      "title": "Our Global University Network",
+      "description": "Connecting students with accredited institutions across the United States",
+      "categories": {
+        "universities": "5-6 U.S. Universities",
+        "pathways": "Pathway Programs",
+        "esl": "ESL Institutions"
+      },
+      "note": "Official partnerships currently being finalized. All institutions are fully accredited."
+    },
+    "services": {
+      "title": "Comprehensive Support",
+      "subtitle": "From Application to Arrival",
+      "admission": {
+        "title": "University Admissions",
+        "description": "Strategic guidance to match your profile with the right institution."
+      },
+      "visa": {
+        "title": "Visa Preparation",
+        "description": "Thorough preparation for your F-1 student visa interview."
+      },
+      "pathway": {
+        "title": "Pathway Programs",
+        "description": "Bridge programs designed for international student success."
+      },
+      "support": {
+        "title": "Ongoing Support",
+        "description": "Guidance throughout your academic journey in the United States."
+      }
+    },
+    "cta": {
+      "title": "Ready to Begin?",
+      "subtitle": "Connect with our advisors to explore your options",
+      "button": "Schedule Consultation"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About StudyFrontier",
+      "subtitle": "Professional International Education Consulting"
+    },
+    "mission": {
+      "title": "Who We Are",
+      "description": "StudyFrontier is an international education consulting agency based in Kenitra, Morocco. We provide ethical, legal guidance to students seeking admission to accredited U.S. universities. Our mission is to make the application process transparent, manageable, and grounded in realistic expectations."
+    },
+    "values": {
+      "title": "Our Commitment",
+      "integrity": {
+        "title": "Ethical Standards",
+        "description": "We adhere to all applicable education consulting regulations and operate with complete transparency."
+      },
+      "expertise": {
+        "title": "Professional Guidance",
+        "description": "Our team provides informed guidance based on experience with U.S. university admissions processes."
+      },
+      "partnership": {
+        "title": "Student Support",
+        "description": "We support students throughout the application process, from initial consultation to enrollment."
+      }
+    },
+    "approach": {
+      "title": "Our Approach",
+      "description": "We provide personalized consulting to each student based on their academic profile, financial circumstances, and educational goals. We believe in honest assessments and realistic pathways."
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "End-to-End Support for Your Study Abroad Journey"
+    },
+    "consultation": {
+      "title": "Initial Consultation",
+      "description": "We begin with a comprehensive assessment of your academic background, goals, and financial situation. This helps us identify suitable universities and programs for your profile."
+    },
+    "university": {
+      "title": "University Selection & Applications",
+      "description": "Guidance on choosing appropriate institutions and preparing applications. We help you present your qualifications effectively to admissions committees."
+    },
+    "admission": {
+      "title": "Admission Support",
+      "description": "From essays to recommendation letters, we ensure every element of your application meets U.S. standards and showcases your potential."
+    },
+    "visa": {
+      "title": "F-1 Visa Preparation",
+      "description": "Comprehensive preparation for your visa interview, including documentation review, mock interviews, and embassy procedures guidance."
+    },
+    "pathway": {
+      "title": "Pathway Programs",
+      "description": "For students who need additional English language preparation or academic foundation, we connect you with accredited pathway programs designed for international student success."
+    },
+    "predeparture": {
+      "title": "Pre-Departure Guidance",
+      "description": "Orientation on living in the U.S., housing options, cultural adaptation, and what to expect in your first semester."
+    }
+  },
+  "faqs": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Clear Answers to Common Questions"
+    },
+    "q1": {
+      "question": "Do you guarantee university admission?",
+      "answer": "We do not make guarantees. We provide professional guidance to help you prepare strong applications based on your qualifications and our experience with U.S. university admissions processes."
+    },
+    "q2": {
+      "question": "Do you guarantee visa approval?",
+      "answer": "No. Visa decisions are made solely by the U.S. Embassy. We prepare you thoroughly for the interview and ensure your documentation is complete and accurate."
+    },
+    "q3": {
+      "question": "What are your fees?",
+      "answer": "Our consulting fees vary based on the services you need. Contact us for a personalized consultation and transparent pricing structure."
+    },
+    "q4": {
+      "question": "Which universities do you work with?",
+      "answer": "We partner with accredited U.S. universities across multiple states. The right institution depends on your academic profile, budget, and career goals."
+    },
+    "q5": {
+      "question": "How long does the process take?",
+      "answer": "From initial consultation to university enrollment, the process typically takes 6-12 months, depending on application deadlines and visa processing times."
+    },
+    "q6": {
+      "question": "Do you help with English language requirements?",
+      "answer": "Yes. We can connect you with pathway programs and ESL institutions if you need to improve your English before starting your degree program."
+    }
+  },
+  "apply": {
+    "hero": {
+      "title": "Apply Now",
+      "subtitle": "Start Your Journey to U.S. Universities"
+    },
+    "whatsapp": {
+      "title": "Connect via WhatsApp",
+      "description": "The fastest way to begin is to reach out directly. Our advisors are available to answer your questions and guide you through the next steps.",
+      "button": "Message Us on WhatsApp",
+      "number": "+212 708 026 571"
+    },
+    "what_to_expect": {
+      "title": "What to Expect",
+      "step1": {
+        "title": "Initial Conversation",
+        "description": "Share your academic background and goals with us."
+      },
+      "step2": {
+        "title": "Personalized Assessment",
+        "description": "We'll evaluate your profile and suggest suitable pathways."
+      },
+      "step3": {
+        "title": "Clear Roadmap",
+        "description": "Receive a step-by-step plan tailored to your situation."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We're Here to Help"
+    },
+    "info": {
+      "title": "Get in Touch",
+      "description": "Whether you have questions about our services or want to begin your application, we're ready to assist.",
+      "email": "contact@studyfrontier.com",
+      "phone": "+212 708 026 571",
+      "location": "Kenitra, Morocco"
+    },
+    "whatsapp": {
+      "title": "Prefer WhatsApp?",
+      "description": "For immediate assistance, reach out on WhatsApp.",
+      "button": "Chat with Us"
+    }
+  },
+  "footer": {
+    "description": "An international education consulting agency helping students access accredited U.S. universities through ethical, legal pathways.",
+    "location": "Kenitra, Morocco",
+    "rights": "All rights reserved.",
+    "tagline": "Professional international education consulting services"
+  },
+  "whatsapp": {
+    "float_text": "Free Consultation"
+  },
+  "leadMagnet": {
+    "title": "Get Our Free USA Study Guide",
+    "subtitle": "Everything you need to know about studying in the United States",
+    "emailPlaceholder": "Enter your email address",
+    "button": "Send Me the Guide",
+    "sending": "Sending...",
+    "benefits": {
+      "title": "What you'll get:",
+      "item1": "Complete university application timeline",
+      "item2": "F-1 visa requirements & tips",
+      "item3": "Scholarship opportunities guide"
+    },
+    "success": {
+      "title": "Check Your Email!",
+      "description": "We've sent the USA Study Guide to your inbox. Check your spam folder if you don't see it."
+    }
+  },
+  "quiz": {
+    "title": "Find Out Where You Can Study in the USA",
+    "subtitle": "Answer 4 quick questions to get personalized university recommendations",
+    "step": "Question",
+    "of": "of",
+    "back": "← Back",
+    "privacy": "Your information is secure and will only be used to help us recommend suitable programs.",
+    "questions": {
+      "education": {
+        "question": "What is your highest level of education?",
+        "options": {
+          "highschool": "High School Diploma",
+          "bachelor": "Bachelor's Degree",
+          "master": "Master's Degree",
+          "other": "Other / Still Studying"
+        }
+      },
+      "english": {
+        "question": "What is your English proficiency level?",
+        "options": {
+          "beginner": "Beginner (Need ESL)",
+          "intermediate": "Intermediate (TOEFL 60-80)",
+          "advanced": "Advanced (TOEFL 80+)",
+          "native": "Native / Fluent"
+        }
+      },
+      "intake": {
+        "question": "When do you want to start studying?",
+        "options": {
+          "fall2024": "Fall 2024 (Aug-Sep)",
+          "spring2025": "Spring 2025 (Jan-Feb)",
+          "fall2025": "Fall 2025 (Aug-Sep)",
+          "flexible": "I'm Flexible"
+        }
+      },
+      "budget": {
+        "question": "What is your annual budget for tuition + living?",
+        "options": {
+          "under15k": "Under $15,000",
+          "15to25k": "$15,000 - $25,000",
+          "25to40k": "$25,000 - $40,000",
+          "over40k": "Over $40,000"
+        }
+      }
+    }
+  },
+  "exitIntent": {
+    "title": "Wait! Don't Leave Empty-Handed",
+    "subtitle": "Get our free USA university checklist before you go",
+    "emailPlaceholder": "Your email address",
+    "button": "Send Me the Checklist",
+    "benefits": {
+      "title": "Included in your checklist:",
+      "item1": "Required documents for applications",
+      "item2": "Important deadlines tracker",
+      "item3": "Common mistakes to avoid"
+    },
+    "success": {
+      "title": "Success!",
+      "message": "Check your email for the checklist. You can close this window."
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "StudyFrontier | U.S. University Admissions Consulting",
+      "description": "Expert international education consulting connecting students with accredited U.S. universities. Professional guidance for F-1 visa and university admissions."
+    },
+    "about": {
+      "title": "About Us | StudyFrontier",
+      "description": "Learn about StudyFrontier's mission to connect international students with quality U.S. universities through ethical, transparent consulting."
+    },
+    "services": {
+      "title": "Our Services | StudyFrontier",
+      "description": "Comprehensive study abroad services: university selection, admissions support, F-1 visa preparation, and pathway programs."
+    },
+    "faqs": {
+      "title": "FAQs | StudyFrontier",
+      "description": "Common questions about studying in the U.S., university admissions, and F-1 visa processes answered by our expert advisors."
+    },
+    "apply": {
+      "title": "Apply Now | StudyFrontier",
+      "description": "Begin your journey to U.S. universities. Connect with our advisors on WhatsApp for personalized guidance."
+    },
+    "contact": {
+      "title": "Contact Us | StudyFrontier",
+      "description": "Get in touch with StudyFrontier's international education advisors. Based in Kenitra, Morocco, serving students worldwide."
+    }
+  }
+}

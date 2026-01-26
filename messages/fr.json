@@ -1,0 +1,316 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "faqs": "FAQ",
+    "apply": "Postuler",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Votre Passerelle vers les Universités Américaines",
+      "subtitle": "Conseil professionnel pour les étudiants internationaux en quête d'excellence académique à l'étranger",
+      "description": "Services de conseil en éducation reliant les étudiants avec des universités américaines accréditées via des parcours académiques légitimes.",
+      "cta": "Planifier une Consultation"
+    },
+    "trust": {
+      "title": "Confiance & Transparence",
+      "subtitle": "Notre engagement envers un conseil éthique et légal",
+      "ethical": {
+        "title": "Conseil Éthique & Légal",
+        "description": "Nous respectons toutes les réglementations marocaines et internationales en matière de conseil éducatif et normes éthiques."
+      },
+      "accredited": {
+        "title": "Universités Accréditées Uniquement",
+        "description": "Nous travaillons exclusivement avec des institutions américaines accréditées par le Département de l'Éducation des États-Unis."
+      },
+      "realistic": {
+        "title": "Parcours Académiques Réels Uniquement",
+        "description": "Aucune garantie de visa. Nous fournissons des conseils honnêtes et des parcours académiques réalistes basés sur vos qualifications."
+      }
+    },
+    "network": {
+      "title": "Notre Réseau Universitaire Mondial",
+      "description": "Connexion des étudiants avec des institutions accréditées aux États-Unis",
+      "categories": {
+        "universities": "5-6 Universités Américaines",
+        "pathways": "Programmes Passerelles",
+        "esl": "Institutions ESL"
+      },
+      "note": "Partenariats officiels en cours de finalisation. Toutes les institutions sont entièrement accréditées."
+    },
+    "services": {
+      "title": "Accompagnement Complet",
+      "subtitle": "De la Candidature à l'Arrivée",
+      "admission": {
+        "title": "Admissions Universitaires",
+        "description": "Conseil stratégique pour faire correspondre votre profil avec la bonne institution."
+      },
+      "visa": {
+        "title": "Préparation Visa",
+        "description": "Préparation complète pour votre entretien de visa étudiant F-1."
+      },
+      "pathway": {
+        "title": "Programmes Passerelles",
+        "description": "Programmes de transition conçus pour le succès des étudiants internationaux."
+      },
+      "support": {
+        "title": "Soutien Continu",
+        "description": "Accompagnement tout au long de votre parcours académique aux États-Unis."
+      }
+    },
+    "cta": {
+      "title": "Prêt à Commencer ?",
+      "subtitle": "Connectez-vous avec nos conseillers pour explorer vos options",
+      "button": "Planifier une Consultation"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos de StudyFrontier",
+      "subtitle": "Conseil Professionnel en Éducation Internationale"
+    },
+    "mission": {
+      "title": "Qui Sommes-Nous",
+      "description": "StudyFrontier est une agence de conseil en éducation internationale basée à Kenitra, au Maroc. Nous fournissons des conseils éthiques et légaux aux étudiants cherchant à être admis dans des universités américaines accréditées. Notre mission est de rendre le processus de candidature transparent, gérable et fondé sur des attentes réalistes."
+    },
+    "values": {
+      "title": "Notre Engagement",
+      "integrity": {
+        "title": "Normes Éthiques",
+        "description": "Nous respectons toutes les réglementations applicables en matière de conseil éducatif et opérons en toute transparence."
+      },
+      "expertise": {
+        "title": "Conseil Professionnel",
+        "description": "Notre équipe fournit des conseils éclairés basés sur l'expérience avec les processus d'admission des universités américaines."
+      },
+      "partnership": {
+        "title": "Soutien aux Étudiants",
+        "description": "Nous accompagnons les étudiants tout au long du processus de candidature, de la consultation initiale à l'inscription."
+      }
+    },
+    "approach": {
+      "title": "Notre Approche",
+      "description": "Nous fournissons des conseils personnalisés à chaque étudiant en fonction de son profil académique, de sa situation financière et de ses objectifs éducatifs. Nous croyons en des évaluations honnêtes et des parcours réalistes."
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Nos Services",
+      "subtitle": "Accompagnement Complet pour Vos Études à l'Étranger"
+    },
+    "consultation": {
+      "title": "Consultation Initiale",
+      "description": "Nous commençons par une évaluation complète de votre parcours académique, vos objectifs et votre situation financière. Cela nous aide à identifier les meilleures universités et programmes pour votre profil unique."
+    },
+    "university": {
+      "title": "Sélection & Candidatures Universitaires",
+      "description": "Conseil stratégique pour choisir les bonnes institutions et élaborer des candidatures convaincantes. Nous vous aidons à présenter votre meilleur profil aux comités d'admission."
+    },
+    "admission": {
+      "title": "Soutien à l'Admission",
+      "description": "Des essais aux lettres de recommandation, nous veillons à ce que chaque élément de votre candidature réponde aux normes américaines et mette en valeur votre potentiel."
+    },
+    "visa": {
+      "title": "Préparation au Visa F-1",
+      "description": "Préparation complète pour votre entretien de visa, y compris révision de documents, entretiens simulés et conseils sur les procédures de l'ambassade."
+    },
+    "pathway": {
+      "title": "Programmes Passerelles",
+      "description": "Pour les étudiants nécessitant une préparation linguistique en anglais ou une base académique supplémentaire, nous vous connectons avec des programmes passerelles accrédités conçus pour le succès des étudiants internationaux."
+    },
+    "predeparture": {
+      "title": "Orientation Pré-Départ",
+      "description": "Orientation sur la vie aux États-Unis, options de logement, adaptation culturelle et ce à quoi s'attendre lors de votre premier semestre."
+    }
+  },
+  "faqs": {
+    "hero": {
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Réponses Claires aux Questions Courantes"
+    },
+    "q1": {
+      "question": "Garantissez-vous l'admission à l'université ?",
+      "answer": "Nous ne faisons aucune garantie. Au lieu de cela, nous fournissons des conseils d'experts pour maximiser vos chances d'admission en fonction de vos qualifications et de notre expérience avec les universités américaines."
+    },
+    "q2": {
+      "question": "Garantissez-vous l'approbation du visa ?",
+      "answer": "Non. Les décisions de visa sont prises uniquement par l'Ambassade des États-Unis. Nous vous préparons minutieusement pour l'entretien et veillons à ce que votre documentation soit complète et exacte."
+    },
+    "q3": {
+      "question": "Quels sont vos frais ?",
+      "answer": "Nos frais de conseil varient en fonction des services dont vous avez besoin. Contactez-nous pour une consultation personnalisée et une structure tarifaire transparente."
+    },
+    "q4": {
+      "question": "Avec quelles universités travaillez-vous ?",
+      "answer": "Nous nous associons avec des universités américaines accréditées dans plusieurs États. La bonne institution dépend de votre profil académique, de votre budget et de vos objectifs de carrière."
+    },
+    "q5": {
+      "question": "Combien de temps dure le processus ?",
+      "answer": "De la consultation initiale à l'inscription universitaire, le processus prend généralement 6 à 12 mois, selon les délais de candidature et les temps de traitement des visas."
+    },
+    "q6": {
+      "question": "Aidez-vous avec les exigences linguistiques en anglais ?",
+      "answer": "Oui. Nous pouvons vous connecter avec des programmes passerelles et des institutions ESL si vous devez améliorer votre anglais avant de commencer votre programme de diplôme."
+    }
+  },
+  "apply": {
+    "hero": {
+      "title": "Postuler Maintenant",
+      "subtitle": "Commencez Votre Parcours vers les Universités Américaines"
+    },
+    "whatsapp": {
+      "title": "Connectez-vous via WhatsApp",
+      "description": "Le moyen le plus rapide de commencer est de nous contacter directement. Nos conseillers sont disponibles pour répondre à vos questions et vous guider dans les prochaines étapes.",
+      "button": "Envoyez-nous un Message sur WhatsApp",
+      "number": "+212 708 026 571"
+    },
+    "what_to_expect": {
+      "title": "À Quoi S'Attendre",
+      "step1": {
+        "title": "Conversation Initiale",
+        "description": "Partagez votre parcours académique et vos objectifs avec nous."
+      },
+      "step2": {
+        "title": "Évaluation Personnalisée",
+        "description": "Nous évaluerons votre profil et suggérerons des parcours appropriés."
+      },
+      "step3": {
+        "title": "Feuille de Route Claire",
+        "description": "Recevez un plan étape par étape adapté à votre situation."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-Nous",
+      "subtitle": "Nous Sommes Là Pour Vous Aider"
+    },
+    "info": {
+      "title": "Entrer en Contact",
+      "description": "Que vous ayez des questions sur nos services ou que vous souhaitiez commencer votre candidature, nous sommes prêts à vous aider.",
+      "email": "contact@studyfrontier.com",
+      "phone": "+212 708 026 571",
+      "location": "Kénitra, Maroc"
+    },
+    "whatsapp": {
+      "title": "Préférez WhatsApp ?",
+      "description": "Pour une assistance immédiate, contactez-nous sur WhatsApp.",
+      "button": "Discuter avec Nous"
+    }
+  },
+  "footer": {
+    "description": "Une agence de conseil en éducation internationale aidant les étudiants à accéder aux universités américaines.",
+    "location": "Kénitra, Maroc",
+    "rights": "Tous droits réservés."
+  },
+  "whatsapp": {
+    "float_text": "Consultation Gratuite"
+  },
+  "leadMagnet": {
+    "title": "Obtenez Notre Guide Gratuit USA",
+    "subtitle": "Tout ce que vous devez savoir sur les études aux États-Unis",
+    "emailPlaceholder": "Entrez votre adresse e-mail",
+    "button": "Envoyez-moi le Guide",
+    "sending": "Envoi en cours...",
+    "benefits": {
+      "title": "Ce que vous recevrez :",
+      "item1": "Calendrier complet des candidatures universitaires",
+      "item2": "Exigences et conseils pour le visa F-1",
+      "item3": "Guide des opportunités de bourses"
+    },
+    "success": {
+      "title": "Vérifiez Votre Email !",
+      "description": "Nous avons envoyé le Guide USA à votre boîte de réception. Vérifiez votre dossier spam si vous ne le voyez pas."
+    }
+  },
+  "quiz": {
+    "title": "Découvrez Où Vous Pouvez Étudier aux USA",
+    "subtitle": "Répondez à 4 questions rapides pour obtenir des recommandations universitaires personnalisées",
+    "step": "Question",
+    "of": "sur",
+    "back": "← Retour",
+    "privacy": "Vos informations sont sécurisées et seront uniquement utilisées pour vous recommander des programmes adaptés.",
+    "questions": {
+      "education": {
+        "question": "Quel est votre niveau d'études le plus élevé ?",
+        "options": {
+          "highschool": "Diplôme d'études secondaires",
+          "bachelor": "Licence",
+          "master": "Master",
+          "other": "Autre / En cours d'études"
+        }
+      },
+      "english": {
+        "question": "Quel est votre niveau d'anglais ?",
+        "options": {
+          "beginner": "Débutant (Besoin d'ESL)",
+          "intermediate": "Intermédiaire (TOEFL 60-80)",
+          "advanced": "Avancé (TOEFL 80+)",
+          "native": "Natif / Courant"
+        }
+      },
+      "intake": {
+        "question": "Quand souhaitez-vous commencer vos études ?",
+        "options": {
+          "fall2024": "Automne 2024 (Août-Sep)",
+          "spring2025": "Printemps 2025 (Jan-Fév)",
+          "fall2025": "Automne 2025 (Août-Sep)",
+          "flexible": "Je suis flexible"
+        }
+      },
+      "budget": {
+        "question": "Quel est votre budget annuel pour les frais de scolarité + vie ?",
+        "options": {
+          "under15k": "Moins de 15 000 $",
+          "15to25k": "15 000 $ - 25 000 $",
+          "25to40k": "25 000 $ - 40 000 $",
+          "over40k": "Plus de 40 000 $"
+        }
+      }
+    }
+  },
+  "exitIntent": {
+    "title": "Attendez ! Ne Partez Pas Les Mains Vides",
+    "subtitle": "Obtenez notre checklist gratuite des universités USA avant de partir",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "button": "Envoyez-moi la Checklist",
+    "benefits": {
+      "title": "Inclus dans votre checklist :",
+      "item1": "Documents requis pour les candidatures",
+      "item2": "Suivi des dates limites importantes",
+      "item3": "Erreurs courantes à éviter"
+    },
+    "success": {
+      "title": "Succès !",
+      "message": "Vérifiez votre e-mail pour la checklist. Vous pouvez fermer cette fenêtre."
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "StudyFrontier | Conseil en Admissions Universitaires Américaines",
+      "description": "Conseil expert en éducation internationale reliant les étudiants avec des universités américaines accréditées. Accompagnement professionnel pour le visa F-1 et les admissions."
+    },
+    "about": {
+      "title": "À Propos | StudyFrontier",
+      "description": "Découvrez la mission de StudyFrontier de connecter les étudiants internationaux avec des universités américaines de qualité par un conseil éthique et transparent."
+    },
+    "services": {
+      "title": "Nos Services | StudyFrontier",
+      "description": "Services complets d'études à l'étranger : sélection universitaire, soutien aux admissions, préparation au visa F-1 et programmes passerelles."
+    },
+    "faqs": {
+      "title": "FAQ | StudyFrontier",
+      "description": "Questions courantes sur les études aux États-Unis, les admissions universitaires et les procédures de visa F-1 répondues par nos conseillers experts."
+    },
+    "apply": {
+      "title": "Postuler | StudyFrontier",
+      "description": "Commencez votre voyage vers les universités américaines. Connectez-vous avec nos conseillers sur WhatsApp pour des conseils personnalisés."
+    },
+    "contact": {
+      "title": "Contact | StudyFrontier",
+      "description": "Contactez les conseillers en éducation internationale de StudyFrontier. Basé à Kénitra, Maroc, au service d'étudiants du monde entier."
+    }
+  }
+}
