@@ -368,6 +368,19 @@
       "budget": "Annual Budget",
       "visa": "Student Visa"
     },
+    "toc": {
+      "title": "On This Page",
+      "items": {
+        "whyStudy": "Why Study in the USA",
+        "visa": "F-1 Visa Process",
+        "universityTypes": "University Types",
+        "costs": "Costs & Budgeting",
+        "admission": "Admission Requirements",
+        "timeline": "Application Timeline",
+        "english": "English Requirements",
+        "afterArrival": "After Arrival"
+      }
+    },
     "why": {
       "title": "Why Study in the USA?",
       "intro": "The United States hosts over 1 million international students annually, making it the world's most popular study destination. For Moroccan students, US universities offer unparalleled opportunities in education, research, and career development.",

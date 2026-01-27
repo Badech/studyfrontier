@@ -368,6 +368,19 @@
       "budget": "Budget Annuel",
       "visa": "Visa Étudiant"
     },
+    "toc": {
+      "title": "Sur Cette Page",
+      "items": {
+        "whyStudy": "Pourquoi Étudier aux États-Unis",
+        "visa": "Processus de Visa F-1",
+        "universityTypes": "Types d'Universités",
+        "costs": "Coûts et Budget",
+        "admission": "Conditions d'Admission",
+        "timeline": "Calendrier de Candidature",
+        "english": "Exigences en Anglais",
+        "afterArrival": "Après l'Arrivée"
+      }
+    },
     "why": {
       "title": "Pourquoi Étudier aux États-Unis?",
       "intro": "Les États-Unis accueillent plus d'un million d'étudiants internationaux chaque année, ce qui en fait la destination d'études la plus populaire au monde. Pour les étudiants marocains, les universités américaines offrent des opportunités inégalées en matière d'éducation, de recherche et de développement de carrière.",

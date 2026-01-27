@@ -100,27 +100,27 @@ export default function StudyInUSAPage() {
           <AnimatedSection>
             <Card className="max-w-4xl mx-auto">
               <CardHeader>
-                <CardTitle className="text-2xl">On This Page</CardTitle>
+                <CardTitle className="text-2xl">{t('toc.title')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {[
-                    'Why Study in the USA',
-                    'F-1 Visa Process',
-                    'University Types',
-                    'Costs & Budgeting',
-                    'Admission Requirements',
-                    'Application Timeline',
-                    'English Requirements',
-                    'After Arrival'
-                  ].map((item) => (
+                  {Object.entries({
+                    'why-study-in-the-usa': t('toc.items.whyStudy'),
+                    'f-1-visa-process': t('toc.items.visa'),
+                    'university-types': t('toc.items.universityTypes'),
+                    'costs-budgeting': t('toc.items.costs'),
+                    'admission-requirements': t('toc.items.admission'),
+                    'application-timeline': t('toc.items.timeline'),
+                    'english-requirements': t('toc.items.english'),
+                    'after-arrival': t('toc.items.afterArrival')
+                  }).map(([id, label]) => (
                     <a
-                      key={item}
-                      href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                      key={id}
+                      href={`#${id}`}
                       className="flex items-center gap-2 text-navy-900 hover:text-gold-600 transition-colors"
                     >
                       <CheckCircle className="h-4 w-4" />
-                      <span>{item}</span>
+                      <span>{label}</span>
                     </a>
                   ))}
                 </div>
