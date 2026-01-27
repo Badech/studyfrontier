@@ -37,21 +37,89 @@
   }
 }
 
-/* Premium Typography */
+/* Premium Typography System */
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold tracking-tight;
+  @apply font-bold tracking-tight leading-tight;
 }
 
 h1 {
-  @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl;
+  @apply text-4xl sm:text-5xl md:text-6xl;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
-  @apply text-3xl md:text-4xl lg:text-5xl;
+  @apply text-3xl md:text-4xl;
+  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
 }
 
 h3 {
-  @apply text-2xl md:text-3xl lg:text-4xl;
+  @apply text-xl md:text-2xl font-semibold;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+h4 {
+  @apply text-lg md:text-xl font-semibold;
+  margin-bottom: 0.875rem;
+  margin-top: 1.5rem;
+}
+
+h5 {
+  @apply text-base md:text-lg font-semibold;
+  margin-bottom: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+h6 {
+  @apply text-sm md:text-base font-semibold;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Body Text Optimization */
+p {
+  @apply text-base md:text-lg leading-relaxed text-gray-700;
+  margin-bottom: 1.25rem;
+}
+
+/* Lists */
+ul, ol {
+  @apply text-base md:text-lg leading-relaxed text-gray-700;
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Lead Text */
+.lead {
+  @apply text-lg md:text-xl lg:text-2xl leading-relaxed text-gray-700 font-light;
+}
+
+/* Small Text */
+.text-small {
+  @apply text-sm md:text-base leading-relaxed text-gray-600;
+}
+
+/* Muted Text */
+.text-muted {
+  @apply text-sm text-gray-500 leading-relaxed;
+}
+
+/* Optimal Reading Width */
+.prose-container {
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-container {
+  max-width: 75ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Smooth Scrolling */

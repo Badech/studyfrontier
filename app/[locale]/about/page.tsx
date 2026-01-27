@@ -11,14 +11,14 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative py-24 bg-gradient-to-br from-navy-900 to-navy-700 text-white">
+      <section className="relative py-20 md:py-24 bg-gradient-to-br from-navy-900 to-navy-700 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="max-w-4xl mx-auto text-center space-y-6">
-              <h1 className="text-5xl md:text-6xl font-bold">
+            <div className="max-w-4xl mx-auto text-center space-y-4 md:space-y-6">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
                 {t('hero.title')}
               </h1>
-              <p className="text-xl md:text-2xl text-gray-200">
+              <p className="text-lg md:text-xl lg:text-2xl text-gray-200 leading-relaxed">
                 {t('hero.subtitle')}
               </p>
             </div>
@@ -27,18 +27,18 @@ export default function AboutPage() {
       </section>
 
       {/* Mission Section */}
-      <section className="py-20 bg-white">
+      <section className="py-16 md:py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <AnimatedSection>
               <div className="text-center mb-12">
                 <div className="inline-flex items-center justify-center w-20 h-20 bg-gold-100 rounded-full mb-6">
                   <Target className="h-10 w-10 text-gold-600" />
                 </div>
-                <h2 className="text-4xl font-bold text-navy-900 mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4 md:mb-6 tracking-tight">
                   {t('mission.title')}
                 </h2>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                   {t('mission.description')}
                 </p>
               </div>
@@ -48,25 +48,25 @@ export default function AboutPage() {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-16 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <h2 className="text-4xl font-bold text-navy-900 text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 text-center mb-12 md:mb-16 tracking-tight">
               {t('values.title')}
             </h2>
           </AnimatedSection>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
             <AnimatedSection delay={0.1}>
-              <Card className="h-full text-center p-8 hover:shadow-xl transition-shadow">
+              <Card className="h-full text-center p-6 md:p-8 hover:shadow-xl transition-shadow">
                 <CardHeader>
                   <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                     <Shield className="h-8 w-8 text-primary" />
                   </div>
-                  <CardTitle className="text-2xl">{t('values.integrity.title')}</CardTitle>
+                  <CardTitle className="text-xl md:text-2xl">{t('values.integrity.title')}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm md:text-base text-gray-600 leading-relaxed">
                     {t('values.integrity.description')}
                   </p>
                 </CardContent>
@@ -74,15 +74,15 @@ export default function AboutPage() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.2}>
-              <Card className="h-full text-center p-8 hover:shadow-xl transition-shadow">
+              <Card className="h-full text-center p-6 md:p-8 hover:shadow-xl transition-shadow">
                 <CardHeader>
                   <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                     <Sparkles className="h-8 w-8 text-primary" />
                   </div>
-                  <CardTitle className="text-2xl">{t('values.expertise.title')}</CardTitle>
+                  <CardTitle className="text-xl md:text-2xl">{t('values.expertise.title')}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm md:text-base text-gray-600 leading-relaxed">
                     {t('values.expertise.description')}
                   </p>
                 </CardContent>
@@ -90,15 +90,15 @@ export default function AboutPage() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.3}>
-              <Card className="h-full text-center p-8 hover:shadow-xl transition-shadow">
+              <Card className="h-full text-center p-6 md:p-8 hover:shadow-xl transition-shadow">
                 <CardHeader>
                   <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                     <HeartHandshake className="h-8 w-8 text-primary" />
                   </div>
-                  <CardTitle className="text-2xl">{t('values.partnership.title')}</CardTitle>
+                  <CardTitle className="text-xl md:text-2xl">{t('values.partnership.title')}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm md:text-base text-gray-600 leading-relaxed">
                     {t('values.partnership.description')}
                   </p>
                 </CardContent>
@@ -109,18 +109,18 @@ export default function AboutPage() {
       </section>
 
       {/* Approach Section */}
-      <section className="py-20 bg-white">
+      <section className="py-16 md:py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <AnimatedSection>
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full mb-6">
                   <Users className="h-10 w-10 text-primary" />
                 </div>
-                <h2 className="text-4xl font-bold text-navy-900 mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4 md:mb-6 tracking-tight">
                   {t('approach.title')}
                 </h2>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                   {t('approach.description')}
                 </p>
               </div>
