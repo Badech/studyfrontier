@@ -22,6 +22,8 @@ import {
 const WHATSAPP_NUMBER = '212708026571';
 
 export default function StudyInUSAPage() {
+  const t = useTranslations('studyInUSA');
+  
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
@@ -34,10 +36,10 @@ export default function StudyInUSAPage() {
           <AnimatedSection>
             <div className="max-w-4xl mx-auto text-center space-y-6">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                Study in the USA from Morocco
+                {t('hero.title')}
               </h1>
               <p className="text-xl md:text-2xl text-gray-200">
-                Complete guide to US university admissions, F-1 visa process, costs, and requirements for Moroccan students
+                {t('hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
                 <Button
@@ -132,7 +134,7 @@ export default function StudyInUSAPage() {
           <AnimatedSection>
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl font-bold text-navy-900 mb-8">
-                Why Study in the USA?
+                {t('why.title')}
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-700 leading-relaxed mb-6">
@@ -200,7 +202,7 @@ export default function StudyInUSAPage() {
           <AnimatedSection>
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl font-bold text-navy-900 mb-8">
-                F-1 Visa Process for Moroccan Students
+                {t('visa.title')}
               </h2>
               
               <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
@@ -298,10 +300,10 @@ export default function StudyInUSAPage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-4xl font-bold">
-                Ready to Start Your US Study Journey?
+                {t('cta.title')}
               </h2>
               <p className="text-xl text-gray-200">
-                Get personalized guidance from our expert advisors
+                {t('cta.subtitle')}
               </p>
               <Button
                 variant="premium"

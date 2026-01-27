@@ -349,6 +349,22 @@
       "note": "No obligation. No pressure. Just an honest assessment."
     }
   },
+  "studyInUSA": {
+    "hero": {
+      "title": "Study in the USA from Morocco",
+      "subtitle": "Complete guide to US university admissions, F-1 visa process, costs, and requirements for Moroccan students"
+    },
+    "why": {
+      "title": "Why Study in the USA?"
+    },
+    "visa": {
+      "title": "F-1 Visa Process for Moroccan Students"
+    },
+    "cta": {
+      "title": "Ready to Start Your US Study Journey?",
+      "subtitle": "Get personalized guidance from our expert advisors"
+    }
+  },
   "faqs": {
     "hero": {
       "title": "Frequently Asked Questions",
