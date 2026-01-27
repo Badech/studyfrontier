@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
@@ -29,7 +30,13 @@ export function Footer({ locale }: { locale: string }) {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="relative w-10 h-10 bg-gold-400 rounded-lg flex items-center justify-center">
-                <span className="text-navy-900 font-bold text-xl"><img src="/logo.png" alt="StudyFrontier Logo" className="w-6 h-6" /></span>
+                <Image 
+                  src="/logo.png" 
+                  alt="StudyFrontier Logo" 
+                  width={24} 
+                  height={24}
+                  className="w-6 h-6"
+                />
               </div>
               <span className="font-bold text-xl">StudyFrontier</span>
             </div>

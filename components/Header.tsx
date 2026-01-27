@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Home, Sparkles, Briefcase, GraduationCap, BookOpen, Trophy, MessageCircle, Globe } from 'lucide-react';
@@ -72,7 +73,14 @@ export function Header({ locale }: { locale: string }) {
             aria-label="StudyFrontier Home"
           >
             <div className="relative w-10 h-10 bg-navy-800 rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
-              <img src="/logo.png" alt="StudyFrontier Logo" className="w-6 h-6" />
+              <Image 
+                src="/logo.png" 
+                alt="StudyFrontier Logo" 
+                width={24} 
+                height={24}
+                priority
+                className="w-6 h-6"
+              />
             </div>
           </Link>
 
