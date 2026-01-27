@@ -29,13 +29,14 @@ export function Footer({ locale }: { locale: string }) {
           {/* Brand Column */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10 bg-gold-400 rounded-lg flex items-center justify-center">
+              <div className="relative flex items-center justify-center">
                 <Image 
                   src="/logo.png" 
                   alt="StudyFrontier Logo" 
-                  width={24} 
-                  height={24}
-                  className="w-6 h-6"
+                  width={40} 
+                  height={40}
+                  sizes="(max-width: 640px) 24px, (max-width: 1024px) 32px, 36px"
+                  className="w-6 h-6 sm:w-8 sm:h-8 lg:w-9 lg:h-9"
                 />
               </div>
               <span className="font-bold text-xl">StudyFrontier</span>

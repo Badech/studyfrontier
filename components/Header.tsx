@@ -71,14 +71,15 @@ export function Header({ locale }: { locale: string }) {
             className="flex items-center gap-3 group focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 rounded-lg"
             aria-label="StudyFrontier Home"
           >
-            <div className="relative w-10 h-10 bg-navy-800 rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
+            <div className="relative flex items-center justify-center transition-transform group-hover:scale-105">
               <Image 
                 src="/logo.png" 
                 alt="StudyFrontier Logo" 
-                width={24} 
-                height={24}
+                width={48} 
+                height={48}
                 priority
-                className="w-6 h-6"
+                sizes="(max-width: 640px) 28px, (max-width: 1024px) 36px, 40px"
+                className="w-7 h-7 sm:w-9 sm:h-9 lg:w-10 lg:h-10"
               />
             </div>
           </Link>
@@ -183,7 +184,7 @@ export function Header({ locale }: { locale: string }) {
       <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
         <SheetContent 
           side="right" 
-          className="w-[85vw] sm:w-[400px] p-0"
+          className="w-[85vw] sm:w-[400px] p-0 h-screen flex flex-col"
           aria-describedby="mobile-menu-description"
         >
           <SheetHeader className="px-6 pt-6 pb-4 border-b">
@@ -193,10 +194,11 @@ export function Header({ locale }: { locale: string }) {
             </p>
           </SheetHeader>
           
-          <div className="flex flex-col h-full">
+          <div className="flex flex-col h-full min-h-0">
             {/* Navigation Links */}
             <nav 
-              className="flex flex-col py-4 flex-1 overflow-y-auto"
+              id="mobile-menu"
+              className="flex flex-col py-4 flex-1 overflow-y-auto overscroll-contain"
               aria-label="Main navigation"
               role="navigation"
             >
