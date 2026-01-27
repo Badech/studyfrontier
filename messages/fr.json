@@ -358,17 +358,87 @@
   "studyInUSA": {
     "hero": {
       "title": "Étudier aux États-Unis depuis le Maroc",
-      "subtitle": "Guide complet sur les admissions universitaires américaines, le processus de visa F-1, les coûts et les exigences pour les étudiants marocains"
+      "subtitle": "Guide complet sur les admissions universitaires américaines, le processus de visa F-1, les coûts et les exigences pour les étudiants marocains",
+      "cta": "Consultation Gratuite",
+      "benefits": "✓ Soutenir les étudiants marocains ✓ Conseils d'experts"
+    },
+    "stats": {
+      "universities": "Universités Américaines Accréditées",
+      "timeline": "Délai en Mois",
+      "budget": "Budget Annuel",
+      "visa": "Visa Étudiant"
     },
     "why": {
-      "title": "Pourquoi Étudier aux États-Unis?"
+      "title": "Pourquoi Étudier aux États-Unis?",
+      "intro": "Les États-Unis accueillent plus d'un million d'étudiants internationaux chaque année, ce qui en fait la destination d'études la plus populaire au monde. Pour les étudiants marocains, les universités américaines offrent des opportunités inégalées en matière d'éducation, de recherche et de développement de carrière.",
+      "worldClass": {
+        "title": "Éducation de Classe Mondiale",
+        "description": "Abritant 8 des 10 meilleures universités au monde, dont Harvard, MIT et Stanford."
+      },
+      "diverse": {
+        "title": "Programmes Diversifiés",
+        "description": "Plus de 4 000 universités proposant des programmes dans tous les domaines imaginables."
+      },
+      "research": {
+        "title": "Opportunités de Recherche",
+        "description": "Accès à des installations de recherche de pointe et opportunités de travailler avec des professeurs de premier plan."
+      },
+      "opt": {
+        "title": "Autorisation de Travail OPT",
+        "description": "Travaillez aux États-Unis pendant 1 à 3 ans après l'obtention du diplôme grâce à l'Optional Practical Training (OPT)."
+      }
     },
     "visa": {
-      "title": "Processus de Visa F-1 pour les Étudiants Marocains"
+      "title": "Processus de Visa F-1 pour les Étudiants Marocains",
+      "important": "Important:",
+      "notice": "Les entretiens de visa F-1 pour les étudiants marocains se déroulent à l'ambassade des États-Unis à Casablanca. Les délais d'attente actuels sont d'environ 2 à 4 semaines.",
+      "steps": [
+        {
+          "title": "Être Accepté dans une École Approuvée par SEVP",
+          "description": "Postulez et recevez l'admission d'une université américaine approuvée par SEVP (Student and Exchange Visitor Program).",
+          "time": "2-6 mois"
+        },
+        {
+          "title": "Recevoir le Formulaire I-20",
+          "description": "Votre université émettra le formulaire I-20 (Certificat d'Éligibilité) après avoir payé les frais SEVIS et soumis les documents requis.",
+          "time": "2-4 semaines"
+        },
+        {
+          "title": "Payer les Frais SEVIS",
+          "description": "Payez les frais I-901 SEVIS (350 $) en ligne sur fmjfee.com au moins 3 jours avant votre entretien de visa.",
+          "time": "1 jour"
+        },
+        {
+          "title": "Compléter le Formulaire DS-160",
+          "description": "Remplissez la demande de visa de non-immigrant en ligne (DS-160) et téléchargez votre photo.",
+          "time": "1-2 heures"
+        },
+        {
+          "title": "Planifier l'Entretien de Visa",
+          "description": "Réservez votre rendez-vous à l'ambassade des États-Unis à Casablanca via le système en ligne.",
+          "time": "Délai d'attente: 2-4 semaines"
+        },
+        {
+          "title": "Préparer les Documents",
+          "description": "Rassemblez tous les documents requis, y compris le passeport, l'I-20, les preuves financières et les relevés de notes académiques.",
+          "time": "1-2 semaines"
+        },
+        {
+          "title": "Assister à l'Entretien de Visa",
+          "description": "Présentez-vous en personne à l'ambassade des États-Unis avec tous les documents. Soyez prêt à expliquer vos plans d'études et vos liens avec le Maroc.",
+          "time": "1 jour"
+        },
+        {
+          "title": "Recevoir le Visa",
+          "description": "Si approuvé, votre passeport avec le visa F-1 sera retourné dans les 5 à 10 jours ouvrables.",
+          "time": "5-10 jours"
+        }
+      ]
     },
     "cta": {
       "title": "Prêt à Commencer Votre Voyage d'Études aux États-Unis?",
-      "subtitle": "Obtenez des conseils personnalisés de nos conseillers experts"
+      "subtitle": "Obtenez des conseils personnalisés de nos conseillers experts",
+      "button": "Consultation Gratuite"
     }
   },
   "successStories": {
