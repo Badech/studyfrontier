@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AnimatedSection } from '@/components/AnimatedSection';
+import { useTranslations } from 'next-intl';
 import { LeadMagnet } from '@/components/LeadMagnet';
 import { StudyQuiz } from '@/components/StudyQuiz';
 import {
@@ -18,6 +19,8 @@ import {
 const WHATSAPP_NUMBER = '212708026571';
 
 export default function MastersPage() {
+  const t = useTranslations('programs.masters');
+  
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
@@ -246,10 +249,10 @@ export default function MastersPage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-4xl font-bold">
-                Ready to Pursue Your Master's in the USA?
+                {t('cta.title')}
               </h2>
               <p className="text-xl text-gray-200">
-                Get expert guidance on program selection and applications
+                {t('cta.subtitle')}
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />

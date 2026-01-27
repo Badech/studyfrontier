@@ -20,6 +20,8 @@ import {
 const WHATSAPP_NUMBER = '212708026571';
 
 export default function UndergraduatePage() {
+  const t = useTranslations('programs.undergraduate');
+  
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
@@ -237,10 +239,10 @@ export default function UndergraduatePage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-4xl font-bold">
-                Ready to Apply for Your Bachelor's?
+                {t('cta.title')}
               </h2>
               <p className="text-xl text-gray-200">
-                Get expert help with your undergraduate applications
+                {t('cta.subtitle')}
               </p>
               <Button
                 variant="premium"

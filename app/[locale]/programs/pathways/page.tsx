@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AnimatedSection } from '@/components/AnimatedSection';
+import { useTranslations } from 'next-intl';
 import { LeadMagnet } from '@/components/LeadMagnet';
 import {
   Languages,
@@ -17,6 +18,8 @@ import {
 const WHATSAPP_NUMBER = '212708026571';
 
 export default function PathwaysPage() {
+  const t = useTranslations('programs.pathways');
+  
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
@@ -255,10 +258,10 @@ export default function PathwaysPage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-4xl font-bold">
-                Is a Pathway Program Right for You?
+                {t('cta.title')}
               </h2>
               <p className="text-xl text-gray-200">
-                Get personalized recommendations based on your English level
+                {t('cta.subtitle')}
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />

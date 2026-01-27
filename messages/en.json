@@ -391,6 +391,26 @@
       "subtitle": "Free guides, checklists, and tools to help you study in the USA"
     }
   },
+  "programs": {
+    "masters": {
+      "cta": {
+        "title": "Ready to Pursue Your Master's in the USA?",
+        "subtitle": "Get expert guidance on program selection and applications"
+      }
+    },
+    "undergraduate": {
+      "cta": {
+        "title": "Ready to Apply for Your Bachelor's?",
+        "subtitle": "Get expert help with your undergraduate applications"
+      }
+    },
+    "pathways": {
+      "cta": {
+        "title": "Is a Pathway Program Right for You?",
+        "subtitle": "Get personalized recommendations based on your English level"
+      }
+    }
+  },
   "faqs": {
     "hero": {
       "title": "Frequently Asked Questions",
