@@ -358,17 +358,87 @@
   "studyInUSA": {
     "hero": {
       "title": "Study in the USA from Morocco",
-      "subtitle": "Complete guide to US university admissions, F-1 visa process, costs, and requirements for Moroccan students"
+      "subtitle": "Complete guide to US university admissions, F-1 visa process, costs, and requirements for Moroccan students",
+      "cta": "Free Study Consultation",
+      "benefits": "✓ Supporting Moroccan students ✓ Expert guidance"
+    },
+    "stats": {
+      "universities": "Accredited US Universities",
+      "timeline": "Months Timeline",
+      "budget": "Annual Budget",
+      "visa": "Student Visa"
     },
     "why": {
-      "title": "Why Study in the USA?"
+      "title": "Why Study in the USA?",
+      "intro": "The United States hosts over 1 million international students annually, making it the world's most popular study destination. For Moroccan students, US universities offer unparalleled opportunities in education, research, and career development.",
+      "worldClass": {
+        "title": "World-Class Education",
+        "description": "Home to 8 of the world's top 10 universities, including Harvard, MIT, and Stanford."
+      },
+      "diverse": {
+        "title": "Diverse Programs",
+        "description": "Over 4,000 universities offering programs in every field imaginable."
+      },
+      "research": {
+        "title": "Research Opportunities",
+        "description": "Access to cutting-edge research facilities and opportunities to work with leading professors."
+      },
+      "opt": {
+        "title": "OPT Work Authorization",
+        "description": "Work in the US for 1-3 years after graduation through Optional Practical Training (OPT)."
+      }
     },
     "visa": {
-      "title": "F-1 Visa Process for Moroccan Students"
+      "title": "F-1 Visa Process for Moroccan Students",
+      "important": "Important:",
+      "notice": "F-1 visa interviews for Moroccan students are conducted at the US Embassy in Casablanca. Current wait times are approximately 2-4 weeks.",
+      "steps": [
+        {
+          "title": "Get Accepted to SEVP-Approved School",
+          "description": "Apply and receive admission from a US university approved by SEVP (Student and Exchange Visitor Program).",
+          "time": "2-6 months"
+        },
+        {
+          "title": "Receive Form I-20",
+          "description": "Your university will issue Form I-20 (Certificate of Eligibility) after you pay the SEVIS fee and submit required documents.",
+          "time": "2-4 weeks"
+        },
+        {
+          "title": "Pay SEVIS Fee",
+          "description": "Pay the I-901 SEVIS fee ($350) online at fmjfee.com at least 3 days before your visa interview.",
+          "time": "1 day"
+        },
+        {
+          "title": "Complete DS-160 Form",
+          "description": "Fill out the Online Nonimmigrant Visa Application (DS-160) and upload your photo.",
+          "time": "1-2 hours"
+        },
+        {
+          "title": "Schedule Visa Interview",
+          "description": "Book your appointment at the US Embassy in Casablanca through the online system.",
+          "time": "Wait time: 2-4 weeks"
+        },
+        {
+          "title": "Prepare Documents",
+          "description": "Gather all required documents including passport, I-20, financial evidence, and academic transcripts.",
+          "time": "1-2 weeks"
+        },
+        {
+          "title": "Attend Visa Interview",
+          "description": "Appear in person at the US Embassy with all documents. Be prepared to explain your study plans and ties to Morocco.",
+          "time": "1 day"
+        },
+        {
+          "title": "Receive Visa",
+          "description": "If approved, your passport with F-1 visa will be returned within 5-10 business days.",
+          "time": "5-10 days"
+        }
+      ]
     },
     "cta": {
       "title": "Ready to Start Your US Study Journey?",
-      "subtitle": "Get personalized guidance from our expert advisors"
+      "subtitle": "Get personalized guidance from our expert advisors",
+      "button": "Free Study Consultation"
     }
   },
   "successStories": {

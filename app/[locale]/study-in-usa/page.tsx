@@ -27,6 +27,8 @@ export default function StudyInUSAPage() {
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
+  
+  const visaSteps = t.raw('visa.steps') as Array<{title: string; description: string; time: string}>;
 
   return (
     <>
@@ -49,10 +51,10 @@ export default function StudyInUSAPage() {
                   className="text-lg"
                 >
                   <MessageCircle className="h-5 w-5" />
-                  Free Study Consultation
+                  {t('hero.cta')}
                 </Button>
                 <p className="text-sm text-gray-300">
-                  ✓ Supporting Moroccan students ✓ Expert guidance
+                  {t('hero.benefits')}
                 </p>
               </div>
             </div>
@@ -79,13 +81,13 @@ export default function StudyInUSAPage() {
             <AnimatedSection delay={0.3}>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gold-600 mb-2">$15k+</div>
-                <div className="text-gray-600">Annual Budget</div>
+                <div className="text-gray-600">{t('stats.budget')}</div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={0.4}>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gold-600 mb-2">F-1</div>
-                <div className="text-gray-600">Student Visa</div>
+                <div className="text-gray-600">{t('stats.visa')}</div>
               </div>
             </AnimatedSection>
           </div>
@@ -138,7 +140,7 @@ export default function StudyInUSAPage() {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  The United States hosts over 1 million international students annually, making it the world's most popular study destination. For Moroccan students, US universities offer unparalleled opportunities in education, research, and career development.
+                  {t('why.intro')}
                 </p>
               </div>
 
@@ -146,11 +148,11 @@ export default function StudyInUSAPage() {
                 <Card>
                   <CardHeader>
                     <TrendingUp className="h-8 w-8 text-gold-600 mb-2" />
-                    <CardTitle>World-Class Education</CardTitle>
+                    <CardTitle>{t('why.worldClass.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-600">
-                      Home to 8 of the world's top 10 universities, including Harvard, MIT, and Stanford.
+                      {t('why.worldClass.description')}
                     </p>
                   </CardContent>
                 </Card>
@@ -158,11 +160,11 @@ export default function StudyInUSAPage() {
                 <Card>
                   <CardHeader>
                     <Users className="h-8 w-8 text-gold-600 mb-2" />
-                    <CardTitle>Diverse Programs</CardTitle>
+                    <CardTitle>{t('why.diverse.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-600">
-                      Over 4,000 universities offering programs in every field imaginable.
+                      {t('why.diverse.description')}
                     </p>
                   </CardContent>
                 </Card>
@@ -170,11 +172,11 @@ export default function StudyInUSAPage() {
                 <Card>
                   <CardHeader>
                     <BookOpen className="h-8 w-8 text-gold-600 mb-2" />
-                    <CardTitle>Research Opportunities</CardTitle>
+                    <CardTitle>{t('why.research.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-600">
-                      Access to cutting-edge research facilities and opportunities to work with leading professors.
+                      {t('why.research.description')}
                     </p>
                   </CardContent>
                 </Card>
@@ -182,11 +184,11 @@ export default function StudyInUSAPage() {
                 <Card>
                   <CardHeader>
                     <MapPin className="h-8 w-8 text-gold-600 mb-2" />
-                    <CardTitle>OPT Work Authorization</CardTitle>
+                    <CardTitle>{t('why.opt.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-600">
-                      Work in the US for 1-3 years after graduation through Optional Practical Training (OPT).
+                      {t('why.opt.description')}
                     </p>
                   </CardContent>
                 </Card>
@@ -311,7 +313,7 @@ export default function StudyInUSAPage() {
                 onClick={handleWhatsAppClick}
               >
                 <MessageCircle className="h-5 w-5" />
-                Free Study Consultation
+                {t('cta.button')}
               </Button>
             </div>
           </AnimatedSection>
