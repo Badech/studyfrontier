@@ -544,6 +544,62 @@
     "hero": {
       "title": "Study Abroad Resources",
       "subtitle": "Free guides, checklists, and tools to help you study in the USA"
+    },
+    "categories": {
+      "countryGuides": "Country Guides",
+      "programGuides": "Program Guides",
+      "visaDocumentation": "Visa & Documentation",
+      "financialPlanning": "Financial Planning"
+    },
+    "items": {
+      "studyInUSA": {
+        "title": "Study in USA - Complete Guide",
+        "description": "Everything about US universities, visa process, and costs"
+      },
+      "studyInCanada": {
+        "title": "Study in Canada",
+        "description": "Coming soon - Canadian universities and study permits"
+      },
+      "studyInGermany": {
+        "title": "Study in Germany",
+        "description": "Coming soon - Free education in Germany"
+      },
+      "undergraduate": {
+        "title": "Undergraduate Study in USA",
+        "description": "Bachelor's programs, requirements, and application process"
+      },
+      "masters": {
+        "title": "Master's Programs in USA",
+        "description": "Graduate degrees, requirements, and career outcomes"
+      },
+      "pathways": {
+        "title": "English Pathway Programs",
+        "description": "ESL and pathway programs for international students"
+      },
+      "f1Visa": {
+        "title": "F-1 Visa Checklist",
+        "description": "Complete checklist for US student visa application"
+      },
+      "i20Guide": {
+        "title": "How to Get an I-20",
+        "description": "Step-by-step guide to obtaining your I-20 form"
+      },
+      "costOfStudying": {
+        "title": "Cost of Studying in USA",
+        "description": "Tuition, living expenses, and budget planning"
+      },
+      "scholarships": {
+        "title": "Scholarships for Moroccan Students",
+        "description": "Available scholarships and how to apply"
+      }
+    },
+    "labels": {
+      "guide": "Guide",
+      "comingSoon": "Coming Soon",
+      "checklist": "Checklist",
+      "article": "Article",
+      "download": "Download",
+      "readMore": "Read More"
     }
   },
   "programs": {
@@ -606,6 +662,10 @@
     "q6": {
       "question": "Do you help with English language requirements?",
       "answer": "Yes. We can connect you with pathway programs and ESL institutions if you need to improve your English before starting your degree program."
+    },
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "We're here to help. Reach out to our advisors directly for personalized answers."
     }
   },
   "apply": {
@@ -633,6 +693,11 @@
         "title": "Clear Roadmap",
         "description": "Receive a step-by-step plan tailored to your situation."
       }
+    },
+    "direct_contact": {
+      "title": "Prefer Direct Contact?",
+      "description": "Skip the quiz and message us directly on WhatsApp",
+      "button": "Message Us Now"
     }
   },
   "contact": {
@@ -645,7 +710,10 @@
       "description": "Whether you have questions about our services or want to begin your application, we're ready to assist.",
       "email": "contact@studyfrontier.com",
       "phone": "+212 708 026 571",
-      "location": "Kenitra, Morocco"
+      "location": "Kenitra, Morocco",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "locationLabel": "Location"
     },
     "whatsapp": {
       "title": "Prefer WhatsApp?",

@@ -465,6 +465,62 @@
     "hero": {
       "title": "Ressources pour Étudier à l'Étranger",
       "subtitle": "Guides gratuits, listes de contrôle et outils pour vous aider à étudier aux États-Unis"
+    },
+    "categories": {
+      "countryGuides": "Guides par Pays",
+      "programGuides": "Guides des Programmes",
+      "visaDocumentation": "Visa et Documentation",
+      "financialPlanning": "Planification Financière"
+    },
+    "items": {
+      "studyInUSA": {
+        "title": "Étudier aux USA - Guide Complet",
+        "description": "Tout sur les universités américaines, le processus de visa et les coûts"
+      },
+      "studyInCanada": {
+        "title": "Étudier au Canada",
+        "description": "Bientôt disponible - Universités canadiennes et permis d'études"
+      },
+      "studyInGermany": {
+        "title": "Étudier en Allemagne",
+        "description": "Bientôt disponible - Éducation gratuite en Allemagne"
+      },
+      "undergraduate": {
+        "title": "Études de Licence aux USA",
+        "description": "Programmes de baccalauréat, exigences et processus de candidature"
+      },
+      "masters": {
+        "title": "Programmes de Master aux USA",
+        "description": "Diplômes d'études supérieures, exigences et débouchés professionnels"
+      },
+      "pathways": {
+        "title": "Programmes Passerelles d'Anglais",
+        "description": "Programmes ESL et passerelles pour étudiants internationaux"
+      },
+      "f1Visa": {
+        "title": "Liste de Contrôle Visa F-1",
+        "description": "Liste complète pour la demande de visa étudiant américain"
+      },
+      "i20Guide": {
+        "title": "Comment Obtenir un I-20",
+        "description": "Guide étape par étape pour obtenir votre formulaire I-20"
+      },
+      "costOfStudying": {
+        "title": "Coût des Études aux USA",
+        "description": "Frais de scolarité, dépenses de vie et planification budgétaire"
+      },
+      "scholarships": {
+        "title": "Bourses pour Étudiants Marocains",
+        "description": "Bourses disponibles et comment postuler"
+      }
+    },
+    "labels": {
+      "guide": "Guide",
+      "comingSoon": "Bientôt Disponible",
+      "checklist": "Liste de Contrôle",
+      "article": "Article",
+      "download": "Télécharger",
+      "readMore": "Lire Plus"
     }
   },
   "programs": {
@@ -527,6 +583,10 @@
     "q6": {
       "question": "Aidez-vous avec les exigences linguistiques en anglais ?",
       "answer": "Oui. Nous pouvons vous connecter avec des programmes passerelles et des institutions ESL si vous devez améliorer votre anglais avant de commencer votre programme de diplôme."
+    },
+    "cta": {
+      "title": "Vous Avez Encore des Questions ?",
+      "description": "Nous sommes là pour vous aider. Contactez nos conseillers directement pour des réponses personnalisées."
     }
   },
   "apply": {
@@ -554,6 +614,11 @@
         "title": "Feuille de Route Claire",
         "description": "Recevez un plan étape par étape adapté à votre situation."
       }
+    },
+    "direct_contact": {
+      "title": "Préférez le Contact Direct ?",
+      "description": "Ignorez le quiz et contactez-nous directement sur WhatsApp",
+      "button": "Écrivez-nous Maintenant"
     }
   },
   "contact": {
@@ -566,7 +631,10 @@
       "description": "Que vous ayez des questions sur nos services ou que vous souhaitiez commencer votre candidature, nous sommes prêts à vous aider.",
       "email": "contact@studyfrontier.com",
       "phone": "+212 708 026 571",
-      "location": "Kénitra, Maroc"
+      "location": "Kénitra, Maroc",
+      "emailLabel": "Email",
+      "phoneLabel": "Téléphone",
+      "locationLabel": "Localisation"
     },
     "whatsapp": {
       "title": "Préférez WhatsApp ?",

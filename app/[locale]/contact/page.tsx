@@ -57,7 +57,7 @@ export default function ContactPage() {
                     <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                       <Mail className="h-8 w-8 text-primary" />
                     </div>
-                    <CardTitle className="text-xl">Email</CardTitle>
+                    <CardTitle className="text-xl">{t('info.emailLabel')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <a
@@ -76,7 +76,7 @@ export default function ContactPage() {
                     <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                       <Phone className="h-8 w-8 text-primary" />
                     </div>
-                    <CardTitle className="text-xl">Phone</CardTitle>
+                    <CardTitle className="text-xl">{t('info.phoneLabel')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <a
@@ -95,7 +95,7 @@ export default function ContactPage() {
                     <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                       <MapPin className="h-8 w-8 text-primary" />
                     </div>
-                    <CardTitle className="text-xl">Location</CardTitle>
+                    <CardTitle className="text-xl">{t('info.locationLabel')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-700 font-medium">

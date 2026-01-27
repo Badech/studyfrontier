@@ -69,10 +69,10 @@ export default function FAQsPage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-3xl font-bold text-navy-900">
-                Still Have Questions?
+                {t('cta.title')}
               </h2>
               <p className="text-lg text-gray-600">
-                We're here to help. Reach out to our advisors directly for personalized answers.
+                {t('cta.description')}
               </p>
             </div>
           </AnimatedSection>

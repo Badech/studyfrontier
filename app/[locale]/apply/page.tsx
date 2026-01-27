@@ -134,10 +134,10 @@ export default function ApplyPage() {
           <AnimatedSection>
             <div className="max-w-2xl mx-auto text-center space-y-6">
               <h2 className="text-3xl font-bold text-navy-900">
-                Prefer Direct Contact?
+                {t('direct_contact.title')}
               </h2>
               <p className="text-gray-600">
-                Skip the quiz and message us directly on WhatsApp
+                {t('direct_contact.description')}
               </p>
               <Button
                 variant="premium"
@@ -146,7 +146,7 @@ export default function ApplyPage() {
                 className="text-lg font-semibold"
               >
                 <MessageCircle className="h-5 w-5" />
-                Message Us Now
+                {t('direct_contact.button')}
               </Button>
             </div>
           </AnimatedSection>

@@ -21,86 +21,86 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
   
   const resources = [
     {
-      category: 'Country Guides',
+      category: t('categories.countryGuides'),
       icon: MapPin,
       items: [
         {
-          title: 'Study in USA - Complete Guide',
-          description: 'Everything about US universities, visa process, and costs',
+          title: t('items.studyInUSA.title'),
+          description: t('items.studyInUSA.description'),
           link: '/study-in-usa',
-          type: 'Guide'
+          type: t('labels.guide')
         },
         {
-          title: 'Study in Canada',
-          description: 'Coming soon - Canadian universities and study permits',
+          title: t('items.studyInCanada.title'),
+          description: t('items.studyInCanada.description'),
           link: '#',
-          type: 'Coming Soon'
+          type: t('labels.comingSoon')
         },
         {
-          title: 'Study in Germany',
-          description: 'Coming soon - Free education in Germany',
+          title: t('items.studyInGermany.title'),
+          description: t('items.studyInGermany.description'),
           link: '#',
-          type: 'Coming Soon'
+          type: t('labels.comingSoon')
         }
       ]
     },
     {
-      category: 'Program Guides',
+      category: t('categories.programGuides'),
       icon: GraduationCap,
       items: [
         {
-          title: 'Undergraduate Study in USA',
-          description: 'Bachelor\'s programs, requirements, and application process',
+          title: t('items.undergraduate.title'),
+          description: t('items.undergraduate.description'),
           link: '/programs/undergraduate',
-          type: 'Guide'
+          type: t('labels.guide')
         },
         {
-          title: 'Master\'s Programs in USA',
-          description: 'Graduate degrees, requirements, and career outcomes',
+          title: t('items.masters.title'),
+          description: t('items.masters.description'),
           link: '/programs/masters',
-          type: 'Guide'
+          type: t('labels.guide')
         },
         {
-          title: 'English Pathway Programs',
-          description: 'ESL and pathway programs for international students',
+          title: t('items.pathways.title'),
+          description: t('items.pathways.description'),
           link: '/programs/pathways',
-          type: 'Guide'
+          type: t('labels.guide')
         }
       ]
     },
     {
-      category: 'Visa & Documentation',
+      category: t('categories.visaDocumentation'),
       icon: FileCheck,
       items: [
         {
-          title: 'F-1 Visa Checklist',
-          description: 'Complete checklist for US student visa application',
+          title: t('items.f1Visa.title'),
+          description: t('items.f1Visa.description'),
           link: '/resources/f1-visa-checklist',
-          type: 'Checklist'
+          type: t('labels.checklist')
         },
         {
-          title: 'How to Get an I-20',
-          description: 'Step-by-step guide to obtaining your I-20 form',
+          title: t('items.i20Guide.title'),
+          description: t('items.i20Guide.description'),
           link: '/resources/i20-guide',
-          type: 'Guide'
+          type: t('labels.guide')
         }
       ]
     },
     {
-      category: 'Financial Planning',
+      category: t('categories.financialPlanning'),
       icon: DollarSign,
       items: [
         {
-          title: 'Cost of Studying in USA',
-          description: 'Tuition, living expenses, and budget planning',
+          title: t('items.costOfStudying.title'),
+          description: t('items.costOfStudying.description'),
           link: '/blog/cost-of-studying-usa',
-          type: 'Article'
+          type: t('labels.article')
         },
         {
-          title: 'Scholarships for Moroccan Students',
-          description: 'Available scholarships and how to apply',
+          title: t('items.scholarships.title'),
+          description: t('items.scholarships.description'),
           link: '/blog/scholarships-moroccan-students',
-          type: 'Article'
+          type: t('labels.article')
         }
       ]
     }
@@ -154,7 +154,7 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
                             <CardHeader>
                               <div className="flex items-start justify-between mb-2">
                                 <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                                  item.type === 'Coming Soon' 
+                                  item.type === t('labels.comingSoon')
                                     ? 'bg-gray-100 text-gray-600' 
                                     : 'bg-gold-100 text-gold-800'
                                 }`}>
@@ -170,10 +170,10 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
                               </CardDescription>
                             </CardHeader>
                             <CardContent>
-                              {item.type !== 'Coming Soon' && (
+                              {item.type !== t('labels.comingSoon') && (
                                 <Button variant="ghost" size="sm" className="group-hover:text-gold-600">
-                                  {item.type === 'Checklist' ? 'Download' : 'Read More'}
-                                  {item.type === 'Checklist' ? (
+                                  {item.type === t('labels.checklist') ? t('labels.download') : t('labels.readMore')}
+                                  {item.type === t('labels.checklist') ? (
                                     <Download className="h-4 w-4 ml-2" />
                                   ) : (
                                     <ExternalLink className="h-4 w-4 ml-2" />
