@@ -3,6 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { AnimatedSection } from '@/components/AnimatedSection';
 import { Button } from '@/components/ui/button';
+import { useTranslations } from 'next-intl';
 import {
   GraduationCap,
   MapPin,
@@ -16,6 +17,8 @@ import {
 const WHATSAPP_NUMBER = '212708026571';
 
 export default function SuccessStoriesPage() {
+  const t = useTranslations('successStories');
+  
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
@@ -272,10 +275,10 @@ export default function SuccessStoriesPage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-4xl font-bold">
-                Ready to Write Your Success Story?
+                {t('cta.title')}
               </h2>
               <p className="text-xl text-gray-200">
-                Join the students who've successfully navigated the US admissions process with our guidance
+                {t('cta.subtitle')}
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />

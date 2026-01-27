@@ -365,6 +365,16 @@
       "subtitle": "Get personalized guidance from our expert advisors"
     }
   },
+  "successStories": {
+    "hero": {
+      "title": "Student Success Stories",
+      "subtitle": "Hear from Moroccan students who successfully navigated the US admissions journey"
+    },
+    "cta": {
+      "title": "Ready to Write Your Success Story?",
+      "subtitle": "Join the students who've successfully navigated the US admissions process with our guidance"
+    }
+  },
   "faqs": {
     "hero": {
       "title": "Frequently Asked Questions",
