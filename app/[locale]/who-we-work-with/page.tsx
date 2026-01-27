@@ -97,7 +97,7 @@ export default function WhoWeWorkWithPage() {
                     </CardHeader>
                     <CardContent>
                       <ul className="space-y-3">
-                        {section.criteria.map((criterion, i) => (
+                        {section.criteria.map((criterion: string, i: number) => (
                           <li key={i} className="flex items-start gap-3 text-gray-700">
                             <span className="text-green-600 mt-1">•</span>
                             <span>{criterion}</span>
