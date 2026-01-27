@@ -367,12 +367,22 @@
   },
   "successStories": {
     "hero": {
-      "title": "Student Success Stories",
-      "subtitle": "Hear from Moroccan students who successfully navigated the US admissions journey"
+      "title": "Success Stories",
+      "subtitle": "Real students. Real universities. Real results."
     },
     "cta": {
       "title": "Ready to Write Your Success Story?",
       "subtitle": "Join the students who've successfully navigated the US admissions process with our guidance"
+    }
+  },
+  "caseStudies": {
+    "hero": {
+      "title": "Case Studies",
+      "subtitle": "Detailed student journeys from Morocco to US universities"
+    },
+    "cta": {
+      "title": "Interested in a Consultation?",
+      "subtitle": "Let's discuss your path to studying in the USA"
     }
   },
   "faqs": {

@@ -3,6 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { AnimatedSection } from '@/components/AnimatedSection';
 import { Button } from '@/components/ui/button';
+import { useTranslations } from 'next-intl';
 import {
   FileText,
   TrendingUp,
@@ -14,6 +15,8 @@ import {
 const WHATSAPP_NUMBER = '212708026571';
 
 export default function CaseStudiesPage() {
+  const t = useTranslations('caseStudies');
+  
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };

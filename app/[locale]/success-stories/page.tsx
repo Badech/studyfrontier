@@ -108,10 +108,10 @@ export default function SuccessStoriesPage() {
           <AnimatedSection>
             <div className="max-w-4xl mx-auto text-center space-y-6">
               <h1 className="text-5xl md:text-6xl font-bold">
-                Success Stories
+                {t('hero.title')}
               </h1>
               <p className="text-xl md:text-2xl text-gray-200">
-                Real students. Real universities. Real results.
+                {t('hero.subtitle')}
               </p>
             </div>
           </AnimatedSection>
