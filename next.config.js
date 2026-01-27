@@ -1,4 +1,5 @@
 const createNextIntlPlugin = require('next-intl/plugin');
+const { withSentryConfig } = require('@sentry/nextjs');
  
 const withNextIntl = createNextIntlPlugin();
  
@@ -16,4 +17,9 @@ const nextConfig = {
   },
 };
  
-module.exports = withNextIntl(nextConfig);
+const sentryWebpackPluginOptions = {
+  silent: true,
+  hideSourceMaps: true,
+};
+ 
+module.exports = withSentryConfig(withNextIntl(nextConfig), sentryWebpackPluginOptions);

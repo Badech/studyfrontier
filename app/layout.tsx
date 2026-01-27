@@ -1,4 +1,5 @@
 import { Inter, Noto_Sans_Arabic } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 
 export const inter = Inter({
   subsets: ['latin'],
@@ -17,5 +18,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      {children}
+      {process.env.NODE_ENV === 'production' && <Analytics />}
+    </>
+  );
 }
