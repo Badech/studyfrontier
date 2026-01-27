@@ -1,7 +1,9 @@
 import { Skeleton } from '@/components/ui/skeleton';
+import { getLocale } from 'next-intl/server';
 
-export default function Loading({ params }: { params: { locale: string } }) {
-  const isRTL = params.locale === 'ar';
+export default async function Loading() {
+  const locale = await getLocale();
+  const isRTL = locale === 'ar';
 
   return (
     <div dir={isRTL ? 'rtl' : 'ltr'} className="min-h-screen bg-white">
