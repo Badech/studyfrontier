@@ -102,7 +102,7 @@ export default function SuccessStoriesPage() {
       quote: 'Professional service from start to finish. The visa preparation was especially helpful for my F-1 interview.',
       date: 'November 2024'
     }
-  ];
+  ]; */
 
   return (
     <>
