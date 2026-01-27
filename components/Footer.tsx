@@ -9,14 +9,14 @@ export function Footer({ locale }: { locale: string }) {
 
   const navItems = [
     { href: '/', label: nav('home') },
-    { href: '/why-studyfrontier', label: 'Why Us' },
-    { href: '/who-we-work-with', label: 'Who We Work With' },
+    { href: '/why-studyfrontier', label: nav('whyUs') },
+    { href: '/who-we-work-with', label: nav('whoWeWorkWith') },
     { href: '/services', label: nav('services') },
-    { href: '/study-in-usa', label: 'Study in USA' },
-    { href: '/resources', label: 'Resources' },
-    { href: '/success-stories', label: 'Success Stories' },
-    { href: '/case-studies', label: 'Case Studies' },
-    { href: '/blog', label: 'Blog' },
+    { href: '/study-in-usa', label: nav('studyInUSA') },
+    { href: '/resources', label: nav('resources') },
+    { href: '/success-stories', label: nav('successStories') },
+    { href: '/case-studies', label: nav('caseStudies') },
+    { href: '/blog', label: nav('blog') },
     { href: '/about', label: nav('about') },
     { href: '/contact', label: nav('contact') },
   ];

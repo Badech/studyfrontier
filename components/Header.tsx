@@ -25,11 +25,11 @@ export function Header({ locale }: { locale: string }) {
 
   const navItems = [
     { href: '/', label: t('home') },
-    { href: '/why-studyfrontier', label: 'Why Us' },
+    { href: '/why-studyfrontier', label: t('whyUs') },
     { href: '/services', label: t('services') },
-    { href: '/study-in-usa', label: 'Study in USA' },
-    { href: '/resources', label: 'Resources' },
-    { href: '/success-stories', label: 'Success Stories' },
+    { href: '/study-in-usa', label: t('studyInUSA') },
+    { href: '/resources', label: t('resources') },
+    { href: '/success-stories', label: t('successStories') },
   ];
 
   const handleWhatsAppClick = () => {
