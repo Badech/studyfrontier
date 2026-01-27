@@ -14,6 +14,12 @@
     "apply": "Postuler",
     "contact": "Contact"
   },
+  "blog": {
+    "hero": {
+      "title": "Blog",
+      "subtitle": "Dernières informations et guides"
+    }
+  },
   "home": {
     "hero": {
       "title": "Votre Passerelle vers les Universités Américaines",

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { AnimatedSection } from '@/components/AnimatedSection';
+import { useTranslations } from 'next-intl';
 import {
   FileCheck,
   CheckCircle,
@@ -16,6 +17,7 @@ import {
 const WHATSAPP_NUMBER = '212708026571';
 
 export default function F1VisaChecklistPage() {
+  const t = useTranslations('f1Visa');
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
 

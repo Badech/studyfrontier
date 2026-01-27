@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { AnimatedSection } from '@/components/AnimatedSection';
+import { useTranslations } from 'next-intl';
 import {
   FileText,
   CheckCircle,
@@ -17,6 +18,7 @@ import {
 const WHATSAPP_NUMBER = '212708026571';
 
 export default function I20GuidePage() {
+  const t = useTranslations('i20Guide');
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
 
