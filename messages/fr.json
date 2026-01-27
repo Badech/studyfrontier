@@ -553,6 +553,15 @@
       "subtitle": "Discutons de votre situation et créons un plan stratégique pour votre admission dans une université américaine"
     }
   },
+  "error": {
+    "title": "Une erreur s'est produite",
+    "description": "Nous avons rencontré une erreur inattendue. Ne vous inquiétez pas, vos données sont en sécurité. Veuillez réessayer ou retourner à la page d'accueil.",
+    "tryAgain": "Réessayer",
+    "tryAgainLabel": "Réessayer de recharger la page",
+    "goHome": "Accueil",
+    "goHomeLabel": "Retourner à la page d'accueil",
+    "persistMessage": "Si ce problème persiste, veuillez contacter notre équipe d'assistance."
+  },
   "resources": {
     "hero": {
       "title": "Ressources pour Étudier à l'Étranger",

@@ -553,6 +553,15 @@
       "subtitle": "Let's discuss your situation and create a strategic plan for your US university admission"
     }
   },
+  "error": {
+    "title": "Something went wrong",
+    "description": "We encountered an unexpected error. Don't worry, your data is safe. Please try again or return to the homepage.",
+    "tryAgain": "Try Again",
+    "tryAgainLabel": "Try again to reload the page",
+    "goHome": "Go Home",
+    "goHomeLabel": "Return to homepage",
+    "persistMessage": "If this problem persists, please contact our support team."
+  },
   "resources": {
     "hero": {
       "title": "Study Abroad Resources",
