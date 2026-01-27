@@ -22,9 +22,12 @@ export default function SuccessStoriesPage() {
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
+  
+  const stories = t.raw('stories') as any[];
+  const testimonials = t.raw('testimonials') as any[];
 
-  // Professional template structure - real stories published as students approve
-  const stories = [
+  /* Stories now come from translations
+  const storiesOld = [
     {
       id: 'template-1',
       name: 'Student A',
@@ -65,9 +68,10 @@ export default function SuccessStoriesPage() {
       tags: ['USA', 'Pathway', 'ESL'],
       featured: false
     }
-  ];
+  ]; */
 
-  const testimonials = [
+  /* Testimonials now come from translations
+  const testimonialsOld = [
     {
       id: 'template-1',
       name: 'Student C',
@@ -125,10 +129,10 @@ export default function SuccessStoriesPage() {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl">Building Our Success Story Gallery</CardTitle>
               <CardDescription className="text-base mt-2">
-                Real student experiences published with permission. Names anonymized for privacy protection.
+                {t('notice.description')}
               </CardDescription>
               <p className="text-sm text-gray-500 mt-3 italic">
-                Sample format — detailed stories published as students approve
+                {t('notice.disclaimer')}
               </p>
             </CardHeader>
             <CardContent className="text-center">
@@ -282,7 +286,7 @@ export default function SuccessStoriesPage() {
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />
-                Free Study Consultation
+                {t('cta.button')}
               </Button>
             </div>
           </AnimatedSection>
