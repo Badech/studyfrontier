@@ -7,6 +7,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { WhatsAppFloat } from '@/components/WhatsAppFloat';
 import { OrganizationSchema, ServiceSchema } from '@/components/Schema';
+import { inter, arabic } from '../layout';
 import '../globals.css';
 
 export function generateStaticParams() {
@@ -29,8 +30,11 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
 
+  const isRTL = locale === 'ar';
+  const fontClassName = `${inter.className} ${isRTL ? arabic.className : ''}`.trim();
+
   return (
-    <html lang={locale} dir="ltr">
+    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'}>
       <head>
         <OrganizationSchema />
         <ServiceSchema />
@@ -38,7 +42,7 @@ export default async function LocaleLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1e3a8a" />
       </head>
-      <body className="antialiased">
+      <body className={`${fontClassName} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {/* Skip to Content Link for Accessibility */}
           <a href="#main-content" className="skip-to-content">
