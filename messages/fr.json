@@ -160,6 +160,195 @@
       }
     }
   },
+  "whyUs": {
+    "hero": {
+      "title": "Pourquoi StudyFrontier?",
+      "subtitle": "Nous ne promettons pas de miracles. Nous offrons clarté, honnêteté et conseils d'experts."
+    },
+    "approach": {
+      "title": "Notre Approche",
+      "p1": "Nous ne sommes pas une agence à grand volume qui traite les candidatures en série. Nous sommes un cabinet de conseil qui travaille avec des étudiants sérieux, préparés et prêts à investir dans leur avenir.",
+      "p2": "Notre processus est approfondi. Nous évaluons votre parcours académique, comprenons vos objectifs, évaluons votre préparation financière et fournissons des recommandations honnêtes. Si nous pensons qu'une université américaine n'est pas le bon chemin pour vous actuellement, nous vous le dirons.",
+      "p3": "Cette approche signifie que nous travaillons avec moins d'étudiants, mais nos étudiants réussissent. Ils obtiennent l'admission dans des établissements accrédités, obtiennent leurs visas F-1 et prospèrent dans leurs programmes."
+    },
+    "different": {
+      "title": "Ce Qui Nous Distingue",
+      "ethical": {
+        "title": "Normes Éthiques d'Abord",
+        "description": "Nous respectons toutes les réglementations marocaines et internationales. Pas de raccourcis, pas de faux documents, pas de garanties que nous ne pouvons pas tenir. Notre réputation dépend de bien faire les choses."
+      },
+      "realistic": {
+        "title": "Attentes Réalistes",
+        "description": "Nous vous jumelons avec des universités basées sur vos qualifications et votre budget réels. Tous les étudiants ne sont pas faits pour Harvard, et c'est bien. Nous trouvons la bonne correspondance, pas le nom le plus prestigieux."
+      },
+      "professional": {
+        "title": "Expertise Professionnelle",
+        "description": "Nous comprenons le système d'admission américain, les exigences du visa F-1 et ce à quoi ressemble vraiment le succès. Ce n'est pas de la conjecture, c'est de l'expérience."
+      },
+      "quality": {
+        "title": "Qualité Plutôt Que Volume",
+        "description": "Nous travaillons avec un nombre limité d'étudiants chaque cycle. Cela nous permet de fournir l'attention que votre candidature mérite, sans précipiter la paperasse."
+      },
+      "timelines": {
+        "title": "Délais Appropriés",
+        "description": "Étudier aux États-Unis nécessite 6 à 12 mois de préparation. Nous ne promettons pas de résultats du jour au lendemain. Nous vous guidons à chaque étape au rythme approprié."
+      },
+      "success": {
+        "title": "Focus sur le Succès Étudiant",
+        "description": "Notre travail n'est pas seulement de vous faire admettre, mais de vous assurer que vous êtes prêt à réussir une fois arrivé. Nous vous préparons à la transition académique et culturelle."
+      }
+    },
+    "process": {
+      "title": "Notre Processus",
+      "step1": {
+        "title": "Consultation Initiale",
+        "description": "Nous examinons votre historique académique, votre maîtrise de l'anglais, votre budget et vos objectifs. C'est une conversation bidirectionnelle - nous évaluons si nous sommes la bonne correspondance l'un pour l'autre."
+      },
+      "step2": {
+        "title": "Évaluation Honnête",
+        "description": "Nous vous disons où vous en êtes. Si vos notes ne sont pas compétitives, nous discutons des programmes de passerelle ou des options d'année sabbatique. Si votre budget n'est pas réaliste, nous le disons."
+      },
+      "step3": {
+        "title": "Sélection Stratégique d'Universités",
+        "description": "Nous identifions 5 à 8 universités qui correspondent à votre profil, votre budget et vos objectifs. Un mélange d'écoles ambitieuses, cibles et de sécurité - toutes accréditées, toutes légitimes."
+      },
+      "step4": {
+        "title": "Préparation de Candidature",
+        "description": "Nous vous guidons à travers les essais, lettres de recommandation, relevés de notes et scores de tests. Vous écrivez vos essais - nous les affinons. C'est votre candidature, racontée de manière authentique."
+      },
+      "step5": {
+        "title": "Documentation Financière",
+        "description": "Nous vous aidons à préparer les relevés bancaires, lettres de parrainage et documents financiers pour l'émission de l'I-20. Tout doit être légitime et vérifiable."
+      },
+      "step6": {
+        "title": "Préparation au Visa",
+        "description": "Nous vous préparons pour votre entretien de visa F-1. Entretiens simulés, révision des documents et stratégie. Nous savons ce que recherche le consulat de Casablanca."
+      },
+      "step7": {
+        "title": "Conseils Pré-Départ",
+        "description": "Une fois que vous avez votre visa, nous vous aidons avec le logement, l'inscription aux cours, la planification du voyage et la préparation culturelle. Nous vous préparons au succès."
+      }
+    },
+    "why": {
+      "title": "Pourquoi Nos Étudiants Réussissent",
+      "reasons": [
+        "Ils reçoivent des conseils honnêtes, pas de faux espoirs",
+        "Ils postulent aux universités qui correspondent à leurs qualifications",
+        "Ils sont financièrement préparés pour le coût complet des études",
+        "Ils comprennent le processus et les exigences du visa F-1",
+        "Ils sont académiquement prêts pour la rigueur des universités américaines",
+        "Ils ont des attentes réalistes sur les résultats",
+        "Ils ont investi du temps dans une bonne préparation",
+        "Ils reçoivent un soutien continu, pas seulement une admission"
+      ]
+    },
+    "cta": {
+      "title": "Prêt à Travailler avec Nous?",
+      "subtitle": "Si vous êtes sérieux au sujet d'étudier aux États-Unis et prêt à investir le temps et l'effort requis, parlons-en."
+    }
+  },
+  "whoWeWorkWith": {
+    "hero": {
+      "title": "Avec Qui Nous Travaillons",
+      "subtitle": "Nous sommes sélectifs quant aux étudiants que nous acceptons. Voici pourquoi - et si nous sommes faits l'un pour l'autre."
+    },
+    "selective": {
+      "title": "Pourquoi Nous Sommes Sélectifs",
+      "p1": "Un conseil de qualité nécessite de la concentration. Nous travaillons avec un nombre limité d'étudiants chaque cycle d'admission parce que nous fournissons des conseils approfondis et personnalisés, pas un service à la chaîne.",
+      "p2": "Cela signifie que nous devons nous assurer qu'il y a une bonne adéquation mutuelle. Nous avons besoin d'étudiants qui sont académiquement préparés, financièrement prêts et vraiment engagés à réussir aux États-Unis. En retour, vous obtenez toute notre attention et expertise.",
+      "p3": "Si vous répondez à nos critères, nous investirons beaucoup de temps dans votre succès. Si ce n'est pas le cas, nous serons honnêtes avec vous et pourrons recommander des parcours ou des calendriers alternatifs."
+    },
+    "ideal": {
+      "title": "Avec Qui Nous Travaillons",
+      "academic": {
+        "title": "Étudiants Académiquement Préparés",
+        "criteria": [
+          "Baccalauréat marocain avec 12/20+ (14+ pour les programmes compétitifs)",
+          "Ou diplôme de Bachelor/Licence pour les programmes de troisième cycle",
+          "Volonté de passer des tests standardisés (SAT, GRE, TOEFL)",
+          "Cohérence académique démontrée au fil des années"
+        ]
+      },
+      "financial": {
+        "title": "Familles Financièrement Prêtes",
+        "criteria": [
+          "Minimum 25 000 à 70 000 $ disponibles pour la première année (selon l'université)",
+          "Source de fonds claire (épargne familiale, propriété, revenus d'entreprise)",
+          "Compréhension réaliste des coûts sur 4 ans pour le Bachelor ou 2 ans pour le Master",
+          "Capacité à fournir des relevés bancaires et des documents financiers légitimes"
+        ]
+      },
+      "committed": {
+        "title": "Étudiants Sérieux et Engagés",
+        "criteria": [
+          "Commencer le processus 8 à 12 mois avant l'inscription souhaitée",
+          "Prêt à investir du temps dans les candidatures, les essais et la préparation aux tests",
+          "Ouvert aux commentaires honnêtes sur l'adéquation universitaire et les chances",
+          "Prêt à suivre nos conseils et à respecter les délais"
+        ]
+      },
+      "english": {
+        "title": "Maîtrise de l'Anglais (ou Volonté de l'Acquérir)",
+        "criteria": [
+          "Niveau d'anglais intermédiaire minimum (peut poursuivre des programmes de passerelle si nécessaire)",
+          "Prêt à passer TOEFL/IELTS ou à compléter un programme ESL",
+          "Capable de communiquer clairement lors des réunions de consultation",
+          "Engagé à améliorer l'anglais avant le début du programme"
+        ]
+      },
+      "realistic": {
+        "title": "Réaliste sur le Processus",
+        "criteria": [
+          "Comprendre que personne ne peut garantir l'admission ou l'approbation du visa",
+          "Prêt à postuler à plusieurs universités (pas seulement le \"top 10\")",
+          "Ouvert aux écoles dans différents états et régions",
+          "Préparé au rejet et aux options du plan B"
+        ]
+      }
+    },
+    "notFit": {
+      "title": "Avec Qui Nous Ne Travaillons Pas",
+      "items": [
+        {
+          "title": "Étudiants Attendant des Garanties",
+          "description": "Si vous voulez que quelqu'un promette l'admission à Harvard ou garantisse l'approbation du visa, ce n'est pas nous. Aucun consultant éthique ne peut garantir ces résultats."
+        },
+        {
+          "title": "Candidats de Dernière Minute",
+          "description": "Si vous voulez vous inscrire dans 2-3 mois, le calendrier est trop comprimé. Une bonne préparation prend 6 à 12 mois minimum."
+        },
+        {
+          "title": "Familles Financièrement Non Préparées",
+          "description": "Si vous n'avez pas les fonds requis maintenant et aucun plan clair pour les obtenir, ce n'est pas le bon moment. Nous ne pouvons pas fabriquer de faux documents financiers."
+        },
+        {
+          "title": "Étudiants Cherchant des Raccourcis",
+          "description": "Si vous voulez de faux documents, des schémas d'admission garantie ou des moyens de contourner les exigences de visa, nous ne proposons pas cela, et personne d'autre ne devrait le faire."
+        },
+        {
+          "title": "Étudiants Ciblant Uniquement les \"Top 10\" Écoles",
+          "description": "Si vous ne considérez que les universités de l'Ivy League malgré des notes/scores non compétitifs, nous aurons du mal à trouver des options appropriées."
+        },
+        {
+          "title": "Étudiants Pas Prêts à Suivre les Conseils",
+          "description": "Si vous voulez ignorer les délais, sauter des étapes ou ne pas prendre nos conseils au sérieux, notre processus ne fonctionnera pas pour vous."
+        },
+        {
+          "title": "Étudiants Cherchant le Service le Moins Cher",
+          "description": "Si le prix est votre seule considération et que vous comparez uniquement les frais les plus bas, nous ne sommes probablement pas le bon choix. Un conseil de qualité coûte de l'argent."
+        }
+      ]
+    },
+    "note": {
+      "title": "Note Importante",
+      "description": "Ces critères sont des lignes directrices, pas des absolus. Si vous êtes proche mais pas parfait, contactez-nous quand même. Nous aurons une conversation honnête sur vos options - que ce soit avancer maintenant, se préparer pour un cycle futur ou explorer des voies alternatives."
+    },
+    "cta": {
+      "title": "Pensez que Nous Sommes Faits l'Un pour l'Autre?",
+      "subtitle": "Ayons une conversation honnête sur vos objectifs, qualifications et calendrier.",
+      "note": "Sans obligation. Sans pression. Juste une évaluation honnête."
+    }
+  },
   "faqs": {
     "hero": {
       "title": "Questions Fréquemment Posées",
