@@ -34,8 +34,8 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 text-white overflow-hidden">
+      {/* Hero Section - py-24 md:py-32 */}
+      <section className="relative py-24 md:py-32 flex items-center justify-center bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 text-white overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
@@ -70,13 +70,13 @@ export default function HomePage() {
                   variant="premium"
                   size="xl"
                   onClick={handleWhatsAppClick}
-                  className="text-lg font-semibold"
+                  className="text-lg font-semibold bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#20BA5A] hover:to-[#0F7A6A] text-white shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                 >
                   <MessageCircle className="h-5 w-5" />
                   {t('hero.cta')}
                 </Button>
                 <p className="text-sm text-gray-300">
-                  Honest guidance. Proven process.
+                  ✓ Free consultation • ✓ Expert guidance
                 </p>
               </div>
             </AnimatedSection>
@@ -88,7 +88,7 @@ export default function HomePage() {
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
       </section>
 
-      {/* Trust & Transparency Section */}
+      {/* Trust & Transparency Section - Feature importance: py-20 md:py-24 */}
       <section className="py-20 md:py-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
@@ -104,7 +104,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
             <AnimatedSection delay={0.1}>
-              <Card className="h-full text-center p-6 md:p-8 border-2 hover:border-primary/50 transition-colors">
+              <Card className="h-full text-center p-6 border-2 hover:border-primary/50 transition-all hover:shadow-lg">
                 <CardHeader>
                   <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                     <Shield className="h-8 w-8 text-primary" />
@@ -120,7 +120,7 @@ export default function HomePage() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.2}>
-              <Card className="h-full text-center p-6 md:p-8 border-2 hover:border-primary/50 transition-colors">
+              <Card className="h-full text-center p-6 border-2 hover:border-primary/50 transition-all hover:shadow-lg">
                 <CardHeader>
                   <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                     <Award className="h-8 w-8 text-primary" />
@@ -136,7 +136,7 @@ export default function HomePage() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.3}>
-              <Card className="h-full text-center p-6 md:p-8 border-2 hover:border-primary/50 transition-colors">
+              <Card className="h-full text-center p-6 border-2 hover:border-primary/50 transition-all hover:shadow-lg">
                 <CardHeader>
                   <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                     <CheckCircle className="h-8 w-8 text-primary" />
@@ -154,8 +154,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* University Network Section */}
-      <section className="py-20 md:py-24 bg-gray-50">
+      {/* University Network Section - Secondary importance: py-16 md:py-20 */}
+      <section className="py-16 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
@@ -170,21 +170,21 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 max-w-5xl mx-auto mb-8 md:mb-12">
             <AnimatedSection delay={0.1}>
-              <div className="bg-white rounded-xl p-6 md:p-8 text-center shadow-sm hover:shadow-md transition-shadow">
+              <div className="bg-white rounded-xl p-4 text-center shadow-sm hover:shadow-md transition-shadow">
                 <Building2 className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold text-lg md:text-xl">{t('network.categories.universities')}</h3>
               </div>
             </AnimatedSection>
 
             <AnimatedSection delay={0.2}>
-              <div className="bg-white rounded-xl p-6 md:p-8 text-center shadow-sm hover:shadow-md transition-shadow">
+              <div className="bg-white rounded-xl p-4 text-center shadow-sm hover:shadow-md transition-shadow">
                 <GraduationCap className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold text-lg md:text-xl">{t('network.categories.pathways')}</h3>
               </div>
             </AnimatedSection>
 
             <AnimatedSection delay={0.3}>
-              <div className="bg-white rounded-xl p-6 md:p-8 text-center shadow-sm hover:shadow-md transition-shadow">
+              <div className="bg-white rounded-xl p-4 text-center shadow-sm hover:shadow-md transition-shadow">
                 <Languages className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold text-lg md:text-xl">{t('network.categories.esl')}</h3>
               </div>
@@ -199,7 +199,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services Overview */}
+      {/* Services Overview - Feature importance: py-20 md:py-24 */}
       <section className="py-20 md:py-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
@@ -263,7 +263,7 @@ export default function HomePage() {
       {/* Study Quiz Section */}
       <StudyQuiz />
 
-      {/* CTA Section */}
+      {/* CTA Section - Feature importance: py-20 md:py-24 */}
       <section className="py-20 md:py-24 bg-gradient-to-br from-navy-900 to-navy-700 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
@@ -278,7 +278,7 @@ export default function HomePage() {
                 variant="premium"
                 size="xl"
                 onClick={handleWhatsAppClick}
-                className="text-lg font-semibold"
+                className="text-lg font-semibold bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#20BA5A] hover:to-[#0F7A6A] text-white shadow-2xl hover:shadow-[0_0_40px_rgba(37,211,102,0.5)] hover:scale-105 transition-all duration-300"
               >
                 <MessageCircle className="h-5 w-5" />
                 {t('cta.button')}
