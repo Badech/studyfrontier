@@ -349,6 +349,80 @@
       "note": "Sans obligation. Sans pression. Juste une évaluation honnête."
     }
   },
+  "studyInUSA": {
+    "hero": {
+      "title": "Étudier aux États-Unis depuis le Maroc",
+      "subtitle": "Guide complet sur les admissions universitaires américaines, le processus de visa F-1, les coûts et les exigences pour les étudiants marocains"
+    },
+    "why": {
+      "title": "Pourquoi Étudier aux États-Unis?"
+    },
+    "visa": {
+      "title": "Processus de Visa F-1 pour les Étudiants Marocains"
+    },
+    "cta": {
+      "title": "Prêt à Commencer Votre Voyage d'Études aux États-Unis?",
+      "subtitle": "Obtenez des conseils personnalisés de nos conseillers experts"
+    }
+  },
+  "successStories": {
+    "hero": {
+      "title": "Témoignages de Réussite",
+      "subtitle": "De vrais étudiants. De vraies universités. De vrais résultats."
+    },
+    "cta": {
+      "title": "Prêt à Écrire Votre Histoire de Réussite?",
+      "subtitle": "Rejoignez les étudiants qui ont réussi le processus d'admission américain avec nos conseils"
+    }
+  },
+  "caseStudies": {
+    "hero": {
+      "title": "Études de Cas",
+      "subtitle": "Analyses détaillées de la façon dont nous avons aidé les étudiants à naviguer dans le processus d'admission américain"
+    },
+    "cta": {
+      "title": "Voulez-Vous Votre Propre Histoire de Réussite?",
+      "subtitle": "Discutons de votre situation et créons un plan stratégique pour votre admission dans une université américaine"
+    }
+  },
+  "resources": {
+    "hero": {
+      "title": "Ressources pour Étudier à l'Étranger",
+      "subtitle": "Guides gratuits, listes de contrôle et outils pour vous aider à étudier aux États-Unis"
+    }
+  },
+  "programs": {
+    "masters": {
+      "cta": {
+        "title": "Prêt à Poursuivre Votre Master aux États-Unis?",
+        "subtitle": "Obtenez des conseils d'experts sur la sélection de programmes et les candidatures"
+      }
+    },
+    "undergraduate": {
+      "cta": {
+        "title": "Prêt à Postuler pour Votre Bachelor?",
+        "subtitle": "Obtenez de l'aide d'experts pour vos candidatures de premier cycle"
+      }
+    },
+    "pathways": {
+      "cta": {
+        "title": "Un Programme Passerelle Est-il Fait pour Vous?",
+        "subtitle": "Obtenez des recommandations personnalisées basées sur votre niveau d'anglais"
+      }
+    }
+  },
+  "f1Visa": {
+    "cta": {
+      "title": "Besoin d'Aide pour Votre Demande de Visa F-1?",
+      "subtitle": "Obtenez des conseils personnalisés et une préparation à l'entretien simulé"
+    }
+  },
+  "i20Guide": {
+    "cta": {
+      "title": "Besoin d'Aide pour Obtenir Votre I-20?",
+      "subtitle": "Nous aidons les étudiants marocains à naviguer dans l'ensemble du processus"
+    }
+  },
   "faqs": {
     "hero": {
       "title": "Questions Fréquemment Posées",
