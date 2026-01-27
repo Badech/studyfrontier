@@ -8,7 +8,6 @@ import { usePathname } from 'next/navigation';
 import { Menu, X, Home, Sparkles, Briefcase, GraduationCap, BookOpen, Trophy, MessageCircle, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
-import Image from 'next/image';
 
 const WHATSAPP_NUMBER = '212708026571';
 
