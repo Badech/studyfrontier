@@ -40,10 +40,17 @@ export default async function LocaleLayout({
       </head>
       <body className="antialiased">
         <NextIntlClientProvider messages={messages}>
+          {/* Skip to Content Link for Accessibility */}
+          <a href="#main-content" className="skip-to-content">
+            Skip to main content
+          </a>
+          
           <Header locale={locale} />
-          <main className="min-h-screen pt-20">
+          
+          <main id="main-content" className="min-h-screen pt-20" role="main">
             {children}
           </main>
+          
           <Footer locale={locale} />
           <WhatsAppFloat />
         </NextIntlClientProvider>

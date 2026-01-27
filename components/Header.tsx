@@ -66,7 +66,11 @@ export function Header({ locale }: { locale: string }) {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center gap-3 group">
+          <Link 
+            href={`/${locale}`} 
+            className="flex items-center gap-3 group focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 rounded-lg"
+            aria-label="StudyFrontier Home"
+          >
             <div className="relative w-10 h-10 bg-navy-800 rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
               <img src="/logo.png" alt="StudyFrontier Logo" className="w-6 h-6" />
             </div>
@@ -96,20 +100,32 @@ export function Header({ locale }: { locale: string }) {
           <div className="flex items-center gap-3">
             {/* Desktop Language Switcher */}
             <div className="hidden lg:block relative group">
-              <Button variant="ghost" size="sm" className="gap-2 min-h-[44px]">
-                <Globe className="h-4 w-4" />
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                className="gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                aria-label="Select language"
+                aria-haspopup="true"
+              >
+                <Globe className="h-4 w-4" aria-hidden="true" />
                 <span>{languages.find((l) => l.code === locale)?.name}</span>
               </Button>
-              <div className="absolute right-0 top-full mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <div 
+                className="absolute right-0 top-full mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+                role="menu"
+                aria-label="Language options"
+              >
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
                     onClick={() => switchLanguage(lang.code)}
-                    className={`w-full px-4 py-3 text-left hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg flex items-center gap-3 transition-colors min-h-[44px] ${
+                    role="menuitem"
+                    aria-label={`Switch to ${lang.name}`}
+                    className={`w-full px-4 py-3 text-left hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg flex items-center gap-3 transition-colors min-h-[44px] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
                       locale === lang.code ? 'bg-primary/5 text-primary font-semibold' : ''
                     }`}
                   >
-                    <span className="text-xl">{lang.flag}</span>
+                    <span className="text-xl" role="img" aria-label={`${lang.name} flag`}>{lang.flag}</span>
                     <span>{lang.name}</span>
                   </button>
                 ))}
@@ -120,7 +136,8 @@ export function Header({ locale }: { locale: string }) {
               variant="premium"
               size="default"
               onClick={handleWhatsAppClick}
-              className="hidden sm:inline-flex min-h-[44px]"
+              className="hidden sm:inline-flex min-h-[44px] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+              aria-label="Apply via WhatsApp"
             >
               {t('apply')}
             </Button>
@@ -128,9 +145,10 @@ export function Header({ locale }: { locale: string }) {
             {/* Mobile Menu Button with Animation */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-2 text-gray-700 hover:text-primary transition-all duration-200 min-h-[44px] min-w-[44px] flex items-center justify-center"
-              aria-label="Toggle menu"
+              className="lg:hidden p-2 text-gray-700 hover:text-primary transition-all duration-200 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-md focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+              aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
               aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               <div className="relative w-6 h-6">
                 <span
@@ -156,14 +174,25 @@ export function Header({ locale }: { locale: string }) {
 
       {/* Premium Mobile Menu - Sheet Drawer */}
       <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-        <SheetContent side="right" className="w-[85vw] sm:w-[400px] p-0">
+        <SheetContent 
+          side="right" 
+          className="w-[85vw] sm:w-[400px] p-0"
+          aria-describedby="mobile-menu-description"
+        >
           <SheetHeader className="px-6 pt-6 pb-4 border-b">
-            <SheetTitle className="text-left">Menu</SheetTitle>
+            <SheetTitle className="text-left">Navigation Menu</SheetTitle>
+            <p id="mobile-menu-description" className="sr-only">
+              Main navigation menu with links to all pages, language selector, and contact options
+            </p>
           </SheetHeader>
           
           <div className="flex flex-col h-full">
             {/* Navigation Links */}
-            <nav className="flex flex-col py-4 flex-1 overflow-y-auto">
+            <nav 
+              className="flex flex-col py-4 flex-1 overflow-y-auto"
+              aria-label="Main navigation"
+              role="navigation"
+            >
               {navItems.map((item) => {
                 const Icon = item.icon;
                 const isActive = isActiveRoute(item.href);
@@ -172,13 +201,14 @@ export function Header({ locale }: { locale: string }) {
                     key={item.href}
                     href={`/${locale}${item.href}`}
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className={`flex items-center gap-4 px-6 py-4 text-base font-medium transition-all duration-200 min-h-[56px] ${
+                    aria-current={isActive ? 'page' : undefined}
+                    className={`flex items-center gap-4 px-6 py-4 text-base font-medium transition-all duration-200 min-h-[56px] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
                       isActive
                         ? 'bg-primary/10 text-primary border-r-4 border-primary font-semibold'
                         : 'text-gray-700 hover:bg-gray-50 hover:text-primary'
                     }`}
                   >
-                    <Icon className="h-5 w-5 flex-shrink-0" />
+                    <Icon className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
                     <span>{item.label}</span>
                   </Link>
                 );
@@ -186,12 +216,12 @@ export function Header({ locale }: { locale: string }) {
             </nav>
 
             {/* Language Switcher - Mobile */}
-            <div className="border-t px-6 py-4">
+            <div className="border-t px-6 py-4" role="region" aria-label="Language selector">
               <div className="flex items-center gap-2 mb-3 text-sm font-medium text-gray-500">
-                <Globe className="h-4 w-4" />
+                <Globe className="h-4 w-4" aria-hidden="true" />
                 <span>Language / Langue / اللغة</span>
               </div>
-              <div className="grid grid-cols-1 gap-2">
+              <div className="grid grid-cols-1 gap-2" role="group" aria-label="Available languages">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -199,13 +229,15 @@ export function Header({ locale }: { locale: string }) {
                       switchLanguage(lang.code);
                       setIsMobileMenuOpen(false);
                     }}
-                    className={`flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-all duration-200 min-h-[52px] ${
+                    aria-label={`Switch to ${lang.name}`}
+                    aria-pressed={locale === lang.code}
+                    className={`flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-all duration-200 min-h-[52px] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${
                       locale === lang.code
                         ? 'bg-primary/10 text-primary font-semibold border-2 border-primary'
                         : 'bg-gray-50 text-gray-700 hover:bg-gray-100 border-2 border-transparent'
                     }`}
                   >
-                    <span className="text-2xl">{lang.flag}</span>
+                    <span className="text-2xl" role="img" aria-label={`${lang.name} flag`}>{lang.flag}</span>
                     <span className="font-medium">{lang.name}</span>
                   </button>
                 ))}
@@ -221,9 +253,10 @@ export function Header({ locale }: { locale: string }) {
                   handleWhatsAppClick();
                   setIsMobileMenuOpen(false);
                 }}
-                className="w-full min-h-[52px] text-base font-semibold"
+                className="w-full min-h-[52px] text-base font-semibold focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                aria-label="Contact us via WhatsApp"
               >
-                <MessageCircle className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" aria-hidden="true" />
                 {t('apply')}
               </Button>
             </div>

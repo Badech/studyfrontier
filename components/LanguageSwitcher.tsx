@@ -24,22 +24,34 @@ export function LanguageSwitcher() {
 
   return (
     <div className="relative group">
-      <Button variant="ghost" size="sm" className="gap-2">
-        <Globe className="h-4 w-4" />
+      <Button 
+        variant="ghost" 
+        size="sm" 
+        className="gap-2 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+        aria-label="Select language"
+        aria-haspopup="true"
+      >
+        <Globe className="h-4 w-4" aria-hidden="true" />
         <span className="hidden md:inline">
           {languages.find((l) => l.code === locale)?.name}
         </span>
       </Button>
-      <div className="absolute right-0 top-full mt-2 w-40 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+      <div 
+        className="absolute right-0 top-full mt-2 w-40 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+        role="menu"
+        aria-label="Language options"
+      >
         {languages.map((lang) => (
           <button
             key={lang.code}
             onClick={() => switchLanguage(lang.code)}
-            className={`w-full px-4 py-3 text-left hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg flex items-center gap-3 transition-colors ${
+            role="menuitem"
+            aria-label={`Switch to ${lang.name}`}
+            className={`w-full px-4 py-3 text-left hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg flex items-center gap-3 transition-colors focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
               locale === lang.code ? 'bg-primary/5 text-primary font-semibold' : ''
             }`}
           >
-            <span className="text-xl">{lang.flag}</span>
+            <span className="text-xl" role="img" aria-label={`${lang.name} flag`}>{lang.flag}</span>
             <span>{lang.name}</span>
           </button>
         ))}
