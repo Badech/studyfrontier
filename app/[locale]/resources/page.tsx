@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { AnimatedSection } from '@/components/AnimatedSection';
 import { Button } from '@/components/ui/button';
+import { useTranslations } from 'next-intl';
 import { 
   BookOpen, 
   FileText, 
@@ -16,6 +17,8 @@ import {
 } from 'lucide-react';
 
 export default function ResourcesPage({ params }: { params: { locale: string } }) {
+  const t = useTranslations('resources');
+  
   const resources = [
     {
       category: 'Country Guides',
@@ -114,10 +117,10 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
                 <BookOpen className="h-8 w-8 text-navy-900" />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold">
-                Study Abroad Resources
+                {t('hero.title')}
               </h1>
               <p className="text-xl text-gray-200">
-                Free guides, checklists, and tools to help you study in the USA
+                {t('hero.subtitle')}
               </p>
             </div>
           </AnimatedSection>
