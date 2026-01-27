@@ -69,13 +69,13 @@ export default function StudyInUSAPage() {
             <AnimatedSection delay={0.1}>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gold-600 mb-2">4,000+</div>
-                <div className="text-gray-600 text-sm">Accredited US Universities</div>
+                <div className="text-gray-600 text-sm">{t('stats.universities')}</div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gold-600 mb-2">6-12</div>
-                <div className="text-gray-600">Months Timeline</div>
+                <div className="text-gray-600">{t('stats.timeline')}</div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={0.3}>
@@ -208,69 +208,20 @@ export default function StudyInUSAPage() {
               </h2>
               
               <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
-                <p className="text-blue-900 font-semibold mb-2">Important:</p>
+                <p className="text-blue-900 font-semibold mb-2">{t('visa.important')}</p>
                 <p className="text-blue-800">
-                  F-1 visa interviews for Moroccan students are conducted at the US Embassy in Casablanca. Current wait times are approximately 2-4 weeks.
+                  {t('visa.notice')}
                 </p>
               </div>
 
               <div className="space-y-6">
-                {[
-                  {
-                    step: 1,
-                    title: 'Get Accepted to SEVP-Approved School',
-                    description: 'Apply and receive admission from a US university approved by SEVP (Student and Exchange Visitor Program).',
-                    time: '2-6 months'
-                  },
-                  {
-                    step: 2,
-                    title: 'Receive Form I-20',
-                    description: 'Your university will issue Form I-20 (Certificate of Eligibility) after you pay the SEVIS fee and submit required documents.',
-                    time: '2-4 weeks'
-                  },
-                  {
-                    step: 3,
-                    title: 'Pay SEVIS Fee',
-                    description: 'Pay the I-901 SEVIS fee ($350) online at fmjfee.com at least 3 days before your visa interview.',
-                    time: '1 day'
-                  },
-                  {
-                    step: 4,
-                    title: 'Complete DS-160 Form',
-                    description: 'Fill out the Online Nonimmigrant Visa Application (DS-160) and upload your photo.',
-                    time: '1-2 hours'
-                  },
-                  {
-                    step: 5,
-                    title: 'Schedule Visa Interview',
-                    description: 'Book your appointment at the US Embassy in Casablanca through the online system.',
-                    time: 'Wait time: 2-4 weeks'
-                  },
-                  {
-                    step: 6,
-                    title: 'Prepare Documents',
-                    description: 'Gather all required documents including passport, I-20, financial evidence, and academic transcripts.',
-                    time: '1-2 weeks'
-                  },
-                  {
-                    step: 7,
-                    title: 'Attend Visa Interview',
-                    description: 'Appear in person at the US Embassy with all documents. Be prepared to explain your study plans and ties to Morocco.',
-                    time: '1 day'
-                  },
-                  {
-                    step: 8,
-                    title: 'Receive Visa',
-                    description: 'If approved, your passport with F-1 visa will be returned within 5-10 business days.',
-                    time: '5-10 days'
-                  }
-                ].map((item, index) => (
-                  <AnimatedSection key={item.step} delay={index * 0.1}>
+                {visaSteps.map((item, index) => (
+                  <AnimatedSection key={index} delay={index * 0.1}>
                     <Card>
                       <CardHeader>
                         <div className="flex items-start gap-4">
                           <div className="w-12 h-12 rounded-full bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center flex-shrink-0">
-                            <span className="text-white font-bold text-lg">{item.step}</span>
+                            <span className="text-white font-bold text-lg">{index + 1}</span>
                           </div>
                           <div className="flex-1">
                             <CardTitle className="text-xl">{item.title}</CardTitle>
