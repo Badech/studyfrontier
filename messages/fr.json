@@ -130,6 +130,34 @@
     "predeparture": {
       "title": "Orientation Pré-Départ",
       "description": "Orientation sur la vie aux États-Unis, options de logement, adaptation culturelle et ce à quoi s'attendre lors de votre premier semestre."
+    },
+    "process": {
+      "title": "Un Processus Clair, Étape par Étape",
+      "subtitle": "De votre première consultation à votre arrivée sur le campus, nous vous guidons à chaque étape.",
+      "step1": {
+        "title": "Découverte et Évaluation de Profil",
+        "description": "Nous évaluons votre parcours académique, vos objectifs et votre éligibilité pour les universités américaines."
+      },
+      "step2": {
+        "title": "Correspondance et Sélection d'Université",
+        "description": "Identifier les établissements qui correspondent à votre profil, votre budget et vos intérêts de programme."
+      },
+      "step3": {
+        "title": "Préparation de Candidature",
+        "description": "Compléter les candidatures, essais, lettres de recommandation et documents requis."
+      },
+      "step4": {
+        "title": "Traitement du Document I-20",
+        "description": "Recevoir votre I-20 de votre université d'admission pour commencer le processus de visa."
+      },
+      "step5": {
+        "title": "Préparation au Visa F-1",
+        "description": "Paiement SEVIS, formulaire DS-160, préparation à l'entretien et révision des documents."
+      },
+      "step6": {
+        "title": "Support Pré-Départ",
+        "description": "Planification du voyage, logement, orientation et préparatifs finaux pour votre voyage."
+      }
     }
   },
   "faqs": {

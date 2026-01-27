@@ -106,10 +106,10 @@ export default function ServicesPage() {
           <AnimatedSection>
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-4xl font-bold text-navy-900 mb-6">
-                A Clear, Step-by-Step Process
+                {t('process.title')}
               </h2>
               <p className="text-lg text-gray-600">
-                From your first consultation to landing on campus, we guide you through every milestone.
+                {t('process.subtitle')}
               </p>
             </div>
           </AnimatedSection>
@@ -117,12 +117,12 @@ export default function ServicesPage() {
           <div className="max-w-4xl mx-auto">
             <div className="space-y-6">
               {[
-                { step: 1, title: 'Discovery & Profile Assessment', description: 'We evaluate your academic background, goals, and eligibility for US universities.' },
-                { step: 2, title: 'University Matching & Selection', description: 'Identify schools that match your profile, budget, and program interests.' },
-                { step: 3, title: 'Application Preparation', description: 'Complete applications, essays, recommendations, and required documents.' },
-                { step: 4, title: 'I-20 Document Processing', description: 'Receive your I-20 from your admitted university to begin visa process.' },
-                { step: 5, title: 'F-1 Visa Preparation', description: 'SEVIS payment, DS-160 form, interview preparation, and document review.' },
-                { step: 6, title: 'Pre-Departure Support', description: 'Travel planning, housing, orientation, and final preparations for your journey.' }
+                { step: 1, title: t('process.step1.title'), description: t('process.step1.description') },
+                { step: 2, title: t('process.step2.title'), description: t('process.step2.description') },
+                { step: 3, title: t('process.step3.title'), description: t('process.step3.description') },
+                { step: 4, title: t('process.step4.title'), description: t('process.step4.description') },
+                { step: 5, title: t('process.step5.title'), description: t('process.step5.description') },
+                { step: 6, title: t('process.step6.title'), description: t('process.step6.description') }
               ].map((item, index) => (
                 <AnimatedSection key={item.step} delay={index * 0.1}>
                   <div className="flex items-start gap-6 bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">

@@ -130,6 +130,34 @@
     "predeparture": {
       "title": "Pre-Departure Guidance",
       "description": "Orientation on living in the U.S., housing options, cultural adaptation, and what to expect in your first semester."
+    },
+    "process": {
+      "title": "A Clear, Step-by-Step Process",
+      "subtitle": "From your first consultation to landing on campus, we guide you through every milestone.",
+      "step1": {
+        "title": "Discovery & Profile Assessment",
+        "description": "We evaluate your academic background, goals, and eligibility for US universities."
+      },
+      "step2": {
+        "title": "University Matching & Selection",
+        "description": "Identify schools that match your profile, budget, and program interests."
+      },
+      "step3": {
+        "title": "Application Preparation",
+        "description": "Complete applications, essays, recommendations, and required documents."
+      },
+      "step4": {
+        "title": "I-20 Document Processing",
+        "description": "Receive your I-20 from your admitted university to begin visa process."
+      },
+      "step5": {
+        "title": "F-1 Visa Preparation",
+        "description": "SEVIS payment, DS-160 form, interview preparation, and document review."
+      },
+      "step6": {
+        "title": "Pre-Departure Support",
+        "description": "Travel planning, housing, orientation, and final preparations for your journey."
+      }
     }
   },
   "faqs": {
