@@ -411,6 +411,18 @@
       }
     }
   },
+  "f1Visa": {
+    "cta": {
+      "title": "Need Help with Your F-1 Visa Application?",
+      "subtitle": "Get personalized guidance and mock interview preparation"
+    }
+  },
+  "i20Guide": {
+    "cta": {
+      "title": "Need Help Getting Your I-20?",
+      "subtitle": "We help Moroccan students navigate the entire process"
+    }
+  },
   "faqs": {
     "hero": {
       "title": "Frequently Asked Questions",

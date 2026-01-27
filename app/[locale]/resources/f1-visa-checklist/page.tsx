@@ -291,10 +291,10 @@ export default function F1VisaChecklistPage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-4xl font-bold">
-                Need Help with Your F-1 Visa Application?
+                {t('cta.title')}
               </h2>
               <p className="text-xl text-gray-200">
-                Get personalized guidance and mock interview preparation
+                {t('cta.subtitle')}
               </p>
               <Button
                 variant="premium"

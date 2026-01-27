@@ -390,10 +390,10 @@ export default function I20GuidePage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-4xl font-bold">
-                Need Help Getting Your I-20?
+                {t('cta.title')}
               </h2>
               <p className="text-xl text-gray-200">
-                We help Moroccan students navigate the entire process
+                {t('cta.subtitle')}
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />
