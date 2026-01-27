@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { AnimatedSection } from '@/components/AnimatedSection';
+import { useTranslations } from 'next-intl';
 import { LeadMagnet } from '@/components/LeadMagnet';
 import { StudyQuiz } from '@/components/StudyQuiz';
 import {
