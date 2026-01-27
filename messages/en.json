@@ -211,7 +211,16 @@
     "description": "An international education consulting agency helping students access accredited U.S. universities through ethical, legal pathways.",
     "location": "Kenitra, Morocco",
     "rights": "All rights reserved.",
-    "tagline": "Professional international education consulting services"
+    "tagline": "Professional international education consulting services",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "commitment": {
+      "title": "Our Commitment",
+      "ethical": "Ethical & legal consulting",
+      "accredited": "Accredited universities only",
+      "transparent": "Transparent processes",
+      "noGuarantees": "No visa guarantees"
+    }
   },
   "whatsapp": {
     "float_text": "Free Consultation"

@@ -40,7 +40,7 @@ export function Footer({ locale }: { locale: string }) {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+            <h3 className="font-semibold text-lg mb-4">{footer('quickLinks')}</h3>
             <nav className="space-y-3">
               {navItems.map((item) => (
                 <Link
@@ -56,7 +56,7 @@ export function Footer({ locale }: { locale: string }) {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Contact</h3>
+            <h3 className="font-semibold text-lg mb-4">{footer('contact')}</h3>
             <div className="space-y-3">
               <a
                 href="mailto:contact@studyfrontier.com"
@@ -81,12 +81,12 @@ export function Footer({ locale }: { locale: string }) {
 
           {/* Legal & Transparency */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Our Commitment</h3>
+            <h3 className="font-semibold text-lg mb-4">{footer('commitment.title')}</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li>✓ Ethical & legal consulting</li>
-              <li>✓ Accredited universities only</li>
-              <li>✓ Transparent processes</li>
-              <li>✓ No visa guarantees</li>
+              <li>✓ {footer('commitment.ethical')}</li>
+              <li>✓ {footer('commitment.accredited')}</li>
+              <li>✓ {footer('commitment.transparent')}</li>
+              <li>✓ {footer('commitment.noGuarantees')}</li>
             </ul>
           </div>
         </div>

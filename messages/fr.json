@@ -210,7 +210,16 @@
   "footer": {
     "description": "Une agence de conseil en éducation internationale aidant les étudiants à accéder aux universités américaines.",
     "location": "Kénitra, Maroc",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contact",
+    "commitment": {
+      "title": "Notre Engagement",
+      "ethical": "Conseil éthique et légal",
+      "accredited": "Universités accréditées uniquement",
+      "transparent": "Processus transparents",
+      "noGuarantees": "Aucune garantie de visa"
+    }
   },
   "whatsapp": {
     "float_text": "Consultation Gratuite"
