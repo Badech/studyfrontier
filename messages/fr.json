@@ -446,9 +446,88 @@
       "title": "Témoignages de Réussite",
       "subtitle": "De vrais étudiants. De vraies universités. De vrais résultats."
     },
+    "notice": {
+      "description": "Expériences réelles d'étudiants publiées avec permission. Noms anonymisés pour la protection de la vie privée.",
+      "disclaimer": "Format d'exemple — histoires détaillées publiées avec l'approbation des étudiants",
+      "ctaTitle": "Soyez l'une de Nos Réussites"
+    },
+    "sections": {
+      "featured": "Histoires de Réussite en Vedette",
+      "testimonials": "Témoignages d'Étudiants"
+    },
+    "journey": {
+      "background": "Contexte",
+      "challenges": "Défis",
+      "process": "Notre Processus",
+      "outcome": "Résultat",
+      "advice": "Conseil"
+    },
+    "stories": [
+      {
+        "name": "Étudiant A",
+        "fromCity": "Rabat",
+        "program": "Ingénierie",
+        "university": "Université Américaine",
+        "country": "États-Unis",
+        "year": "2025",
+        "testimonial": "Admis avec succès avec soutien à la bourse. Histoire complète disponible après l'achèvement du programme.",
+        "journey": {
+          "background": "Diplômé du Baccalauréat marocain",
+          "challenges": "Processus de candidature et documentation",
+          "process": "Guidé dans la sélection universitaire et la préparation du visa",
+          "outcome": "Actuellement inscrit dans un programme de premier cycle",
+          "advice": "Commencez tôt et restez organisé avec les délais"
+        },
+        "tags": ["États-Unis", "STEM", "Premier cycle"]
+      },
+      {
+        "name": "Étudiant B",
+        "fromCity": "Kénitra",
+        "program": "Programme Passerelle ESL",
+        "university": "Institution Partenaire",
+        "country": "États-Unis",
+        "year": "2025",
+        "testimonial": "Le programme passerelle a fourni une transition en douceur vers le système éducatif américain.",
+        "journey": {
+          "background": "Diplômé du lycée",
+          "challenges": "Exigences de compétence en anglais",
+          "process": "Jumelé avec un programme passerelle ESL",
+          "outcome": "Préparation à l'entrée du programme de diplôme",
+          "advice": "Les programmes passerelles sont excellents pour renforcer la confiance"
+        },
+        "tags": ["États-Unis", "Passerelle", "ESL"]
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Étudiant C",
+        "location": "Casablanca, Maroc",
+        "program": "Administration des Affaires",
+        "university": "Université Américaine",
+        "quote": "Les conseils étaient clairs et professionnels. M'a aidé à comprendre le processus complet de la candidature à l'entretien de visa.",
+        "date": "Janvier 2025"
+      },
+      {
+        "name": "Étudiant D",
+        "location": "Marrakech, Maroc",
+        "program": "Informatique",
+        "university": "Institution Partenaire",
+        "quote": "Conseils transparents et attentes réalistes. Ils m'ont jumelé avec des universités qui correspondent à mon profil et à mon budget.",
+        "date": "Décembre 2024"
+      },
+      {
+        "name": "Étudiant E",
+        "location": "Rabat, Maroc",
+        "program": "Programme de Master",
+        "university": "École Supérieure",
+        "quote": "Service professionnel du début à la fin. La préparation au visa a été particulièrement utile pour mon entretien F-1.",
+        "date": "Novembre 2024"
+      }
+    ],
     "cta": {
       "title": "Prêt à Écrire Votre Histoire de Réussite?",
-      "subtitle": "Rejoignez les étudiants qui ont réussi le processus d'admission américain avec nos conseils"
+      "subtitle": "Rejoignez les étudiants qui ont réussi le processus d'admission américain avec nos conseils",
+      "button": "Consultation Gratuite"
     }
   },
   "caseStudies": {
