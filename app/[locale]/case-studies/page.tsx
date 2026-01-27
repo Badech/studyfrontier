@@ -77,10 +77,10 @@ export default function CaseStudiesPage() {
             <div className="max-w-4xl mx-auto text-center space-y-6">
               <FileText className="h-16 w-16 text-gold-400 mx-auto mb-4" />
               <h1 className="text-5xl md:text-6xl font-bold">
-                Case Studies
+                {t('hero.title')}
               </h1>
               <p className="text-xl md:text-2xl text-gray-200">
-                Detailed breakdowns of how we've helped students navigate the US admissions process
+                {t('hero.subtitle')}
               </p>
             </div>
           </AnimatedSection>
@@ -259,10 +259,10 @@ export default function CaseStudiesPage() {
           <AnimatedSection>
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-4xl font-bold">
-                Want Your Own Success Story?
+                {t('cta.title')}
               </h2>
               <p className="text-xl text-gray-200">
-                Let's discuss your situation and create a strategic plan for your US university admission
+                {t('cta.subtitle')}
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />
