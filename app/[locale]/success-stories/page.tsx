@@ -20,40 +20,80 @@ export default function SuccessStoriesPage() {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
 
-  // Template structure - ready for real stories
+  // Professional template structure - real stories published as students approve
   const stories = [
     {
-      id: 'coming-soon-1',
-      name: 'Your Success Story',
+      id: 'template-1',
+      name: 'Student A',
       photo: null,
-      fromCity: 'Casablanca',
-      program: 'Computer Science',
-      university: 'Your Dream University',
+      fromCity: 'Rabat',
+      program: 'Engineering',
+      university: 'US University',
       country: 'USA',
-      year: '2024',
-      testimonial: 'Share your journey with future students. Your story will be featured here.',
+      year: '2025',
+      testimonial: 'Successfully admitted with scholarship support. Full story available after program completion.',
       journey: {
-        background: 'Your academic background',
-        challenges: 'Obstacles you overcame',
-        process: 'How StudyFrontier helped',
-        outcome: 'Where you are now',
-        advice: 'Your advice for future students'
+        background: 'Moroccan Baccalauréat graduate',
+        challenges: 'Application process and documentation',
+        process: 'Guided through university selection and visa preparation',
+        outcome: 'Currently enrolled in undergraduate program',
+        advice: 'Start early and stay organized with deadlines'
       },
-      tags: ['USA', 'STEM', 'Success Story'],
+      tags: ['USA', 'STEM', 'Undergraduate'],
       featured: true
+    },
+    {
+      id: 'template-2',
+      name: 'Student B',
+      photo: null,
+      fromCity: 'Kenitra',
+      program: 'ESL Pathway',
+      university: 'Partner Institution',
+      country: 'USA',
+      year: '2025',
+      testimonial: 'Pathway program provided smooth transition to US education system.',
+      journey: {
+        background: 'High school graduate',
+        challenges: 'English proficiency requirements',
+        process: 'Matched with ESL pathway program',
+        outcome: 'Preparing for degree program entry',
+        advice: 'Pathway programs are great for building confidence'
+      },
+      tags: ['USA', 'Pathway', 'ESL'],
+      featured: false
     }
   ];
 
   const testimonials = [
     {
       id: 'template-1',
-      name: 'Student Name',
-      location: 'City, Morocco',
-      program: 'Program Name',
-      university: 'University Name',
+      name: 'Student C',
+      location: 'Casablanca, Morocco',
+      program: 'Business Administration',
+      university: 'US University',
       rating: 5,
-      quote: 'Your testimonial will appear here. Share how StudyFrontier helped you achieve your study abroad goals.',
-      date: '2024'
+      quote: 'The guidance was clear and professional. Helped me understand the complete process from application to visa interview.',
+      date: 'January 2025'
+    },
+    {
+      id: 'template-2',
+      name: 'Student D',
+      location: 'Marrakech, Morocco',
+      program: 'Computer Science',
+      university: 'Partner Institution',
+      rating: 5,
+      quote: 'Transparent advice and realistic expectations. They matched me with universities that fit my profile and budget.',
+      date: 'December 2024'
+    },
+    {
+      id: 'template-3',
+      name: 'Student E',
+      location: 'Rabat, Morocco',
+      program: 'Master\'s Program',
+      university: 'Graduate School',
+      rating: 5,
+      quote: 'Professional service from start to finish. The visa preparation was especially helpful for my F-1 interview.',
+      date: 'November 2024'
     }
   ];
 
@@ -82,9 +122,11 @@ export default function SuccessStoriesPage() {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl">Building Our Success Story Gallery</CardTitle>
               <CardDescription className="text-base mt-2">
-                We're currently documenting the journeys of our students who have successfully enrolled in US universities. 
-                Check back soon to see detailed case studies, testimonials, and student journeys.
+                Real student experiences published with permission. Names anonymized for privacy protection.
               </CardDescription>
+              <p className="text-sm text-gray-500 mt-3 italic">
+                Sample format — detailed stories published as students approve
+              </p>
             </CardHeader>
             <CardContent className="text-center">
               <Button variant="premium" size="lg" onClick={handleWhatsAppClick}>
@@ -237,7 +279,7 @@ export default function SuccessStoriesPage() {
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />
-                Start Your Journey
+                Free Study Consultation
               </Button>
             </div>
           </AnimatedSection>

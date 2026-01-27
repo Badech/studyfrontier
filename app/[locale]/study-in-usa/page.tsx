@@ -47,10 +47,10 @@ export default function StudyInUSAPage() {
                   className="text-lg"
                 >
                   <MessageCircle className="h-5 w-5" />
-                  Get Free Consultation
+                  Free Study Consultation
                 </Button>
                 <p className="text-sm text-gray-300">
-                  ✓ 500+ students helped ✓ Expert guidance
+                  ✓ Supporting Moroccan students ✓ Expert guidance
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function StudyInUSAPage() {
             <AnimatedSection delay={0.1}>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gold-600 mb-2">4,000+</div>
-                <div className="text-gray-600">US Universities</div>
+                <div className="text-gray-600 text-sm">Accredited US Universities</div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
@@ -309,7 +309,7 @@ export default function StudyInUSAPage() {
                 onClick={handleWhatsAppClick}
               >
                 <MessageCircle className="h-5 w-5" />
-                Schedule Free Consultation
+                Free Study Consultation
               </Button>
             </div>
           </AnimatedSection>

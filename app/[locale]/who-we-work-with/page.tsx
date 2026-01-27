@@ -252,7 +252,7 @@ export default function WhoWeWorkWithPage() {
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />
-                Schedule Initial Consultation
+                Free Study Consultation
               </Button>
               <p className="text-sm text-gray-300">
                 No obligation. No pressure. Just an honest assessment.

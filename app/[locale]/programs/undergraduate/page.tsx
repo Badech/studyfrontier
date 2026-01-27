@@ -248,7 +248,7 @@ export default function UndergraduatePage() {
                 onClick={handleWhatsAppClick}
               >
                 <MessageCircle className="h-5 w-5" />
-                Start Your Application
+                Apply via WhatsApp
               </Button>
             </div>
           </AnimatedSection>

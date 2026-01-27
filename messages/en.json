@@ -12,7 +12,7 @@
       "title": "Your Gateway to U.S. Universities",
       "subtitle": "Professional guidance for international students seeking academic excellence abroad",
       "description": "Education consulting services connecting students with accredited American universities through legitimate academic pathways.",
-      "cta": "Schedule a Consultation"
+      "cta": "Free Study Consultation"
     },
     "trust": {
       "title": "Trust & Transparency",
@@ -63,7 +63,7 @@
     "cta": {
       "title": "Ready to Begin?",
       "subtitle": "Connect with our advisors to explore your options",
-      "button": "Schedule Consultation"
+      "button": "Free Study Consultation"
     }
   },
   "about": {
@@ -163,7 +163,7 @@
     "whatsapp": {
       "title": "Connect via WhatsApp",
       "description": "The fastest way to begin is to reach out directly. Our advisors are available to answer your questions and guide you through the next steps.",
-      "button": "Message Us on WhatsApp",
+      "button": "Apply via WhatsApp",
       "number": "+212 708 026 571"
     },
     "what_to_expect": {
@@ -197,7 +197,7 @@
     "whatsapp": {
       "title": "Prefer WhatsApp?",
       "description": "For immediate assistance, reach out on WhatsApp.",
-      "button": "Chat with Us"
+      "button": "Apply via WhatsApp"
     }
   },
   "footer": {

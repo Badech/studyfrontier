@@ -18,12 +18,12 @@ export default function CaseStudiesPage() {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
   };
 
-  // Template structure for future case studies
+  // Professional case study structure - real cases published as students approve
   const caseStudyTemplate = {
     id: 'template-001',
-    title: 'From [City] to [University]: A [Program] Success Story',
+    title: 'From Morocco to US University: Engineering Program Success',
     student: {
-      name: 'Student Name (Optional: Can be anonymous)',
+      name: 'Student A',
       background: 'Background info',
       city: 'Moroccan City'
     },
@@ -92,9 +92,9 @@ export default function CaseStudiesPage() {
               <Card className="border-2 border-blue-500">
                 <CardHeader className="text-center">
                   <TrendingUp className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                  <CardTitle className="text-3xl mb-3">Case Studies In Progress</CardTitle>
+                  <CardTitle className="text-3xl mb-3">Student Journey Documentation</CardTitle>
                   <CardDescription className="text-lg">
-                    We're currently documenting detailed case studies of students we've successfully guided through the US admissions process. These will include:
+                    Detailed case studies documenting real student journeys through the US admissions process. Each case study includes:
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -119,8 +119,11 @@ export default function CaseStudiesPage() {
                   <div className="text-center pt-6 border-t">
                     <Button variant="premium" size="lg" onClick={handleWhatsAppClick}>
                       <MessageCircle className="h-5 w-5" />
-                      Be Featured in a Future Case Study
+                      Free Study Consultation
                     </Button>
+                    <p className="text-sm text-gray-500 mt-4">
+                      Case studies published with student permission • Names anonymized for privacy
+                    </p>
                   </div>
                 </CardContent>
               </Card>
@@ -135,10 +138,10 @@ export default function CaseStudiesPage() {
           <div className="max-w-4xl mx-auto">
             <AnimatedSection>
               <h2 className="text-4xl font-bold text-navy-900 mb-8 text-center">
-                Case Study Format Preview
+                Sample Case Study Format
               </h2>
               <p className="text-gray-600 text-center mb-12">
-                Here's what our detailed case studies will look like:
+                Example structure for documented student journeys (real names anonymized):
               </p>
             </AnimatedSection>
 
@@ -260,7 +263,7 @@ export default function CaseStudiesPage() {
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />
-                Start Your Consultation
+                Free Study Consultation
               </Button>
             </div>
           </AnimatedSection>

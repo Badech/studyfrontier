@@ -262,7 +262,7 @@ export default function PathwaysPage() {
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />
-                Discuss Pathway Options
+                Apply via WhatsApp
               </Button>
             </div>
           </AnimatedSection>

@@ -351,6 +351,39 @@ export default function I20GuidePage() {
         </div>
       </section>
 
+      {/* Sources Section */}
+      <section className="py-12 bg-gray-50 border-t">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <AnimatedSection>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-semibold text-navy-900 mb-4">Official Sources & References</h3>
+                <p className="text-sm text-gray-600 mb-4">
+                  <strong>Last updated:</strong> January 2025
+                </p>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>
+                    • <a href="https://studyinthestates.dhs.gov/students" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Study in the States (DHS Official Site)</a>
+                  </li>
+                  <li>
+                    • <a href="https://www.ice.gov/sevis" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SEVIS - Student and Exchange Visitor Program</a>
+                  </li>
+                  <li>
+                    • <a href="https://www.fmjfee.com/i901fee/index.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SEVIS I-901 Fee Payment System</a>
+                  </li>
+                  <li>
+                    • <a href="https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">U.S. Department of State - Student Visa</a>
+                  </li>
+                </ul>
+                <p className="text-xs text-gray-500 mt-4">
+                  Note: I-20 requirements and SEVIS fees are subject to change. Always verify current information with your designated school official (DSO).
+                </p>
+              </div>
+            </AnimatedSection>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-gradient-to-br from-navy-900 to-navy-700 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -364,7 +397,7 @@ export default function I20GuidePage() {
               </p>
               <Button variant="premium" size="xl" onClick={handleWhatsAppClick}>
                 <MessageCircle className="h-5 w-5" />
-                Get I-20 Application Help
+                Apply via WhatsApp
               </Button>
             </div>
           </AnimatedSection>

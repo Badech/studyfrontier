@@ -115,15 +115,23 @@ export default function ServicesPage() {
           </AnimatedSection>
 
           <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              {[1, 2, 3, 4, 5, 6].map((step, index) => (
-                <AnimatedSection key={step} delay={index * 0.1}>
-                  <div className="flex items-start gap-6">
+            <div className="space-y-6">
+              {[
+                { step: 1, title: 'Discovery & Profile Assessment', description: 'We evaluate your academic background, goals, and eligibility for US universities.' },
+                { step: 2, title: 'University Matching & Selection', description: 'Identify schools that match your profile, budget, and program interests.' },
+                { step: 3, title: 'Application Preparation', description: 'Complete applications, essays, recommendations, and required documents.' },
+                { step: 4, title: 'I-20 Document Processing', description: 'Receive your I-20 from your admitted university to begin visa process.' },
+                { step: 5, title: 'F-1 Visa Preparation', description: 'SEVIS payment, DS-160 form, interview preparation, and document review.' },
+                { step: 6, title: 'Pre-Departure Support', description: 'Travel planning, housing, orientation, and final preparations for your journey.' }
+              ].map((item, index) => (
+                <AnimatedSection key={item.step} delay={index * 0.1}>
+                  <div className="flex items-start gap-6 bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-gold-400 to-gold-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-                      {step}
+                      {item.step}
                     </div>
-                    <div className="flex-1 pt-1">
-                      <div className="h-1 w-full bg-gradient-to-r from-gold-400 to-transparent rounded" />
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-navy-900 mb-2">{item.title}</h3>
+                      <p className="text-gray-600">{item.description}</p>
                     </div>
                   </div>
                 </AnimatedSection>

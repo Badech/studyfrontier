@@ -12,7 +12,7 @@
       "title": "Votre Passerelle vers les Universités Américaines",
       "subtitle": "Conseil professionnel pour les étudiants internationaux en quête d'excellence académique à l'étranger",
       "description": "Services de conseil en éducation reliant les étudiants avec des universités américaines accréditées via des parcours académiques légitimes.",
-      "cta": "Planifier une Consultation"
+      "cta": "Consultation Gratuite"
     },
     "trust": {
       "title": "Confiance & Transparence",
@@ -63,7 +63,7 @@
     "cta": {
       "title": "Prêt à Commencer ?",
       "subtitle": "Connectez-vous avec nos conseillers pour explorer vos options",
-      "button": "Planifier une Consultation"
+      "button": "Consultation Gratuite"
     }
   },
   "about": {
@@ -163,7 +163,7 @@
     "whatsapp": {
       "title": "Connectez-vous via WhatsApp",
       "description": "Le moyen le plus rapide de commencer est de nous contacter directement. Nos conseillers sont disponibles pour répondre à vos questions et vous guider dans les prochaines étapes.",
-      "button": "Envoyez-nous un Message sur WhatsApp",
+      "button": "Postuler via WhatsApp",
       "number": "+212 708 026 571"
     },
     "what_to_expect": {
@@ -197,7 +197,7 @@
     "whatsapp": {
       "title": "Préférez WhatsApp ?",
       "description": "Pour une assistance immédiate, contactez-nous sur WhatsApp.",
-      "button": "Discuter avec Nous"
+      "button": "Postuler via WhatsApp"
     }
   },
   "footer": {
