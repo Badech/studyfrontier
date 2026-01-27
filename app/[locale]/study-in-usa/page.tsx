@@ -33,14 +33,14 @@ export default function StudyInUSAPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative py-24 bg-gradient-to-br from-navy-900 via-blue-900 to-navy-800 text-white">
+      <section className="relative py-24 md:py-32 bg-gradient-to-br from-navy-900 via-blue-900 to-navy-800 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="max-w-4xl mx-auto text-center space-y-6">
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+            <div className="max-w-4xl mx-auto text-center space-y-4 md:space-y-6">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight">
                 {t('hero.title')}
               </h1>
-              <p className="text-xl md:text-2xl text-gray-200">
+              <p className="text-lg md:text-xl lg:text-2xl text-gray-200 leading-relaxed">
                 {t('hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
@@ -48,7 +48,7 @@ export default function StudyInUSAPage() {
                   variant="premium"
                   size="xl"
                   onClick={handleWhatsAppClick}
-                  className="text-lg"
+                  className="text-lg min-h-[52px] px-8 py-4"
                 >
                   <MessageCircle className="h-5 w-5" />
                   {t('hero.cta')}
@@ -65,7 +65,7 @@ export default function StudyInUSAPage() {
       {/* Quick Stats */}
       <section className="py-12 bg-white border-b">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 max-w-5xl mx-auto">
             <AnimatedSection delay={0.1}>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gold-600 mb-2">4,000+</div>
@@ -144,7 +144,7 @@ export default function StudyInUSAPage() {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mt-8">
                 <Card>
                   <CardHeader>
                     <TrendingUp className="h-8 w-8 text-gold-600 mb-2" />
