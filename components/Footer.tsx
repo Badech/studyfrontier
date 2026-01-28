@@ -28,18 +28,15 @@ export function Footer({ locale }: { locale: string }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand Column */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="relative flex items-center justify-center">
-                <Image 
-                  src="/logo.png" 
-                  alt="StudyFrontier Logo" 
-                  width={40} 
-                  height={40}
-                  sizes="(max-width: 640px) 24px, (max-width: 1024px) 32px, 36px"
-                  className="w-6 h-6 sm:w-8 sm:h-8 lg:w-9 lg:h-9"
-                />
-              </div>
-              <span className="font-bold text-xl">StudyFrontier</span>
+            <div className="flex items-center">
+              <Image 
+                src="/brand/logo-full.svg" 
+                alt="StudyFrontier Logo" 
+                width={2048} 
+                height={1024}
+                sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 280px"
+                className="h-12 w-auto sm:h-14 lg:h-16"
+              />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               {footer('description')}

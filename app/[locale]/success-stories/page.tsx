@@ -184,7 +184,7 @@ export default function SuccessStoriesPage() {
                             </div>
                           </div>
                           <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                            {story.tags.map(tag => (
+                            {story.tags.map((tag: string) => (
                               <span key={tag} className="px-3 py-1 bg-gold-100 text-gold-800 rounded-full text-sm font-medium">
                                 {tag}
                               </span>

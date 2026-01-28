@@ -59,8 +59,8 @@ export function Header({ locale }: { locale: string }) {
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-md py-3'
-          : 'bg-white/90 backdrop-blur-sm py-5'
+          ? 'bg-white/95 backdrop-blur-md shadow-md py-3 sm:py-4'
+          : 'bg-white/90 backdrop-blur-sm py-4 sm:py-5 lg:py-6'
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -68,18 +68,18 @@ export function Header({ locale }: { locale: string }) {
           {/* Logo */}
           <Link 
             href={`/${locale}`} 
-            className="flex items-center gap-3 group focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 rounded-lg"
+            className="flex items-center gap-2 group focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 rounded-lg py-1"
             aria-label="StudyFrontier Home"
           >
             <div className="relative flex items-center justify-center transition-transform group-hover:scale-105">
               <Image 
-                src="/logo.png" 
+                src="/brand/logo-full.svg" 
                 alt="StudyFrontier Logo" 
-                width={48} 
-                height={48}
+                width={2048} 
+                height={1024}
                 priority
-                sizes="(max-width: 640px) 28px, (max-width: 1024px) 36px, 40px"
-                className="w-7 h-7 sm:w-9 sm:h-9 lg:w-10 lg:h-10"
+                sizes="(max-width: 640px) 200px, (max-width: 1024px) 300px, 400px"
+                className="h-12 w-auto sm:h-16 lg:h-20"
               />
             </div>
           </Link>
@@ -184,21 +184,21 @@ export function Header({ locale }: { locale: string }) {
       <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
         <SheetContent 
           side="right" 
-          className="w-[85vw] sm:w-[400px] p-0 h-screen flex flex-col"
+          className="w-[85vw] sm:w-[400px] p-0 flex flex-col h-full"
           aria-describedby="mobile-menu-description"
         >
-          <SheetHeader className="px-6 pt-6 pb-4 border-b">
+          <SheetHeader className="px-6 pt-6 pb-4 border-b flex-shrink-0">
             <SheetTitle className="text-left">Navigation Menu</SheetTitle>
             <p id="mobile-menu-description" className="sr-only">
               Main navigation menu with links to all pages, language selector, and contact options
             </p>
           </SheetHeader>
           
-          <div className="flex flex-col h-full min-h-0">
-            {/* Navigation Links */}
+          <div className="flex flex-col flex-1 overflow-hidden">
+            {/* Navigation Links - Scrollable Area */}
             <nav 
               id="mobile-menu"
-              className="flex flex-col py-4 flex-1 overflow-y-auto overscroll-contain"
+              className="flex flex-col py-4 flex-1 overflow-y-auto"
               aria-label="Main navigation"
               role="navigation"
             >
@@ -225,7 +225,7 @@ export function Header({ locale }: { locale: string }) {
             </nav>
 
             {/* Language Switcher - Mobile */}
-            <div className="border-t px-6 py-4" role="region" aria-label="Language selector">
+            <div className="border-t px-6 py-4 flex-shrink-0" role="region" aria-label="Language selector">
               <div className="flex items-center gap-2 mb-3 text-sm font-medium text-gray-500">
                 <Globe className="h-4 w-4" aria-hidden="true" />
                 <span>Language / Langue / اللغة</span>
@@ -254,7 +254,7 @@ export function Header({ locale }: { locale: string }) {
             </div>
 
             {/* WhatsApp CTA */}
-            <div className="border-t px-6 py-4">
+            <div className="border-t px-6 py-4 pb-[env(safe-area-inset-bottom,1rem)] flex-shrink-0">
               <Button
                 variant="premium"
                 size="lg"

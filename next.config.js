@@ -7,14 +7,11 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
   images: {
     remotePatterns: [],
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // Build will now fail on TypeScript and ESLint errors (as it should)
 };
  
 const sentryWebpackPluginOptions = {

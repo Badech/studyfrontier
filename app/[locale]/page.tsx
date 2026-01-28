@@ -7,6 +7,8 @@ import { AnimatedSection } from '@/components/AnimatedSection';
 import { LeadMagnet } from '@/components/LeadMagnet';
 import { StudyQuiz } from '@/components/StudyQuiz';
 import { ExitIntentPopup } from '@/components/ExitIntentPopup';
+import { TestimonialsSection } from '@/components/TestimonialsSection';
+import { UniversityLogos } from '@/components/UniversityLogos';
 import {
   GraduationCap,
   Shield,
@@ -256,6 +258,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* University Logos Section */}
+      <UniversityLogos />
+
+      {/* Student Testimonials Section */}
+      <TestimonialsSection showStats maxTestimonials={6} />
 
       {/* Lead Magnet Section */}
       <LeadMagnet />

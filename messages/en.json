@@ -840,30 +840,129 @@
       "message": "Check your email for the checklist. You can close this window."
     }
   },
-  "metadata": {
-    "home": {
-      "title": "StudyFrontier | U.S. University Admissions Consulting",
-      "description": "Expert international education consulting connecting students with accredited U.S. universities. Professional guidance for F-1 visa and university admissions."
-    },
-    "about": {
-      "title": "About Us | StudyFrontier",
-      "description": "Learn about StudyFrontier's mission to connect international students with quality U.S. universities through ethical, transparent consulting."
-    },
-    "services": {
-      "title": "Our Services | StudyFrontier",
-      "description": "Comprehensive study abroad services: university selection, admissions support, F-1 visa preparation, and pathway programs."
-    },
-    "faqs": {
-      "title": "FAQs | StudyFrontier",
-      "description": "Common questions about studying in the U.S., university admissions, and F-1 visa processes answered by our expert advisors."
-    },
-    "apply": {
-      "title": "Apply Now | StudyFrontier",
-      "description": "Begin your journey to U.S. universities. Connect with our advisors on WhatsApp for personalized guidance."
-    },
-    "contact": {
-      "title": "Contact Us | StudyFrontier",
-      "description": "Get in touch with StudyFrontier's international education advisors. Based in Kenitra, Morocco, serving students worldwide."
+  "home": {
+    "seo": {
+      "title": "U.S. University Admissions for International Students | StudyFrontier",
+      "description": "Get accepted to accredited U.S. universities with expert guidance. We help international students navigate admissions, F-1 visas, and pathway programs. Free consultation."
     }
+  },
+  "about": {
+    "seo": {
+      "title": "About Our International Education Consulting | StudyFrontier",
+      "description": "Ethical, transparent consulting connecting students with accredited U.S. universities. No false promises—just proven expertise in admissions and F-1 visa support."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "U.S. University Application Services | Admissions & Visa Help",
+      "description": "Complete support for studying in the USA: university selection, application essays, F-1 visa preparation, pathway programs, and pre-departure guidance."
+    }
+  },
+  "studyInUSA": {
+    "seo": {
+      "title": "Study in USA Guide for International Students | Requirements & Process",
+      "description": "Everything you need to study in America: admission requirements, F-1 visa process, costs, scholarships, and university selection. Expert guidance from Morocco."
+    }
+  },
+  "resources": {
+    "seo": {
+      "title": "Free Study Abroad Resources | F-1 Visa Guides & Checklists",
+      "description": "Download free F-1 visa checklists, I-20 guides, and university application resources. Expert advice for international students applying to U.S. universities."
+    }
+  },
+  "successStories": {
+    "seo": {
+      "title": "Student Success Stories | U.S. University Acceptances",
+      "description": "Real stories from international students who got accepted to top U.S. universities with our guidance. See where our students are studying today."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact Our U.S. University Admissions Advisors | Free Consultation",
+      "description": "Speak with our international education consultants based in Kenitra, Morocco. Get expert help with U.S. university admissions and F-1 visa applications. WhatsApp available."
+    }
+  },
+  "whyUs": {
+    "seo": {
+      "title": "Why Choose StudyFrontier | Ethical U.S. University Consulting",
+      "description": "No false guarantees. No unrealistic promises. Just honest, expert guidance to accredited U.S. universities. See why students trust our international education consulting."
+    }
+  },
+  "whoWeWorkWith": {
+    "seo": {
+      "title": "Who We Help | International Students Seeking U.S. Universities",
+      "description": "We work with Moroccan and international students pursuing undergraduate, master's, pathway, and ESL programs at accredited U.S. universities."
+    }
+  },
+  "caseStudies": {
+    "seo": {
+      "title": "Case Studies | How We Help Students Get U.S. University Admissions",
+      "description": "Detailed case studies showing our approach to helping international students gain admission to U.S. universities and secure F-1 visas."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Study Abroad Blog | U.S. University Admissions Insights",
+      "description": "Expert articles on U.S. university admissions, F-1 visa guidance, student life in America, and international education consulting tips."
+    }
+  },
+  "apply": {
+    "seo": {
+      "title": "Start Your U.S. University Application | Free Consultation",
+      "description": "Ready to study in America? Connect with our advisors on WhatsApp for a free consultation. Get personalized guidance on admissions and F-1 visas."
+    }
+  },
+  "faqs": {
+    "seo": {
+      "title": "U.S. University Admissions FAQs | Common Student Questions Answered",
+      "description": "Get answers to frequently asked questions about studying in the USA, F-1 visa requirements, university applications, costs, and more from our expert advisors."
+    }
+  },
+  "programs": {
+    "undergraduate": {
+      "seo": {
+        "title": "Undergraduate Programs in USA | Bachelor's Degree Admissions Help",
+        "description": "Apply to accredited U.S. undergraduate programs with expert guidance. We help international students navigate SAT requirements, applications, and F-1 visas."
+      }
+    },
+    "masters": {
+      "seo": {
+        "title": "Master's Degree Programs in USA | Graduate School Admissions",
+        "description": "Get accepted to U.S. graduate programs with expert support. We assist with GRE prep, application essays, recommendations, and F-1 visa applications for master's students."
+      }
+    },
+    "pathways": {
+      "seo": {
+        "title": "Pathway Programs to U.S. Universities | Conditional Admission",
+        "description": "Access U.S. universities through pathway programs. Improve your English and academic skills while earning credits toward your degree. F-1 visa support included."
+      }
+    }
+  },
+  "f1VisaChecklist": {
+    "seo": {
+      "title": "Complete F-1 Visa Checklist for Moroccan Students | Required Documents",
+      "description": "Download our comprehensive F-1 student visa checklist. Every document you need for your U.S. visa interview, organized by category with expert tips."
+    }
+  },
+  "i20Guide": {
+    "seo": {
+      "title": "I-20 Form Guide | How to Get Your U.S. Student Visa Document",
+      "description": "Complete guide to obtaining your I-20 Certificate of Eligibility for F-1 student visa. Learn what it is, how to get it, and what to do if there are errors."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Students Say",
+    "subtitle": "Real stories from students who achieved their dream of studying in the USA",
+    "badge": "All testimonials are from real students",
+    "stats": {
+      "students": "Students Helped",
+      "successRate": "Success Rate",
+      "universities": "Universities",
+      "countries": "Countries"
+    }
+  },
+  "universities": {
+    "header": "Our Students Have Been Accepted To",
+    "disclaimer": "University logos are trademarks of their respective institutions. Shown to indicate where our students have been accepted, not to imply official partnerships."
   }
 }

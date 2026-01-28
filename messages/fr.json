@@ -839,30 +839,129 @@
       "message": "Vérifiez votre e-mail pour la checklist. Vous pouvez fermer cette fenêtre."
     }
   },
-  "metadata": {
-    "home": {
-      "title": "StudyFrontier | Conseil en Admissions Universitaires Américaines",
-      "description": "Conseil expert en éducation internationale reliant les étudiants avec des universités américaines accréditées. Accompagnement professionnel pour le visa F-1 et les admissions."
-    },
-    "about": {
-      "title": "À Propos | StudyFrontier",
-      "description": "Découvrez la mission de StudyFrontier de connecter les étudiants internationaux avec des universités américaines de qualité par un conseil éthique et transparent."
-    },
-    "services": {
-      "title": "Nos Services | StudyFrontier",
-      "description": "Services complets d'études à l'étranger : sélection universitaire, soutien aux admissions, préparation au visa F-1 et programmes passerelles."
-    },
-    "faqs": {
-      "title": "FAQ | StudyFrontier",
-      "description": "Questions courantes sur les études aux États-Unis, les admissions universitaires et les procédures de visa F-1 répondues par nos conseillers experts."
-    },
-    "apply": {
-      "title": "Postuler | StudyFrontier",
-      "description": "Commencez votre voyage vers les universités américaines. Connectez-vous avec nos conseillers sur WhatsApp pour des conseils personnalisés."
-    },
-    "contact": {
-      "title": "Contact | StudyFrontier",
-      "description": "Contactez les conseillers en éducation internationale de StudyFrontier. Basé à Kénitra, Maroc, au service d'étudiants du monde entier."
+  "home": {
+    "seo": {
+      "title": "Admissions Universitaires USA pour Étudiants Internationaux | StudyFrontier",
+      "description": "Intégrez des universités américaines accréditées avec un accompagnement expert. Nous aidons les étudiants internationaux avec les admissions, visa F-1 et programmes passerelles."
     }
+  },
+  "about": {
+    "seo": {
+      "title": "Notre Conseil en Éducation Internationale | StudyFrontier",
+      "description": "Conseil éthique et transparent reliant les étudiants aux universités américaines accréditées. Pas de fausses promesses—juste une expertise prouvée en admissions et visa F-1."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Services d'Application Universitaire USA | Admissions et Aide Visa",
+      "description": "Accompagnement complet pour étudier aux USA: sélection universitaire, essais d'application, préparation visa F-1, programmes passerelles et orientation pré-départ."
+    }
+  },
+  "studyInUSA": {
+    "seo": {
+      "title": "Guide pour Étudier aux USA | Exigences et Processus pour Étudiants Internationaux",
+      "description": "Tout ce qu'il faut pour étudier en Amérique: conditions d'admission, processus visa F-1, coûts, bourses, sélection universitaire. Expertise depuis le Maroc."
+    }
+  },
+  "resources": {
+    "seo": {
+      "title": "Ressources Gratuites Études à l'Étranger | Guides Visa F-1 et Checklists",
+      "description": "Téléchargez gratuitement des checklists visa F-1, guides I-20 et ressources d'application universitaire. Conseils d'experts pour étudiants internationaux aux USA."
+    }
+  },
+  "successStories": {
+    "seo": {
+      "title": "Témoignages d'Étudiants | Acceptations aux Universités Américaines",
+      "description": "Histoires réelles d'étudiants internationaux acceptés dans les meilleures universités américaines avec notre accompagnement. Découvrez où étudient nos étudiants."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contactez Nos Conseillers en Admissions USA | Consultation Gratuite",
+      "description": "Parlez avec nos consultants en éducation internationale basés à Kénitra, Maroc. Obtenez une aide experte pour admissions universitaires USA et visa F-1. WhatsApp disponible."
+    }
+  },
+  "whyUs": {
+    "seo": {
+      "title": "Pourquoi Choisir StudyFrontier | Conseil Universitaire USA Éthique",
+      "description": "Pas de fausses garanties. Pas de promesses irréalistes. Juste des conseils honnêtes et experts vers des universités américaines accréditées."
+    }
+  },
+  "whoWeWorkWith": {
+    "seo": {
+      "title": "Qui Nous Aidons | Étudiants Internationaux Recherchant des Universités USA",
+      "description": "Nous travaillons avec des étudiants marocains et internationaux poursuivant des programmes undergraduate, master's, passerelles et ESL dans des universités américaines accréditées."
+    }
+  },
+  "caseStudies": {
+    "seo": {
+      "title": "Études de Cas | Comment Nous Aidons les Étudiants à Obtenir des Admissions USA",
+      "description": "Études de cas détaillées montrant notre approche pour aider les étudiants internationaux à obtenir l'admission dans les universités américaines et visa F-1."
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog Études à l'Étranger | Insights Admissions Universitaires USA",
+      "description": "Articles experts sur les admissions universitaires USA, conseils visa F-1, vie étudiante en Amérique et conseils en conseil éducatif international."
+    }
+  },
+  "apply": {
+    "seo": {
+      "title": "Commencez Votre Application Universitaire USA | Consultation Gratuite",
+      "description": "Prêt à étudier en Amérique? Contactez nos conseillers sur WhatsApp pour une consultation gratuite. Obtenez des conseils personnalisés sur admissions et visa F-1."
+    }
+  },
+  "faqs": {
+    "seo": {
+      "title": "FAQ Admissions Universitaires USA | Questions Fréquentes des Étudiants",
+      "description": "Réponses aux questions fréquentes sur les études aux USA, exigences visa F-1, applications universitaires, coûts et plus de nos conseillers experts."
+    }
+  },
+  "programs": {
+    "undergraduate": {
+      "seo": {
+        "title": "Programmes Undergraduate aux USA | Aide Admissions Bachelor",
+        "description": "Postulez aux programmes undergraduate américains accrédités avec accompagnement expert. Nous aidons les étudiants internationaux avec SAT, applications et visa F-1."
+      }
+    },
+    "masters": {
+      "seo": {
+        "title": "Programmes Master aux USA | Admissions Graduate School",
+        "description": "Intégrez des programmes graduate américains avec support expert. Nous assistons avec préparation GRE, essais d'application, recommandations et visa F-1 pour master's."
+      }
+    },
+    "pathways": {
+      "seo": {
+        "title": "Programmes Passerelles vers Universités USA | Admission Conditionnelle",
+        "description": "Accédez aux universités américaines via programmes passerelles. Améliorez votre anglais et compétences académiques tout en gagnant des crédits. Support visa F-1 inclus."
+      }
+    }
+  },
+  "f1VisaChecklist": {
+    "seo": {
+      "title": "Checklist Complète Visa F-1 pour Étudiants Marocains | Documents Requis",
+      "description": "Téléchargez notre checklist complète pour visa étudiant F-1. Tous les documents nécessaires pour votre interview visa USA, organisés par catégorie avec conseils d'experts."
+    }
+  },
+  "i20Guide": {
+    "seo": {
+      "title": "Guide Formulaire I-20 | Comment Obtenir Votre Document Visa Étudiant USA",
+      "description": "Guide complet pour obtenir votre Certificat d'Éligibilité I-20 pour visa étudiant F-1. Apprenez ce que c'est, comment l'obtenir et que faire en cas d'erreurs."
+    }
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Étudiants",
+    "subtitle": "Histoires réelles d'étudiants qui ont réalisé leur rêve d'étudier aux USA",
+    "badge": "Tous les témoignages proviennent de vrais étudiants",
+    "stats": {
+      "students": "Étudiants Aidés",
+      "successRate": "Taux de Réussite",
+      "universities": "Universités",
+      "countries": "Pays"
+    }
+  },
+  "universities": {
+    "header": "Nos Étudiants Ont Été Acceptés À",
+    "disclaimer": "Les logos universitaires sont des marques commerciales de leurs institutions respectives. Affichés pour indiquer où nos étudiants ont été acceptés, pas pour impliquer des partenariats officiels."
   }
 }

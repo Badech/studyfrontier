@@ -1,0 +1,149 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- StudyFrontier Premium Icon Mark -->
+  <!-- "The Learning Compass" - Navigation through Global Education -->
+  <!-- Distinctive, memorable, ownable - instantly recognizable -->
+  
+  <defs>
+    <!-- Gold gradient for accent elements -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C5A572;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Navy gradient for depth -->
+    <linearGradient id="navyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(512, 512)">
+    
+    <!-- Outer compass ring - global reach circle -->
+    <circle 
+      cx="0" 
+      cy="0" 
+      r="380" 
+      stroke="#1e3a8a" 
+      stroke-width="50" 
+      fill="none"
+      opacity="0.2"/>
+    
+    <!-- Inner compass ring - focus and guidance -->
+    <circle 
+      cx="0" 
+      cy="0" 
+      r="320" 
+      stroke="#1e3a8a" 
+      stroke-width="30" 
+      fill="none"
+      opacity="0.15"/>
+    
+    <!-- NORTH POINT: Rising star/graduation cap peak (gold - success/achievement) -->
+    <path 
+      d="M 0,-340 L 50,-240 L 0,-260 L -50,-240 Z" 
+      fill="url(#goldGradient)"
+      opacity="0.95"/>
+    
+    <!-- North book page (open knowledge) -->
+    <path 
+      d="M -15,-260 Q 0,-320 15,-260" 
+      stroke="#1e3a8a" 
+      stroke-width="35" 
+      fill="none"
+      stroke-linecap="round"/>
+    
+    <!-- EAST POINT: Forward movement (arrow right - frontier/progress) -->
+    <path 
+      d="M 240,0 L 340,-60 L 340,60 Z" 
+      fill="url(#navyGradient)"
+      opacity="0.9"/>
+    
+    <!-- East book page -->
+    <path 
+      d="M 260,-15 Q 320,0 260,15" 
+      stroke="url(#goldGradient)" 
+      stroke-width="25" 
+      fill="none"
+      stroke-linecap="round"
+      opacity="0.6"/>
+    
+    <!-- SOUTH POINT: Foundation/roots (grounding) -->
+    <path 
+      d="M 0,260 L 40,340 L 0,320 L -40,340 Z" 
+      fill="#1e3a8a"
+      opacity="0.5"/>
+    
+    <!-- South book page -->
+    <path 
+      d="M -12,260 Q 0,310 12,260" 
+      stroke="#1e3a8a" 
+      stroke-width="28" 
+      fill="none"
+      stroke-linecap="round"
+      opacity="0.4"/>
+    
+    <!-- WEST POINT: Origins/starting point -->
+    <path 
+      d="M -260,-50 L -340,0 L -260,50 Z" 
+      fill="#1e3a8a"
+      opacity="0.6"/>
+    
+    <!-- West book page -->
+    <path 
+      d="M -260,-10 Q -310,0 -260,10" 
+      stroke="#1e3a8a" 
+      stroke-width="25" 
+      fill="none"
+      stroke-linecap="round"
+      opacity="0.3"/>
+    
+    <!-- CENTER: Open book core (knowledge at the heart) -->
+    <!-- Left page -->
+    <path 
+      d="M -120,-80 L -120,80 Q -120,120 -80,120 L 0,120" 
+      stroke="#1e3a8a" 
+      stroke-width="45" 
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+    
+    <!-- Right page -->
+    <path 
+      d="M 120,-80 L 120,80 Q 120,120 80,120 L 0,120" 
+      stroke="#1e3a8a" 
+      stroke-width="45" 
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+    
+    <!-- Book spine/binding -->
+    <line 
+      x1="0" 
+      y1="-80" 
+      x2="0" 
+      y2="120" 
+      stroke="url(#goldGradient)" 
+      stroke-width="20"
+      stroke-linecap="round"
+      opacity="0.8"/>
+    
+    <!-- Book pages detail (multiple pages illusion) -->
+    <line x1="-90" y1="-50" x2="-90" y2="90" stroke="#1e3a8a" stroke-width="8" opacity="0.3" stroke-linecap="round"/>
+    <line x1="-70" y1="-60" x2="-70" y2="95" stroke="#1e3a8a" stroke-width="8" opacity="0.3" stroke-linecap="round"/>
+    <line x1="90" y1="-50" x2="90" y2="90" stroke="#1e3a8a" stroke-width="8" opacity="0.3" stroke-linecap="round"/>
+    <line x1="70" y1="-60" x2="70" y2="95" stroke="#1e3a8a" stroke-width="8" opacity="0.3" stroke-linecap="round"/>
+    
+    <!-- Compass needle/pointer (navigation element) -->
+    <path 
+      d="M 0,-140 L 20,20 L 0,0 L -20,20 Z" 
+      fill="url(#goldGradient)"
+      opacity="0.85"/>
+    
+    <!-- Center compass pin -->
+    <circle cx="0" cy="0" r="25" fill="url(#goldGradient)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="12" fill="#1e3a8a"/>
+    
+  </g>
+  
+</svg>
