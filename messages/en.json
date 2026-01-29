@@ -109,6 +109,10 @@
     }
   },
   "services": {
+    "seo": {
+      "title": "Our Services - Study Abroad Consulting | StudyFrontier",
+      "description": "Comprehensive study abroad services including university selection, application support, visa preparation, and pre-departure guidance for US universities."
+    },
     "hero": {
       "title": "Our Services",
       "subtitle": "End-to-End Support for Your Study Abroad Journey"
@@ -764,6 +768,21 @@
       "transparent": "Transparent processes",
       "noGuarantees": "No visa guarantees"
     }
+  },
+  "testimonials": {
+    "title": "What Our Students Say",
+    "subtitle": "Real stories from students who achieved their dream of studying in the USA",
+    "stats": {
+      "students": "Students Helped",
+      "successRate": "Success Rate",
+      "universities": "Universities",
+      "countries": "Countries"
+    },
+    "badge": "All testimonials are from real students"
+  },
+  "universities": {
+    "header": "Our Students Have Been Accepted To",
+    "disclaimer": "University logos are trademarks of their respective institutions. Shown to indicate where our students have been accepted, not to imply official partnerships."
   },
   "whatsapp": {
     "float_text": "Free Consultation"

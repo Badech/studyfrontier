@@ -30,12 +30,10 @@ export function TestimonialsSection({
               <Users className="h-8 w-8 text-gold-600" aria-hidden="true" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-navy-900 tracking-tight">
-              {t('title', { default: 'What Our Students Say' })}
+              {t('title')}
             </h2>
             <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-              {t('subtitle', { 
-                default: 'Real stories from students who achieved their dream of studying in the USA' 
-              })}
+              {t('subtitle')}
             </p>
           </div>
         </AnimatedSection>
@@ -52,7 +50,7 @@ export function TestimonialsSection({
                   {testimonialStats.totalStudents}
                 </div>
                 <div className="text-xs md:text-sm text-gray-600 mt-1">
-                  {t('stats.students', { default: 'Students Helped' })}
+                  {t('stats.students')}
                 </div>
               </div>
 
@@ -64,7 +62,7 @@ export function TestimonialsSection({
                   {testimonialStats.successRate}
                 </div>
                 <div className="text-xs md:text-sm text-gray-600 mt-1">
-                  {t('stats.successRate', { default: 'Success Rate' })}
+                  {t('stats.successRate')}
                 </div>
               </div>
 
@@ -76,7 +74,7 @@ export function TestimonialsSection({
                   {testimonialStats.universities}
                 </div>
                 <div className="text-xs md:text-sm text-gray-600 mt-1">
-                  {t('stats.universities', { default: 'Universities' })}
+                  {t('stats.universities')}
                 </div>
               </div>
 
@@ -88,7 +86,7 @@ export function TestimonialsSection({
                   {testimonialStats.countries}
                 </div>
                 <div className="text-xs md:text-sm text-gray-600 mt-1">
-                  {t('stats.countries', { default: 'Countries' })}
+                  {t('stats.countries')}
                 </div>
               </div>
             </div>
@@ -112,7 +110,7 @@ export function TestimonialsSection({
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-sm border border-gray-200">
               <Award className="h-5 w-5 text-gold-600" aria-hidden="true" />
               <span className="text-sm font-medium text-gray-700">
-                {t('badge', { default: 'All testimonials are from real students' })}
+                {t('badge')}
               </span>
             </div>
           </div>

@@ -109,6 +109,10 @@
     }
   },
   "services": {
+    "seo": {
+      "title": "Nos Services - Conseil en Études à l'Étranger | StudyFrontier",
+      "description": "Services complets d'études à l'étranger incluant sélection universitaire, soutien aux candidatures, préparation au visa et orientation pré-départ pour les universités américaines."
+    },
     "hero": {
       "title": "Nos Services",
       "subtitle": "Accompagnement Complet pour Vos Études à l'Étranger"
@@ -763,6 +767,21 @@
       "transparent": "Processus transparents",
       "noGuarantees": "Aucune garantie de visa"
     }
+  },
+  "testimonials": {
+    "title": "Ce Que Nos Étudiants Disent",
+    "subtitle": "Histoires réelles d'étudiants qui ont réalisé leur rêve d'étudier aux États-Unis",
+    "stats": {
+      "students": "Étudiants Aidés",
+      "successRate": "Taux de Réussite",
+      "universities": "Universités",
+      "countries": "Pays"
+    },
+    "badge": "Tous les témoignages proviennent de vrais étudiants"
+  },
+  "universities": {
+    "header": "Nos Étudiants Ont Été Acceptés Dans",
+    "disclaimer": "Les logos universitaires sont des marques de commerce de leurs institutions respectives. Affichés pour indiquer où nos étudiants ont été acceptés, et non pour impliquer des partenariats officiels."
   },
   "whatsapp": {
     "float_text": "Consultation Gratuite"

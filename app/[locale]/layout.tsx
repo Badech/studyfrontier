@@ -1,4 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
+import { TranslationGuard } from '@/components/TranslationGuard';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
@@ -78,6 +79,7 @@ export default async function LocaleLayout({
           
           <Footer locale={locale} />
           <WhatsAppFloat />
+          <TranslationGuard />
         </NextIntlClientProvider>
       </body>
     </html>

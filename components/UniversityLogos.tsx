@@ -17,7 +17,7 @@ export function UniversityLogos() {
             <div className="inline-flex items-center gap-2 text-sm text-gray-500 mb-2">
               <GraduationCap className="h-4 w-4" aria-hidden="true" />
               <span className="uppercase tracking-wide font-medium">
-                {t('header', { default: 'Our Students Have Been Accepted To' })}
+                {t('header')}
               </span>
             </div>
           </div>
@@ -70,9 +70,7 @@ export function UniversityLogos() {
         <AnimatedSection delay={0.2}>
           <div className="mt-8 md:mt-10 text-center">
             <p className="text-xs text-gray-400 max-w-2xl mx-auto">
-              {t('disclaimer', { 
-                default: 'University logos are trademarks of their respective institutions. Shown to indicate where our students have been accepted, not to imply official partnerships.' 
-              })}
+              {t('disclaimer')}
             </p>
           </div>
         </AnimatedSection>
