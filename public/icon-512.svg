@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Android Chrome Icon 512x512 - High resolution -->
+  
+  <defs>
+    <linearGradient id="bg-grad-512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#172554;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold-grad-512" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" fill="url(#bg-grad-512)" rx="64"/>
+  
+  <!-- Gateway brackets (more detailed at this size) -->
+  <path d="M86 144 L86 368 L144 368 L144 336 L118 336 L118 176 L144 176 L144 144 Z" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M426 144 L426 368 L368 368 L368 336 L394 336 L394 176 L368 176 L368 144 Z" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Large central "F" -->
+  <path d="M186 186 H326 V246 H246 V272 H312 V332 H246 V384 H186 Z" fill="url(#gold-grad-512)"/>
+  
+  <!-- Forward momentum line (bridge) -->
+  <rect x="200" y="298" width="128" height="16" fill="url(#gold-grad-512)" opacity="0.6" rx="8"/>
+  
+  <!-- Subtle highlight for depth -->
+  <path d="M186 186 H326 V196 H196 V186 Z" fill="#FFFFFF" opacity="0.15"/>
+</svg>

@@ -7,7 +7,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { WhatsAppFloat } from '@/components/WhatsAppFloat';
 import { OrganizationSchema, ServiceSchema } from '@/components/Schema';
-import { inter, arabic } from '../layout';
+import { dmSans, inter, arabic } from '../layout';
 import '../globals.css';
 
 export function generateStaticParams() {
@@ -34,17 +34,34 @@ export default async function LocaleLayout({
   const fontClassName = `${inter.className} ${isRTL ? arabic.className : ''}`.trim();
 
   return (
-    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'} className={`${inter.variable} ${arabic.variable}`}>
+    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'} className={`${dmSans.variable} ${inter.variable} ${arabic.variable}`}>
       <head>
         <OrganizationSchema />
         <ServiceSchema />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        
+        {/* Modern SVG Favicon - Auto dark mode support */}
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="alternate icon" type="image/svg+xml" href="/favicon-light.svg" media="(prefers-color-scheme: dark)" />
+        
+        {/* Fallback PNG favicons for older browsers */}
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+        
+        {/* Apple Touch Icon - Premium design */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg" />
+        
+        {/* Android Chrome Icons */}
+        <link rel="icon" type="image/svg+xml" sizes="192x192" href="/icon-192.svg" />
+        <link rel="icon" type="image/svg+xml" sizes="512x512" href="/icon-512.svg" />
+        
+        {/* Web App Manifest */}
+        <link rel="manifest" href="/site.webmanifest" />
+        
+        {/* Theme Colors - Navy brand color */}
+        <meta name="theme-color" content="#172554" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#1e3a8a" media="(prefers-color-scheme: dark)" />
+        
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#1e3a8a" />
       </head>
       <body className={`${fontClassName} antialiased`}>
         <NextIntlClientProvider messages={messages}>

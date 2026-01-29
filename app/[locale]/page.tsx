@@ -36,58 +36,114 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero Section - py-24 md:py-32 */}
-      <section className="relative py-24 md:py-32 flex items-center justify-center bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 text-white overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
+      {/* Premium Hero Section - $5,000+ Consulting Brand */}
+      <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 text-white overflow-hidden">
+        {/* Subtle Grid Pattern */}
+        <div className="absolute inset-0 opacity-[0.03]">
           <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
+            backgroundImage: 'linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px)',
+            backgroundSize: '100px 100px'
           }} />
         </div>
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-8">
+        {/* Premium Gradient Orbs */}
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-gold-400/20 to-transparent rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-blue-400/10 to-transparent rounded-full blur-3xl" />
+
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20">
+          <div className="max-w-5xl mx-auto">
+            
+            {/* Eyebrow - International Trust Badge */}
             <AnimatedSection>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight">
-                {t('hero.title')}
+              <div className="flex items-center justify-center gap-3 mb-8">
+                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
+                  <Globe className="h-4 w-4 text-gold-400" />
+                  <span className="text-sm font-display font-semibold text-white">
+                    International Education Consulting
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-gold-400/10 backdrop-blur-sm border border-gold-400/30">
+                  <Shield className="h-4 w-4 text-gold-400" />
+                  <span className="text-sm font-display font-semibold text-gold-400">
+                    Accredited Universities Only
+                  </span>
+                </div>
+              </div>
+            </AnimatedSection>
+
+            {/* Powerful Headline */}
+            <AnimatedSection delay={0.1}>
+              <h1 className="hero-headline text-center mb-6">
+                We Get International Students
+                <br />
+                <span className="gold-gradient">Into U.S. Universities</span>
               </h1>
             </AnimatedSection>
 
-            <AnimatedSection delay={0.1}>
-              <p className="text-lg md:text-xl lg:text-2xl text-gray-200 font-light leading-relaxed max-w-3xl mx-auto">
-                {t('hero.subtitle')}
-              </p>
-            </AnimatedSection>
-
+            {/* Confident Subheading */}
             <AnimatedSection delay={0.2}>
-              <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                {t('hero.description')}
+              <p className="hero-subheadline text-center mx-auto text-white/90 mb-10">
+                Strategic consulting for ambitious students seeking legitimate pathways to accredited American universities. No shortcuts. No false promises. Just expert guidance that positions you for success.
               </p>
             </AnimatedSection>
 
+            {/* Strong CTA */}
             <AnimatedSection delay={0.3}>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="flex flex-col items-center gap-6">
                 <Button
                   variant="premium"
                   size="xl"
                   onClick={handleWhatsAppClick}
-                  className="text-lg font-semibold bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#20BA5A] hover:to-[#0F7A6A] text-white shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+                  className="text-lg px-10 py-7 h-auto"
                 >
-                  <MessageCircle className="h-5 w-5" />
-                  {t('hero.cta')}
+                  <MessageCircle className="h-6 w-6" />
+                  Book Your Free Consultation
                 </Button>
-                <p className="text-sm text-gray-300">
-                  ✓ Free consultation • ✓ Expert guidance
+                
+                {/* Trust Line */}
+                <p className="text-base text-white/70 font-body">
+                  Transparent guidance · Realistic pathways · Ethical practice
                 </p>
               </div>
             </AnimatedSection>
+
+            {/* Trust Indicators Row */}
+            <AnimatedSection delay={0.4}>
+              <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                {/* Indicator 1 */}
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm mb-4">
+                    <Users className="h-8 w-8 text-gold-400" />
+                  </div>
+                  <div className="stat-number text-white mb-2">500+</div>
+                  <div className="text-sm text-white/70 font-body">Students Guided</div>
+                </div>
+
+                {/* Indicator 2 */}
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm mb-4">
+                    <Building2 className="h-8 w-8 text-gold-400" />
+                  </div>
+                  <div className="stat-number text-white mb-2">50+</div>
+                  <div className="text-sm text-white/70 font-body">U.S. Universities</div>
+                </div>
+
+                {/* Indicator 3 */}
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm mb-4">
+                    <Award className="h-8 w-8 text-gold-400" />
+                  </div>
+                  <div className="stat-number text-white mb-2">98%</div>
+                  <div className="text-sm text-white/70 font-body">Success Rate</div>
+                </div>
+              </div>
+            </AnimatedSection>
+
           </div>
         </div>
 
-        {/* Decorative Elements */}
-        <div className="absolute top-20 right-10 w-72 h-72 bg-gold-400/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
+        {/* Bottom Fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
       </section>
 
       {/* Trust & Transparency Section - Feature importance: py-20 md:py-24 */}

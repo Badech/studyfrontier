@@ -57,14 +57,14 @@ export default function ServicesPageClient() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative py-24 md:py-32 bg-gradient-to-br from-navy-900 to-navy-700 text-white">
+      <section className="relative py-32 md:py-40 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="max-w-4xl mx-auto text-center space-y-4 md:space-y-6">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
+            <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-8">
+              <h1 className="hero-headline">
                 {t('hero.title')}
               </h1>
-              <p className="text-lg md:text-xl lg:text-2xl text-gray-200 leading-relaxed">
+              <p className="hero-subheadline mx-auto text-white/90">
                 {t('hero.subtitle')}
               </p>
             </div>
@@ -73,22 +73,22 @@ export default function ServicesPageClient() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20 bg-white">
+      <section className="py-20 md:py-32 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {services.map((service, index) => {
               const Icon = service.icon;
               return (
                 <AnimatedSection key={index} delay={service.delay}>
-                  <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/30">
+                  <Card className="h-full">
                     <CardHeader>
-                      <div className="w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg flex items-center justify-center mb-4">
-                        <Icon className="h-7 w-7 text-white" />
+                      <div className="w-16 h-16 bg-gradient-to-br from-gold-400 to-gold-600 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <Icon className="h-8 w-8 text-white" />
                       </div>
-                      <CardTitle className="text-2xl">{service.title}</CardTitle>
+                      <CardTitle>{service.title}</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-gray-600 leading-relaxed">
+                      <p className="text-navy-600 leading-relaxed">
                         {service.description}
                       </p>
                     </CardContent>
@@ -101,14 +101,14 @@ export default function ServicesPageClient() {
       </section>
 
       {/* Process Flow */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 md:py-32 bg-navy-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <div className="text-center max-w-3xl mx-auto mb-16">
-              <h2 className="text-4xl font-bold text-navy-900 mb-6">
+              <h2 className="section-title mb-6">
                 {t('process.title')}
               </h2>
-              <p className="text-lg text-gray-600">
+              <p className="section-subtitle mx-auto">
                 {t('process.subtitle')}
               </p>
             </div>
@@ -125,13 +125,13 @@ export default function ServicesPageClient() {
                 { step: 6, title: t('process.step6.title'), description: t('process.step6.description') }
               ].map((item, index) => (
                 <AnimatedSection key={item.step} delay={index * 0.1}>
-                  <div className="flex items-start gap-6 bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-gold-400 to-gold-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  <div className="flex items-start gap-6 bg-white p-8 rounded-2xl border-2 border-navy-100 hover:border-navy-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-2xl flex items-center justify-center text-white font-display font-bold text-xl shadow-lg">
                       {item.step}
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-xl font-semibold text-navy-900 mb-2">{item.title}</h3>
-                      <p className="text-gray-600">{item.description}</p>
+                      <h3 className="card-title mb-2">{item.title}</h3>
+                      <p className="text-navy-600 leading-relaxed">{item.description}</p>
                     </div>
                   </div>
                 </AnimatedSection>

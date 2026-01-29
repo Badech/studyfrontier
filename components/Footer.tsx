@@ -30,12 +30,12 @@ export function Footer({ locale }: { locale: string }) {
           <div className="space-y-4">
             <div className="flex items-center">
               <Image 
-                src="/brand/logo-full.svg" 
+                src="/brand/logo-wordmark-light.svg" 
                 alt="StudyFrontier Logo" 
-                width={2048} 
-                height={1024}
+                width={280} 
+                height={48}
                 sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 280px"
-                className="h-12 w-auto sm:h-14 lg:h-16"
+                className="h-10 w-auto sm:h-12"
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- Apple Touch Icon - Premium detailed version -->
+  
+  <!-- Navy background with subtle gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#172554;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with rounded corners for iOS -->
+  <rect width="180" height="180" fill="url(#bg-gradient)" rx="40"/>
+  
+  <!-- Gateway brackets (simplified but recognizable) -->
+  <path d="M30 50 L30 130 L50 130 L50 120 L40 120 L40 60 L50 60 L50 50 Z" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M150 50 L150 130 L130 130 L130 120 L140 120 L140 60 L130 60 L130 50 Z" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Large "F" in center with gold gradient -->
+  <path d="M65 65 H115 V85 H85 V95 H110 V115 H85 V135 H65 Z" fill="url(#gold-gradient)"/>
+  
+  <!-- Forward momentum line -->
+  <rect x="70" y="104" width="45" height="6" fill="url(#gold-gradient)" opacity="0.6" rx="3"/>
+</svg>

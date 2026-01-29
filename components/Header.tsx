@@ -73,13 +73,13 @@ export function Header({ locale }: { locale: string }) {
           >
             <div className="relative flex items-center justify-center transition-transform group-hover:scale-105">
               <Image 
-                src="/brand/logo-full.svg" 
+                src="/brand/logo-wordmark-dark.svg" 
                 alt="StudyFrontier Logo" 
-                width={2048} 
-                height={1024}
+                width={280} 
+                height={48}
                 priority
-                sizes="(max-width: 640px) 200px, (max-width: 1024px) 300px, 400px"
-                className="h-12 w-auto sm:h-16 lg:h-20"
+                sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 280px"
+                className="h-8 w-auto sm:h-10 lg:h-12"
               />
             </div>
           </Link>

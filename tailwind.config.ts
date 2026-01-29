@@ -19,7 +19,9 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-inter)', 'sans-serif'],
+        display: ['var(--font-display)', 'system-ui', 'sans-serif'],
+        body: ['var(--font-body)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-body)', 'system-ui', 'sans-serif'],
         arabic: ['var(--font-arabic)', 'sans-serif'],
       },
       colors: {
@@ -56,30 +58,31 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Premium Color System - Deep Navy, Pure White, Gold Accent
         navy: {
-          50: '#f0f4ff',
-          100: '#e0e7ff',
-          200: '#c7d2fe',
-          300: '#a5b4fc',
-          400: '#818cf8',
-          500: '#1e3a8a',
-          600: '#1e40af',
-          700: '#1d4ed8',
-          800: '#1e3a8a',
-          900: '#172554',
-          950: '#0f172a',
+          50: '#f8fafc',   // Lightest hint (backgrounds)
+          100: '#f1f5f9',  // Very light (subtle backgrounds)
+          200: '#e2e8f0',  // Light (borders, disabled states)
+          300: '#cbd5e1',  // Medium light (muted text)
+          400: '#94a3b8',  // Medium (secondary text)
+          500: '#64748b',  // Base gray (body text)
+          600: '#475569',  // Dark gray (important text)
+          700: '#334155',  // Darker (headings)
+          800: '#1e293b',  // Very dark (strong emphasis)
+          900: '#0f172a',  // Near black (primary dark)
+          950: '#020617',  // True black (maximum contrast)
         },
         gold: {
-          50: '#fffbeb',
-          100: '#fef3c7',
-          200: '#fde68a',
-          300: '#fcd34d',
-          400: '#fbbf24',
-          500: '#f59e0b',
-          600: '#d97706',
-          700: '#b45309',
-          800: '#92400e',
-          900: '#78350f',
+          50: '#fffbeb',   // Lightest tint
+          100: '#fef3c7',  // Very light
+          200: '#fde68a',  // Light
+          300: '#fcd34d',  // Medium light
+          400: '#fbbf24',  // Base gold (primary accent)
+          500: '#f59e0b',  // Rich gold (hover states)
+          600: '#d97706',  // Dark gold (active states)
+          700: '#b45309',  // Darker
+          800: '#92400e',  // Very dark
+          900: '#78350f',  // Darkest
         },
       },
       fontSize: {
