@@ -149,20 +149,16 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {section.items.map((item, itemIndex) => (
                       <AnimatedSection key={item.title} delay={itemIndex * 0.1}>
-                        <Link href={`/${params.locale}${item.link}`}>
-                          <Card className="h-full hover:shadow-xl transition-all duration-300 group cursor-pointer">
+                        {item.type === t('labels.comingSoon') ? (
+                          // Non-clickable card for coming soon items
+                          <Card className="h-full opacity-75 cursor-not-allowed">
                             <CardHeader>
                               <div className="flex items-start justify-between mb-2">
-                                <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                                  item.type === t('labels.comingSoon')
-                                    ? 'bg-gray-100 text-gray-600' 
-                                    : 'bg-gold-100 text-gold-800'
-                                }`}>
+                                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-600">
                                   {item.type}
                                 </span>
-                                <ExternalLink className="h-4 w-4 text-gray-400 group-hover:text-gold-600 transition-colors" />
                               </div>
-                              <CardTitle className="text-xl group-hover:text-gold-600 transition-colors">
+                              <CardTitle className="text-xl text-gray-600">
                                 {item.title}
                               </CardTitle>
                               <CardDescription className="text-sm mt-2">
@@ -170,7 +166,30 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
                               </CardDescription>
                             </CardHeader>
                             <CardContent>
-                              {item.type !== t('labels.comingSoon') && (
+                              <p className="text-sm text-gray-500 italic">
+                                {t('labels.availableSoon')}
+                              </p>
+                            </CardContent>
+                          </Card>
+                        ) : (
+                          // Clickable link for active items
+                          <Link href={`/${params.locale}${item.link}`}>
+                            <Card className="h-full hover:shadow-xl transition-all duration-300 group cursor-pointer">
+                              <CardHeader>
+                                <div className="flex items-start justify-between mb-2">
+                                  <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gold-100 text-gold-800">
+                                    {item.type}
+                                  </span>
+                                  <ExternalLink className="h-4 w-4 text-gray-400 group-hover:text-gold-600 transition-colors" />
+                                </div>
+                                <CardTitle className="text-xl group-hover:text-gold-600 transition-colors">
+                                  {item.title}
+                                </CardTitle>
+                                <CardDescription className="text-sm mt-2">
+                                  {item.description}
+                                </CardDescription>
+                              </CardHeader>
+                              <CardContent>
                                 <Button variant="ghost" size="sm" className="group-hover:text-gold-600">
                                   {item.type === t('labels.checklist') ? t('labels.download') : t('labels.readMore')}
                                   {item.type === t('labels.checklist') ? (
@@ -179,10 +198,10 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
                                     <ExternalLink className="h-4 w-4 ml-2" />
                                   )}
                                 </Button>
-                              )}
-                            </CardContent>
-                          </Card>
-                        </Link>
+                              </CardContent>
+                            </Card>
+                          </Link>
+                        )}
                       </AnimatedSection>
                     ))}
                   </div>

@@ -554,8 +554,9 @@
     },
     "labels": {
       "guide": "دليل",
-      "comingSoon": "قريبًا",
-      "checklist": "قائمة تحقق",
+      "comingSoon": "قريباً",
+      "availableSoon": "متاح قريباً",
+      "checklist": "قائمة مرجعية",
       "article": "مقالة",
       "download": "تحميل",
       "readMore": "اقرأ المزيد"

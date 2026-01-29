@@ -6,7 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test:crawl": "playwright test tests/crawl.spec.ts",
+    "test:crawl:quick": "playwright test tests/quick-crawl.spec.ts --reporter=line",
+    "test:crawl:full": "playwright test tests/full-crawl.spec.ts --reporter=line",
+    "test:a11y": "playwright test tests/a11y.spec.ts",
+    "test:all": "playwright test",
+    "audit": "npm run typecheck && npm run lint && npm run test:crawl && npm run test:a11y",
+    "audit:quick": "npm run typecheck && npm run lint"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
@@ -24,6 +32,8 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.58.0",
     "@types/node": "^20.11.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
@@ -32,6 +42,7 @@
     "eslint-config-next": "^14.2.0",
     "postcss": "^8.4.0",
     "tailwindcss": "^3.4.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.0"
   }
 }
