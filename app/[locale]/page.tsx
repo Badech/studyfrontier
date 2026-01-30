@@ -1,12 +1,3 @@
-import { generateMetadataForPage } from '@/lib/generateMetadataForPage';
-
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
-  return generateMetadataForPage(locale, {
-    namespace: 'home',
-    path: '/'
-  });
-}
-
 'use client';
 
 import { useTranslations } from 'next-intl';
