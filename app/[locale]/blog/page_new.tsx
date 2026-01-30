@@ -13,66 +13,84 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
   const articles = [
     {
       slug: 'study-in-usa-complete-guide',
-      title: 'Complete Guide to Studying in the USA from Morocco',
-      excerpt: 'Everything you need to know about applying to US universities, getting your F-1 visa, and succeeding as an international student.',
-      category: 'USA',
+      title: t('articles.studyInUSA.title'),
+      excerpt: t('articles.studyInUSA.excerpt'),
+      category: t('articles.studyInUSA.category'),
       date: '2024-01-15',
-      readTime: '12 min read',
+      readTime: t('articles.studyInUSA.readTime'),
       featured: true
     },
     {
       slug: 'f1-visa-interview-tips',
-      title: 'F-1 Visa Interview Tips: What Moroccan Students Need to Know',
-      excerpt: 'Ace your F-1 visa interview at the US Embassy in Casablanca with these proven tips and common questions.',
-      category: 'Visa',
+      title: t('articles.f1VisaInterview.title'),
+      excerpt: t('articles.f1VisaInterview.excerpt'),
+      category: t('articles.f1VisaInterview.category'),
       date: '2024-01-10',
-      readTime: '8 min read',
+      readTime: t('articles.f1VisaInterview.readTime'),
       featured: true
     },
     {
       slug: 'affordable-us-universities',
-      title: 'Top 10 Affordable US Universities for International Students',
-      excerpt: 'Quality education doesn\'t have to break the bank. Discover US universities with tuition under $20,000 per year.',
-      category: 'Universities',
+      title: t('articles.affordableUniversities.title'),
+      excerpt: t('articles.affordableUniversities.excerpt'),
+      category: t('articles.affordableUniversities.category'),
       date: '2024-01-05',
-      readTime: '10 min read',
+      readTime: t('articles.affordableUniversities.readTime'),
       featured: false
     },
     {
       slug: 'scholarships-moroccan-students',
-      title: 'Scholarships for Moroccan Students: 2024 Complete List',
-      excerpt: 'A comprehensive guide to scholarships available for Moroccan students studying in the USA.',
-      category: 'Scholarships',
+      title: t('articles.scholarships.title'),
+      excerpt: t('articles.scholarships.excerpt'),
+      category: t('articles.scholarships.category'),
       date: '2023-12-28',
-      readTime: '15 min read',
+      readTime: t('articles.scholarships.readTime'),
       featured: false
     },
     {
-      slug: 'pathway-programs-explained',
-      title: 'What Are Pathway Programs? Your Bridge to US Universities',
-      excerpt: 'If your English isn\'t quite ready for direct admission, pathway programs can help you get there.',
-      category: 'Pathways',
+      slug: 'cost-of-studying-usa',
+      title: t('articles.costOfStudying.title'),
+      excerpt: t('articles.costOfStudying.excerpt'),
+      category: t('articles.costOfStudying.category'),
       date: '2023-12-20',
-      readTime: '7 min read',
+      readTime: t('articles.costOfStudying.readTime'),
       featured: false
     },
     {
-      slug: 'masters-vs-undergraduate',
-      title: 'Master\'s vs Undergraduate: Which Should You Pursue in the USA?',
-      excerpt: 'Compare costs, requirements, and career outcomes to make the right decision for your future.',
-      category: 'Programs',
+      slug: 'stem-programs-usa',
+      title: t('articles.stemPrograms.title'),
+      excerpt: t('articles.stemPrograms.excerpt'),
+      category: t('articles.stemPrograms.category'),
       date: '2023-12-15',
-      readTime: '9 min read',
+      readTime: t('articles.stemPrograms.readTime'),
+      featured: false
+    },
+    {
+      slug: 'student-life-usa',
+      title: t('articles.studentLife.title'),
+      excerpt: t('articles.studentLife.excerpt'),
+      category: t('articles.studentLife.category'),
+      date: '2023-12-10',
+      readTime: t('articles.studentLife.readTime'),
+      featured: false
+    },
+    {
+      slug: 'application-timeline',
+      title: t('articles.applicationTimeline.title'),
+      excerpt: t('articles.applicationTimeline.excerpt'),
+      category: t('articles.applicationTimeline.category'),
+      date: '2023-12-05',
+      readTime: t('articles.applicationTimeline.readTime'),
       featured: false
     }
   ];
 
   const categories = [
-    { name: 'All Articles', count: articles.length },
-    { name: 'USA', count: articles.filter(a => a.category === 'USA').length },
-    { name: 'Visa', count: articles.filter(a => a.category === 'Visa').length },
-    { name: 'Universities', count: articles.filter(a => a.category === 'Universities').length },
-    { name: 'Scholarships', count: articles.filter(a => a.category === 'Scholarships').length }
+    { name: t('categories.all'), count: articles.length },
+    { name: t('categories.usa'), count: articles.filter(a => a.category === t('categories.usa')).length },
+    { name: t('categories.visa'), count: articles.filter(a => a.category === t('categories.visa')).length },
+    { name: t('categories.universities'), count: articles.filter(a => a.category === t('categories.universities')).length },
+    { name: t('categories.scholarships'), count: articles.filter(a => a.category === t('categories.scholarships')).length }
   ];
 
   return (
@@ -86,10 +104,10 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
                 <BookOpen className="h-8 w-8 text-navy-900" />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold">
-                Study Abroad Insights & Guides
+                {t('hero.title')}
               </h1>
               <p className="text-xl text-gray-200">
-                Expert advice on studying in the USA, visa processes, scholarships, and university admissions
+                {t('hero.subtitle')}
               </p>
             </div>
           </AnimatedSection>
@@ -202,20 +220,20 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
           <AnimatedSection>
             <Card className="max-w-3xl mx-auto bg-gradient-to-br from-navy-900 to-navy-700 text-white border-0">
               <CardHeader className="text-center">
-                <CardTitle className="text-3xl mb-4">Stay Updated</CardTitle>
+                <CardTitle className="text-3xl mb-4">{t('newsletter.title')}</CardTitle>
                 <CardDescription className="text-gray-200 text-lg">
-                  Get the latest guides, tips, and scholarship opportunities delivered to your inbox
+                  {t('newsletter.description')}
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <input
                     type="email"
-                    placeholder="Your email address"
+                    placeholder={t('newsletter.placeholder')}
                     className="flex-1 px-4 py-3 rounded-lg text-gray-900"
                   />
                   <Button variant="premium" size="lg">
-                    Subscribe
+                    {t('newsletter.button')}
                   </Button>
                 </div>
               </CardContent>

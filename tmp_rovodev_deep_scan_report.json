@@ -1,0 +1,1817 @@
+{
+  "timestamp": "2026-01-30T16:00:59.638Z",
+  "summary": {
+    "total": 127,
+    "high": 64,
+    "medium": 22,
+    "low": 41
+  },
+  "byFile": {
+    "app\\[locale]\\blog\\page.tsx": [
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 16,
+        "code": "title: 'Complete Guide to Studying in the USA from Morocco',",
+        "hardcodedText": "Complete Guide to Studying in the USA from Morocco",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 17,
+        "code": "excerpt: 'Everything you need to know about applying to US universities, getting your F-1 visa, and ",
+        "hardcodedText": "Everything you need to know about applying to US universities, getting your F-1 visa, and succeeding as an international student.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 26,
+        "code": "excerpt: 'Ace your F-1 visa interview at the US Embassy in Casablanca with these proven tips and com",
+        "hardcodedText": "Ace your F-1 visa interview at the US Embassy in Casablanca with these proven tips and common questions.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 34,
+        "code": "title: 'Top 10 Affordable US Universities for International Students',",
+        "hardcodedText": "Top 10 Affordable US Universities for International Students",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 43,
+        "code": "title: 'Scholarships for Moroccan Students: 2024 Complete List',",
+        "hardcodedText": "Scholarships for Moroccan Students: 2024 Complete List",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 44,
+        "code": "excerpt: 'A comprehensive guide to scholarships available for Moroccan students studying in the USA.",
+        "hardcodedText": "A comprehensive guide to scholarships available for Moroccan students studying in the USA.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 52,
+        "code": "title: 'What Are Pathway Programs? Your Bridge to US Universities',",
+        "hardcodedText": "What Are Pathway Programs? Your Bridge to US Universities",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 53,
+        "code": "excerpt: 'If your English isn\\'t quite ready for direct admission, pathway programs can help you get",
+        "hardcodedText": "If your English isn\\",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 61,
+        "code": "title: 'Master\\'s vs Undergraduate: Which Should You Pursue in the USA?',",
+        "hardcodedText": "s vs Undergraduate: Which Should You Pursue in the USA?",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 62,
+        "code": "excerpt: 'Compare costs, requirements, and career outcomes to make the right decision for your futur",
+        "hardcodedText": "Compare costs, requirements, and career outcomes to make the right decision for your future.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\blog\\page.tsx",
+        "line": 214,
+        "code": "placeholder=\"Your email address\"",
+        "hardcodedText": "Your email address",
+        "severity": "low"
+      }
+    ],
+    "app\\[locale]\\case-studies\\page.tsx": [
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 27,
+        "code": "title: 'From Morocco to US University: Engineering Program Success',",
+        "hardcodedText": "From Morocco to US University: Engineering Program Success",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 35,
+        "code": "description: 'What obstacles did the student face?',",
+        "hardcodedText": "What obstacles did the student face?",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 37,
+        "code": "'Academic challenge or gap',",
+        "hardcodedText": "Academic challenge or gap",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 45,
+        "code": "description: 'How did StudyFrontier help?',",
+        "hardcodedText": "How did StudyFrontier help?",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 47,
+        "code": "'Initial assessment and goal-setting',",
+        "hardcodedText": "Initial assessment and goal-setting",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 49,
+        "code": "'Application and essay guidance',",
+        "hardcodedText": "Application and essay guidance",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 50,
+        "code": "'Financial planning and documentation',",
+        "hardcodedText": "Financial planning and documentation",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 62,
+        "code": "'Currently enrolled and succeeding'",
+        "hardcodedText": "Currently enrolled and succeeding",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 65,
+        "code": "timeline: '8 months from consultation to enrollment',",
+        "hardcodedText": "8 months from consultation to enrollment",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 106,
+        "code": "'Detailed academic profiles and starting points',",
+        "hardcodedText": "Detailed academic profiles and starting points",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 108,
+        "code": "'Our strategic approach and recommendations',",
+        "hardcodedText": "Our strategic approach and recommendations",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 110,
+        "code": "'Application and essay strategies',",
+        "hardcodedText": "Application and essay strategies",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 111,
+        "code": "'Financial planning and documentation',",
+        "hardcodedText": "Financial planning and documentation",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\case-studies\\page.tsx",
+        "line": 113,
+        "code": "'Final outcomes and current status'",
+        "hardcodedText": "Final outcomes and current status",
+        "severity": "low"
+      }
+    ],
+    "app\\[locale]\\programs\\masters\\page.tsx": [
+      {
+        "file": "app\\[locale]\\programs\\masters\\page.tsx",
+        "line": 96,
+        "code": "A Master's degree is a postgraduate qualification that typically takes 1-2 years to complete. For Mo",
+        "hardcodedText": "s degree is a postgraduate qualification that typically takes 1-2 years to complete. For Moroccan students with a Licence (Bachelor",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\masters\\page.tsx",
+        "line": 180,
+        "code": "title: 'GRE or GMAT',",
+        "hardcodedText": "GRE or GMAT",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\programs\\masters\\page.tsx",
+        "line": 181,
+        "code": "description: 'GRE for most programs (minimum 310), GMAT for business programs (minimum 600). Some pr",
+        "hardcodedText": "GRE for most programs (minimum 310), GMAT for business programs (minimum 600). Some programs waive this requirement.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\masters\\page.tsx",
+        "line": 186,
+        "code": "description: 'TOEFL iBT 85+ or IELTS 7.0+. Higher scores (100+ TOEFL) needed for top programs.',",
+        "hardcodedText": "TOEFL iBT 85+ or IELTS 7.0+. Higher scores (100+ TOEFL) needed for top programs.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\masters\\page.tsx",
+        "line": 191,
+        "code": "description: '500-1000 word essay explaining your academic goals, research interests, and why this p",
+        "hardcodedText": "500-1000 word essay explaining your academic goals, research interests, and why this program.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\masters\\page.tsx",
+        "line": 196,
+        "code": "description: '2-3 letters from professors or employers who know your work well.',",
+        "hardcodedText": "2-3 letters from professors or employers who know your work well.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\masters\\page.tsx",
+        "line": 201,
+        "code": "description: 'Academic and professional experience, research, publications, projects.',",
+        "hardcodedText": "Academic and professional experience, research, publications, projects.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\masters\\page.tsx",
+        "line": 206,
+        "code": "description: 'Official transcripts from all universities attended, translated and evaluated.',",
+        "hardcodedText": "Official transcripts from all universities attended, translated and evaluated.",
+        "severity": "high"
+      }
+    ],
+    "app\\[locale]\\programs\\pathways\\page.tsx": [
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 136,
+        "code": "title: 'Apply to Pathway Program',",
+        "hardcodedText": "Apply to Pathway Program",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 137,
+        "code": "description: 'Apply with your academic transcripts. No TOEFL required for most programs. You may tak",
+        "hardcodedText": "Apply with your academic transcripts. No TOEFL required for most programs. You may take a placement test to determine your English level.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 143,
+        "code": "description: 'Get admitted to both the pathway program AND the degree program. Your I-20 will show b",
+        "hardcodedText": "Get admitted to both the pathway program AND the degree program. Your I-20 will show both programs.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 148,
+        "code": "title: 'Study English + Academic Skills',",
+        "hardcodedText": "Study English + Academic Skills",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 149,
+        "code": "description: 'Take intensive English courses plus some academic courses. Learn US academic writing, ",
+        "hardcodedText": "Take intensive English courses plus some academic courses. Learn US academic writing, presentation skills, and critical thinking.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 160,
+        "code": "title: 'Start Degree Program',",
+        "hardcodedText": "Start Degree Program",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 161,
+        "code": "description: 'Automatically progress to your Bachelor\\'s or Master\\'s program. Some pathway credits ",
+        "hardcodedText": "Automatically progress to your Bachelor\\",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 161,
+        "code": "description: 'Automatically progress to your Bachelor\\'s or Master\\'s program. Some pathway credits ",
+        "hardcodedText": "s program. Some pathway credits may count toward your degree.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 204,
+        "code": "benefit: 'Save time and money on test prep. Most pathways use internal placement tests.'",
+        "hardcodedText": "Save time and money on test prep. Most pathways use internal placement tests.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 209,
+        "code": "benefit: 'Once you complete the pathway, you\\'re automatically admitted to the degree program.'",
+        "hardcodedText": "Once you complete the pathway, you\\",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 214,
+        "code": "benefit: 'Learn US academic culture, writing styles, and classroom expectations.'",
+        "hardcodedText": "Learn US academic culture, writing styles, and classroom expectations.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 219,
+        "code": "benefit: 'Gradual adjustment to US education system before starting your degree.'",
+        "hardcodedText": "Gradual adjustment to US education system before starting your degree.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 224,
+        "code": "benefit: 'More individual attention and support during pathway program.'",
+        "hardcodedText": "More individual attention and support during pathway program.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 228,
+        "code": "title: 'Flexible Start Dates',",
+        "hardcodedText": "Flexible Start Dates",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+        "line": 229,
+        "code": "benefit: 'Multiple start dates per year (Fall, Spring, Summer) for most pathways.'",
+        "hardcodedText": "Multiple start dates per year (Fall, Spring, Summer) for most pathways.",
+        "severity": "high"
+      }
+    ],
+    "app\\[locale]\\programs\\undergraduate\\page.tsx": [
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 102,
+        "code": "A Bachelor's degree is a 4-year undergraduate program offered by US universities. It's equivalent to",
+        "hardcodedText": "s degree is a 4-year undergraduate program offered by US universities. It",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 165,
+        "code": "description: 'Completed Moroccan Baccalauréat with good grades (minimum 12/20, but 14+ recommended f",
+        "hardcodedText": "Completed Moroccan Baccalauréat with good grades (minimum 12/20, but 14+ recommended for competitive universities)",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 170,
+        "code": "description: 'TOEFL iBT 80+ or IELTS 6.5+. Some universities accept Duolingo English Test (100+)',",
+        "hardcodedText": "TOEFL iBT 80+ or IELTS 6.5+. Some universities accept Duolingo English Test (100+)",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 174,
+        "code": "title: 'SAT or ACT',",
+        "hardcodedText": "SAT or ACT",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 175,
+        "code": "description: 'Required by many universities. SAT: 1200+ competitive, 1400+ for top schools. Test-opt",
+        "hardcodedText": "Required by many universities. SAT: 1200+ competitive, 1400+ for top schools. Test-optional schools available.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 180,
+        "code": "description: 'Official high school transcripts translated to English and evaluated by credential eva",
+        "hardcodedText": "Official high school transcripts translated to English and evaluated by credential evaluation service",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 185,
+        "code": "description: 'Personal statement (Common App essay) plus supplemental essays for each university',",
+        "hardcodedText": "Personal statement (Common App essay) plus supplemental essays for each university",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 190,
+        "code": "description: '2-3 letters from teachers or counselors who know you well',",
+        "hardcodedText": "2-3 letters from teachers or counselors who know you well",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 195,
+        "code": "description: 'Bank statements showing $25k-70k depending on university for I-20 issuance',",
+        "hardcodedText": "Bank statements showing $25k-70k depending on university for I-20 issuance",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+        "line": 200,
+        "code": "description: 'Activities, leadership, volunteer work, sports, or work experience',",
+        "hardcodedText": "Activities, leadership, volunteer work, sports, or work experience",
+        "severity": "high"
+      }
+    ],
+    "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx": [
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 39,
+        "code": "'Valid passport (valid for at least 6 months beyond stay)',",
+        "hardcodedText": "Valid passport (valid for at least 6 months beyond stay)",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 40,
+        "code": "'Form I-20 from your US university',",
+        "hardcodedText": "Form I-20 from your US university",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 42,
+        "code": "'DS-160 confirmation page with barcode',",
+        "hardcodedText": "DS-160 confirmation page with barcode",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 52,
+        "code": "'Sponsor letter (if parents are sponsoring)',",
+        "hardcodedText": "Sponsor letter (if parents are sponsoring)",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 54,
+        "code": "'Tax returns or income proof',",
+        "hardcodedText": "Tax returns or income proof",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 67,
+        "code": "'Study plan or statement of purpose'",
+        "hardcodedText": "Study plan or statement of purpose",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 125,
+        "code": "placeholder=\"Enter your email address\"",
+        "hardcodedText": "Enter your email address",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 218,
+        "code": "tip: 'Answer questions directly and honestly. Don\\'t memorize scripts - speak naturally.'",
+        "hardcodedText": "Answer questions directly and honestly. Don\\",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 222,
+        "code": "tip: 'Demonstrate family, property, or job ties that show you\\'ll return after studies.'",
+        "hardcodedText": "Demonstrate family, property, or job ties that show you\\",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 225,
+        "code": "title: 'Know Your Program',",
+        "hardcodedText": "Know Your Program",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 226,
+        "code": "tip: 'Be able to explain your major, why you chose it, and your career plans.'",
+        "hardcodedText": "Be able to explain your major, why you chose it, and your career plans.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 229,
+        "code": "title: 'Financial Proof is Critical',",
+        "hardcodedText": "Financial Proof is Critical",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 230,
+        "code": "tip: 'Show you can afford all years of study, not just the first year.'",
+        "hardcodedText": "Show you can afford all years of study, not just the first year.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 234,
+        "code": "tip: 'Business casual attire shows you take the interview seriously.'",
+        "hardcodedText": "Business casual attire shows you take the interview seriously.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+        "line": 238,
+        "code": "tip: 'Get to the embassy 30 minutes before your appointment time.'",
+        "hardcodedText": "Get to the embassy 30 minutes before your appointment time.",
+        "severity": "high"
+      }
+    ],
+    "app\\[locale]\\resources\\i20-guide\\page.tsx": [
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 77,
+        "code": "placeholder=\"Enter your email address\"",
+        "hardcodedText": "Enter your email address",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 123,
+        "code": "<strong>Form I-20</strong> (Certificate of Eligibility for Nonimmigrant Student Status) is the most ",
+        "hardcodedText": "s issued by your US university and proves you",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 180,
+        "code": "title: 'Get Accepted to SEVP-Approved University',",
+        "hardcodedText": "Get Accepted to SEVP-Approved University",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 181,
+        "code": "description: 'Apply to US universities approved by SEVP. Check the SEVP school search tool. Most acc",
+        "hardcodedText": "Apply to US universities approved by SEVP. Check the SEVP school search tool. Most accredited universities are SEVP-approved.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 184,
+        "code": "'Submit complete application with all documents',",
+        "hardcodedText": "Submit complete application with all documents",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 185,
+        "code": "'Meet English proficiency requirements (or get conditional admission)',",
+        "hardcodedText": "Meet English proficiency requirements (or get conditional admission)",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 186,
+        "code": "'Meet academic requirements for the program',",
+        "hardcodedText": "Meet academic requirements for the program",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 193,
+        "code": "description: 'Prove you can afford tuition + living expenses for at least the first year. This is th",
+        "hardcodedText": "Prove you can afford tuition + living expenses for at least the first year. This is the most critical step.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 197,
+        "code": "'Sponsor letter (if parents/family are sponsoring)',",
+        "hardcodedText": "Sponsor letter (if parents/family are sponsoring)",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 207,
+        "code": "description: 'University will send you an I-20 request form. Fill it out accurately with your person",
+        "hardcodedText": "University will send you an I-20 request form. Fill it out accurately with your personal and financial information.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 211,
+        "code": "'Date of birth and place of birth',",
+        "hardcodedText": "Date of birth and place of birth",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 214,
+        "code": "'Program start date preference',",
+        "hardcodedText": "Program start date preference",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 221,
+        "code": "description: 'Some universities require tuition deposit or enrollment fee before issuing I-20. Amoun",
+        "hardcodedText": "Some universities require tuition deposit or enrollment fee before issuing I-20. Amount varies ($200-$5,000).",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 225,
+        "code": "'Pay via wire transfer or credit card',",
+        "hardcodedText": "Pay via wire transfer or credit card",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 227,
+        "code": "'Deposits are usually non-refundable or partially refundable'",
+        "hardcodedText": "Deposits are usually non-refundable or partially refundable",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 233,
+        "code": "description: 'University issues and sends I-20. Can be emailed (PDF) or mailed (original). Both are ",
+        "hardcodedText": "University issues and sends I-20. Can be emailed (PDF) or mailed (original). Both are acceptable for visa application.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 236,
+        "code": "'Check all information is correct',",
+        "hardcodedText": "Check all information is correct",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 238,
+        "code": "'Confirm program details and dates',",
+        "hardcodedText": "Confirm program details and dates",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 239,
+        "code": "'Sign and date page 1 (you) and page 3 (if bringing dependents)',",
+        "hardcodedText": "Sign and date page 1 (you) and page 3 (if bringing dependents)",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 240,
+        "code": "'Make copies for your records'",
+        "hardcodedText": "Make copies for your records",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 246,
+        "code": "description: 'Pay $350 SEVIS I-901 fee online at fmjfee.com using SEVIS ID from your I-20.',",
+        "hardcodedText": "Pay $350 SEVIS I-901 fee online at fmjfee.com using SEVIS ID from your I-20.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 250,
+        "code": "'Enter SEVIS ID from I-20',",
+        "hardcodedText": "Enter SEVIS ID from I-20",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 258,
+        "code": "title: 'Apply for F-1 Visa',",
+        "hardcodedText": "Apply for F-1 Visa",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 259,
+        "code": "description: 'With I-20 in hand, you can now complete DS-160 and schedule your F-1 visa interview at",
+        "hardcodedText": "With I-20 in hand, you can now complete DS-160 and schedule your F-1 visa interview at US Embassy in Casablanca.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 265,
+        "code": "'Prepare all required documents',",
+        "hardcodedText": "Prepare all required documents",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 266,
+        "code": "'Attend interview with I-20'",
+        "hardcodedText": "Attend interview with I-20",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 320,
+        "code": "q: 'How much money do I need to show for I-20?',",
+        "hardcodedText": "How much money do I need to show for I-20?",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 321,
+        "code": "a: 'You must show funds for tuition + living expenses for at least 1 year. This typically ranges fro",
+        "hardcodedText": "You must show funds for tuition + living expenses for at least 1 year. This typically ranges from $25,000 to $70,000 depending on the university and location. Public universities in smaller cities are cheaper.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 324,
+        "code": "q: 'Can my parents sponsor me?',",
+        "hardcodedText": "Can my parents sponsor me?",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 328,
+        "code": "q: 'How long does it take to get I-20?',",
+        "hardcodedText": "How long does it take to get I-20?",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 329,
+        "code": "a: 'After submitting all documents, universities typically issue I-20 within 1-4 weeks. Rush process",
+        "hardcodedText": "After submitting all documents, universities typically issue I-20 within 1-4 weeks. Rush processing may be available for an extra fee.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 332,
+        "code": "q: 'What if information on my I-20 is wrong?',",
+        "hardcodedText": "What if information on my I-20 is wrong?",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 333,
+        "code": "a: 'Contact your university\\'s international office immediately. They can issue a corrected I-20. Ne",
+        "hardcodedText": "Contact your university\\",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+        "line": 336,
+        "code": "q: 'Can I work with an I-20?',",
+        "hardcodedText": "Can I work with an I-20?",
+        "severity": "medium"
+      }
+    ],
+    "app\\[locale]\\success-stories\\page.tsx": [
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 40,
+        "code": "testimonial: 'Successfully admitted with scholarship support. Full story available after program com",
+        "hardcodedText": "Successfully admitted with scholarship support. Full story available after program completion.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 43,
+        "code": "challenges: 'Application process and documentation',",
+        "hardcodedText": "Application process and documentation",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 44,
+        "code": "process: 'Guided through university selection and visa preparation',",
+        "hardcodedText": "Guided through university selection and visa preparation",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 46,
+        "code": "advice: 'Start early and stay organized with deadlines'",
+        "hardcodedText": "Start early and stay organized with deadlines",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 64,
+        "code": "process: 'Matched with ESL pathway program',",
+        "hardcodedText": "Matched with ESL pathway program",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 65,
+        "code": "outcome: 'Preparing for degree program entry',",
+        "hardcodedText": "Preparing for degree program entry",
+        "severity": "low"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 66,
+        "code": "advice: 'Pathway programs are great for building confidence'",
+        "hardcodedText": "Pathway programs are great for building confidence",
+        "severity": "medium"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 82,
+        "code": "quote: 'The guidance was clear and professional. Helped me understand the complete process from appl",
+        "hardcodedText": "The guidance was clear and professional. Helped me understand the complete process from application to visa interview.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 92,
+        "code": "quote: 'Transparent advice and realistic expectations. They matched me with universities that fit my",
+        "hardcodedText": "Transparent advice and realistic expectations. They matched me with universities that fit my profile and budget.",
+        "severity": "high"
+      },
+      {
+        "file": "app\\[locale]\\success-stories\\page.tsx",
+        "line": 102,
+        "code": "quote: 'Professional service from start to finish. The visa preparation was especially helpful for m",
+        "hardcodedText": "Professional service from start to finish. The visa preparation was especially helpful for my F-1 interview.",
+        "severity": "high"
+      }
+    ],
+    "components\\Schema.tsx": [
+      {
+        "file": "components\\Schema.tsx",
+        "line": 53,
+        "code": "description: 'University admissions consulting, F-1 visa preparation, pathway programs, and pre-depa",
+        "hardcodedText": "University admissions consulting, F-1 visa preparation, pathway programs, and pre-departure guidance",
+        "severity": "high"
+      }
+    ],
+    "components\\StudyQuiz.tsx": [
+      {
+        "file": "components\\StudyQuiz.tsx",
+        "line": 85,
+        "code": "const message = `Hi! I completed the study quiz:\\n\\n` +",
+        "hardcodedText": "Hi! I completed the study quiz:\\n\\n",
+        "severity": "medium"
+      },
+      {
+        "file": "components\\StudyQuiz.tsx",
+        "line": 90,
+        "code": "`I'd like to discuss my options for studying in the USA.`;",
+        "hardcodedText": "I'd like to discuss my options for studying in the USA.",
+        "severity": "high"
+      }
+    ],
+    "components\\ui\\button.tsx": [
+      {
+        "file": "components\\ui\\button.tsx",
+        "line": 6,
+        "code": "\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg font-display font-semibo",
+        "hardcodedText": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg font-display font-semibold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 active:scale-95",
+        "severity": "high"
+      }
+    ],
+    "components\\ui\\card.tsx": [
+      {
+        "file": "components\\ui\\card.tsx",
+        "line": 12,
+        "code": "\"transition-all duration-300 ease-out\",",
+        "hardcodedText": "transition-all duration-300 ease-out",
+        "severity": "low"
+      }
+    ],
+    "components\\ui\\sheet.tsx": [
+      {
+        "file": "components\\ui\\sheet.tsx",
+        "line": 38,
+        "code": "top: \"inset-x-0 top-0 border-b data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-",
+        "hardcodedText": "inset-x-0 top-0 border-b data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top",
+        "severity": "high"
+      },
+      {
+        "file": "components\\ui\\sheet.tsx",
+        "line": 40,
+        "code": "\"inset-x-0 bottom-0 border-t data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from",
+        "hardcodedText": "inset-x-0 bottom-0 border-t data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom",
+        "severity": "high"
+      },
+      {
+        "file": "components\\ui\\sheet.tsx",
+        "line": 41,
+        "code": "left: \"inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open",
+        "hardcodedText": "inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",
+        "severity": "high"
+      },
+      {
+        "file": "components\\ui\\sheet.tsx",
+        "line": 43,
+        "code": "\"inset-y-0 right-0 h-full w-3/4 border-l data-[state=closed]:slide-out-to-right data-[state=open]:sl",
+        "hardcodedText": "inset-y-0 right-0 h-full w-3/4 border-l data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm",
+        "severity": "high"
+      },
+      {
+        "file": "components\\ui\\sheet.tsx",
+        "line": 83,
+        "code": "\"flex flex-col space-y-2 text-center sm:text-start\",",
+        "hardcodedText": "flex flex-col space-y-2 text-center sm:text-start",
+        "severity": "low"
+      }
+    ]
+  },
+  "allIssues": [
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 16,
+      "code": "title: 'Complete Guide to Studying in the USA from Morocco',",
+      "hardcodedText": "Complete Guide to Studying in the USA from Morocco",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 17,
+      "code": "excerpt: 'Everything you need to know about applying to US universities, getting your F-1 visa, and ",
+      "hardcodedText": "Everything you need to know about applying to US universities, getting your F-1 visa, and succeeding as an international student.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 26,
+      "code": "excerpt: 'Ace your F-1 visa interview at the US Embassy in Casablanca with these proven tips and com",
+      "hardcodedText": "Ace your F-1 visa interview at the US Embassy in Casablanca with these proven tips and common questions.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 34,
+      "code": "title: 'Top 10 Affordable US Universities for International Students',",
+      "hardcodedText": "Top 10 Affordable US Universities for International Students",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 43,
+      "code": "title: 'Scholarships for Moroccan Students: 2024 Complete List',",
+      "hardcodedText": "Scholarships for Moroccan Students: 2024 Complete List",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 44,
+      "code": "excerpt: 'A comprehensive guide to scholarships available for Moroccan students studying in the USA.",
+      "hardcodedText": "A comprehensive guide to scholarships available for Moroccan students studying in the USA.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 52,
+      "code": "title: 'What Are Pathway Programs? Your Bridge to US Universities',",
+      "hardcodedText": "What Are Pathway Programs? Your Bridge to US Universities",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 53,
+      "code": "excerpt: 'If your English isn\\'t quite ready for direct admission, pathway programs can help you get",
+      "hardcodedText": "If your English isn\\",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 61,
+      "code": "title: 'Master\\'s vs Undergraduate: Which Should You Pursue in the USA?',",
+      "hardcodedText": "s vs Undergraduate: Which Should You Pursue in the USA?",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 62,
+      "code": "excerpt: 'Compare costs, requirements, and career outcomes to make the right decision for your futur",
+      "hardcodedText": "Compare costs, requirements, and career outcomes to make the right decision for your future.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\blog\\page.tsx",
+      "line": 214,
+      "code": "placeholder=\"Your email address\"",
+      "hardcodedText": "Your email address",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 27,
+      "code": "title: 'From Morocco to US University: Engineering Program Success',",
+      "hardcodedText": "From Morocco to US University: Engineering Program Success",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 35,
+      "code": "description: 'What obstacles did the student face?',",
+      "hardcodedText": "What obstacles did the student face?",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 37,
+      "code": "'Academic challenge or gap',",
+      "hardcodedText": "Academic challenge or gap",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 45,
+      "code": "description: 'How did StudyFrontier help?',",
+      "hardcodedText": "How did StudyFrontier help?",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 47,
+      "code": "'Initial assessment and goal-setting',",
+      "hardcodedText": "Initial assessment and goal-setting",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 49,
+      "code": "'Application and essay guidance',",
+      "hardcodedText": "Application and essay guidance",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 50,
+      "code": "'Financial planning and documentation',",
+      "hardcodedText": "Financial planning and documentation",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 62,
+      "code": "'Currently enrolled and succeeding'",
+      "hardcodedText": "Currently enrolled and succeeding",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 65,
+      "code": "timeline: '8 months from consultation to enrollment',",
+      "hardcodedText": "8 months from consultation to enrollment",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 106,
+      "code": "'Detailed academic profiles and starting points',",
+      "hardcodedText": "Detailed academic profiles and starting points",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 108,
+      "code": "'Our strategic approach and recommendations',",
+      "hardcodedText": "Our strategic approach and recommendations",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 110,
+      "code": "'Application and essay strategies',",
+      "hardcodedText": "Application and essay strategies",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 111,
+      "code": "'Financial planning and documentation',",
+      "hardcodedText": "Financial planning and documentation",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\case-studies\\page.tsx",
+      "line": 113,
+      "code": "'Final outcomes and current status'",
+      "hardcodedText": "Final outcomes and current status",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\programs\\masters\\page.tsx",
+      "line": 96,
+      "code": "A Master's degree is a postgraduate qualification that typically takes 1-2 years to complete. For Mo",
+      "hardcodedText": "s degree is a postgraduate qualification that typically takes 1-2 years to complete. For Moroccan students with a Licence (Bachelor",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\masters\\page.tsx",
+      "line": 180,
+      "code": "title: 'GRE or GMAT',",
+      "hardcodedText": "GRE or GMAT",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\programs\\masters\\page.tsx",
+      "line": 181,
+      "code": "description: 'GRE for most programs (minimum 310), GMAT for business programs (minimum 600). Some pr",
+      "hardcodedText": "GRE for most programs (minimum 310), GMAT for business programs (minimum 600). Some programs waive this requirement.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\masters\\page.tsx",
+      "line": 186,
+      "code": "description: 'TOEFL iBT 85+ or IELTS 7.0+. Higher scores (100+ TOEFL) needed for top programs.',",
+      "hardcodedText": "TOEFL iBT 85+ or IELTS 7.0+. Higher scores (100+ TOEFL) needed for top programs.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\masters\\page.tsx",
+      "line": 191,
+      "code": "description: '500-1000 word essay explaining your academic goals, research interests, and why this p",
+      "hardcodedText": "500-1000 word essay explaining your academic goals, research interests, and why this program.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\masters\\page.tsx",
+      "line": 196,
+      "code": "description: '2-3 letters from professors or employers who know your work well.',",
+      "hardcodedText": "2-3 letters from professors or employers who know your work well.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\masters\\page.tsx",
+      "line": 201,
+      "code": "description: 'Academic and professional experience, research, publications, projects.',",
+      "hardcodedText": "Academic and professional experience, research, publications, projects.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\masters\\page.tsx",
+      "line": 206,
+      "code": "description: 'Official transcripts from all universities attended, translated and evaluated.',",
+      "hardcodedText": "Official transcripts from all universities attended, translated and evaluated.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 136,
+      "code": "title: 'Apply to Pathway Program',",
+      "hardcodedText": "Apply to Pathway Program",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 137,
+      "code": "description: 'Apply with your academic transcripts. No TOEFL required for most programs. You may tak",
+      "hardcodedText": "Apply with your academic transcripts. No TOEFL required for most programs. You may take a placement test to determine your English level.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 143,
+      "code": "description: 'Get admitted to both the pathway program AND the degree program. Your I-20 will show b",
+      "hardcodedText": "Get admitted to both the pathway program AND the degree program. Your I-20 will show both programs.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 148,
+      "code": "title: 'Study English + Academic Skills',",
+      "hardcodedText": "Study English + Academic Skills",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 149,
+      "code": "description: 'Take intensive English courses plus some academic courses. Learn US academic writing, ",
+      "hardcodedText": "Take intensive English courses plus some academic courses. Learn US academic writing, presentation skills, and critical thinking.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 160,
+      "code": "title: 'Start Degree Program',",
+      "hardcodedText": "Start Degree Program",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 161,
+      "code": "description: 'Automatically progress to your Bachelor\\'s or Master\\'s program. Some pathway credits ",
+      "hardcodedText": "Automatically progress to your Bachelor\\",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 161,
+      "code": "description: 'Automatically progress to your Bachelor\\'s or Master\\'s program. Some pathway credits ",
+      "hardcodedText": "s program. Some pathway credits may count toward your degree.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 204,
+      "code": "benefit: 'Save time and money on test prep. Most pathways use internal placement tests.'",
+      "hardcodedText": "Save time and money on test prep. Most pathways use internal placement tests.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 209,
+      "code": "benefit: 'Once you complete the pathway, you\\'re automatically admitted to the degree program.'",
+      "hardcodedText": "Once you complete the pathway, you\\",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 214,
+      "code": "benefit: 'Learn US academic culture, writing styles, and classroom expectations.'",
+      "hardcodedText": "Learn US academic culture, writing styles, and classroom expectations.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 219,
+      "code": "benefit: 'Gradual adjustment to US education system before starting your degree.'",
+      "hardcodedText": "Gradual adjustment to US education system before starting your degree.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 224,
+      "code": "benefit: 'More individual attention and support during pathway program.'",
+      "hardcodedText": "More individual attention and support during pathway program.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 228,
+      "code": "title: 'Flexible Start Dates',",
+      "hardcodedText": "Flexible Start Dates",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\programs\\pathways\\page.tsx",
+      "line": 229,
+      "code": "benefit: 'Multiple start dates per year (Fall, Spring, Summer) for most pathways.'",
+      "hardcodedText": "Multiple start dates per year (Fall, Spring, Summer) for most pathways.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 102,
+      "code": "A Bachelor's degree is a 4-year undergraduate program offered by US universities. It's equivalent to",
+      "hardcodedText": "s degree is a 4-year undergraduate program offered by US universities. It",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 165,
+      "code": "description: 'Completed Moroccan Baccalauréat with good grades (minimum 12/20, but 14+ recommended f",
+      "hardcodedText": "Completed Moroccan Baccalauréat with good grades (minimum 12/20, but 14+ recommended for competitive universities)",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 170,
+      "code": "description: 'TOEFL iBT 80+ or IELTS 6.5+. Some universities accept Duolingo English Test (100+)',",
+      "hardcodedText": "TOEFL iBT 80+ or IELTS 6.5+. Some universities accept Duolingo English Test (100+)",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 174,
+      "code": "title: 'SAT or ACT',",
+      "hardcodedText": "SAT or ACT",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 175,
+      "code": "description: 'Required by many universities. SAT: 1200+ competitive, 1400+ for top schools. Test-opt",
+      "hardcodedText": "Required by many universities. SAT: 1200+ competitive, 1400+ for top schools. Test-optional schools available.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 180,
+      "code": "description: 'Official high school transcripts translated to English and evaluated by credential eva",
+      "hardcodedText": "Official high school transcripts translated to English and evaluated by credential evaluation service",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 185,
+      "code": "description: 'Personal statement (Common App essay) plus supplemental essays for each university',",
+      "hardcodedText": "Personal statement (Common App essay) plus supplemental essays for each university",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 190,
+      "code": "description: '2-3 letters from teachers or counselors who know you well',",
+      "hardcodedText": "2-3 letters from teachers or counselors who know you well",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 195,
+      "code": "description: 'Bank statements showing $25k-70k depending on university for I-20 issuance',",
+      "hardcodedText": "Bank statements showing $25k-70k depending on university for I-20 issuance",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\programs\\undergraduate\\page.tsx",
+      "line": 200,
+      "code": "description: 'Activities, leadership, volunteer work, sports, or work experience',",
+      "hardcodedText": "Activities, leadership, volunteer work, sports, or work experience",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 39,
+      "code": "'Valid passport (valid for at least 6 months beyond stay)',",
+      "hardcodedText": "Valid passport (valid for at least 6 months beyond stay)",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 40,
+      "code": "'Form I-20 from your US university',",
+      "hardcodedText": "Form I-20 from your US university",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 42,
+      "code": "'DS-160 confirmation page with barcode',",
+      "hardcodedText": "DS-160 confirmation page with barcode",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 52,
+      "code": "'Sponsor letter (if parents are sponsoring)',",
+      "hardcodedText": "Sponsor letter (if parents are sponsoring)",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 54,
+      "code": "'Tax returns or income proof',",
+      "hardcodedText": "Tax returns or income proof",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 67,
+      "code": "'Study plan or statement of purpose'",
+      "hardcodedText": "Study plan or statement of purpose",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 125,
+      "code": "placeholder=\"Enter your email address\"",
+      "hardcodedText": "Enter your email address",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 218,
+      "code": "tip: 'Answer questions directly and honestly. Don\\'t memorize scripts - speak naturally.'",
+      "hardcodedText": "Answer questions directly and honestly. Don\\",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 222,
+      "code": "tip: 'Demonstrate family, property, or job ties that show you\\'ll return after studies.'",
+      "hardcodedText": "Demonstrate family, property, or job ties that show you\\",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 225,
+      "code": "title: 'Know Your Program',",
+      "hardcodedText": "Know Your Program",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 226,
+      "code": "tip: 'Be able to explain your major, why you chose it, and your career plans.'",
+      "hardcodedText": "Be able to explain your major, why you chose it, and your career plans.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 229,
+      "code": "title: 'Financial Proof is Critical',",
+      "hardcodedText": "Financial Proof is Critical",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 230,
+      "code": "tip: 'Show you can afford all years of study, not just the first year.'",
+      "hardcodedText": "Show you can afford all years of study, not just the first year.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 234,
+      "code": "tip: 'Business casual attire shows you take the interview seriously.'",
+      "hardcodedText": "Business casual attire shows you take the interview seriously.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\f1-visa-checklist\\page.tsx",
+      "line": 238,
+      "code": "tip: 'Get to the embassy 30 minutes before your appointment time.'",
+      "hardcodedText": "Get to the embassy 30 minutes before your appointment time.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 77,
+      "code": "placeholder=\"Enter your email address\"",
+      "hardcodedText": "Enter your email address",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 123,
+      "code": "<strong>Form I-20</strong> (Certificate of Eligibility for Nonimmigrant Student Status) is the most ",
+      "hardcodedText": "s issued by your US university and proves you",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 180,
+      "code": "title: 'Get Accepted to SEVP-Approved University',",
+      "hardcodedText": "Get Accepted to SEVP-Approved University",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 181,
+      "code": "description: 'Apply to US universities approved by SEVP. Check the SEVP school search tool. Most acc",
+      "hardcodedText": "Apply to US universities approved by SEVP. Check the SEVP school search tool. Most accredited universities are SEVP-approved.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 184,
+      "code": "'Submit complete application with all documents',",
+      "hardcodedText": "Submit complete application with all documents",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 185,
+      "code": "'Meet English proficiency requirements (or get conditional admission)',",
+      "hardcodedText": "Meet English proficiency requirements (or get conditional admission)",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 186,
+      "code": "'Meet academic requirements for the program',",
+      "hardcodedText": "Meet academic requirements for the program",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 193,
+      "code": "description: 'Prove you can afford tuition + living expenses for at least the first year. This is th",
+      "hardcodedText": "Prove you can afford tuition + living expenses for at least the first year. This is the most critical step.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 197,
+      "code": "'Sponsor letter (if parents/family are sponsoring)',",
+      "hardcodedText": "Sponsor letter (if parents/family are sponsoring)",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 207,
+      "code": "description: 'University will send you an I-20 request form. Fill it out accurately with your person",
+      "hardcodedText": "University will send you an I-20 request form. Fill it out accurately with your personal and financial information.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 211,
+      "code": "'Date of birth and place of birth',",
+      "hardcodedText": "Date of birth and place of birth",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 214,
+      "code": "'Program start date preference',",
+      "hardcodedText": "Program start date preference",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 221,
+      "code": "description: 'Some universities require tuition deposit or enrollment fee before issuing I-20. Amoun",
+      "hardcodedText": "Some universities require tuition deposit or enrollment fee before issuing I-20. Amount varies ($200-$5,000).",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 225,
+      "code": "'Pay via wire transfer or credit card',",
+      "hardcodedText": "Pay via wire transfer or credit card",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 227,
+      "code": "'Deposits are usually non-refundable or partially refundable'",
+      "hardcodedText": "Deposits are usually non-refundable or partially refundable",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 233,
+      "code": "description: 'University issues and sends I-20. Can be emailed (PDF) or mailed (original). Both are ",
+      "hardcodedText": "University issues and sends I-20. Can be emailed (PDF) or mailed (original). Both are acceptable for visa application.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 236,
+      "code": "'Check all information is correct',",
+      "hardcodedText": "Check all information is correct",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 238,
+      "code": "'Confirm program details and dates',",
+      "hardcodedText": "Confirm program details and dates",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 239,
+      "code": "'Sign and date page 1 (you) and page 3 (if bringing dependents)',",
+      "hardcodedText": "Sign and date page 1 (you) and page 3 (if bringing dependents)",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 240,
+      "code": "'Make copies for your records'",
+      "hardcodedText": "Make copies for your records",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 246,
+      "code": "description: 'Pay $350 SEVIS I-901 fee online at fmjfee.com using SEVIS ID from your I-20.',",
+      "hardcodedText": "Pay $350 SEVIS I-901 fee online at fmjfee.com using SEVIS ID from your I-20.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 250,
+      "code": "'Enter SEVIS ID from I-20',",
+      "hardcodedText": "Enter SEVIS ID from I-20",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 258,
+      "code": "title: 'Apply for F-1 Visa',",
+      "hardcodedText": "Apply for F-1 Visa",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 259,
+      "code": "description: 'With I-20 in hand, you can now complete DS-160 and schedule your F-1 visa interview at",
+      "hardcodedText": "With I-20 in hand, you can now complete DS-160 and schedule your F-1 visa interview at US Embassy in Casablanca.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 265,
+      "code": "'Prepare all required documents',",
+      "hardcodedText": "Prepare all required documents",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 266,
+      "code": "'Attend interview with I-20'",
+      "hardcodedText": "Attend interview with I-20",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 320,
+      "code": "q: 'How much money do I need to show for I-20?',",
+      "hardcodedText": "How much money do I need to show for I-20?",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 321,
+      "code": "a: 'You must show funds for tuition + living expenses for at least 1 year. This typically ranges fro",
+      "hardcodedText": "You must show funds for tuition + living expenses for at least 1 year. This typically ranges from $25,000 to $70,000 depending on the university and location. Public universities in smaller cities are cheaper.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 324,
+      "code": "q: 'Can my parents sponsor me?',",
+      "hardcodedText": "Can my parents sponsor me?",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 328,
+      "code": "q: 'How long does it take to get I-20?',",
+      "hardcodedText": "How long does it take to get I-20?",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 329,
+      "code": "a: 'After submitting all documents, universities typically issue I-20 within 1-4 weeks. Rush process",
+      "hardcodedText": "After submitting all documents, universities typically issue I-20 within 1-4 weeks. Rush processing may be available for an extra fee.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 332,
+      "code": "q: 'What if information on my I-20 is wrong?',",
+      "hardcodedText": "What if information on my I-20 is wrong?",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 333,
+      "code": "a: 'Contact your university\\'s international office immediately. They can issue a corrected I-20. Ne",
+      "hardcodedText": "Contact your university\\",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\resources\\i20-guide\\page.tsx",
+      "line": 336,
+      "code": "q: 'Can I work with an I-20?',",
+      "hardcodedText": "Can I work with an I-20?",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 40,
+      "code": "testimonial: 'Successfully admitted with scholarship support. Full story available after program com",
+      "hardcodedText": "Successfully admitted with scholarship support. Full story available after program completion.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 43,
+      "code": "challenges: 'Application process and documentation',",
+      "hardcodedText": "Application process and documentation",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 44,
+      "code": "process: 'Guided through university selection and visa preparation',",
+      "hardcodedText": "Guided through university selection and visa preparation",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 46,
+      "code": "advice: 'Start early and stay organized with deadlines'",
+      "hardcodedText": "Start early and stay organized with deadlines",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 64,
+      "code": "process: 'Matched with ESL pathway program',",
+      "hardcodedText": "Matched with ESL pathway program",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 65,
+      "code": "outcome: 'Preparing for degree program entry',",
+      "hardcodedText": "Preparing for degree program entry",
+      "severity": "low"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 66,
+      "code": "advice: 'Pathway programs are great for building confidence'",
+      "hardcodedText": "Pathway programs are great for building confidence",
+      "severity": "medium"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 82,
+      "code": "quote: 'The guidance was clear and professional. Helped me understand the complete process from appl",
+      "hardcodedText": "The guidance was clear and professional. Helped me understand the complete process from application to visa interview.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 92,
+      "code": "quote: 'Transparent advice and realistic expectations. They matched me with universities that fit my",
+      "hardcodedText": "Transparent advice and realistic expectations. They matched me with universities that fit my profile and budget.",
+      "severity": "high"
+    },
+    {
+      "file": "app\\[locale]\\success-stories\\page.tsx",
+      "line": 102,
+      "code": "quote: 'Professional service from start to finish. The visa preparation was especially helpful for m",
+      "hardcodedText": "Professional service from start to finish. The visa preparation was especially helpful for my F-1 interview.",
+      "severity": "high"
+    },
+    {
+      "file": "components\\Schema.tsx",
+      "line": 53,
+      "code": "description: 'University admissions consulting, F-1 visa preparation, pathway programs, and pre-depa",
+      "hardcodedText": "University admissions consulting, F-1 visa preparation, pathway programs, and pre-departure guidance",
+      "severity": "high"
+    },
+    {
+      "file": "components\\StudyQuiz.tsx",
+      "line": 85,
+      "code": "const message = `Hi! I completed the study quiz:\\n\\n` +",
+      "hardcodedText": "Hi! I completed the study quiz:\\n\\n",
+      "severity": "medium"
+    },
+    {
+      "file": "components\\StudyQuiz.tsx",
+      "line": 90,
+      "code": "`I'd like to discuss my options for studying in the USA.`;",
+      "hardcodedText": "I'd like to discuss my options for studying in the USA.",
+      "severity": "high"
+    },
+    {
+      "file": "components\\ui\\button.tsx",
+      "line": 6,
+      "code": "\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg font-display font-semibo",
+      "hardcodedText": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg font-display font-semibold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 active:scale-95",
+      "severity": "high"
+    },
+    {
+      "file": "components\\ui\\card.tsx",
+      "line": 12,
+      "code": "\"transition-all duration-300 ease-out\",",
+      "hardcodedText": "transition-all duration-300 ease-out",
+      "severity": "low"
+    },
+    {
+      "file": "components\\ui\\sheet.tsx",
+      "line": 38,
+      "code": "top: \"inset-x-0 top-0 border-b data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-",
+      "hardcodedText": "inset-x-0 top-0 border-b data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top",
+      "severity": "high"
+    },
+    {
+      "file": "components\\ui\\sheet.tsx",
+      "line": 40,
+      "code": "\"inset-x-0 bottom-0 border-t data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from",
+      "hardcodedText": "inset-x-0 bottom-0 border-t data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom",
+      "severity": "high"
+    },
+    {
+      "file": "components\\ui\\sheet.tsx",
+      "line": 41,
+      "code": "left: \"inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open",
+      "hardcodedText": "inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",
+      "severity": "high"
+    },
+    {
+      "file": "components\\ui\\sheet.tsx",
+      "line": 43,
+      "code": "\"inset-y-0 right-0 h-full w-3/4 border-l data-[state=closed]:slide-out-to-right data-[state=open]:sl",
+      "hardcodedText": "inset-y-0 right-0 h-full w-3/4 border-l data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm",
+      "severity": "high"
+    },
+    {
+      "file": "components\\ui\\sheet.tsx",
+      "line": 83,
+      "code": "\"flex flex-col space-y-2 text-center sm:text-start\",",
+      "hardcodedText": "flex flex-col space-y-2 text-center sm:text-start",
+      "severity": "low"
+    }
+  ]
+}

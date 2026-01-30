@@ -18,6 +18,76 @@
     "hero": {
       "title": "Blog",
       "subtitle": "Latest insights and guides"
+    },
+    "categories": {
+      "all": "All",
+      "usa": "USA",
+      "visa": "Visa",
+      "universities": "Universities",
+      "scholarships": "Scholarships",
+      "programs": "Programs",
+      "studentLife": "Student Life",
+      "application": "Application"
+    },
+    "featured": "Featured Articles",
+    "recent": "Recent Articles",
+    "readMore": "Read More",
+    "read": "Read",
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest guides, tips, and scholarship opportunities delivered to your inbox",
+      "placeholder": "Your email address",
+      "button": "Subscribe"
+    },
+    "articles": {
+      "studyInUSA": {
+        "title": "Complete Guide to Studying in the USA from Morocco",
+        "excerpt": "Everything you need to know about applying to US universities, getting your F-1 visa, and succeeding as an international student.",
+        "category": "USA",
+        "readTime": "12 min read"
+      },
+      "f1VisaInterview": {
+        "title": "F-1 Visa Interview Tips: What Moroccan Students Need to Know",
+        "excerpt": "Ace your F-1 visa interview at the US Embassy in Casablanca with these proven tips and common questions.",
+        "category": "Visa",
+        "readTime": "8 min read"
+      },
+      "affordableUniversities": {
+        "title": "Top 10 Affordable US Universities for International Students",
+        "excerpt": "Quality education doesn't have to break the bank. Discover US universities with tuition under $20,000 per year.",
+        "category": "Universities",
+        "readTime": "10 min read"
+      },
+      "scholarships": {
+        "title": "Scholarships for Moroccan Students: 2024 Complete List",
+        "excerpt": "A comprehensive guide to scholarships available for Moroccan students studying in the USA.",
+        "category": "Scholarships",
+        "readTime": "15 min read"
+      },
+      "costOfStudying": {
+        "title": "Understanding the Cost of Studying in the USA",
+        "excerpt": "Detailed breakdown of tuition, living expenses, and hidden costs you need to budget for.",
+        "category": "USA",
+        "readTime": "10 min read"
+      },
+      "stemPrograms": {
+        "title": "STEM Programs: Extended OPT and Career Opportunities",
+        "excerpt": "Why STEM degrees offer international students up to 3 years of work authorization in the USA.",
+        "category": "Programs",
+        "readTime": "9 min read"
+      },
+      "studentLife": {
+        "title": "What to Expect: Student Life at US Universities",
+        "excerpt": "Campus culture, housing options, and social life for international students in America.",
+        "category": "Student Life",
+        "readTime": "11 min read"
+      },
+      "applicationTimeline": {
+        "title": "US University Application Timeline for Moroccan Students",
+        "excerpt": "Month-by-month guide to planning your application for Fall and Spring intake.",
+        "category": "Application",
+        "readTime": "7 min read"
+      }
     }
   },
   "home": {

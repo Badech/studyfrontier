@@ -18,6 +18,76 @@
     "hero": {
       "title": "Blog",
       "subtitle": "Dernières informations et guides"
+    },
+    "categories": {
+      "all": "Tous",
+      "usa": "USA",
+      "visa": "Visa",
+      "universities": "Universités",
+      "scholarships": "Bourses",
+      "programs": "Programmes",
+      "studentLife": "Vie Étudiante",
+      "application": "Candidature"
+    },
+    "featured": "Articles en Vedette",
+    "recent": "Articles Récents",
+    "readMore": "Lire Plus",
+    "read": "Lire",
+    "newsletter": {
+      "title": "Restez Informé",
+      "description": "Recevez les derniers guides, conseils et opportunités de bourses dans votre boîte mail",
+      "placeholder": "Votre adresse e-mail",
+      "button": "S'abonner"
+    },
+    "articles": {
+      "studyInUSA": {
+        "title": "Guide Complet pour Étudier aux USA depuis le Maroc",
+        "excerpt": "Tout ce que vous devez savoir sur les candidatures aux universités américaines, l'obtention du visa F-1 et la réussite en tant qu'étudiant international.",
+        "category": "USA",
+        "readTime": "12 min de lecture"
+      },
+      "f1VisaInterview": {
+        "title": "Conseils pour l'Entretien de Visa F-1 : Ce que les Étudiants Marocains Doivent Savoir",
+        "excerpt": "Réussissez votre entretien de visa F-1 à l'ambassade américaine à Casablanca avec ces conseils éprouvés et questions courantes.",
+        "category": "Visa",
+        "readTime": "8 min de lecture"
+      },
+      "affordableUniversities": {
+        "title": "Top 10 des Universités Américaines Abordables pour Étudiants Internationaux",
+        "excerpt": "Une éducation de qualité ne doit pas vous ruiner. Découvrez les universités américaines avec des frais de scolarité inférieurs à 20 000 $ par an.",
+        "category": "Universités",
+        "readTime": "10 min de lecture"
+      },
+      "scholarships": {
+        "title": "Bourses pour Étudiants Marocains : Liste Complète 2024",
+        "excerpt": "Un guide complet des bourses disponibles pour les étudiants marocains qui étudient aux USA.",
+        "category": "Bourses",
+        "readTime": "15 min de lecture"
+      },
+      "costOfStudying": {
+        "title": "Comprendre le Coût des Études aux USA",
+        "excerpt": "Répartition détaillée des frais de scolarité, dépenses de vie et coûts cachés à prévoir dans votre budget.",
+        "category": "USA",
+        "readTime": "10 min de lecture"
+      },
+      "stemPrograms": {
+        "title": "Programmes STEM : OPT Prolongé et Opportunités de Carrière",
+        "excerpt": "Pourquoi les diplômes STEM offrent aux étudiants internationaux jusqu'à 3 ans d'autorisation de travail aux USA.",
+        "category": "Programmes",
+        "readTime": "9 min de lecture"
+      },
+      "studentLife": {
+        "title": "À Quoi S'attendre : La Vie Étudiante dans les Universités Américaines",
+        "excerpt": "Culture du campus, options de logement et vie sociale pour les étudiants internationaux en Amérique.",
+        "category": "Vie Étudiante",
+        "readTime": "11 min de lecture"
+      },
+      "applicationTimeline": {
+        "title": "Calendrier de Candidature aux Universités Américaines pour Étudiants Marocains",
+        "excerpt": "Guide mois par mois pour planifier votre candidature pour les rentrées d'automne et de printemps.",
+        "category": "Candidature",
+        "readTime": "7 min de lecture"
+      }
     }
   },
   "home": {
