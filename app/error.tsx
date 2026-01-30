@@ -55,12 +55,12 @@ export default function Error({
                   variant="default"
                   className="flex-1 min-h-[44px]"
                 >
-                  <RefreshCw className="h-4 w-4 mr-2" />
+                  <RefreshCw className="h-4 w-4 me-2" />
                   Try Again
                 </Button>
                 <Link href="/" className="flex-1">
                   <Button variant="outline" className="w-full min-h-[44px]">
-                    <Home className="h-4 w-4 mr-2" />
+                    <Home className="h-4 w-4 me-2" />
                     Go Home
                   </Button>
                 </Link>

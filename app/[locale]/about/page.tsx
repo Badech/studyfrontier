@@ -1,3 +1,12 @@
+import { generateMetadataForPage } from '@/lib/generateMetadataForPage';
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  return generateMetadataForPage(locale, {
+    namespace: 'about',
+    path: '/about'
+  });
+}
+
 'use client';
 
 import { useTranslations } from 'next-intl';
@@ -18,7 +27,7 @@ export default function AboutPage() {
               <h1 className="hero-headline">
                 {t('hero.title')}
               </h1>
-              <p className="hero-subheadline mx-auto text-white/90">
+              <p className="hero-subheadline mx-auto">
                 {t('hero.subtitle')}
               </p>
             </div>

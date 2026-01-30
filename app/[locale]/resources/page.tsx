@@ -193,9 +193,9 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
                                 <Button variant="ghost" size="sm" className="group-hover:text-gold-600">
                                   {item.type === t('labels.checklist') ? t('labels.download') : t('labels.readMore')}
                                   {item.type === t('labels.checklist') ? (
-                                    <Download className="h-4 w-4 ml-2" />
+                                    <Download className="h-4 w-4 ms-2" />
                                   ) : (
-                                    <ExternalLink className="h-4 w-4 ml-2" />
+                                    <ExternalLink className="h-4 w-4 ms-2" />
                                   )}
                                 </Button>
                               </CardContent>

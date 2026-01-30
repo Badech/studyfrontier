@@ -22,6 +22,7 @@ export function Header({ locale }: { locale: string }) {
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const isRTL = locale === 'ar';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -119,7 +120,7 @@ export function Header({ locale }: { locale: string }) {
                 <span>{languages.find((l) => l.code === locale)?.name}</span>
               </Button>
               <div 
-                className="absolute right-0 top-full mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+                className={`absolute ${isRTL ? 'left-0' : 'right-0'} top-full mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50`}
                 role="menu"
                 aria-label="Language options"
               >
@@ -129,7 +130,7 @@ export function Header({ locale }: { locale: string }) {
                     onClick={() => switchLanguage(lang.code)}
                     role="menuitem"
                     aria-label={`Switch to ${lang.name}`}
-                    className={`w-full px-4 py-3 text-left hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg flex items-center gap-3 transition-colors min-h-[44px] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
+                    className={`w-full px-4 py-3 text-start hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg flex items-center gap-3 transition-colors min-h-[44px] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
                       locale === lang.code ? 'bg-primary/5 text-primary font-semibold' : ''
                     }`}
                   >
@@ -160,17 +161,17 @@ export function Header({ locale }: { locale: string }) {
             >
               <div className="relative w-6 h-6">
                 <span
-                  className={`absolute top-1/2 left-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
+                  className={`absolute top-1/2 start-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
                     isMobileMenuOpen ? 'rotate-45 translate-y-0' : '-translate-y-2'
                   }`}
                 />
                 <span
-                  className={`absolute top-1/2 left-0 w-6 h-0.5 bg-current transition-all duration-300 ${
+                  className={`absolute top-1/2 start-0 w-6 h-0.5 bg-current transition-all duration-300 ${
                     isMobileMenuOpen ? 'opacity-0' : 'opacity-100'
                   }`}
                 />
                 <span
-                  className={`absolute top-1/2 left-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
+                  className={`absolute top-1/2 start-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
                     isMobileMenuOpen ? '-rotate-45 translate-y-0' : 'translate-y-2'
                   }`}
                 />
@@ -183,12 +184,12 @@ export function Header({ locale }: { locale: string }) {
       {/* Premium Mobile Menu - Sheet Drawer */}
       <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
         <SheetContent 
-          side="right" 
+          side={isRTL ? "left" : "right"}
           className="w-[85vw] sm:w-[400px] p-0 flex flex-col h-full"
           aria-describedby="mobile-menu-description"
         >
           <SheetHeader className="px-6 pt-6 pb-4 border-b flex-shrink-0">
-            <SheetTitle className="text-left">Navigation Menu</SheetTitle>
+            <SheetTitle className="text-start">Navigation Menu</SheetTitle>
             <p id="mobile-menu-description" className="sr-only">
               Main navigation menu with links to all pages, language selector, and contact options
             </p>
@@ -213,7 +214,7 @@ export function Header({ locale }: { locale: string }) {
                     aria-current={isActive ? 'page' : undefined}
                     className={`flex items-center gap-4 px-6 py-4 text-base font-medium transition-all duration-200 min-h-[56px] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
                       isActive
-                        ? 'bg-primary/10 text-primary border-r-4 border-primary font-semibold'
+                        ? `bg-primary/10 text-primary ${isRTL ? 'border-l-4' : 'border-r-4'} border-primary font-semibold`
                         : 'text-gray-700 hover:bg-gray-50 hover:text-primary'
                     }`}
                   >
@@ -240,7 +241,7 @@ export function Header({ locale }: { locale: string }) {
                     }}
                     aria-label={`Switch to ${lang.name}`}
                     aria-pressed={locale === lang.code}
-                    className={`flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-all duration-200 min-h-[52px] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${
+                    className={`flex items-center gap-3 px-4 py-3 rounded-lg text-start transition-all duration-200 min-h-[52px] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${
                       locale === lang.code
                         ? 'bg-primary/10 text-primary font-semibold border-2 border-primary'
                         : 'bg-gray-50 text-gray-700 hover:bg-gray-100 border-2 border-transparent'

@@ -47,7 +47,7 @@ export function LanguageSwitcher() {
             onClick={() => switchLanguage(lang.code)}
             role="menuitem"
             aria-label={`Switch to ${lang.name}`}
-            className={`w-full px-4 py-3 text-left hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg flex items-center gap-3 transition-colors focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
+            className={`w-full px-4 py-3 text-start hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg flex items-center gap-3 transition-colors focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${
               locale === lang.code ? 'bg-primary/5 text-primary font-semibold' : ''
             }`}
           >

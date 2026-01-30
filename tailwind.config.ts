@@ -9,6 +9,10 @@ const config = {
     './src/**/*.{ts,tsx}',
   ],
   prefix: "",
+  // Enable RTL support via logical properties
+  corePlugins: {
+    // Tailwind v3.3+ has built-in RTL support via logical properties
+  },
   theme: {
     container: {
       center: true,
@@ -72,6 +76,22 @@ const config = {
           900: '#0f172a',  // Near black (primary dark)
           950: '#020617',  // True black (maximum contrast)
         },
+        // Semantic Text Colors - WCAG AA Compliant
+        'text-primary': 'hsl(var(--text-primary))',
+        'text-secondary': 'hsl(var(--text-secondary))',
+        'text-tertiary': 'hsl(var(--text-tertiary))',
+        'text-muted-color': 'hsl(var(--text-muted))',
+        'text-inverse': 'hsl(var(--text-inverse))',
+        'text-inverse-secondary': 'hsl(var(--text-inverse-secondary))',
+        'text-inverse-muted': 'hsl(var(--text-inverse-muted))',
+        // Surface Colors
+        'surface-dark': 'hsl(var(--surface-dark))',
+        'surface-light': 'hsl(var(--surface-light))',
+        'surface-elevated': 'hsl(var(--surface-elevated))',
+        // Hero Colors
+        'hero-text': 'hsl(var(--hero-text))',
+        'hero-text-secondary': 'hsl(var(--hero-text-secondary))',
+        'hero-text-muted': 'hsl(var(--hero-text-muted))',
         gold: {
           50: '#fffbeb',   // Lightest tint
           100: '#fef3c7',  // Very light

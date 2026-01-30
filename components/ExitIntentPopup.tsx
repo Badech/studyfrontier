@@ -56,7 +56,7 @@ export function ExitIntentPopup() {
       <Card className="relative max-w-lg w-full mx-4 shadow-2xl border-2 border-blue-500">
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 p-2 hover:bg-gray-100 rounded-full transition-colors"
+          className="absolute top-4 end-4 p-2 hover:bg-gray-100 rounded-full transition-colors"
           aria-label="Close"
         >
           <X className="h-5 w-5" />
@@ -87,14 +87,14 @@ export function ExitIntentPopup() {
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="relative">
-                  <Mail className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
+                  <Mail className="absolute start-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
                   <input
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder={t('emailPlaceholder')}
                     required
-                    className="w-full pl-12 pr-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none"
+                    className="w-full ps-12 pe-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none"
                   />
                 </div>
                 <Button

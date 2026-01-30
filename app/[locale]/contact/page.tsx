@@ -1,3 +1,12 @@
+import { generateMetadataForPage } from '@/lib/generateMetadataForPage';
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  return generateMetadataForPage(locale, {
+    namespace: 'contact',
+    path: '/contact'
+  });
+}
+
 'use client';
 
 import { useTranslations } from 'next-intl';
@@ -27,7 +36,7 @@ export default function ContactPage() {
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
                 {t('hero.title')}
               </h1>
-              <p className="text-lg md:text-xl lg:text-2xl text-gray-200 leading-relaxed">
+              <p className="text-lg md:text-xl lg:text-2xl leading-relaxed" style={{ color: 'hsl(var(--hero-text-secondary))' }}>
                 {t('hero.subtitle')}
               </p>
             </div>

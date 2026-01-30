@@ -136,7 +136,7 @@ export function StudyQuiz() {
                 <button
                   key={index}
                   onClick={() => handleAnswer(option)}
-                  className="w-full p-4 text-left border-2 border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-all duration-200 group"
+                  className="w-full p-4 text-start border-2 border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-all duration-200 group"
                 >
                   <div className="flex items-center justify-between">
                     <span className="text-lg font-medium">{option}</span>

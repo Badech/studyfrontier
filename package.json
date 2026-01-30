@@ -12,10 +12,13 @@
     "test:crawl:quick": "playwright test tests/quick-crawl.spec.ts --reporter=line",
     "test:crawl:full": "playwright test tests/full-crawl.spec.ts --reporter=line",
     "test:a11y": "playwright test tests/a11y.spec.ts",
+    "test:contrast": "playwright test tests/contrast.spec.ts",
+    "test:mobile-ux": "playwright test tests/mobile-ux.spec.ts",
     "i18n:audit": "npx ts-node scripts/i18n-audit.ts",
     "test:all": "playwright test",
     "audit": "npm run typecheck && npm run lint && npm run test:crawl && npm run test:a11y",
-    "audit:quick": "npm run typecheck && npm run lint"
+    "audit:quick": "npm run typecheck && npm run lint",
+    "audit:full": "ts-node scripts/audit-full.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

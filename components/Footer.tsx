@@ -100,8 +100,8 @@ export function Footer({ locale }: { locale: string }) {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
             <p>© {new Date().getFullYear()} StudyFrontier. {footer('rights')}</p>
-            <p className="text-center md:text-right max-w-md">
-              {footer('description')}
+            <p className="text-center md:text-end">
+              {footer('tagline')}
             </p>
           </div>
         </div>

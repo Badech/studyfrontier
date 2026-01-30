@@ -67,7 +67,7 @@ export default function Error({
               className="flex-1 min-h-[44px]"
               aria-label={t('tryAgainLabel')}
             >
-              <RefreshCw className={`h-4 w-4 ${isRTL ? 'ml-2' : 'mr-2'}`} aria-hidden="true" />
+              <RefreshCw className={`h-4 w-4 ${isRTL ? 'ms-2' : 'me-2'}`} aria-hidden="true" />
               {t('tryAgain')}
             </Button>
             <Link href={`/${params.locale}`} className="flex-1">
@@ -76,7 +76,7 @@ export default function Error({
                 className="w-full min-h-[44px]"
                 aria-label={t('goHomeLabel')}
               >
-                <Home className={`h-4 w-4 ${isRTL ? 'ml-2' : 'mr-2'}`} aria-hidden="true" />
+                <Home className={`h-4 w-4 ${isRTL ? 'ms-2' : 'me-2'}`} aria-hidden="true" />
                 {t('goHome')}
               </Button>
             </Link>

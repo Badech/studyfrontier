@@ -1,3 +1,12 @@
+import { generateMetadataForPage } from '@/lib/generateMetadataForPage';
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  return generateMetadataForPage(locale, {
+    namespace: 'home',
+    path: '/'
+  });
+}
+
 'use client';
 
 import { useTranslations } from 'next-intl';
@@ -55,16 +64,16 @@ export default function HomePage() {
             
             {/* Eyebrow - International Trust Badge */}
             <AnimatedSection>
-              <div className="flex items-center justify-center gap-3 mb-8">
-                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
-                  <Globe className="h-4 w-4 text-gold-400" />
-                  <span className="text-sm font-display font-semibold text-white">
+              <div className="flex items-center justify-center gap-3 mb-8 flex-wrap">
+                <div className="hero-badge-light flex items-center gap-2 px-4 py-2 rounded-full">
+                  <Globe className="h-4 w-4" aria-hidden="true" />
+                  <span className="text-sm font-display font-semibold">
                     International Education Consulting
                   </span>
                 </div>
-                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-gold-400/10 backdrop-blur-sm border border-gold-400/30">
-                  <Shield className="h-4 w-4 text-gold-400" />
-                  <span className="text-sm font-display font-semibold text-gold-400">
+                <div className="hero-badge-gold flex items-center gap-2 px-4 py-2 rounded-full">
+                  <Shield className="h-4 w-4" aria-hidden="true" />
+                  <span className="text-sm font-display font-semibold">
                     Accredited Universities Only
                   </span>
                 </div>
@@ -82,7 +91,7 @@ export default function HomePage() {
 
             {/* Confident Subheading */}
             <AnimatedSection delay={0.2}>
-              <p className="hero-subheadline text-center mx-auto text-white/90 mb-10">
+              <p className="hero-subheadline text-center mx-auto mb-10">
                 Strategic consulting for ambitious students seeking legitimate pathways to accredited American universities. No shortcuts. No false promises. Just expert guidance that positions you for success.
               </p>
             </AnimatedSection>
@@ -101,7 +110,7 @@ export default function HomePage() {
                 </Button>
                 
                 {/* Trust Line */}
-                <p className="text-base text-white/70 font-body">
+                <p className="text-base font-body" style={{ color: 'hsl(var(--hero-text-muted))' }}>
                   Transparent guidance · Realistic pathways · Ethical practice
                 </p>
               </div>
@@ -113,28 +122,28 @@ export default function HomePage() {
                 {/* Indicator 1 */}
                 <div className="text-center">
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm mb-4">
-                    <Users className="h-8 w-8 text-gold-400" />
+                    <Users className="h-8 w-8 text-gold-400" aria-hidden="true" />
                   </div>
-                  <div className="stat-number text-white mb-2">500+</div>
-                  <div className="text-sm text-white/70 font-body">Students Guided</div>
+                  <div className="hero-stat-value mb-2">500+</div>
+                  <div className="hero-stat-label font-body">Students Guided</div>
                 </div>
 
                 {/* Indicator 2 */}
                 <div className="text-center">
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm mb-4">
-                    <Building2 className="h-8 w-8 text-gold-400" />
+                    <Building2 className="h-8 w-8 text-gold-400" aria-hidden="true" />
                   </div>
-                  <div className="stat-number text-white mb-2">50+</div>
-                  <div className="text-sm text-white/70 font-body">U.S. Universities</div>
+                  <div className="hero-stat-value mb-2">50+</div>
+                  <div className="hero-stat-label font-body">U.S. Universities</div>
                 </div>
 
                 {/* Indicator 3 */}
                 <div className="text-center">
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm mb-4">
-                    <Award className="h-8 w-8 text-gold-400" />
+                    <Award className="h-8 w-8 text-gold-400" aria-hidden="true" />
                   </div>
-                  <div className="stat-number text-white mb-2">98%</div>
-                  <div className="text-sm text-white/70 font-body">Success Rate</div>
+                  <div className="hero-stat-value mb-2">98%</div>
+                  <div className="hero-stat-label font-body">Success Rate</div>
                 </div>
               </div>
             </AnimatedSection>

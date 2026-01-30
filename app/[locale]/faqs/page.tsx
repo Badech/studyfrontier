@@ -52,7 +52,7 @@ export default function FAQsPage() {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700 leading-relaxed pl-8">
+                    <p className="text-gray-700 leading-relaxed ps-8">
                       {faq.answer}
                     </p>
                   </CardContent>

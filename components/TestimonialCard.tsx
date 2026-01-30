@@ -31,10 +31,10 @@ export function TestimonialCard({ testimonial }: TestimonialCardProps) {
         {/* Quote */}
         <div className="relative">
           <Quote 
-            className="h-10 w-10 text-gold-400/20 absolute -top-3 -left-3 transition-all duration-300 group-hover:text-gold-400/30 group-hover:scale-110" 
+            className="h-10 w-10 text-gold-400/20 absolute -top-3 -start-3 transition-all duration-300 group-hover:text-gold-400/30 group-hover:scale-110" 
             aria-hidden="true"
           />
-          <blockquote className="relative pl-8 font-body text-lg text-navy-700 leading-relaxed">
+          <blockquote className="relative ps-8 font-body text-lg text-navy-700 leading-relaxed">
             "{testimonial.quote}"
           </blockquote>
         </div>

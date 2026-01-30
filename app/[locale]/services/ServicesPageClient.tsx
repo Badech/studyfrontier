@@ -64,7 +64,7 @@ export default function ServicesPageClient() {
               <h1 className="hero-headline">
                 {t('hero.title')}
               </h1>
-              <p className="hero-subheadline mx-auto text-white/90">
+              <p className="hero-subheadline mx-auto">
                 {t('hero.subtitle')}
               </p>
             </div>

@@ -15,7 +15,7 @@ export function WhatsAppFloat() {
   return (
     <button
       onClick={handleClick}
-      className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-50 flex items-center gap-3 bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-[0_0_30px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-110 whatsapp-pulse group focus-visible:ring-4 focus-visible:ring-[#25D366] focus-visible:ring-offset-2 min-h-[56px]"
+      className="fixed bottom-20 md:bottom-8 end-4 md:end-8 z-50 flex items-center gap-3 bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-[0_0_30px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-110 whatsapp-pulse group focus-visible:ring-4 focus-visible:ring-[#25D366] focus-visible:ring-offset-2 min-h-[56px]"
       aria-label="Contact us on WhatsApp - Free consultation"
       title="Chat with us on WhatsApp"
     >
@@ -23,7 +23,7 @@ export function WhatsAppFloat() {
       <span className="font-semibold hidden md:inline-block">
         {t('float_text')}
       </span>
-      <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full animate-bounce" aria-label="Free consultation">
+      <span className="absolute -top-2 -end-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full animate-bounce" aria-label="Free consultation">
         Free
       </span>
     </button>

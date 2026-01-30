@@ -167,7 +167,7 @@ export default function SuccessStoriesPage() {
                         </div>
 
                         {/* Story Header */}
-                        <div className="flex-1 text-center md:text-left">
+                        <div className="flex-1 text-center md:text-start">
                           <CardTitle className="text-3xl mb-2">{story.name}</CardTitle>
                           <div className="flex flex-wrap gap-4 justify-center md:justify-start text-gray-600 mb-4">
                             <div className="flex items-center gap-2">

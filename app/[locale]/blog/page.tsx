@@ -146,7 +146,7 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
                       <span className="text-sm text-gray-500">{article.readTime}</span>
                       <Link href={`/${params.locale}/blog/${article.slug}`}>
                         <Button variant="ghost" size="sm" className="group-hover:text-gold-600">
-                          Read More <ArrowRight className="h-4 w-4 ml-2" />
+                          Read More <ArrowRight className="h-4 w-4 ms-2" />
                         </Button>
                       </Link>
                     </div>
@@ -184,7 +184,7 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
                       <span className="text-xs text-gray-500">{article.readTime}</span>
                       <Link href={`/${params.locale}/blog/${article.slug}`}>
                         <Button variant="ghost" size="sm">
-                          Read <ArrowRight className="h-3 w-3 ml-1" />
+                          Read <ArrowRight className="h-3 w-3 ms-1" />
                         </Button>
                       </Link>
                     </div>
