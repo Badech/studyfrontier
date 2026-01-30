@@ -93,14 +93,14 @@ export default function ResourcesPage({ params }: { params: { locale: string } }
         {
           title: t('items.costOfStudying.title'),
           description: t('items.costOfStudying.description'),
-          link: '/blog/cost-of-studying-usa',
-          type: t('labels.article')
+          link: '#',
+          type: t('labels.comingSoon')
         },
         {
           title: t('items.scholarships.title'),
           description: t('items.scholarships.description'),
-          link: '/blog/scholarships-moroccan-students',
-          type: t('labels.article')
+          link: '#',
+          type: t('labels.comingSoon')
         }
       ]
     }
