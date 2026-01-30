@@ -865,5 +865,25 @@
       "title": "Success!",
       "message": "Check your email for the checklist. You can close this window."
     }
+  },
+  "comingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "We're working on this content and will publish it soon.",
+    "description": "This page is currently under development. Check back soon or contact us to learn more about our services.",
+    "backToHome": "Back to Home",
+    "contactUs": "Contact Us"
+  },
+  "aria": {
+    "home": "StudyFrontier Home",
+    "selectLanguage": "Select language",
+    "languageOptions": "Language options",
+    "navigationMenu": "Navigation Menu",
+    "mainNavigation": "Main navigation",
+    "languageSelector": "Language selector",
+    "availableLanguages": "Available languages",
+    "whatsappConsultation": "Contact us on WhatsApp - Free consultation",
+    "freeConsultation": "Free consultation",
+    "applyWhatsapp": "Apply via WhatsApp",
+    "contactWhatsapp": "Contact us via WhatsApp"
   }
 }

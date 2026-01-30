@@ -758,6 +758,7 @@
     "description": "Une agence de conseil en éducation internationale aidant les étudiants à accéder aux universités américaines.",
     "location": "Kénitra, Maroc",
     "rights": "Tous droits réservés.",
+    "tagline": "Services professionnels de conseil en éducation internationale",
     "quickLinks": "Liens Rapides",
     "contact": "Contact",
     "commitment": {
@@ -864,5 +865,25 @@
       "title": "Succès !",
       "message": "Vérifiez votre e-mail pour la checklist. Vous pouvez fermer cette fenêtre."
     }
+  },
+  "comingSoon": {
+    "title": "Bientôt Disponible",
+    "subtitle": "Nous travaillons sur ce contenu et le publierons bientôt.",
+    "description": "Cette page est actuellement en développement. Revenez bientôt ou contactez-nous pour en savoir plus sur nos services.",
+    "backToHome": "Retour à l'Accueil",
+    "contactUs": "Contactez-Nous"
+  },
+  "aria": {
+    "home": "Accueil StudyFrontier",
+    "selectLanguage": "Sélectionner la langue",
+    "languageOptions": "Options de langue",
+    "navigationMenu": "Menu de Navigation",
+    "mainNavigation": "Navigation principale",
+    "languageSelector": "Sélecteur de langue",
+    "availableLanguages": "Langues disponibles",
+    "whatsappConsultation": "Contactez-nous sur WhatsApp - Consultation gratuite",
+    "freeConsultation": "Consultation gratuite",
+    "applyWhatsapp": "Postuler via WhatsApp",
+    "contactWhatsapp": "Contactez-nous via WhatsApp"
   }
 }

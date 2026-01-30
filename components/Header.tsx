@@ -19,6 +19,7 @@ const languages = [
 
 export function Header({ locale }: { locale: string }) {
   const t = useTranslations('nav');
+  const tAria = useTranslations('aria');
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -70,7 +71,7 @@ export function Header({ locale }: { locale: string }) {
           <Link 
             href={`/${locale}`} 
             className="flex items-center gap-2 group focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 rounded-lg py-1"
-            aria-label="StudyFrontier Home"
+            aria-label={tAria('home')}
           >
             <div className="relative flex items-center justify-center transition-transform group-hover:scale-105">
               <Image 
@@ -113,7 +114,7 @@ export function Header({ locale }: { locale: string }) {
                 variant="ghost" 
                 size="sm" 
                 className="gap-2 min-h-[44px] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
-                aria-label="Select language"
+                aria-label={tAria('selectLanguage')}
                 aria-haspopup="true"
               >
                 <Globe className="h-4 w-4" aria-hidden="true" />
@@ -122,7 +123,7 @@ export function Header({ locale }: { locale: string }) {
               <div 
                 className={`absolute ${isRTL ? 'left-0' : 'right-0'} top-full mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50`}
                 role="menu"
-                aria-label="Language options"
+                aria-label={tAria('languageOptions')}
               >
                 {languages.map((lang) => (
                   <button
@@ -146,7 +147,7 @@ export function Header({ locale }: { locale: string }) {
               size="default"
               onClick={handleWhatsAppClick}
               className="hidden sm:inline-flex min-h-[44px] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
-              aria-label="Apply via WhatsApp"
+              aria-label={tAria('applyWhatsapp')}
             >
               {t('apply')}
             </Button>
@@ -189,7 +190,7 @@ export function Header({ locale }: { locale: string }) {
           aria-describedby="mobile-menu-description"
         >
           <SheetHeader className="px-6 pt-6 pb-4 border-b flex-shrink-0">
-            <SheetTitle className="text-start">Navigation Menu</SheetTitle>
+            <SheetTitle className="text-start">{tAria('navigationMenu')}</SheetTitle>
             <p id="mobile-menu-description" className="sr-only">
               Main navigation menu with links to all pages, language selector, and contact options
             </p>
@@ -200,7 +201,7 @@ export function Header({ locale }: { locale: string }) {
             <nav 
               id="mobile-menu"
               className="flex flex-col py-4 flex-1 overflow-y-auto"
-              aria-label="Main navigation"
+              aria-label={tAria('mainNavigation')}
               role="navigation"
             >
               {navItems.map((item) => {
@@ -226,12 +227,12 @@ export function Header({ locale }: { locale: string }) {
             </nav>
 
             {/* Language Switcher - Mobile */}
-            <div className="border-t px-6 py-4 flex-shrink-0" role="region" aria-label="Language selector">
+            <div className="border-t px-6 py-4 flex-shrink-0" role="region" aria-label={tAria('languageSelector')}>
               <div className="flex items-center gap-2 mb-3 text-sm font-medium text-gray-500">
                 <Globe className="h-4 w-4" aria-hidden="true" />
                 <span>Language / Langue / اللغة</span>
               </div>
-              <div className="grid grid-cols-1 gap-2" role="group" aria-label="Available languages">
+              <div className="grid grid-cols-1 gap-2" role="group" aria-label={tAria('availableLanguages')}>
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -264,7 +265,7 @@ export function Header({ locale }: { locale: string }) {
                   setIsMobileMenuOpen(false);
                 }}
                 className="w-full min-h-[52px] text-base font-semibold focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
-                aria-label="Contact us via WhatsApp"
+                aria-label={tAria('contactWhatsapp')}
               >
                 <MessageCircle className="h-5 w-5" aria-hidden="true" />
                 {t('apply')}

@@ -1,8 +1,13 @@
+'use client';
+
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { Clock, ArrowLeft, Mail } from 'lucide-react';
 
 export default function ComingSoonPage({ params }: { params: { locale: string } }) {
+  const t = useTranslations('comingSoon');
+  
   return (
     <div className="min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-navy-50 to-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,16 +20,16 @@ export default function ComingSoonPage({ params }: { params: { locale: string } 
           {/* Heading */}
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-navy-900">
-              Coming Soon
+              {t('title')}
             </h1>
             <p className="text-xl text-gray-600">
-              We're working on this content and will publish it soon.
+              {t('subtitle')}
             </p>
           </div>
 
           {/* Description */}
           <p className="text-gray-500 max-w-lg mx-auto">
-            This page is currently under development. Check back soon or contact us to learn more about our services.
+            {t('description')}
           </p>
 
           {/* Actions */}
@@ -32,13 +37,13 @@ export default function ComingSoonPage({ params }: { params: { locale: string } 
             <Link href={`/${params.locale}`}>
               <Button variant="outline" size="lg" className="gap-2">
                 <ArrowLeft className="h-4 w-4" />
-                Back to Home
+                {t('backToHome')}
               </Button>
             </Link>
             <Link href={`/${params.locale}/contact`}>
               <Button variant="premium" size="lg" className="gap-2">
                 <Mail className="h-4 w-4" />
-                Contact Us
+                {t('contactUs')}
               </Button>
             </Link>
           </div>

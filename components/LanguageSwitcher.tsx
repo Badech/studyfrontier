@@ -1,6 +1,6 @@
 'use client';
 
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -15,6 +15,7 @@ export function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const tAria = useTranslations('aria');
 
   const switchLanguage = (newLocale: string) => {
     const currentPathWithoutLocale = pathname.replace(`/${locale}`, '');
@@ -28,7 +29,7 @@ export function LanguageSwitcher() {
         variant="ghost" 
         size="sm" 
         className="gap-2 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
-        aria-label="Select language"
+        aria-label={tAria('selectLanguage')}
         aria-haspopup="true"
       >
         <Globe className="h-4 w-4" aria-hidden="true" />
@@ -39,7 +40,7 @@ export function LanguageSwitcher() {
       <div 
         className="absolute right-0 top-full mt-2 w-40 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
         role="menu"
-        aria-label="Language options"
+        aria-label={tAria('languageOptions')}
       >
         {languages.map((lang) => (
           <button
