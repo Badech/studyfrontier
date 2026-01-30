@@ -706,16 +706,111 @@
     }
   },
   "programs": {
+    "undergraduate": {
+      "hero": {
+        "title": "Undergraduate Study in the USA",
+        "subtitle": "Complete guide to Bachelor's degrees for Moroccan students",
+        "button": "Get Personalized Guidance"
+      },
+      "keyFacts": {
+        "duration": {
+          "value": "4 Years",
+          "label": "Duration"
+        },
+        "cost": {
+          "value": "$20k-60k",
+          "label": "Annual Cost"
+        },
+        "tests": {
+          "value": "SAT/ACT",
+          "label": "Often Required"
+        },
+        "intakes": {
+          "value": "Fall/Spring",
+          "label": "Intakes"
+        }
+      },
+      "what": {
+        "title": "What is a Bachelor's Degree (Undergraduate)?",
+        "p1": "A Bachelor's degree is a 4-year undergraduate program offered by US universities. It's equivalent to a \"Licence\" in the Moroccan system but typically includes 2 years of general education plus 2 years of specialized study.",
+        "p2": "For Moroccan students with a Baccalauréat, you can apply directly to US universities for freshman (first-year) admission."
+      },
+      "majors": {
+        "title": "Popular Majors",
+        "list": [
+          "Computer Science",
+          "Business Administration",
+          "Engineering",
+          "International Relations",
+          "Pre-Med/Biology",
+          "Economics"
+        ]
+      },
+      "outcomes": {
+        "title": "Career Outcomes",
+        "list": [
+          "OPT work authorization (1-3 years)",
+          "Average starting salary: $55k-75k",
+          "Option to pursue Master's",
+          "Strong alumni networks",
+          "Global career opportunities"
+        ]
+      },
+      "requirements": {
+        "title": "Admission Requirements for Moroccan Students",
+        "items": [
+          {
+            "title": "High School Diploma (Baccalauréat)",
+            "description": "Completed Moroccan Baccalauréat with good grades (minimum 12/20, but 14+ recommended for competitive universities)",
+            "badge": "Required"
+          },
+          {
+            "title": "English Proficiency",
+            "description": "TOEFL iBT 80+ or IELTS 6.5+. Some universities accept Duolingo English Test (100+)",
+            "badge": "Required"
+          },
+          {
+            "title": "SAT or ACT",
+            "description": "Required by many universities. SAT: 1200+ competitive, 1400+ for top schools. Test-optional schools available.",
+            "badge": "Sometimes"
+          },
+          {
+            "title": "Transcripts",
+            "description": "Official high school transcripts translated to English and evaluated by credential evaluation service",
+            "badge": "Required"
+          },
+          {
+            "title": "Essays",
+            "description": "Personal statement (Common App essay) plus supplemental essays for each university",
+            "badge": "Required"
+          },
+          {
+            "title": "Letters of Recommendation",
+            "description": "2-3 letters from teachers or counselors who know you well",
+            "badge": "Required"
+          },
+          {
+            "title": "Financial Documents",
+            "description": "Bank statements showing $25k-70k depending on university for I-20 issuance",
+            "badge": "Required"
+          },
+          {
+            "title": "Extracurriculars",
+            "description": "Activities, leadership, volunteer work, sports, or work experience",
+            "badge": "Recommended"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Apply for Your Bachelor's?",
+        "subtitle": "Get expert help with your undergraduate applications",
+        "button": "Apply via WhatsApp"
+      }
+    },
     "masters": {
       "cta": {
         "title": "Ready to Pursue Your Master's in the USA?",
         "subtitle": "Get expert guidance on program selection and applications"
-      }
-    },
-    "undergraduate": {
-      "cta": {
-        "title": "Ready to Apply for Your Bachelor's?",
-        "subtitle": "Get expert help with your undergraduate applications"
       }
     },
     "pathways": {
