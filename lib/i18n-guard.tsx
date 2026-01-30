@@ -178,5 +178,5 @@ export function createGuardedTranslations<T extends Function>(
         }
       },
     });
-  }) as T;
+  }) as unknown as T;
 }
