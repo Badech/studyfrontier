@@ -706,23 +706,37 @@
     }
   },
   "programs": {
-    "masters": {
-      "cta": {
-        "title": "Prêt à Poursuivre Votre Master aux États-Unis?",
-        "subtitle": "Obtenez des conseils d'experts sur la sélection de programmes et les candidatures"
-      }
-    },
     "undergraduate": {
-      "cta": {
-        "title": "Prêt à Postuler pour Votre Bachelor?",
-        "subtitle": "Obtenez de l'aide d'experts pour vos candidatures de premier cycle"
-      }
+      "hero": {"title": "Études de Premier Cycle aux USA", "subtitle": "Guide complet des diplômes de Bachelor pour les étudiants marocains", "button": "Obtenir des Conseils Personnalisés"},
+      "keyFacts": {
+        "duration": {"value": "4 Ans", "label": "Durée"},
+        "cost": {"value": "$20k-60k", "label": "Coût Annuel"},
+        "tests": {"value": "SAT/ACT", "label": "Souvent Requis"},
+        "intakes": {"value": "Automne/Printemps", "label": "Rentrées"}
+      },
+      "what": {"title": "Qu'est-ce qu'un Diplôme de Bachelor (Premier Cycle)?", "p1": "Un diplôme de Bachelor est un programme de premier cycle de 4 ans offert par les universités américaines. C'est l'équivalent d'une \"Licence\" dans le système marocain mais comprend généralement 2 ans d'éducation générale plus 2 ans d'études spécialisées.", "p2": "Pour les étudiants marocains avec un Baccalauréat, vous pouvez postuler directement aux universités américaines pour une admission en première année."},
+      "majors": {"title": "Filières Populaires", "list": ["Informatique", "Administration des Affaires", "Ingénierie", "Relations Internationales", "Pré-Médecine/Biologie", "Économie"]},
+      "outcomes": {"title": "Débouchés Professionnels", "list": ["Autorisation de travail OPT (1-3 ans)", "Salaire de départ moyen: $55k-75k", "Option de poursuivre un Master", "Réseaux d'anciens élèves solides", "Opportunités de carrière mondiales"]},
+      "requirements": {
+        "title": "Conditions d'Admission pour Étudiants Marocains",
+        "items": [
+          {"title": "Diplôme d'Études Secondaires (Baccalauréat)", "description": "Baccalauréat marocain complété avec de bonnes notes (minimum 12/20, mais 14+ recommandé pour les universités compétitives)", "badge": "Requis"},
+          {"title": "Maîtrise de l'Anglais", "description": "TOEFL iBT 80+ ou IELTS 6.5+. Certaines universités acceptent le Duolingo English Test (100+)", "badge": "Requis"},
+          {"title": "SAT ou ACT", "description": "Requis par de nombreuses universités. SAT: 1200+ compétitif, 1400+ pour les meilleures écoles. Écoles à test optionnel disponibles.", "badge": "Parfois"},
+          {"title": "Relevés de Notes", "description": "Relevés officiels du lycée traduits en anglais et évalués par un service d'évaluation des diplômes", "badge": "Requis"},
+          {"title": "Essais", "description": "Déclaration personnelle (essai Common App) plus essais supplémentaires pour chaque université", "badge": "Requis"},
+          {"title": "Lettres de Recommandation", "description": "2-3 lettres de professeurs ou conseillers qui vous connaissent bien", "badge": "Requis"},
+          {"title": "Documents Financiers", "description": "Relevés bancaires montrant $25k-70k selon l'université pour la délivrance du I-20", "badge": "Requis"},
+          {"title": "Activités Parascolaires", "description": "Activités, leadership, bénévolat, sports ou expérience professionnelle", "badge": "Recommandé"}
+        ]
+      },
+      "cta": {"title": "Prêt à Postuler pour Votre Bachelor?", "subtitle": "Obtenez de l'aide d'experts pour vos candidatures de premier cycle", "button": "Postuler via WhatsApp"}
+    },
+    "masters": {
+      "cta": {"title": "Prêt à Poursuivre Votre Master aux États-Unis?", "subtitle": "Obtenez des conseils d'experts sur la sélection de programmes et les candidatures"}
     },
     "pathways": {
-      "cta": {
-        "title": "Un Programme Passerelle Est-il Fait pour Vous?",
-        "subtitle": "Obtenez des recommandations personnalisées basées sur votre niveau d'anglais"
-      }
+      "cta": {"title": "Un Programme Passerelle Est-il Fait pour Vous?", "subtitle": "Obtenez des recommandations personnalisées basées sur votre niveau d'anglais"}
     }
   },
   "f1Visa": {
