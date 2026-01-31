@@ -1,10 +1,10 @@
-import { notFound, redirect } from 'next/navigation';
+import { notFound } from 'next/navigation';
 
 /**
  * Dynamic Blog Article Route
  * 
- * Currently redirects all blog articles to the coming-soon page
- * until individual articles are created.
+ * Returns 404 for all blog articles until they are created.
+ * This prevents misleading users with fake article links.
  */
 
 interface BlogArticlePageProps {
@@ -15,24 +15,11 @@ interface BlogArticlePageProps {
 }
 
 export default function BlogArticlePage({ params }: BlogArticlePageProps) {
-  // Redirect to coming-soon page until articles are ready
-  redirect(`/${params.locale}/coming-soon`);
+  // Return 404 until real articles are created
+  notFound();
 }
 
-// Optional: If you want to generate static params for known slugs
+// Don't generate static params since no articles exist yet
 export function generateStaticParams() {
-  const slugs = [
-    'study-in-usa-complete-guide',
-    'f1-visa-interview-tips',
-    'affordable-us-universities',
-    'scholarships-moroccan-students',
-    'cost-of-studying-usa',
-    'stem-programs-usa',
-    'student-life-usa',
-    'application-timeline',
-  ];
-
-  return slugs.map((slug) => ({
-    slug,
-  }));
+  return [];
 }

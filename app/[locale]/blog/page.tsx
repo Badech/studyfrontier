@@ -125,7 +125,7 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             {articles.filter(a => a.featured).map((article, index) => (
               <AnimatedSection key={article.slug} delay={index * 0.1}>
-                <Card className="h-full hover:shadow-xl transition-all duration-300 group">
+                <Card className="h-full opacity-75 cursor-not-allowed border-dashed">
                   <CardHeader>
                     <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
                       <span className="px-3 py-1 bg-gold-100 text-gold-800 rounded-full font-semibold">
@@ -134,7 +134,7 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
                       <Calendar className="h-4 w-4" />
                       <span>{article.date}</span>
                     </div>
-                    <CardTitle className="text-2xl group-hover:text-gold-600 transition-colors">
+                    <CardTitle className="text-2xl text-gray-600">
                       {article.title}
                     </CardTitle>
                     <CardDescription className="text-base mt-2">
@@ -144,11 +144,15 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
                   <CardContent>
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-gray-500">{article.readTime}</span>
-                      <Link href={`/${params.locale}/blog/${article.slug}`}>
-                        <Button variant="ghost" size="sm" className="group-hover:text-gold-600">
-                          {t('readMore')} <ArrowRight className="h-4 w-4 ms-2" />
-                        </Button>
-                      </Link>
+                      <Button 
+                        variant="ghost" 
+                        size="sm" 
+                        disabled 
+                        className="opacity-50 cursor-not-allowed"
+                        title="Article coming soon"
+                      >
+                        Coming Soon
+                      </Button>
                     </div>
                   </CardContent>
                 </Card>
@@ -164,7 +168,7 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.filter(a => !a.featured).map((article, index) => (
               <AnimatedSection key={article.slug} delay={index * 0.1}>
-                <Card className="h-full hover:shadow-lg transition-shadow group">
+                <Card className="h-full opacity-75 cursor-not-allowed border-dashed">
                   <CardHeader>
                     <div className="flex items-center gap-2 text-xs text-gray-500 mb-2">
                       <span className="px-2 py-1 bg-navy-100 text-navy-800 rounded-full font-medium">
@@ -172,7 +176,7 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
                       </span>
                       <span>{article.date}</span>
                     </div>
-                    <CardTitle className="text-xl group-hover:text-gold-600 transition-colors">
+                    <CardTitle className="text-xl text-gray-600">
                       {article.title}
                     </CardTitle>
                     <CardDescription className="text-sm mt-2 line-clamp-2">
@@ -182,11 +186,15 @@ export default function BlogPage({ params }: { params: { locale: string } }) {
                   <CardContent>
                     <div className="flex items-center justify-between">
                       <span className="text-xs text-gray-500">{article.readTime}</span>
-                      <Link href={`/${params.locale}/blog/${article.slug}`}>
-                        <Button variant="ghost" size="sm">
-                          {t('read')} <ArrowRight className="h-3 w-3 ms-1" />
-                        </Button>
-                      </Link>
+                      <Button 
+                        variant="ghost" 
+                        size="sm" 
+                        disabled 
+                        className="opacity-50 cursor-not-allowed"
+                        title="Article coming soon"
+                      >
+                        Coming Soon
+                      </Button>
                     </div>
                   </CardContent>
                 </Card>
