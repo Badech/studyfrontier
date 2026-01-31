@@ -18,7 +18,11 @@
     "test:all": "playwright test",
     "audit": "npm run typecheck && npm run lint && npm run test:crawl && npm run test:a11y",
     "audit:quick": "npm run typecheck && npm run lint",
-    "audit:full": "ts-node scripts/audit-full.ts"
+    "audit:full": "ts-node scripts/audit-full.ts",
+    "pnpm": "echo 'Note: This project uses npm. Run: npm install'",
+    "pnpm:lint": "npm run lint",
+    "pnpm:typecheck": "npm run typecheck",
+    "pnpm:test:crawl": "npm run test:crawl"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
