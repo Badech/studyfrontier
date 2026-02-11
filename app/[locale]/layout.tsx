@@ -1,18 +1,28 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
-import { TranslationGuard } from '@/components/TranslationGuard';
-import { getMessages } from 'next-intl/server';
+import { getMessages, unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { setRequestLocale } from 'next-intl/server';
 import { locales } from '@/i18n';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { WhatsAppFloat } from '@/components/WhatsAppFloat';
-import { OrganizationSchema, ServiceSchema } from '@/components/Schema';
-import { dmSans, inter, arabic } from '../layout';
-import '../globals.css';
+import { Analytics } from '@/lib/analytics';
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
+import { FloatingWhatsApp } from '@/components/floating-whatsapp';
+import "../globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const t = await getTranslations({ locale, namespace: 'metadata.home' });
+  
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
 }
 
 export default async function LocaleLayout({
@@ -22,64 +32,31 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  // Ensure that the incoming `locale` is valid
   if (!locales.includes(locale as any)) {
     notFound();
   }
 
   // Enable static rendering
-  setRequestLocale(locale);
+  unstable_setRequestLocale(locale);
 
+  // Providing all messages to the client
+  // side is the easiest way to get started
   const messages = await getMessages();
 
-  const isRTL = locale === 'ar';
-  const fontClassName = `${inter.className} ${isRTL ? arabic.className : ''}`.trim();
-
   return (
-    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'} className={`${dmSans.variable} ${inter.variable} ${arabic.variable}`}>
-      <head>
-        <OrganizationSchema />
-        <ServiceSchema />
-        
-        {/* Modern SVG Favicon - Auto dark mode support */}
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="alternate icon" type="image/svg+xml" href="/favicon-light.svg" media="(prefers-color-scheme: dark)" />
-        
-        {/* Fallback PNG favicons for older browsers */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
-        
-        {/* Apple Touch Icon - Premium design */}
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg" />
-        
-        {/* Android Chrome Icons */}
-        <link rel="icon" type="image/svg+xml" sizes="192x192" href="/icon-192.svg" />
-        <link rel="icon" type="image/svg+xml" sizes="512x512" href="/icon-512.svg" />
-        
-        {/* Web App Manifest */}
-        <link rel="manifest" href="/site.webmanifest" />
-        
-        {/* Theme Colors - Navy brand color */}
-        <meta name="theme-color" content="#172554" media="(prefers-color-scheme: light)" />
-        <meta name="theme-color" content="#1e3a8a" media="(prefers-color-scheme: dark)" />
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
-      <body className={`${fontClassName} antialiased`}>
+    <html lang={locale} dir="ltr" suppressHydrationWarning>
+      <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
-          {/* Skip to Content Link for Accessibility */}
-          <a href="#main-content" className="skip-to-content">
-            Skip to main content
-          </a>
-          
-          <Header locale={locale} />
-          
-          <main id="main-content" className="min-h-screen pt-20" role="main">
-            {children}
-          </main>
-          
-          <Footer locale={locale} />
-          <WhatsAppFloat />
-          <TranslationGuard />
+          <div className="flex min-h-screen flex-col">
+            <Navbar />
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+            <FloatingWhatsApp />
+          </div>
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

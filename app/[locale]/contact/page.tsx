@@ -1,147 +1,178 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { AnimatedSection } from '@/components/AnimatedSection';
-import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
+import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
+import { Container } from '@/components/ui/container';
+import { SectionHeader } from '@/components/ui/section-header';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+import { FadeInUpDiv } from '@/components/ui/motion';
+import { WhatsAppButton } from '@/components/whatsapp-button';
+import { MessageCircle, Mail, MapPin, Clock, Info } from 'lucide-react';
+import dynamic from 'next/dynamic';
 
-const WHATSAPP_NUMBER = '212708026571';
+const LeadCaptureForm = dynamic(() => import('@/components/lead-capture-form').then(mod => ({ default: mod.LeadCaptureForm })), {
+  ssr: false,
+  loading: () => <div className="h-64 flex items-center justify-center"><p className="text-muted-foreground">Loading form...</p></div>
+});
 
-export default function ContactPage() {
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const t = await getTranslations({ locale, namespace: 'metadata.contact' });
+  
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
+
+export default function ContactPage({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
+  
   const t = useTranslations('contact');
 
-  const handleWhatsAppClick = () => {
-    if (typeof window !== 'undefined') {
-      window.open(`https://wa.me/${WHATSAPP_NUMBER}`, '_blank');
-    }
-  };
-
   return (
-    <>
-      {/* Hero Section */}
-      <section className="relative py-24 md:py-32 bg-gradient-to-br from-navy-900 to-navy-700 text-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection>
-            <div className="max-w-4xl mx-auto text-center space-y-4 md:space-y-6">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-                {t('hero.title')}
-              </h1>
-              <p className="text-lg md:text-xl lg:text-2xl leading-relaxed" style={{ color: 'hsl(var(--hero-text-secondary))' }}>
-                {t('hero.subtitle')}
-              </p>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
+    <div className="py-12 md:py-16">
+      <Container size="default">
+        <FadeInUpDiv>
+          <SectionHeader
+            title={t('title')}
+            description={t('subtitle')}
+            align="center"
+          />
+        </FadeInUpDiv>
 
-      {/* Contact Info Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-5xl mx-auto">
-            <AnimatedSection>
-              <div className="text-center mb-12">
-                <h2 className="text-4xl font-bold text-navy-900 mb-4">
-                  {t('info.title')}
-                </h2>
-                <p className="text-lg text-gray-600">
-                  {t('info.description')}
-                </p>
-              </div>
-            </AnimatedSection>
+        <FadeInUpDiv className="mt-8 max-w-3xl mx-auto">
+          <p className="text-base text-muted-foreground leading-relaxed text-center">
+            {t('intro')}
+          </p>
+        </FadeInUpDiv>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
-              <AnimatedSection delay={0.1}>
-                <Card className="text-center p-6 hover:shadow-xl transition-shadow">
-                  <CardHeader>
-                    <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                      <Mail className="h-8 w-8 text-primary" />
-                    </div>
-                    <CardTitle className="text-xl">{t('info.emailLabel')}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <a
-                      href="mailto:contact@studyfrontier.com"
-                      className="text-primary hover:text-primary/80 font-medium"
-                    >
-                      {t('info.email')}
-                    </a>
-                  </CardContent>
-                </Card>
-              </AnimatedSection>
-
-              <AnimatedSection delay={0.2}>
-                <Card className="text-center p-6 hover:shadow-xl transition-shadow">
-                  <CardHeader>
-                    <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                      <Phone className="h-8 w-8 text-primary" />
-                    </div>
-                    <CardTitle className="text-xl">{t('info.phoneLabel')}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <a
-                      href="tel:+212708026571"
-                      className="text-primary hover:text-primary/80 font-medium"
-                    >
-                      {t('info.phone')}
-                    </a>
-                  </CardContent>
-                </Card>
-              </AnimatedSection>
-
-              <AnimatedSection delay={0.3}>
-                <Card className="text-center p-6 hover:shadow-xl transition-shadow">
-                  <CardHeader>
-                    <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                      <MapPin className="h-8 w-8 text-primary" />
-                    </div>
-                    <CardTitle className="text-xl">{t('info.locationLabel')}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-gray-700 font-medium">
-                      {t('info.location')}
-                    </p>
-                  </CardContent>
-                </Card>
-              </AnimatedSection>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* WhatsApp CTA Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <AnimatedSection>
-              <Card className="border-2 border-[#25D366] shadow-xl text-center p-8">
-                <CardHeader>
-                  <div className="mx-auto w-20 h-20 bg-[#25D366] rounded-full flex items-center justify-center mb-6">
-                    <MessageCircle className="h-10 w-10 text-white" />
+        {/* Contact Cards */}
+        <div className="mt-12 grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          {/* WhatsApp Card - Primary */}
+          <FadeInUpDiv>
+            <Card className="h-full border-2 border-primary">
+              <CardHeader>
+                <div className="flex items-center gap-2 mb-2">
+                  <MessageCircle className="h-6 w-6 text-primary" />
+                  <CardTitle className="text-lg">{t('whatsapp_card_title')}</CardTitle>
+                </div>
+                <CardDescription>{t('whatsapp_card_desc')}</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <WhatsAppButton className="w-full" size="lg" />
+                <div className="space-y-2 text-sm">
+                  <div className="flex items-start gap-2">
+                    <Clock className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                    <p className="text-muted-foreground">{t('whatsapp_response_time')}</p>
                   </div>
-                  <CardTitle className="text-3xl text-navy-900">
-                    {t('whatsapp.title')}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-6">
-                  <p className="text-lg text-gray-700">
-                    {t('whatsapp.description')}
-                  </p>
-                  <Button
-                    variant="whatsapp"
-                    size="xl"
-                    onClick={handleWhatsAppClick}
-                    className="text-lg font-semibold min-h-[52px] px-8 py-4"
-                  >
-                    <MessageCircle className="h-6 w-6" />
-                    {t('whatsapp.button')}
-                  </Button>
-                </CardContent>
-              </Card>
-            </AnimatedSection>
-          </div>
+                  <div className="flex items-start gap-2">
+                    <Info className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                    <p className="text-muted-foreground text-xs">{t('whatsapp_hours')}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </FadeInUpDiv>
+
+          {/* Email Card */}
+          <FadeInUpDiv>
+            <Card className="h-full">
+              <CardHeader>
+                <div className="flex items-center gap-2 mb-2">
+                  <Mail className="h-6 w-6 text-primary" />
+                  <CardTitle className="text-lg">{t('email_card_title')}</CardTitle>
+                </div>
+                <CardDescription>{t('email_card_desc')}</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <a 
+                  href={`mailto:${t('email_address')}`}
+                  className="block w-full text-center px-4 py-3 bg-muted hover:bg-muted/80 rounded-lg font-medium text-sm transition-colors"
+                >
+                  {t('email_address')}
+                </a>
+                <div className="flex items-start gap-2 text-sm">
+                  <Clock className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">{t('email_response_time')}</p>
+                </div>
+              </CardContent>
+            </Card>
+          </FadeInUpDiv>
         </div>
-      </section>
-    </>
+
+        {/* Office Location & Hours */}
+        <div className="mt-6 grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          {/* Office Location */}
+          <FadeInUpDiv>
+            <Card className="h-full">
+              <CardHeader>
+                <div className="flex items-center gap-2 mb-2">
+                  <MapPin className="h-6 w-6 text-primary" />
+                  <CardTitle className="text-lg">{t('office_card_title')}</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="space-y-2">
+                <p className="text-foreground font-medium">{t('office_address_line1')}</p>
+                <p className="text-sm text-muted-foreground">{t('office_address_line2')}</p>
+                <p className="text-xs text-muted-foreground italic mt-3">{t('office_note')}</p>
+              </CardContent>
+            </Card>
+          </FadeInUpDiv>
+
+          {/* Business Hours */}
+          <FadeInUpDiv>
+            <Card className="h-full">
+              <CardHeader>
+                <div className="flex items-center gap-2 mb-2">
+                  <Clock className="h-6 w-6 text-primary" />
+                  <CardTitle className="text-lg">{t('hours_card_title')}</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="space-y-2">
+                <div className="flex justify-between text-sm">
+                  <span className="text-muted-foreground">{t('hours_weekday')}</span>
+                  <span className="font-medium">{t('hours_weekday_time')}</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-muted-foreground">{t('hours_saturday')}</span>
+                  <span className="font-medium">{t('hours_saturday_time')}</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-muted-foreground">{t('hours_sunday')}</span>
+                  <span className="font-medium">{t('hours_sunday_time')}</span>
+                </div>
+                <p className="text-xs text-muted-foreground italic pt-2 border-t border-border">
+                  {t('hours_timezone')}
+                </p>
+              </CardContent>
+            </Card>
+          </FadeInUpDiv>
+        </div>
+
+        {/* Lead Capture Form */}
+        <FadeInUpDiv className="mt-12 max-w-2xl mx-auto">
+          <Card>
+            <CardHeader className="text-center">
+              <CardTitle className="text-2xl">{t('form_title')}</CardTitle>
+              <CardDescription>{t('form_subtitle')}</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <LeadCaptureForm />
+            </CardContent>
+          </Card>
+        </FadeInUpDiv>
+
+        {/* Response Time Note */}
+        <FadeInUpDiv className="mt-8 max-w-2xl mx-auto">
+          <div className="bg-blue-50 dark:bg-blue-950/20 rounded-lg p-4 border border-blue-200 dark:border-blue-800">
+            <h3 className="font-semibold text-sm mb-2 text-blue-900 dark:text-blue-100">{t('response_time_note')}</h3>
+            <ul className="space-y-1 text-sm text-blue-800 dark:text-blue-200">
+              <li>• {t('response_time_whatsapp')}</li>
+              <li>• {t('response_time_email')}</li>
+              <li>• {t('response_time_form')}</li>
+            </ul>
+          </div>
+        </FadeInUpDiv>
+      </Container>
+    </div>
   );
 }

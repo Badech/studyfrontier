@@ -1,111 +1,128 @@
+'use client';
+
 import Link from 'next/link';
-import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { useTranslations, useLocale } from 'next-intl';
+import { Container } from '@/components/ui/container';
+import { GraduationCap, Mail } from 'lucide-react';
 
-export function Footer({ locale }: { locale: string }) {
+export function Footer() {
   const t = useTranslations();
-  const nav = useTranslations('nav');
-  const footer = useTranslations('footer');
+  const locale = useLocale();
 
-  const navItems = [
-    { href: '/', label: nav('home') },
-    { href: '/why-studyfrontier', label: nav('whyUs') },
-    { href: '/who-we-work-with', label: nav('whoWeWorkWith') },
-    { href: '/services', label: nav('services') },
-    { href: '/study-in-usa', label: nav('studyInUSA') },
-    { href: '/resources', label: nav('resources') },
-    { href: '/success-stories', label: nav('successStories') },
-    { href: '/case-studies', label: nav('caseStudies') },
-    { href: '/blog', label: nav('blog') },
-    { href: '/about', label: nav('about') },
-    { href: '/contact', label: nav('contact') },
+  const quickLinks = [
+    { href: `/${locale}`, label: t('nav.home') },
+    { href: `/${locale}/services`, label: t('nav.services') },
+    { href: `/${locale}/programs`, label: t('nav.programs') },
+    { href: `/${locale}/how-it-works`, label: t('nav.how_it_works') },
+    { href: `/${locale}/faq`, label: t('nav.faq') },
+    { href: `/${locale}/contact`, label: t('nav.contact') },
+  ];
+
+  const legalLinks = [
+    { href: `/${locale}/privacy-policy`, label: t('footer.privacy') },
+    { href: `/${locale}/terms`, label: t('footer.terms') },
+    { href: `/${locale}/refund-policy`, label: t('footer.refund') },
+    { href: `/${locale}/disclaimer`, label: t('footer.disclaimer') },
   ];
 
   return (
-    <footer className="bg-navy-900 text-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-          {/* Brand Column */}
-          <div className="space-y-4">
-            <div className="flex items-center">
-              <Image 
-                src="/brand/logo-wordmark-light.svg" 
-                alt="StudyFrontier Logo" 
-                width={280} 
-                height={48}
-                sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 280px"
-                className="h-10 w-auto sm:h-12"
-              />
+    <footer className="border-t bg-muted/10 mt-auto">
+      <Container size="lg">
+        <div className="py-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Brand */}
+            <div className="lg:col-span-1">
+              <div className="flex items-center gap-2 mb-4">
+                <GraduationCap className="h-6 w-6 text-primary" />
+                <span className="font-bold text-lg">Edu Agency</span>
+              </div>
+              <p className="text-sm text-muted-foreground mb-4">
+                {t('footer.tagline')}
+              </p>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Mail className="h-4 w-4" />
+                <a href="mailto:info@eduagency.com" className="hover:text-primary transition-colors">
+                  info@eduagency.com
+                </a>
+              </div>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              {footer('description')}
-            </p>
-          </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="font-semibold text-lg mb-4">{footer('quickLinks')}</h3>
-            <nav className="space-y-3">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={`/${locale}${item.href}`}
-                  className="block text-gray-300 hover:text-gold-400 transition-colors text-sm"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-          </div>
+            {/* Quick Links */}
+            <div>
+              <h3 className="font-semibold mb-4">{t('nav.home')}</h3>
+              <ul className="space-y-2 text-sm">
+                {quickLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-          {/* Contact Info */}
-          <div>
-            <h3 className="font-semibold text-lg mb-4">{footer('contact')}</h3>
-            <div className="space-y-3">
-              <a
-                href="mailto:contact@studyfrontier.com"
-                className="flex items-start gap-3 text-gray-300 hover:text-gold-400 transition-colors text-sm"
-              >
-                <Mail className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                <span>contact@studyfrontier.com</span>
-              </a>
-              <a
-                href="tel:+212708026571"
-                className="flex items-start gap-3 text-gray-300 hover:text-gold-400 transition-colors text-sm"
-              >
-                <Phone className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                <span>+212 708 026 571</span>
-              </a>
-              <div className="flex items-start gap-3 text-gray-300 text-sm">
-                <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                <span>{footer('location')}</span>
+            {/* Legal */}
+            <div>
+              <h3 className="font-semibold mb-4">{t('footer.legal')}</h3>
+              <ul className="space-y-2 text-sm">
+                {legalLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Partner */}
+            <div>
+              <h3 className="font-semibold mb-4">{t('nav.partners')}</h3>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <Link
+                    href={`/${locale}/partner-with-us`}
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {t('nav.partners')}
+                  </Link>
+                </li>
+              </ul>
+              <div className="mt-6">
+                <p className="text-xs text-muted-foreground">
+                  🇺🇸 <strong>{t('footer.usa_focus')}</strong>
+                  <br />
+                  <span className="text-muted-foreground/80">{t('footer.more_countries_soon')}</span>
+                </p>
               </div>
             </div>
           </div>
 
-          {/* Legal & Transparency */}
-          <div>
-            <h3 className="font-semibold text-lg mb-4">{footer('commitment.title')}</h3>
-            <ul className="space-y-2 text-gray-300 text-sm">
-              <li>✓ {footer('commitment.ethical')}</li>
-              <li>✓ {footer('commitment.accredited')}</li>
-              <li>✓ {footer('commitment.transparent')}</li>
-              <li>✓ {footer('commitment.noGuarantees')}</li>
-            </ul>
-          </div>
-        </div>
+          {/* Compliance Notice */}
+          <div className="mt-12 pt-8 border-t">
+            <div className="bg-muted/50 rounded-xl p-4 mb-6">
+              <p className="text-xs text-muted-foreground">
+                <strong className="text-foreground">⚠️ {t('footer.important_notice')}</strong>{' '}
+                {t('footer.important_notice_text')}{' '}
+                <Link href={`/${locale}/disclaimer`} className="text-primary hover:underline">
+                  {t('footer.read_full_disclaimer')} →
+                </Link>
+              </p>
+            </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-gray-700 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>© {new Date().getFullYear()} StudyFrontier. {footer('rights')}</p>
-            <p className="text-center md:text-end">
-              {footer('tagline')}
-            </p>
+            {/* Copyright */}
+            <div className="text-center text-sm text-muted-foreground">
+              {t('footer.copyright')}
+            </div>
           </div>
         </div>
-      </div>
+      </Container>
     </footer>
   );
 }

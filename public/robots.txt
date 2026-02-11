@@ -1,5 +1,0 @@
-# robots.txt for StudyFrontier
-User-agent: *
-Allow: /
-
-Sitemap: https://studyfrontier.com/sitemap.xml

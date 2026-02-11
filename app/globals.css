@@ -4,115 +4,75 @@
 
 @layer base {
   :root {
-    /* Premium Color System - Deep Navy, Pure White, Gold Accent */
+    /* Trust-first ICEF Design System */
+    /* Deep blue primary for trust and professionalism */
+    --background: 0 0% 100%;
+    --foreground: 215 25% 15%;
     
-    /* Base Colors */
-    --background: 0 0% 100%;                    /* Pure white */
-    --foreground: 222 84% 5%;                   /* Near black navy #0f172a */
+    /* Card system with soft shadows */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
     
-    /* Card & Surfaces */
-    --card: 0 0% 100%;                          /* Pure white */
-    --card-foreground: 222 84% 5%;              /* Near black navy */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
     
-    /* Popover */
-    --popover: 0 0% 100%;                       /* Pure white */
-    --popover-foreground: 222 84% 5%;           /* Near black navy */
+    /* Deep blue - university/trust vibe */
+    --primary: 215 85% 35%;
+    --primary-foreground: 0 0% 100%;
     
-    /* Primary - Deep Navy */
-    --primary: 222 84% 5%;                      /* #0f172a - Deep navy (near black) */
-    --primary-foreground: 0 0% 100%;            /* Pure white text on navy */
+    /* Slate neutrals for secondary elements */
+    --secondary: 215 20% 96%;
+    --secondary-foreground: 215 25% 20%;
     
-    /* Secondary - Light backgrounds */
-    --secondary: 210 40% 98%;                   /* #f8fafc - Subtle gray */
-    --secondary-foreground: 222 84% 5%;         /* Deep navy text */
+    /* Muted slate tones */
+    --muted: 215 20% 96%;
+    --muted-foreground: 215 15% 45%;
     
-    /* Muted - Subtle elements */
-    --muted: 220 13% 91%;                       /* #e2e8f0 - Light gray */
-    --muted-foreground: 215 16% 47%;            /* #64748b - Medium gray */
+    /* Light accent */
+    --accent: 215 20% 94%;
+    --accent-foreground: 215 25% 20%;
     
-    /* Accent - Gold (Premium) */
-    --accent: 43 96% 56%;                       /* #fbbf24 - Gold */
-    --accent-foreground: 222 84% 5%;            /* Deep navy text on gold */
+    /* Soft success green (sparingly) */
+    --success: 145 65% 42%;
+    --success-foreground: 0 0% 100%;
     
-    /* Destructive - Error states */
-    --destructive: 0 84% 60%;                   /* Red */
-    --destructive-foreground: 0 0% 100%;        /* White text */
+    /* Destructive (keep minimal) */
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
     
-    /* Borders & Inputs */
-    --border: 220 13% 91%;                      /* #e2e8f0 - Light gray */
-    --input: 220 13% 91%;                       /* #e2e8f0 - Light gray */
-    --ring: 43 96% 56%;                         /* Gold focus ring */
+    /* Borders and inputs - subtle slate */
+    --border: 215 20% 88%;
+    --input: 215 20% 88%;
     
-    /* Border Radius */
-    --radius: 0.5rem;                           /* 8px - Modern, not too round */
+    /* Focus ring - deep blue for accessibility */
+    --ring: 215 85% 35%;
     
-    /* ===== ACCESSIBILITY: HIGH-CONTRAST TEXT TOKENS ===== */
-    /* WCAG AA compliant color tokens for maximum readability */
-    
-    /* Text on Light Surfaces */
-    --text-primary: 222 84% 5%;                 /* #0f172a - Navy 900 (15.5:1 on white) */
-    --text-secondary: 222 47% 11%;              /* #1e293b - Navy 800 (12.6:1 on white) */
-    --text-tertiary: 215 25% 27%;               /* #334155 - Navy 700 (8.6:1 on white) */
-    --text-muted: 215 16% 47%;                  /* #64748b - Navy 500 (4.9:1 on white) */
-    
-    /* Text on Dark Surfaces - Hero Sections */
-    --text-inverse: 0 0% 100%;                  /* #ffffff - Pure white (15.5:1 on navy-900) */
-    --text-inverse-secondary: 0 0% 95%;         /* #f2f2f2 - Off-white (14.1:1 on navy-900) */
-    --text-inverse-muted: 210 40% 85%;          /* #d1d9e6 - Light gray (9.8:1 on navy-900) */
-    
-    /* Surface Colors */
-    --surface-dark: 222 84% 5%;                 /* #0f172a - Navy 900 for hero backgrounds */
-    --surface-dark-overlay: 222 84% 5% / 0.95;  /* Navy 900 with slight transparency */
-    --surface-light: 0 0% 100%;                 /* Pure white */
-    --surface-elevated: 0 0% 98%;               /* #fafafa - Subtle elevation */
-    
-    /* Hero Section Specific */
-    --hero-bg-start: 222 84% 2%;                /* #020617 - Navy 950 */
-    --hero-bg-mid: 222 84% 5%;                  /* #0f172a - Navy 900 */
-    --hero-bg-end: 222 47% 11%;                 /* #1e293b - Navy 800 */
-    --hero-text: 0 0% 100%;                     /* Pure white - WCAG AAA */
-    --hero-text-secondary: 0 0% 95%;            /* Off-white - WCAG AAA */
-    --hero-text-muted: 210 40% 85%;             /* Light gray - WCAG AA Large */
-    
-    /* Badge & Accent Colors */
-    --badge-light-bg: 0 0% 100% / 0.15;         /* White 15% opacity with backdrop-blur */
-    --badge-light-text: 0 0% 100%;              /* Pure white text */
-    --badge-light-border: 0 0% 100% / 0.25;     /* White 25% border */
-    
-    --badge-gold-bg: 43 96% 56% / 0.15;         /* Gold 15% opacity */
-    --badge-gold-text: 43 96% 70%;              /* Lighter gold for contrast */
-    --badge-gold-border: 43 96% 56% / 0.35;     /* Gold 35% border */
+    /* Border radius - rounded-xl/2xl */
+    --radius: 0.75rem;
   }
-  
+
   .dark {
-    /* Dark mode: Inverted premium system */
-    --background: 222 84% 5%;                   /* Deep navy background */
-    --foreground: 0 0% 100%;                    /* White text */
-    
-    --card: 222 47% 11%;                        /* Slightly lighter navy */
-    --card-foreground: 0 0% 100%;               /* White text */
-    
-    --popover: 222 47% 11%;                     /* Slightly lighter navy */
-    --popover-foreground: 0 0% 100%;            /* White text */
-    
-    --primary: 0 0% 100%;                       /* White in dark mode */
-    --primary-foreground: 222 84% 5%;           /* Navy text */
-    
-    --secondary: 222 47% 11%;                   /* Dark navy */
-    --secondary-foreground: 0 0% 100%;          /* White text */
-    
-    --muted: 217 33% 17%;                       /* Dark muted */
-    --muted-foreground: 215 20% 65%;            /* Light gray text */
-    
-    --accent: 43 96% 56%;                       /* Gold (same in dark) */
-    --accent-foreground: 222 84% 5%;            /* Navy text */
-    
-    --destructive: 0 84% 60%;                   /* Red */
-    --destructive-foreground: 0 0% 100%;        /* White text */
-    
-    --border: 217 33% 17%;                      /* Dark border */
-    --input: 217 33% 17%;                       /* Dark input */
-    --ring: 43 96% 56%;                         /* Gold focus ring */
+    --background: 215 25% 8%;
+    --foreground: 215 15% 95%;
+    --card: 215 25% 10%;
+    --card-foreground: 215 15% 95%;
+    --popover: 215 25% 10%;
+    --popover-foreground: 215 15% 95%;
+    --primary: 215 75% 55%;
+    --primary-foreground: 215 25% 10%;
+    --secondary: 215 20% 15%;
+    --secondary-foreground: 215 15% 90%;
+    --muted: 215 20% 15%;
+    --muted-foreground: 215 15% 60%;
+    --accent: 215 20% 18%;
+    --accent-foreground: 215 15% 90%;
+    --success: 145 60% 45%;
+    --success-foreground: 0 0% 100%;
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+    --ring: 215 75% 55%;
   }
 }
 
@@ -120,793 +80,59 @@
   * {
     @apply border-border;
   }
+  
   body {
-    @apply bg-background text-foreground;
-    font-family: var(--font-body), system-ui, -apple-system, sans-serif;
-    font-feature-settings: "rlig" 1, "calt" 1, "kern" 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
-}
-
-/* ===== PREMIUM TYPOGRAPHY SYSTEM ===== */
-/* SaaS-Grade Typography - DM Sans Display + Inter Body */
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply font-bold tracking-tight leading-tight text-navy-900;
-  color: hsl(var(--foreground));
-  letter-spacing: -0.02em;
-}
-
-h1 {
-  @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-navy-900;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.025em;
-  margin-bottom: 1.5rem;
-}
-
-h2 {
-  @apply text-4xl sm:text-5xl md:text-6xl text-navy-900;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  margin-bottom: 1.25rem;
-  margin-top: 3rem;
-}
-
-h3 {
-  @apply text-2xl sm:text-3xl md:text-4xl text-navy-800;
-  font-weight: 600;
-  line-height: 1.25;
-  letter-spacing: -0.015em;
-  margin-bottom: 1rem;
-  margin-top: 2.5rem;
-}
-
-h4 {
-  @apply text-xl sm:text-2xl md:text-3xl text-navy-800;
-  font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: -0.01em;
-  margin-bottom: 0.875rem;
-  margin-top: 2rem;
-}
-
-h5 {
-  @apply text-lg sm:text-xl md:text-2xl text-navy-700;
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 0.75rem;
-  margin-top: 1.5rem;
-}
-
-h6 {
-  @apply text-base sm:text-lg md:text-xl text-navy-700;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-bottom: 0.5rem;
-  margin-top: 1.25rem;
-}
-
-/* Body Text - Clean, highly readable Inter */
-p {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-lg md:text-xl text-navy-600;
-  line-height: 1.7;
-  font-weight: 400;
-  margin-bottom: 1.5rem;
-  max-width: 75ch;
-}
-
-/* Lists */
-ul, ol {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-lg md:text-xl text-navy-600;
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
-  padding-left: 1.75rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-/* Lead Text - Large introductory text */
-.lead {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-xl md:text-2xl lg:text-3xl text-navy-700;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  margin-bottom: 2rem;
-}
-
-/* Small Text */
-.text-small {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-base md:text-lg text-navy-500;
-  line-height: 1.6;
-  font-weight: 400;
-}
-
-/* Muted Text */
-.text-muted {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-sm md:text-base text-navy-400;
-  line-height: 1.6;
-  font-weight: 400;
-}
-
-/* Links - Gold accent with navy hover */
-a {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-navy-700 transition-colors duration-200;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover {
-  @apply text-gold-500;
-}
-
-a:focus-visible {
-  @apply text-gold-600;
-  outline: 2px solid theme('colors.gold.400');
-  outline-offset: 2px;
-}
-
-/* ===== TYPOGRAPHY UTILITIES ===== */
-
-/* Hero Headlines - Extra large, impactful */
-.hero-headline {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl;
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
-  margin-bottom: 1.5rem;
-  color: hsl(var(--hero-text)); /* Pure white on dark backgrounds - WCAG AAA */
-}
-
-/* Hero Subheadline - Supporting text */
-.hero-subheadline {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-xl sm:text-2xl md:text-3xl;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-bottom: 2rem;
-  max-width: 65ch;
-  color: hsl(var(--hero-text-secondary)); /* Off-white on dark backgrounds - WCAG AAA */
-}
-
-/* Section Title - Page section headings */
-.section-title {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-navy-900;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  margin-bottom: 1rem;
-}
-
-/* Section Subtitle - Below section titles */
-.section-subtitle {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-lg sm:text-xl md:text-2xl text-navy-600;
-  font-weight: 400;
-  line-height: 1.6;
-  margin-bottom: 2.5rem;
-  max-width: 65ch;
-}
-
-/* Card Title - For cards and components */
-.card-title {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-xl sm:text-2xl md:text-3xl text-navy-900;
-  font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: -0.015em;
-  margin-bottom: 0.75rem;
-}
-
-/* Card Description - Supporting card text */
-.card-description {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-base sm:text-lg md:text-xl text-navy-600;
-  font-weight: 400;
-  line-height: 1.6;
-}
-
-/* Eyebrow Text - Small labels above headings */
-.eyebrow {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-sm sm:text-base md:text-lg text-gold-500;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
-}
-
-/* Button Text - Optimized for CTAs */
-.btn-text {
-  font-family: var(--font-display), system-ui, sans-serif;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-}
-
-/* Label Text - For forms */
-.label-text {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-sm sm:text-base text-navy-700;
-  font-weight: 600;
-  letter-spacing: -0.005em;
-  margin-bottom: 0.5rem;
-}
-
-/* Input Text - Form inputs */
-.input-text {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-base sm:text-lg text-navy-900;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-/* Stat Number - Large numbers */
-.stat-number {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-navy-900;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.03em;
-}
-
-/* Stat Label - Below stat numbers */
-.stat-label {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-sm sm:text-base md:text-lg text-navy-500;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-/* Quote Text - Testimonials */
-.quote-text {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-lg sm:text-xl md:text-2xl text-navy-700;
-  font-weight: 400;
-  line-height: 1.6;
-  font-style: normal;
-}
-
-/* Footer Text - Smaller, lighter */
-.footer-text {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply text-sm sm:text-base text-navy-400;
-  font-weight: 400;
-  line-height: 1.6;
-}
-
-/* Optimal Reading Width */
-.prose-container {
-  max-width: 65ch;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.content-container {
-  max-width: 75ch;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Smooth Scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* ===== ACCESSIBILITY IMPROVEMENTS ===== */
-
-/* Focus Indicators - WCAG 2.4.7 */
-*:focus {
-  outline: none;
-}
-
-*:focus-visible {
-  outline: 2px solid hsl(var(--primary));
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-
-/* Enhanced Focus for Interactive Elements */
-a:focus-visible,
-button:focus-visible,
-input:focus-visible,
-select:focus-visible,
-textarea:focus-visible,
-[role="button"]:focus-visible,
-[role="link"]:focus-visible,
-[tabindex]:not([tabindex="-1"]):focus-visible {
-  outline: 2px solid hsl(var(--primary));
-  outline-offset: 2px;
-  box-shadow: 0 0 0 4px hsla(var(--primary), 0.1);
-}
-
-/* Skip to Content Link */
-.skip-to-content {
-  position: absolute;
-  top: -100px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: hsl(var(--primary));
-  color: white;
-  font-weight: 600;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  transition: top 0.3s ease;
-}
-
-.skip-to-content:focus {
-  top: 1rem;
-  outline: 2px solid white;
-  outline-offset: 2px;
-}
-
-/* High Contrast Mode Support */
-@media (prefers-contrast: high) {
-  * {
-    border-width: 2px;
+  
+  /* Typography system with 8px rhythm */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
   }
-}
-
-/* Reduced Motion Support */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl leading-tight;
   }
-}
-
-/* ===== PREMIUM COLOR UTILITIES ===== */
-
-/* Gold Gradient Text */
-.gold-gradient {
-  background: linear-gradient(135deg, #fde68a 0%, #fbbf24 50%, #f59e0b 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  /* Lighter gold gradient for better contrast on dark backgrounds */
-}
-
-/* Hero Badge Styles - WCAG AA Compliant */
-.hero-badge-light {
-  background: hsl(var(--badge-light-bg));
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid hsl(var(--badge-light-border));
-  color: hsl(var(--badge-light-text));
-}
-
-.hero-badge-gold {
-  background: hsl(var(--badge-gold-bg));
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid hsl(var(--badge-gold-border));
-  color: hsl(var(--badge-gold-text));
-}
-
-/* Stat Text on Hero - Large text, WCAG AA */
-.hero-stat-value {
-  color: hsl(var(--hero-text));
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.hero-stat-label {
-  color: hsl(var(--hero-text-muted));
-  font-size: 0.875rem;
-  font-weight: 400;
-}
-
-/* Navy Gradient Backgrounds */
-.navy-gradient {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-}
-
-.navy-gradient-subtle {
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
-}
-
-/* ===== PREMIUM BUTTONS ===== */
-
-.btn-primary {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply bg-navy-900 text-white px-8 py-4 rounded-xl;
-  @apply transition-all duration-300 ease-out;
-  @apply hover:bg-navy-800 hover:shadow-xl hover:shadow-navy-900/20;
-  @apply hover:-translate-y-0.5;
-  @apply focus-visible:ring-4 focus-visible:ring-gold-400/50 focus-visible:ring-offset-2;
-  @apply active:scale-95 active:translate-y-0;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  font-size: 1rem;
-  line-height: 1.5;
-  position: relative;
-  overflow: hidden;
-}
-
-.btn-primary::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, transparent, rgba(255,255,255,0.1), transparent);
-  transform: translateX(-100%);
-  transition: transform 0.6s;
-}
-
-.btn-primary:hover::before {
-  transform: translateX(100%);
-}
-
-.btn-gold {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply bg-gold-400 text-navy-900 px-8 py-4 rounded-xl;
-  @apply transition-all duration-300 ease-out;
-  @apply hover:bg-gold-500 hover:shadow-xl hover:shadow-gold-400/30;
-  @apply hover:-translate-y-0.5;
-  @apply focus-visible:ring-4 focus-visible:ring-gold-500/50 focus-visible:ring-offset-2;
-  @apply active:scale-95 active:translate-y-0;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  font-size: 1rem;
-  line-height: 1.5;
-  position: relative;
-  overflow: hidden;
-}
-
-.btn-gold::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, transparent, rgba(255,255,255,0.2), transparent);
-  transform: translateX(-100%);
-  transition: transform 0.6s;
-}
-
-.btn-gold:hover::before {
-  transform: translateX(100%);
-}
-
-.btn-outline {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply border-2 border-navy-900 text-navy-900 bg-transparent px-8 py-4 rounded-xl;
-  @apply transition-all duration-300 ease-out;
-  @apply hover:bg-navy-900 hover:text-white hover:shadow-lg;
-  @apply hover:-translate-y-0.5;
-  @apply focus-visible:ring-4 focus-visible:ring-navy-900/50 focus-visible:ring-offset-2;
-  @apply active:scale-95 active:translate-y-0;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.btn-ghost {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-navy-700 bg-transparent px-5 py-3 rounded-xl;
-  @apply transition-all duration-300 ease-out;
-  @apply hover:bg-navy-50 hover:text-navy-900;
-  @apply hover:-translate-y-0.5;
-  @apply focus-visible:ring-4 focus-visible:ring-navy-300/50 focus-visible:ring-offset-1;
-  @apply active:scale-95;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-/* Gold Button Glow Effect */
-.btn-glow:hover {
-  box-shadow: 0 0 20px rgba(251, 191, 36, 0.5), 0 4px 12px rgba(251, 191, 36, 0.3);
-  transition: box-shadow 0.3s ease;
-}
-
-/* ===== PREMIUM ANIMATIONS ===== */
-
-/* Card Lift Effect */
-.card-lift {
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.card-lift:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.15), 
-              0 8px 16px rgba(15, 23, 42, 0.1);
-}
-
-/* Fade In Up Animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
+  
+  h2 {
+    @apply text-3xl md:text-4xl leading-tight;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  
+  h3 {
+    @apply text-2xl md:text-3xl leading-snug;
   }
-}
-
-.animate-fade-in-up {
-  animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-/* Fade In Animation */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+  
+  h4 {
+    @apply text-xl md:text-2xl leading-snug;
   }
-  to {
-    opacity: 1;
+  
+  h5 {
+    @apply text-lg md:text-xl leading-normal;
   }
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.4s ease-out forwards;
-}
-
-/* Slide In From Right */
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(30px);
+  
+  h6 {
+    @apply text-base md:text-lg leading-normal;
   }
-  to {
-    opacity: 1;
-    transform: translateX(0);
+  
+  p {
+    @apply leading-relaxed;
   }
-}
-
-.animate-slide-in-right {
-  animation: slideInRight 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-/* Scale In Animation */
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
+  
+  /* Accessible focus states */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
   }
-  to {
-    opacity: 1;
-    transform: scale(1);
+  
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
-}
-
-.animate-scale-in {
-  animation: scaleIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-/* Shimmer Effect */
-@keyframes shimmer {
-  0% {
-    background-position: -1000px 0;
-  }
-  100% {
-    background-position: 1000px 0;
-  }
-}
-
-.shimmer {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.1) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 1000px 100%;
-  animation: shimmer 2s infinite;
-}
-
-/* Pulse Animation (Subtle) */
-@keyframes pulse-subtle {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.8;
-  }
-}
-
-.animate-pulse-subtle {
-  animation: pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-/* ===== PREMIUM SECTIONS ===== */
-
-.section-navy {
-  @apply bg-navy-900 text-white;
-  position: relative;
-  overflow: hidden;
-}
-
-.section-navy::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 30% 20%, rgba(251, 191, 36, 0.08), transparent 50%);
-  pointer-events: none;
-}
-
-.section-navy-light {
-  @apply bg-gradient-to-br from-navy-50 to-white text-navy-900;
-  position: relative;
-}
-
-.section-white {
-  @apply bg-white text-navy-900;
-}
-
-/* Premium CTA Sections */
-.cta-section {
-  @apply relative py-20 md:py-32 overflow-hidden;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-}
-
-.cta-section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: 
-    radial-gradient(circle at 20% 50%, rgba(251, 191, 36, 0.15), transparent 50%),
-    radial-gradient(circle at 80% 50%, rgba(96, 165, 250, 0.1), transparent 50%);
-  pointer-events: none;
-}
-
-.cta-section::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: 
-    linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px);
-  background-size: 50px 50px;
-  opacity: 0.3;
-  pointer-events: none;
-}
-
-/* ===== PREMIUM FORM ELEMENTS ===== */
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="password"],
-input[type="number"],
-textarea,
-select {
-  font-family: var(--font-body), system-ui, sans-serif;
-  @apply w-full px-5 py-4 rounded-xl;
-  @apply border-2 border-navy-200 bg-white text-navy-900;
-  @apply transition-all duration-300 ease-out;
-  @apply focus:border-gold-400 focus:ring-4 focus:ring-gold-400/20;
-  @apply placeholder:text-navy-400;
-  @apply shadow-sm hover:shadow-md;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 400;
-}
-
-input[type="text"]:hover,
-input[type="email"]:hover,
-input[type="tel"]:hover,
-input[type="password"]:hover,
-textarea:hover,
-select:hover {
-  @apply border-navy-300;
-  transform: translateY(-1px);
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(251, 191, 36, 0.15), 0 0 0 4px rgba(251, 191, 36, 0.1);
-}
-
-textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-label {
-  font-family: var(--font-display), system-ui, sans-serif;
-  @apply text-navy-700;
-  font-size: 0.95rem;
-  font-weight: 600;
-  letter-spacing: -0.005em;
-  display: block;
-  margin-bottom: 0.5rem;
-  transition: color 0.2s;
-}
-
-/* Input Groups */
-.input-group {
-  @apply space-y-2;
-}
-
-.input-group:focus-within label {
-  @apply text-gold-600;
-}
-
-/* Form Validation States */
-input:invalid:not(:placeholder-shown),
-textarea:invalid:not(:placeholder-shown) {
-  @apply border-red-400;
-}
-
-input:valid:not(:placeholder-shown),
-textarea:valid:not(:placeholder-shown) {
-  @apply border-green-400;
-}
-
-/* WhatsApp Button Pulse */
-@keyframes pulse-green {
-  0%, 100% {
-    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
-  }
-  50% {
-    box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
-  }
-}
-
-.whatsapp-pulse {
-  animation: pulse-green 2s infinite;
-}
-
-/* Premium Glow Effect (for special CTAs) */
-.premium-glow {
-  position: relative;
-  overflow: hidden;
-}
-
-.premium-glow::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-  transition: left 0.5s;
-}
-
-.premium-glow:hover::before {
-  left: 100%;
-}
-
-.premium-glow:hover {
-  box-shadow: 0 0 30px rgba(251, 191, 36, 0.6), 0 0 60px rgba(251, 191, 36, 0.3);
-}
-
-/* Gold Accent Line (dividers) */
-.accent-line {
-  @apply border-t-2 border-gold-400;
-  width: 60px;
-  margin: 1rem 0;
-}
-
-.accent-line-center {
-  @apply accent-line mx-auto;
 }
