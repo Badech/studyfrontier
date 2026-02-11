@@ -49,7 +49,7 @@ export function CostTransparency() {
 
         <StaggerContainer className="grid md:grid-cols-3 gap-6 mb-8">
           {costCategories.map((category, index) => (
-            <FadeInUpDiv key={index} delay={index * 0.1}>
+            <FadeInUpDiv key={index}>
               <Card className="h-full hover:shadow-lg transition-all border-2">
                 <CardHeader className={category.bgColor}>
                   <div className="flex items-center gap-3">
@@ -72,7 +72,7 @@ export function CostTransparency() {
           ))}
         </StaggerContainer>
 
-        <FadeInUpDiv delay={0.4}>
+        <FadeInUpDiv>
           <Card className="border-2 border-amber-500/30 bg-amber-50/50 dark:bg-amber-950/10">
             <CardContent className="p-6">
               <div className="flex items-start gap-4">
