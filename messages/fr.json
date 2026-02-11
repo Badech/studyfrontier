@@ -31,7 +31,13 @@
     "description": "Soutien expert pour les étudiants marocains poursuivant des programmes de premier et deuxième cycles dans les meilleures universités américaines. Accompagnement professionnel de la candidature à l'arrivée.",
     "cta_primary": "WhatsApp maintenant",
     "cta_secondary": "Réserver une consultation gratuite",
-    "trust_note": "⚠️ Nous fournissons des conseils professionnels mais ne pouvons garantir l'approbation du visa. Notre processus est transparent et conforme à toutes les réglementations."
+    "trust_note": "⚠️ Nous fournissons des conseils professionnels mais ne pouvons garantir l'approbation du visa. Notre processus est transparent et conforme à toutes les réglementations.",
+    "morocco_to_usa": "Maroc vers USA",
+    "secondary_line": "Aider les étudiants marocains à étudier aux États-Unis étape par étape",
+    "timeline": "Calendrier typique : 6 à 12 mois du début au départ",
+    "trust_transparent": "Processus transparent",
+    "trust_no_guarantee": "Pas de garantie de visa",
+    "trust_ethical": "Conseils éthiques"
   },
   "trust": {
     "title": "Pourquoi les étudiants nous choisissent",
@@ -260,7 +266,6 @@
     "title": "Parcours d'Études vers les Universités Américaines",
     "subtitle": "Choisissez le parcours qui correspond à vos objectifs académiques et qualifications",
     "intro": "Nous accompagnons les étudiants marocains à travers quatre parcours distincts vers l'enseignement supérieur américain. Chaque parcours a des exigences, des délais et des processus de candidature spécifiques.",
-    
     "undergraduate": "Programmes de Premier Cycle",
     "undergraduate_for": "Pour Qui",
     "undergraduate_for_desc": "Diplômés du lycée ou étudiants actuels cherchant un diplôme de Bachelor de 4 ans dans une université américaine.",
@@ -282,7 +287,6 @@
     "undergraduate_doc5": "Déclaration personnelle et essais",
     "undergraduate_doc6": "Lettres de recommandation (2-3)",
     "undergraduate_doc7": "Documentation financière (relevés bancaires, lettres de parrainage)",
-    
     "graduate": "Programmes de Cycles Supérieurs",
     "graduate_for": "Pour Qui",
     "graduate_for_desc": "Diplômés universitaires cherchant des diplômes de Master ou PhD dans des domaines spécialisés.",
@@ -306,7 +310,6 @@
     "graduate_doc6": "CV mettant en valeur recherche et expérience professionnelle",
     "graduate_doc7": "Lettres de recommandation de professeurs ou employeurs (3)",
     "graduate_doc8": "Échantillons d'écriture ou portfolio (pour certains programmes)",
-    
     "community": "Parcours Community College",
     "community_for": "Pour Qui",
     "community_for_desc": "Étudiants cherchant une entrée abordable dans l'enseignement supérieur américain avec options de transfert vers universités de 4 ans.",
@@ -326,7 +329,6 @@
     "community_doc3": "Déclaration personnelle (moins formelle)",
     "community_doc4": "Documentation financière",
     "community_doc5": "Copie du passeport",
-    
     "esl": "Programmes ESL",
     "esl_for": "Pour Qui",
     "esl_for_desc": "Étudiants qui doivent améliorer leurs compétences en anglais avant de commencer des programmes académiques.",
@@ -345,7 +347,6 @@
     "esl_doc2": "Copie du passeport",
     "esl_doc3": "Documentation financière",
     "esl_doc4": "Aucun TOEFL/IELTS requis pour admission ESL",
-    
     "cta_eligibility": "Vérifiez Votre Éligibilité",
     "cta_whatsapp": "Discutez de Votre Parcours",
     "cta_subtitle": "Vous ne savez pas quel parcours correspond à votre profil ? Contactez-nous pour des conseils personnalisés."
@@ -354,7 +355,6 @@
     "title": "Notre Processus : Transparent & Conforme",
     "subtitle": "Une approche documentée, étape par étape, pour les admissions universitaires américaines",
     "intro": "Cette page décrit notre procédure opérationnelle standard pour accompagner les étudiants marocains dans le processus de candidature universitaire et de visa américain. Notre approche met l'accent sur la transparence, la protection des données et des attentes réalistes.",
-    
     "step1_title": "Étape 1 : Évaluation du Profil & Consultation",
     "step1_duration": "Durée : 1-2 sessions",
     "step1_desc": "Nous évaluons votre parcours académique, scores de tests, capacité financière et objectifs d'études pour déterminer des cibles universitaires réalistes et des options de programmes.",
@@ -368,7 +368,6 @@
     "step1_we2": "Expliquer les délais et exigences de candidature",
     "step1_we3": "Fournir des attentes réalistes (aucune garantie)",
     "step1_we4": "Recommander le forfait de service approprié",
-    
     "step2_title": "Étape 2 : Sélection d'Université & de Programme",
     "step2_duration": "Durée : 1-2 semaines",
     "step2_desc": "Basé sur votre profil, nous fournissons une liste ciblée d'universités où vous répondez aux critères d'admission minimaux. La sélection finale est votre décision.",
@@ -382,7 +381,6 @@
     "step2_we2": "Partager les statistiques et exigences d'admission",
     "step2_we3": "Expliquer le coût de fréquentation pour chaque option",
     "step2_we4": "Clarifier les délais et procédures de candidature",
-    
     "step3_title": "Étape 3 : Préparation des Documents de Candidature",
     "step3_duration": "Durée : 2-3 mois",
     "step3_desc": "Nous vous guidons dans la préparation des matériaux de candidature. Vous rédigez vos essais et déclarations; nous fournissons des commentaires et révisons pour la qualité et la conformité.",
@@ -396,7 +394,6 @@
     "step3_we2": "Vérifier que les documents répondent aux exigences universitaires",
     "step3_we3": "Vérifier les formulaires de candidature pour l'exhaustivité",
     "step3_we4": "Coordonner la soumission avant les délais",
-    
     "step4_title": "Étape 4 : Soumission et Suivi de Candidature",
     "step4_duration": "Durée : En cours pendant la saison de candidature",
     "step4_desc": "Nous aidons à soumettre les candidatures et à surveiller leur statut. Les universités prennent toutes les décisions d'admission de manière indépendante.",
@@ -410,7 +407,6 @@
     "step4_we2": "Suivre le statut des candidatures et les délais",
     "step4_we3": "Conseiller sur la réponse aux demandes universitaires",
     "step4_we4": "Vous aider à comparer les offres d'admission",
-    
     "step5_title": "Étape 5 : DS-160 & Demande de Visa F-1",
     "step5_duration": "Durée : 4-6 semaines",
     "step5_desc": "Après avoir reçu l'admission universitaire, nous vous guidons à travers le processus de visa étudiant F-1. L'approbation du visa est décidée uniquement par les agents consulaires américains.",
@@ -424,7 +420,6 @@
     "step5_we2": "Vous préparer à l'entretien de visa avec des sessions simulées",
     "step5_we3": "Réviser la documentation financière pour l'adéquation",
     "step5_we4": "Fournir les meilleures pratiques et questions courantes d'entretien",
-    
     "step6_title": "Étape 6 : Préparation au Départ",
     "step6_duration": "Durée : 2-4 semaines avant le départ",
     "step6_desc": "Une fois le visa approuvé, nous fournissons des conseils pratiques pour votre transition vers les États-Unis (disponible avec les forfaits Standard et Golden).",
@@ -438,13 +433,11 @@
     "step6_we2": "Conseiller sur quoi emballer et apporter",
     "step6_we3": "Partager des ressources pour le logement, la banque et le transport",
     "step6_we4": "Coordonner la prise en charge à l'aéroport (Pack Golden uniquement)",
-    
     "transparency_title": "Nos Engagements",
     "transparency_item1": "Transparence : Tous les frais divulgués à l'avance. Aucun frais caché.",
     "transparency_item2": "Protection des Données : Vos documents sont cryptés et jamais partagés sans consentement.",
     "transparency_item3": "Aucune Garantie de Visa : Nous ne pouvons pas et ne garantissons pas l'approbation du visa. Les décisions sont prises par les autorités américaines.",
     "transparency_item4": "Attentes Réalistes : Nous fournissons des évaluations honnêtes, pas de fausses promesses.",
-    
     "your_checklist_title": "Ce que Vous Devrez Préparer",
     "your_checklist_subtitle": "Tout au long du processus, vous êtes responsable de :",
     "your_check1": "Relevés de notes académiques et diplômes (traductions certifiées)",
@@ -455,7 +448,6 @@
     "your_check6": "Documentation financière (relevés bancaires, affidavits de parrainage)",
     "your_check7": "Passeport (valide au moins 6 mois au-delà du séjour prévu)",
     "your_check8": "Frais de candidature et SEVIS",
-    
     "our_role_title": "Ce que Nous Fournissons",
     "our_role_subtitle": "Nos services comprennent :",
     "our_role1": "Évaluation du profil académique et recommandations universitaires",
@@ -465,7 +457,6 @@
     "our_role5": "Suivi des candidatures et gestion des délais",
     "our_role6": "Orientation et soutien pré-départ",
     "our_role_note": "Note : Nous ne complétons pas les candidatures à votre place. Nous guidons et révisons votre travail.",
-    
     "cta_title": "Prêt à Commencer le Processus ?",
     "cta_subtitle": "Contactez-nous sur WhatsApp pour discuter de votre profil et commencer"
   },
@@ -473,71 +464,52 @@
     "title": "Questions fréquemment posées",
     "subtitle": "Réponses transparentes aux questions courantes sur nos services",
     "intro": "Nous croyons en la transparence totale. Voici des réponses honnêtes aux questions les plus fréquemment posées sur nos services de conseil, frais, délais et politiques.",
-    
     "q1": "Garantissez-vous l'approbation du visa?",
     "a1": "Non. Nous ne pouvons pas et ne garantissons pas l'approbation du visa. Les décisions de visa étudiant F-1 sont prises uniquement par les agents consulaires du Département d'État américain en fonction de leur évaluation de votre candidature, capacité financière et liens avec le Maroc. Notre rôle se limite à vous aider à préparer une documentation solide et une préparation d'entretien. Les taux d'approbation de visa varient et échappent à notre contrôle.",
-    
     "q2": "Qu'est-ce qui est exactement inclus dans l'assistance DS-160?",
     "a2": "Nous vous guidons étape par étape dans le remplissage du formulaire DS-160, révisons vos réponses pour l'exactitude et la cohérence, vous aidons à rassembler la documentation requise (I-20, preuve financière, passeport), et fournissons une préparation d'entretien de visa avec des sessions simulées. Nous ne remplissons PAS le formulaire pour vous—vous le complétez vous-même avec nos conseils pour garantir que toutes les informations sont exactes et véridiques.",
-    
     "q3": "Combien de temps prend l'ensemble du processus du début à la fin?",
     "a3": "Pour les programmes de premier cycle : 12-18 mois au total (préparation candidature : 3-4 mois, attente des décisions : 2-4 mois, processus de visa : 2-3 mois). Pour les cycles supérieurs : 12-15 mois. Pour le community college : 6-9 mois. Ce sont des estimations—les délais réels dépendent des dates limites universitaires, de votre préparation des documents et de la disponibilité des rendez-vous consulaires.",
-    
     "q4": "Quels sont vos frais de service et conditions de paiement?",
     "a4": "Les frais varient selon le forfait : Starter, Standard ou Pack Golden. Tous les frais sont divulgués à l'avance avant votre engagement. Nous n'avons pas de frais cachés. Les conditions de paiement et les politiques de remboursement sont clairement décrites dans notre accord de service. Contactez-nous via WhatsApp pour les tarifs actuels et une ventilation détaillée.",
-    
     "q5": "Quelle est votre politique de remboursement?",
     "a5": "Les remboursements sont régis par notre Politique de remboursement publiée et dépendent de l'étape de prestation de services. Généralement, une fois les services rendus (consultations terminées, documents révisés, candidatures soumises), les frais ne sont pas remboursables. Les demandes de remboursement doivent être soumises par écrit dans les 7 jours suivant le début du service. Les conditions complètes sont disponibles sur notre page Politique de remboursement.",
-    
     "q6": "Comment protégez-vous mes données personnelles et documents?",
     "a6": "Nous prenons la protection des données au sérieux. Tous les documents sont stockés sur des serveurs cryptés. Nous ne partageons jamais vos informations personnelles avec des tiers sans votre consentement explicite, sauf lorsque requis pour soumettre des candidatures aux universités. Nous respectons les réglementations de protection des données et les normes ICEF. Vos informations sont utilisées uniquement pour fournir nos services.",
-    
     "q7": "Comment communiquez-vous avec les étudiants? Utilisez-vous WhatsApp?",
     "a7": "Oui, WhatsApp est notre canal de communication principal pour les questions rapides et les mises à jour pendant les heures d'ouverture (Lundi-Vendredi, 9h - 18h, Samedi 10h - 16h heure du Maroc). Nous répondons dans les 24-48 heures. Pour les consultations détaillées, nous planifions des réunions vidéo ou en personne. L'email est utilisé pour la documentation formelle et la tenue de dossiers.",
-    
     "q8": "Rédigez-vous des essais ou complétez-vous les candidatures pour les étudiants?",
     "a8": "Non. Nous ne rédigeons pas d'essais ni ne remplissons de candidatures en votre nom—ce serait contraire à l'éthique et pourrait entraîner le rejet de la candidature. Vous rédigez vos propres essais et complétez vos formulaires. Nous fournissons des commentaires, des suggestions d'édition (jusqu'à 3 tours) et veillons à ce que les documents répondent aux normes universitaires. Notre rôle est de guider et réviser, pas d'écrire à votre place.",
-    
     "q9": "Quels documents dois-je préparer?",
     "a9": "Les documents typiques incluent : relevés de notes académiques (traductions certifiées), diplômes (Baccalauréat, Licence), scores de tests d'anglais (TOEFL/IELTS), scores de tests standardisés (SAT/ACT ou GRE/GMAT), lettres de recommandation (2-3), essais personnels, documentation financière (relevés bancaires, lettres de parrainage) et un passeport valide. Les exigences spécifiques varient selon le programme—nous fournissons une liste de contrôle personnalisée après votre consultation initiale.",
-    
     "q10": "Puis-je choisir les universités auxquelles postuler?",
     "a10": "Oui, absolument. Nous fournissons des recommandations basées sur les données en fonction de votre profil, mais vous prenez la décision finale sur les universités auxquelles postuler. Nous conseillons sur les options réalistes où vous répondez aux critères d'admission minimaux, mais le choix est toujours le vôtre. Nous ne vous mettrons pas la pression pour postuler à des écoles spécifiques.",
-    
     "q11": "Que se passe-t-il si je ne suis admis dans aucune université?",
     "a11": "Les décisions d'admission universitaire sont prises indépendamment par les bureaux d'admission et ne peuvent être garanties. Si vous n'êtes pas admis, nos frais de service ne sont toujours pas remboursables car nous avons fourni les services de conseil convenus (évaluation de profil, révision de candidature, etc.). Nous recommandons de postuler à une liste équilibrée d'écoles ambitieuses, cibles et de sécurité pour maximiser les chances d'admission.",
-    
     "q12": "Aidez-vous avec le logement et les vols après l'approbation du visa?",
     "a12": "L'assistance au logement et aux vols est incluse uniquement dans nos forfaits Standard et Pack Golden. Nous fournissons des conseils, ressources et recommandations—mais vous réservez et payez les vols et l'hébergement directement auprès des compagnies aériennes et propriétaires. Nous n'agissons pas en tant qu'agents de voyage ou courtiers immobiliers. Les clients du Pack Golden bénéficient de la coordination de la prise en charge à l'aéroport et du soutien la première semaine d'arrivée.",
-    
     "q13": "Êtes-vous certifié ICEF? Qu'est-ce que cela signifie?",
     "a13": "Oui, nous opérons en pleine conformité avec les normes ICEF (International Consultants for Education and Fairs), qui exigent des pratiques éthiques, de la transparence, des informations exactes et une formation appropriée. Cela signifie que nous suivons les meilleures pratiques de l'industrie et ne faisons pas de fausses promesses concernant les admissions ou les résultats de visa.",
-    
     "q14": "Puis-je obtenir une consultation avant de m'engager dans un forfait?",
     "a14": "Oui. Nous offrons une consultation initiale gratuite (15-20 minutes via WhatsApp ou téléphone) pour discuter de vos objectifs et répondre aux questions de base. Pour une évaluation détaillée du profil et des recommandations universitaires, vous devriez vous inscrire au moins au forfait Starter. Contactez-nous pour planifier votre consultation gratuite.",
-    
     "more_questions": "Vous avez encore des questions? Contactez-nous sur WhatsApp"
   },
   "contact": {
     "title": "Contactez-nous",
     "subtitle": "Services de conseil professionnels pour les étudiants marocains",
     "intro": "Vous avez des questions sur les études aux États-Unis? Contactez-nous pour une consultation initiale gratuite. Nous sommes là pour vous fournir des conseils honnêtes et des informations transparentes sur nos services.",
-    
     "whatsapp_card_title": "WhatsApp (Réponse la plus rapide)",
     "whatsapp_card_desc": "Notre canal de communication principal pour les questions rapides et les consultations",
     "whatsapp_response_time": "Temps de réponse : Dans les 24-48 heures pendant les heures d'ouverture",
     "whatsapp_hours": "Lundi-Vendredi : 9h - 18h | Samedi : 10h - 16h (Heure du Maroc)",
-    
     "email_card_title": "Email",
     "email_card_desc": "Pour les demandes formelles et les soumissions de documents",
     "email_address": "info@studyfrontier.com",
     "email_response_time": "Temps de réponse : 1-2 jours ouvrables",
-    
     "office_card_title": "Emplacement du bureau",
     "office_address_line1": "Casablanca, Maroc",
     "office_address_line2": "Adresse exacte fournie lors de l'inscription",
     "office_note": "Consultations en personne disponibles uniquement sur rendez-vous",
-    
     "hours_card_title": "Heures d'ouverture",
     "hours_weekday": "Lundi - Vendredi",
     "hours_weekday_time": "9h00 - 18h00",
@@ -546,7 +518,6 @@
     "hours_sunday": "Dimanche",
     "hours_sunday_time": "Fermé",
     "hours_timezone": "Toutes les heures sont au Maroc (GMT/UTC+0 ou GMT+1)",
-    
     "form_title": "Envoyez-nous un message",
     "form_subtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dans un délai de 1-2 jours ouvrables",
     "form": {
@@ -580,17 +551,14 @@
     "hero_point1": "Agence conforme ICEF avec des pratiques de recrutement transparentes et éthiques",
     "hero_point2": "Étudiants présélectionnés répondant aux exigences minimales d'admission",
     "hero_point3": "Soutien dédié tout au long du cycle de candidature et d'inscription",
-    
     "form_title": "Demande de Partenariat",
     "form_subtitle": "Complétez le formulaire ci-dessous et notre équipe partenariats vous contactera sous 2-3 jours ouvrables.",
-    
     "about_title": "À propos de StudyFrontier",
     "about_subtitle": "Conseil en éducation professionnel au service du marché marocain",
     "about_mission_title": "Notre Mission",
     "about_mission_text": "StudyFrontier fournit des services de conseil en éducation transparents et éthiques aux étudiants marocains poursuivant des opportunités d'enseignement supérieur aux États-Unis et à l'international. Nous privilégions des attentes réalistes, des informations précises et une conformité totale aux normes de l'industrie.",
     "about_market_title": "Focus Marché : Maroc",
     "about_market_text": "Le Maroc est un marché source en croissance pour les étudiants internationaux, avec une forte maîtrise de l'anglais, une demande croissante pour l'éducation américaine et internationale, et une capacité démontrée à répondre aux exigences financières. Nous nous spécialisons dans l'accompagnement des étudiants à travers les processus complexes de candidature et de visa.",
-    
     "methods_title": "Nos Méthodes de Recrutement",
     "methods_subtitle": "Pratiques éthiques et transparentes alignées avec les valeurs institutionnelles",
     "methods_ethical_title": "Conseil Éthique aux Étudiants",
@@ -600,7 +568,6 @@
     "methods_ethical_point3": "Structures de frais transparentes divulguées aux étudiants et aux institutions",
     "methods_realistic_title": "Attentes Réalistes",
     "methods_realistic_text": "Nous présélectionnons les étudiants selon les critères d'admission publiés et ne recommandons que les institutions où ils répondent aux exigences minimales académiques, de maîtrise de l'anglais et financières. Cela réduit les volumes de candidatures mais augmente la qualité et les taux de conversion.",
-    
     "compliance_title": "Conformité et Normes Professionnelles",
     "compliance_subtitle": "Notre engagement envers les pratiques éthiques et la conformité réglementaire",
     "compliance_disclaimer_title": "Avis Important aux Institutions Partenaires",
@@ -611,7 +578,6 @@
     "compliance_transparent_text": "Tous les frais de service sont divulgués aux étudiants à l'avance avec des conditions claires. Nous ne recevons pas de commission des institutions sauf accord explicite dans un accord de partenariat formel.",
     "compliance_data_title": "Protection des Données",
     "compliance_data_text": "Les données des étudiants sont stockées de manière sécurisée, cryptées, et partagées uniquement avec les institutions auxquelles les étudiants postulent. Nous respectons le RGPD et les réglementations pertinentes de protection des données.",
-    
     "what_partners_get_title": "Ce que Reçoivent les Institutions Partenaires",
     "what_partners_get_subtitle": "Services à valeur ajoutée qui soutiennent vos objectifs de recrutement international",
     "partner_benefit1_title": "Candidats Présélectionnés",
@@ -626,10 +592,8 @@
     "partner_benefit5_text": "Nous représentons votre institution avec précision, en utilisant uniquement des matériaux et informations officiels. Nous ne faisons pas de promesses non autorisées concernant les bourses, la probabilité d'admission ou la vie sur le campus.",
     "partner_benefit6_title": "Perspectives du Marché",
     "partner_benefit6_text": "En tant que spécialistes du marché marocain, nous pouvons fournir des perspectives sur les préférences des étudiants, le positionnement concurrentiel et les messages efficaces pour cette démographie.",
-    
     "cta_title": "Discutons d'un Partenariat",
     "cta_subtitle": "Notre équipe partenariats est prête à répondre à vos questions et à explorer comment nous pouvons soutenir vos objectifs d'inscription internationale.",
-    
     "form": {
       "institution_name_label": "Nom de l'Institution",
       "institution_name_placeholder": "ex : Université d'Exemple",
@@ -661,37 +625,26 @@
     "title": "Politique de Confidentialité",
     "last_updated": "Dernière mise à jour : Janvier 2024",
     "intro": "Votre vie privée est importante pour nous. Cette politique explique comment nous collectons, utilisons, stockons et protégeons vos informations personnelles lors de l'utilisation de nos services.",
-    
     "collection_title": "1. Informations que Nous Collectons",
     "collection_text": "Nous collectons les types d'informations personnelles suivants : (a) Informations de Contact : nom, adresse email, numéro de téléphone, numéro WhatsApp, pays de résidence ; (b) Informations Académiques : relevés de notes, résultats de tests, diplômes, lettres de recommandation, essais et autres documents de candidature ; (c) Informations Financières : relevés bancaires, lettres de parrainage et autres documents financiers requis pour les demandes de visa ; (d) Documents d'Identité : copies de passeport et autres pièces d'identité ; (e) Données de Communication : emails, messages WhatsApp et notes de consultation.",
-    
     "use_title": "2. Comment Nous Utilisons Vos Informations",
     "use_text": "Nous utilisons vos informations personnelles pour : (a) Fournir des services de conseil en éducation, y compris la sélection d'université, la préparation de candidature et l'assistance visa ; (b) Communiquer avec vous par email, WhatsApp, téléphone ou appels vidéo ; (c) Soumettre des candidatures aux universités en votre nom (avec votre consentement explicite) ; (d) Préparer les documents de visa et les supports de préparation aux entretiens ; (e) Maintenir des registres pour le contrôle qualité et la conformité ; (f) Améliorer nos services en fonction des retours et de l'expérience.",
-    
     "processing_title": "3. Traitement et Stockage des Données",
     "processing_text": "Vos informations sont traitées et stockées comme suit : (a) Google Workspace : Nous utilisons Google Sheets, Google Drive et Gmail pour organiser et gérer les informations des étudiants. Toutes les données sont stockées sur des serveurs Google chiffrés avec accès limité au personnel autorisé uniquement ; (b) Base de Données de Contact : Les informations de contact des étudiants et les données de suivi des candidatures peuvent être stockées dans des Google Sheets sécurisés avec protection par mot de passe et permissions d'accès limitées ; (c) Stockage de Documents : Les documents de candidature, essais et supports sont stockés dans Google Drive avec chiffrement et contrôles d'accès stricts. Email de Contact : info@eduagency.com - Toutes les communications par email transitent par Gmail avec chiffrement TLS.",
-    
     "sharing_title": "4. Partage et Divulgation d'Informations",
     "sharing_text": "Nous partageons vos informations uniquement dans les circonstances suivantes : (a) Avec les Universités : Nous soumettons vos documents de candidature, relevés de notes, essais et documents justificatifs aux universités que vous choisissez ; (b) Avec Vous : Nous partageons vos informations avec vous et les membres de famille autorisés ou parrains que vous désignez ; (c) Prestataires de Services : Nous pouvons partager des informations limitées avec des services tiers de confiance (services de traduction, services d'évaluation des diplômes) uniquement si nécessaire et avec votre consentement ; (d) Exigences Légales : Nous pouvons divulguer des informations si requis par la loi, ordonnance judiciaire ou processus légal. Nous ne vendons JAMAIS vos informations personnelles à des tiers à des fins de marketing.",
-    
     "security_title": "5. Sécurité des Données",
     "security_text": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles appropriées : (a) Chiffrement : Toutes les données stockées dans Google Workspace sont chiffrées au repos et en transit en utilisant des protocoles standards de l'industrie ; (b) Contrôles d'Accès : Seuls les membres autorisés du personnel ont accès aux informations des étudiants, et l'accès est accordé sur une base du besoin de savoir ; (c) Protection par Mot de Passe : Tous les systèmes sont protégés par des mots de passe forts et une authentification à deux facteurs lorsque disponible ; (d) Sauvegardes Régulières : Les données sont régulièrement sauvegardées pour prévenir la perte ; (e) Formation du Personnel : Notre équipe est formée aux meilleures pratiques de confidentialité et de sécurité des données.",
-    
     "rights_title": "6. Vos Droits en Matière de Vie Privée",
     "rights_text": "Vous avez les droits suivants concernant vos informations personnelles : (a) Accès : Demander une copie des informations personnelles que nous détenons sur vous ; (b) Correction : Demander la correction d'informations inexactes ou incomplètes ; (c) Suppression : Demander la suppression de vos informations personnelles (sous réserve des exigences légales de conservation) ; (d) Retrait du Consentement : Retirer votre consentement pour que nous traitions ou partagions vos informations (peut affecter notre capacité à fournir des services) ; (e) Portabilité des Données : Demander vos informations dans un format structuré et couramment utilisé ; (f) Objection : Vous opposer à certains types de traitement de données. Pour exercer ces droits, contactez-nous à privacy@eduagency.com.",
-    
     "international_title": "7. Transferts Internationaux de Données",
     "international_text": "Si vous êtes situé en dehors des États-Unis, veuillez noter que vos informations seront transférées et traitées aux États-Unis et dans d'autres pays où nos prestataires de services opèrent. En utilisant nos services, vous consentez à ces transferts. Nous nous assurons que des garanties appropriées sont en place pour les transferts internationaux.",
-    
     "cookies_title": "8. Cookies et Suivi",
     "cookies_text": "Notre site web peut utiliser des cookies et technologies similaires pour améliorer l'expérience utilisateur, analyser le trafic du site et mémoriser vos préférences. Vous pouvez contrôler les cookies via les paramètres de votre navigateur. Nous utilisons Google Analytics pour comprendre comment les visiteurs utilisent notre site (données anonymisées uniquement).",
-    
     "children_title": "9. Confidentialité des Enfants",
     "children_text": "Nos services sont destinés aux personnes de 16 ans et plus. Si vous avez moins de 16 ans, veuillez demander à un parent ou tuteur de nous contacter en votre nom. Nous ne collectons pas sciemment d'informations auprès d'enfants de moins de 16 ans sans consentement parental.",
-    
     "changes_title": "10. Modifications de Cette Politique",
     "changes_text": "Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre. Nous vous informerons des changements importants par email ou avis visible sur notre site web. L'utilisation continue de nos services après les modifications constitue l'acceptation de la politique mise à jour.",
-    
     "contact_title": "11. Nous Contacter",
     "contact_text": "Pour les questions, préoccupations ou demandes liées à la vie privée, veuillez nous contacter à : Email : privacy@eduagency.com (ou info@eduagency.com) | Téléphone/WhatsApp : +212 6XX XXX XXX | Adresse : Casablanca, Maroc (adresse exacte fournie aux clients inscrits)."
   },
@@ -699,49 +652,34 @@
     "title": "Conditions d'Utilisation",
     "last_updated": "Dernière mise à jour : Janvier 2024",
     "intro": "Ces Conditions d'Utilisation (« Conditions ») régissent votre utilisation des services de conseil en éducation fournis par Edu Agency (« nous », « notre »). En utilisant nos services, vous (« Client », « vous ») acceptez d'être lié par ces Conditions. Veuillez les lire attentivement.",
-    
     "acceptance_title": "1. Acceptation des Conditions",
     "acceptance_text": "En signant un accord de service, en effectuant un paiement ou en utilisant nos services, vous reconnaissez avoir lu, compris et accepté d'être lié par ces Conditions et notre Politique de Confidentialité. Si vous n'êtes pas d'accord, n'utilisez pas nos services.",
-    
     "services_title": "2. Portée des Services",
     "services_text": "Nous fournissons des services de conseil en éducation qui peuvent inclure : (a) Évaluation du profil académique et recommandations universitaires ; (b) Stratégie de candidature et planification des délais ; (c) Révision et retour sur les essais et déclarations personnelles (nous n'écrivons pas les essais pour vous) ; (d) Conseils sur la completion des formulaires de candidature et la collecte des documents requis ; (e) Assistance DS-160 et préparation à l'entretien de visa ; (f) Orientation avant le départ et soutien (selon le forfait). Ces services sont de nature consultative uniquement. Nous ne garantissons aucun résultat spécifique.",
-    
     "no_guarantee_title": "3. Aucune Garantie ni Promesse",
     "no_guarantee_text": "IMPORTANT : Nous ne garantissons, ne promettons ou n'assurons EXPLICITEMENT PAS : (a) L'admission ou l'acceptation universitaire dans un programme ; (b) L'approbation ou la délivrance de visa par une autorité gouvernementale ; (c) L'attribution de bourses ou d'aide financière ; (d) Des résultats de candidature ou des délais spécifiques. Les décisions d'admission universitaire sont prises indépendamment par les comités d'admission. Les décisions de visa sont prises uniquement par les agents consulaires. Ces résultats sont hors de notre contrôle. Nous fournissons des conseils professionnels pour maximiser vos chances, mais ne pouvons garantir les résultats.",
-    
     "fees_title": "4. Frais de Service et Paiement",
     "fees_text": "Les frais de service sont basés sur le forfait sélectionné (Starter, Standard ou Golden Pack) et sont communiqués clairement avant votre engagement. Conditions de paiement : (a) Les frais doivent être payés selon le calendrier de paiement convenu ; (b) Les retards de paiement peuvent entraîner une suspension du service ; (c) Les frais n'incluent pas les coûts tiers (frais de candidature, frais de tests, frais de coursier, services de traduction, etc.) que vous payez directement ; (d) Devise : Les frais peuvent être cotés en MAD, USD ou EUR selon l'accord ; (e) Remboursements : Voir notre Politique de Remboursement pour les conditions de remboursement.",
-    
     "client_responsibilities_title": "5. Responsabilités du Client",
     "client_responsibilities_text": "En tant que client, vous êtes responsable de : (a) Fournir des informations exactes, complètes et véridiques à tout moment ; (b) Soumettre les documents et matériels requis en temps opportun ; (c) Respecter les délais de candidature et répondre aux demandes universitaires ; (d) Compléter vos propres formulaires de candidature et essais (nous révisons, mais vous écrivez) ; (e) Payer tous les frais à temps ; (f) Assister aux consultations et réunions programmées ; (g) Suivre nos conseils et recommandations (bien que les décisions finales vous appartiennent) ; (h) Informer immédiatement de tout changement de circonstances affectant votre candidature.",
-    
     "our_responsibilities_title": "6. Nos Responsabilités et Limitations",
     "our_responsibilities_text": "Nous nous engageons à : (a) Fournir des services de conseil honnêtes, éthiques et professionnels ; (b) Répondre à vos questions et demandes dans des délais raisonnables (24-48 heures pour WhatsApp/email pendant les heures ouvrables) ; (c) Réviser minutieusement les documents de candidature et fournir des retours constructifs ; (d) Maintenir la confidentialité de vos informations personnelles (voir Politique de Confidentialité) ; (e) Opérer en conformité avec les normes ICEF et les lois applicables. Nous ne sommes PAS responsables de : (f) Les décisions prises par les universités ou les autorités d'immigration ; (g) Les retards causés par des tiers (universités, services de courrier, etc.) ; (h) Les résultats découlant d'informations incomplètes ou inexactes que vous fournissez.",
-    
     "liability_title": "7. Limitation de Responsabilité",
     "liability_text": "Dans la mesure maximale permise par la loi : (a) Notre responsabilité totale pour toute réclamation découlant de nos services est limitée au montant des frais que vous nous avez payés ; (b) Nous ne sommes pas responsables des dommages indirects, accessoires, consécutifs ou punitifs, y compris les opportunités éducatives perdues, la détresse émotionnelle ou les frais de voyage ; (c) Nous ne sommes pas responsables des décisions prises par les universités, les autorités d'immigration ou les agences gouvernementales ; (d) Nous ne sommes pas responsables des résultats découlant d'informations incomplètes ou inexactes que vous fournissez.",
-    
     "intellectual_property_title": "8. Propriété Intellectuelle",
     "intellectual_property_text": "Tous les matériels que nous fournissons (guides, modèles, listes de contrôle, conseils) restent notre propriété intellectuelle. Vous pouvez les utiliser uniquement pour vos besoins de candidature personnels. Vous ne pouvez pas reproduire, distribuer ou vendre nos matériels sans autorisation écrite.",
-    
     "confidentiality_title": "9. Confidentialité",
     "confidentiality_text": "Nous garderons vos informations personnelles et documents de candidature confidentiels, sauf : (a) Lors du partage avec les universités auxquelles vous postulez ; (b) Lorsque requis par la loi ou procédure légale ; (c) Avec votre consentement explicite. Vous acceptez de garder nos méthodes, stratégies et conseils propriétaires confidentiels.",
-    
     "termination_title": "10. Résiliation",
     "termination_text": "L'une ou l'autre partie peut résilier les services : (a) Par accord écrit mutuel ; (b) Par vous, avec avis écrit (sous réserve de la Politique de Remboursement) ; (c) Par nous, si vous violez ces Conditions, fournissez de fausses informations ou adoptez un comportement abusif envers le personnel. Lors de la résiliation : (a) Vous restez responsable des frais dus pour les services déjà fournis ; (b) Nous retournerons vos documents originaux ; (c) Nous pouvons conserver des copies des matériels pour nos dossiers (voir Politique de Confidentialité).",
-    
     "dispute_resolution_title": "11. Résolution des Litiges",
     "dispute_resolution_text": "Si vous avez une plainte ou un litige : (a) Contactez-nous d'abord à support@eduagency.com pour résoudre de manière informelle ; (b) Si non résolu, les litiges seront régis par les lois du Maroc ; (c) Toute procédure judiciaire doit être intentée devant les tribunaux de Casablanca, Maroc. Nous encourageons une communication ouverte pour résoudre les problèmes à l'amiable.",
-    
     "changes_title": "12. Modifications des Conditions",
     "changes_text": "Nous nous réservons le droit de mettre à jour ces Conditions à tout moment. Les changements importants seront communiqués par email ou avis visible sur le site web. L'utilisation continue des services après les changements constitue l'acceptation. La date « Dernière mise à jour » en haut indique la révision la plus récente.",
-    
     "severability_title": "13. Divisibilité",
     "severability_text": "Si une disposition de ces Conditions est jugée invalide ou inapplicable, les dispositions restantes restent pleinement en vigueur.",
-    
     "entire_agreement_title": "14. Accord Complet",
     "entire_agreement_text": "Ces Conditions, ainsi que notre Politique de Confidentialité, Politique de Remboursement et tout accord de service signé, constituent l'accord complet entre vous et Edu Agency concernant nos services et remplacent tous les accords ou ententes antérieurs.",
-    
     "contact_terms_title": "15. Informations de Contact",
     "contact_terms_text": "Pour toute question concernant ces Conditions, contactez-nous à : Email : legal@eduagency.com (ou info@eduagency.com) | Téléphone/WhatsApp : +212 6XX XXX XXX | Adresse : Casablanca, Maroc"
   },
@@ -749,78 +687,117 @@
     "title": "Politique de Remboursement",
     "last_updated": "Dernière mise à jour : Janvier 2024",
     "intro": "Cette Politique de Remboursement explique les conditions dans lesquelles des remboursements peuvent être accordés pour nos services de conseil en éducation. Veuillez lire cette politique attentivement avant d'acheter nos services.",
-    
     "overview_title": "1. Aperçu",
     "overview_text": "Nos services sont des services de conseil professionnels fournis dans le temps. Une fois les services rendus (consultations terminées, documents révisés, candidatures soumises), les frais sont généralement non remboursables. L'éligibilité au remboursement dépend de l'étape de prestation de service et des circonstances.",
-    
     "eligibility_title": "2. Éligibilité au Remboursement",
     "eligibility_text": "Les remboursements peuvent être considérés uniquement dans les circonstances suivantes : (a) Services Non Encore Commencés : Si vous demandez une annulation avant la fourniture de tout service, vous pouvez être éligible à un remboursement moins des frais administratifs de 15% ; (b) Échec du Service : Si nous ne parvenons pas à fournir les services comme décrit dans votre accord de service en raison de notre faute ; (c) Circonstances Exceptionnelles : En cas de maladie grave, d'urgence familiale ou d'autres situations extraordinaires (documentation requise). Les remboursements ne sont PAS fournis simplement parce que vous n'avez pas été admis dans des universités ou que votre visa a été refusé.",
-    
     "timeline_title": "3. Délai de Demande de Remboursement",
     "timeline_text": "Pour être éligible à l'examen d'un remboursement, vous devez : (a) Soumettre votre demande de remboursement par écrit dans les 7 jours calendaires suivant le début du service ou la survenue du problème ; (b) Fournir une explication détaillée de la raison de la demande de remboursement ; (c) Inclure la documentation justificative si applicable (certificats médicaux pour les annulations liées à la santé). Les demandes soumises après 7 jours ne seront généralement pas considérées sauf si des circonstances exceptionnelles ont empêché la soumission en temps opportun.",
-    
     "partial_title": "4. Remboursements Partiels",
     "partial_text": "Si vous demandez une annulation après le début des services mais avant leur achèvement, tout remboursement partiel sera calculé comme suit : (a) Total des frais payés moins la valeur des services déjà fournis ; (b) Les services sont évalués en fonction du temps passé, des consultations tenues, des documents révisés et des candidatures soumises ; (c) Des frais administratifs minimums de 15% s'appliquent à tous les remboursements partiels ; (d) Exemple : Si vous avez payé 10 000 MAD et nous avons terminé 40% des services, le remboursement serait : 10 000 - (4 000 + 1 500 frais admin) = 4 500 MAD.",
-    
     "non_refundable_title": "5. Frais et Dépenses Non Remboursables",
     "non_refundable_text": "Les éléments suivants ne sont JAMAIS remboursables en aucune circonstance : (a) Frais de candidature universitaire payés aux institutions ; (b) Frais d'inscription aux tests standardisés (TOEFL, IELTS, SAT, GRE, etc.) ; (c) Frais de services d'évaluation des diplômes ; (d) Frais de traduction et de notarisation ; (e) Frais de coursier et d'expédition ; (f) Frais SEVIS et frais de demande de visa ; (g) Frais de prestataires de services tiers ; (h) Frais de transfert bancaire ou frais de traitement des paiements. Ces frais sont payés directement à des tiers et ne peuvent pas être récupérés par nous.",
-    
     "process_title": "6. Comment Demander un Remboursement",
     "process_text": "Pour demander un remboursement, suivez ces étapes :\n\nÉtape 1 : Envoyez une demande de remboursement écrite à refunds@eduagency.com dans les 7 jours suivant le début du service ou la survenue du problème.\n\nÉtape 2 : Incluez les informations suivantes :\n• Votre nom complet et coordonnées\n• Forfait de service acheté et date de paiement\n• Raison détaillée de la demande de remboursement\n• Documentation justificative (le cas échéant)\n• Reçu de paiement ou ID de transaction\n\nÉtape 3 : Nous accuserons réception de votre demande dans les 2 jours ouvrables.\n\nÉtape 4 : Nous examinerons votre demande et fournirons une décision dans les 5-7 jours ouvrables.\n\nÉtape 5 : Si approuvé, les remboursements sont traités dans les 14-30 jours ouvrables selon votre méthode de paiement originale.",
-    
     "stages_title": "7. Remboursement par Étape de Service",
     "stages_text": "Étape 1 - Consultation Initiale (0-10% terminé) : Jusqu'à 85% de remboursement possible si annulé immédiatement après la première session.\n\nÉtape 2 - Sélection d'Université (10-30% terminé) : Jusqu'à 60% de remboursement possible, moins la valeur des consultations et recherches fournies.\n\nÉtape 3 - Préparation de Candidature (30-70% terminé) : Jusqu'à 30% de remboursement possible, moins la valeur de tous les services fournis (révisions d'essais, conseils sur les formulaires, etc.).\n\nÉtape 4 - Soumission de Candidature (70-90% terminé) : Généralement aucun remboursement une fois les candidatures soumises.\n\nÉtape 5 - Assistance Visa (90-100% terminé) : Aucun remboursement une fois le processus de visa commencé.",
-    
     "disputes_title": "8. Résolution des Litiges",
     "disputes_text": "Si vous n'êtes pas d'accord avec une décision de remboursement : (a) Vous pouvez demander un examen par notre équipe de direction dans les 14 jours suivant la décision ; (b) Fournissez des informations ou de la documentation supplémentaires soutenant votre cas ; (c) La direction examinera et fournira une décision finale dans les 10 jours ouvrables ; (d) Les décisions de la direction sont finales. Si vous restez insatisfait, vous pouvez poursuivre la résolution par les autorités de protection des consommateurs applicables au Maroc.",
-    
     "special_title": "9. Circonstances Spéciales",
     "special_text": "Nous pouvons considérer des remboursements en dehors de la politique normale dans des situations extraordinaires incluant : (a) Maladie médicale grave ou hospitalisation (nécessite un certificat médical) ; (b) Décès dans la famille immédiate (nécessite de la documentation) ; (c) Catastrophe naturelle ou urgence empêchant l'utilisation du service ; (d) Notre échec à fournir les services comme convenu dans le contrat de service. Chaque cas est examiné individuellement. La documentation est requise.",
-    
     "no_guarantee_title": "10. Rappel - Aucune Garantie",
     "no_guarantee_text": "IMPORTANT : Les remboursements ne sont PAS fournis simplement parce que : (a) Vous n'avez pas été admis dans des universités ; (b) Votre demande de visa a été refusée ; (c) Vous n'avez pas reçu de bourses ; (d) Les résultats n'étaient pas ce que vous espériez. Ces résultats ne sont pas garantis et ne constituent pas des motifs de remboursement. Notre politique de remboursement est basée sur la prestation de service, pas sur les résultats.",
-    
     "contact_refund_title": "11. Contact pour Demandes de Remboursement",
     "contact_refund_text": "Email : refunds@eduagency.com (ou info@eduagency.com)\nLigne d'objet : « Demande de Remboursement - [Votre Nom] »\nTemps de réponse : 2 jours ouvrables (accusé de réception), 5-7 jours ouvrables (décision)\n\nPour des questions générales sur cette politique : support@eduagency.com"
   },
   "disclaimer_page": {
     "title": "Avertissements Légaux Importants",
     "intro": "Veuillez lire attentivement ces avertissements. Ils contiennent des informations importantes sur les limitations de nos services et ce que nous pouvons et ne pouvons pas garantir.",
-    
     "no_guarantee_visa_title": "1. AUCUNE GARANTIE DE VISA",
     "no_guarantee_visa_text": "NOUS NE GARANTISSONS, NE PROMETTONS OU N'ASSURONS EXPLICITEMENT PAS L'APPROBATION DE VISA.\n\nAvertissement sur la Demande de Visa : L'approbation du visa étudiant F-1 (ou toute autre catégorie de visa) est déterminée uniquement par les agents consulaires du Département d'État des États-Unis dans les ambassades et consulats américains. Les décisions de visa sont prises indépendamment en fonction des circonstances individuelles de chaque demandeur, qualifications, liens avec le pays d'origine et évaluation de l'agent consulaire.\n\nCe que Nous Fournissons : Nous fournissons des conseils sur la completion du formulaire DS-160, la préparation de la documentation requise et la préparation à l'entretien de visa. Nous NE POUVONS PAS et NE influençons PAS les décisions de visa. Les taux d'approbation varient selon les profils individuels et les facteurs consulaires indépendants de nos services.",
-    
     "no_guarantee_admission_title": "2. AUCUNE GARANTIE D'ADMISSION",
     "no_guarantee_admission_text": "NOUS NE GARANTISSONS, NE PROMETTONS OU N'ASSURONS EXPLICITEMENT PAS L'ADMISSION UNIVERSITAIRE.\n\nDécisions d'Admission : Les décisions d'admission universitaire et collégiale sont prises indépendamment par les comités d'admission institutionnels. Les agents d'admission évaluent les candidatures en fonction du mérite académique, des résultats de tests, des essais, des recommandations, des priorités institutionnelles et de la disponibilité des places.\n\nCe que Nous Fournissons : Nous fournissons des services de conseil incluant : (a) Recommandations de sélection d'université basées sur votre profil ; (b) Révision et retour sur les documents de candidature ; (c) Conseils sur la stratégie et les délais de candidature ; (d) Vérification de l'exactitude et de la complétude. Nous ne pouvons pas influencer ou garantir les décisions d'admission.",
-    
     "no_guarantee_scholarship_title": "3. AUCUNE GARANTIE DE BOURSE OU D'AIDE FINANCIÈRE",
     "no_guarantee_scholarship_text": "Nous ne garantissons pas les bourses, subventions, assistanats ou toute forme d'aide financière. Les décisions d'aide financière sont prises par les universités en fonction du mérite, du besoin, du financement disponible et des priorités institutionnelles. Nous pouvons fournir des informations sur les opportunités de bourses et réviser les documents de candidature aux bourses, mais nous ne pouvons pas influencer les décisions d'attribution.",
-    
     "service_scope_title": "4. Limitation de la Portée des Services",
     "service_scope_text": "Nos services se limitent au conseil et au soutien consultatif en éducation. Nous ne sommes PAS : (a) Avocats en immigration ou praticiens juridiques agréés ; (b) Agents de demande de visa (nous fournissons des conseils uniquement) ; (c) Représentants universitaires ou agents de candidature autorisés ; (d) Conseillers financiers ou courtiers en prêts ; (e) Agents de voyage ou services de relocalisation. Pour les questions juridiques d'immigration, consultez un avocat en immigration agréé. Pour la planification financière, consultez un conseiller financier agréé.",
-    
     "accuracy_title": "5. Avertissement sur l'Exactitude de l'Information",
     "accuracy_text": "Effort pour Fournir des Informations Exactes : Nous faisons des efforts raisonnables pour fournir des informations exactes et actuelles sur les universités, programmes, exigences d'admission, processus de visa et délais basés sur des sources publiquement disponibles et notre expérience professionnelle.\n\nLes Informations Peuvent Changer : Cependant, les politiques universitaires, exigences d'admission, frais de scolarité, réglementations de visa et procédures peuvent changer à tout moment sans préavis. Nous ne sommes pas responsables de : (a) Changements apportés par les universités ou agences gouvernementales ; (b) Informations obsolètes ou inexactes sur des sites web tiers ; (c) Erreurs dans les documents ou communications officielles que vous recevez directement des universités. Vérifiez toujours les informations critiques directement auprès de l'université ou de l'agence gouvernementale concernée.",
-    
     "outcome_timeline_title": "6. Avertissement sur les Résultats et Délais",
     "outcome_timeline_text": "Estimations de Délais : Tous les délais que nous fournissons (traitement des candidatures, décisions d'admission, disponibilité de rendez-vous de visa, etc.) sont des estimations uniquement basées sur des modèles historiques et des scénarios typiques. Les délais réels peuvent varier considérablement.\n\nAucune Prédiction de Résultats : Nous ne pouvons pas prédire ou garantir : (a) Quand vous recevrez les décisions d'admission ; (b) Si vous serez accepté, mis sur liste d'attente ou rejeté ; (c) Les temps d'attente pour l'entretien de visa ou la durée de traitement ; (d) Les montants de bourses ou les offres d'aide financière ; (e) Les résultats de visa après votre entretien. Ces résultats dépendent de nombreux facteurs indépendants de notre contrôle.",
-    
     "third_party_title": "7. Avertissement sur les Services Tiers",
     "third_party_text": "Nous pouvons recommander ou faciliter l'utilisation de services tiers tels que : (a) Services d'évaluation des diplômes ; (b) Services de traduction et de notarisation ; (c) Préparation aux tests standardisés ; (d) Services de coursier et d'expédition. Nous ne sommes pas responsables de la qualité, exactitude, ponctualité ou coût des services tiers. Tout litige avec des prestataires tiers doit être résolu directement avec eux.",
-    
     "liability_title": "8. Limitation de Responsabilité",
     "liability_text": "Responsabilité Maximale : Notre responsabilité maximale pour toute réclamation découlant de nos services est limitée au montant total des frais que vous nous avez payés pour nos services.\n\nAucun Dommage Consécutif : Nous ne sommes pas responsables des dommages indirects, accessoires, consécutifs, spéciaux ou punitifs incluant mais sans s'y limiter : (a) Opportunités éducatives perdues ; (b) Détresse émotionnelle ou déception ; (c) Frais de voyage ou dépenses ; (d) Salaires perdus ou opportunités d'emploi ; (e) Frais de relocalisation.\n\nAucune Responsabilité pour les Décisions Tierces : Nous ne sommes pas responsables des décisions, actions ou omissions de : (a) Bureaux d'admission universitaires ; (b) Agents consulaires ou autorités d'immigration ; (c) Prestataires de services tiers ; (d) Agences gouvernementales.",
-    
     "website_links_title": "9. Liens vers Sites Web Externes",
     "website_links_text": "Notre site web peut contenir des liens vers des sites web externes (universités, agences gouvernementales, prestataires de tests, etc.). Nous ne contrôlons, n'approuvons ou n'assumons aucune responsabilité pour le contenu, politiques de confidentialité ou pratiques de tout site web tiers. L'accès aux liens externes se fait à vos propres risques.",
-    
     "jurisdiction_title": "10. Loi Applicable et Juridiction",
     "jurisdiction_text": "Ces avertissements et nos services sont régis par les lois du Maroc. Tout litige découlant de nos services sera soumis à la juridiction exclusive des tribunaux de Casablanca, Maroc.",
-    
     "acceptance_disclaimer_title": "11. Acceptation des Avertissements",
     "acceptance_disclaimer_text": "En utilisant nos services, vous reconnaissez avoir lu, compris et accepté ces avertissements. Si vous n'êtes pas d'accord avec une partie de ces avertissements, vous ne devriez pas utiliser nos services.",
-    
     "contact_disclaimer_title": "12. Questions sur Ces Avertissements",
     "contact_disclaimer_text": "Si vous avez des questions sur ces avertissements ou avez besoin de clarifications, veuillez nous contacter AVANT d'utiliser nos services : Email : legal@eduagency.com (ou info@eduagency.com) | Téléphone/WhatsApp : +212 6XX XXX XXX"
+  },
+  "tiktok_section": {
+    "title": "Vous venez de TikTok ? Commencez ici.",
+    "subtitle": "Voici exactement comment nous vous aidons à démarrer",
+    "step1_title": "Consultation gratuite",
+    "step1_description": "Discutez avec nous sur WhatsApp de vos objectifs et de votre éligibilité",
+    "step2_title": "Candidatures universitaires",
+    "step2_description": "Nous vous guidons dans la sélection et la candidature aux bonnes universités américaines",
+    "step3_title": "Préparation du visa",
+    "step3_description": "Assistance DS-160 et préparation à l'entretien pour maximiser vos chances",
+    "response_time": "Nous répondons généralement dans les 30 minutes"
+  },
+  "timeline": {
+    "title": "Calendrier de votre parcours",
+    "subtitle": "Délai typique du début à l'arrivée aux États-Unis",
+    "phase1_title": "Préparation",
+    "phase1_duration": "1-2 mois",
+    "phase2_title": "Candidatures",
+    "phase2_duration": "1-3 mois",
+    "phase3_title": "Processus de visa",
+    "phase3_duration": "1-2 mois",
+    "total_timeline": "Total : 6-12 mois (varie selon les circonstances individuelles)"
+  },
+  "qualification": {
+    "title": "Pour qui est-ce ?",
+    "subtitle": "Soyez honnête avec vous-même - est-ce bon pour vous ?",
+    "for_you_title": "C'est pour vous si :",
+    "for_you_1": "Vous êtes sérieux au sujet des études à l'étranger et prêt à travailler",
+    "for_you_2": "Vous êtes prêt à préparer des documents et à suivre un processus structuré",
+    "for_you_3": "Vous comprenez que l'approbation du visa dépend de nombreux facteurs",
+    "for_you_4": "Vous voulez des conseils transparents avec des attentes réalistes",
+    "not_for_you_title": "Ce n'est PAS pour vous si :",
+    "not_for_you_1": "Vous cherchez des garanties de visa ou des raccourcis",
+    "not_for_you_2": "Vous n'êtes pas prêt à commencer le processus sérieusement",
+    "not_for_you_3": "Vous vous attendez à ce que quelqu'un d'autre fasse tout pour vous",
+    "not_for_you_4": "Vous n'êtes pas prêt pour le calendrier et l'engagement financier"
+  },
+  "founder": {
+    "title": "Rencontrez votre conseiller",
+    "subtitle": "Conseils personnalisés d'un consultant en éducation expérimenté",
+    "photo_placeholder": "Photo",
+    "quote": "Je guide les étudiants étape par étape avec transparence et attentes réelles.",
+    "bio": "Avec des années d'expérience à aider les étudiants marocains à naviguer dans le processus complexe d'admission et de visa aux États-Unis, je m'engage à fournir des conseils honnêtes et éthiques. Mon approche est simple : pas de fausses promesses, transparence totale et soutien à chaque étape de votre parcours.",
+    "commitment": "Mon engagement : Je ne garantirai jamais l'approbation du visa ou l'admission universitaire. Au lieu de cela, je vous aiderai à créer la candidature la plus solide possible et à vous préparer minutieusement pour chaque étape."
+  },
+  "costs": {
+    "title": "Coûts typiques pour étudier aux États-Unis",
+    "subtitle": "Planifiez votre budget avec des estimations réalistes",
+    "tuition_title": "Frais de scolarité",
+    "tuition_range": "15 000 $ - 60 000 $/an",
+    "tuition_note": "Varie considérablement selon le type d'université et le programme",
+    "living_title": "Frais de subsistance",
+    "living_range": "10 000 $ - 20 000 $/an",
+    "living_note": "Logement, nourriture, transport et dépenses personnelles",
+    "application_title": "Frais de candidature",
+    "application_range": "2 000 $ - 5 000 $",
+    "application_note": "Tests, frais de candidature, visa et nos frais de service",
+    "disclaimer_title": "Note importante",
+    "disclaimer_text": "Ce ne sont que des estimations et varient selon l'université, l'emplacement et le style de vie. Vérifiez toujours les coûts actuels auprès de vos universités choisies. Une documentation financière montrant des fonds adéquats est requise pour l'approbation du visa."
+  },
+  "urgency": {
+    "message": "🎓 Admission automne 2026 maintenant ouverte - Commencez votre candidature aujourd'hui"
   }
 }

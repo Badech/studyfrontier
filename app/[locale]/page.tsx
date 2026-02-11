@@ -12,6 +12,13 @@ import {
   Shield, Lock, FileCheck, MessageCircle, CheckCircle, 
   GraduationCap, FileText, Plane, BookOpen, ArrowRight 
 } from 'lucide-react';
+import { EnhancedHero } from '@/components/enhanced-hero';
+import { UrgencyBanner } from '@/components/urgency-banner';
+import { TikTokVisitorSection } from '@/components/tiktok-visitor-section';
+import { TimelineVisual } from '@/components/timeline-visual';
+import { QualificationSection } from '@/components/qualification-section';
+import { FounderSection } from '@/components/founder-section';
+import { CostTransparency } from '@/components/cost-transparency';
 
 export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
@@ -20,8 +27,17 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
   return (
     <div>
-      {/* Hero Section - Morocco to USA Focus */}
-      <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-primary/5 via-background to-background">
+      {/* Urgency Banner */}
+      <UrgencyBanner />
+
+      {/* Enhanced Hero Section */}
+      <EnhancedHero />
+
+      {/* TikTok Visitor Section */}
+      <TikTokVisitorSection />
+
+      {/* Original Hero - Remove this section */}
+      <section className="hidden py-12 md:py-20 px-4 bg-gradient-to-b from-primary/5 via-background to-background">
         <Container size="default">
           <FadeInUpDiv className="max-w-4xl mx-auto text-center">
             <Badge variant="success" className="mb-6">
@@ -182,6 +198,29 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
         </Container>
       </section>
 
+      {/* Timeline Section */}
+      <TimelineVisual />
+
+      {/* WhatsApp CTA After Services */}
+      <section className="py-10 px-4 bg-gradient-to-b from-muted/20 to-background">
+        <Container size="sm">
+          <FadeInUpDiv className="text-center">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4">{t('common.get_started')}</h3>
+            <p className="text-muted-foreground mb-6">{t('tiktok_section.response_time')}</p>
+            <WhatsAppButton size="lg" variant="primary" />
+          </FadeInUpDiv>
+        </Container>
+      </section>
+
+      {/* Qualification Section */}
+      <QualificationSection />
+
+      {/* Founder Section */}
+      <FounderSection />
+
+      {/* Cost Transparency */}
+      <CostTransparency />
+
       {/* Programs Preview */}
       <section className="py-12 md:py-16 px-4">
         <Container size="lg">
@@ -308,8 +347,19 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
         </Container>
       </section>
 
+      {/* WhatsApp CTA After FAQ */}
+      <section className="py-10 px-4 bg-muted/30">
+        <Container size="sm">
+          <FadeInUpDiv className="text-center">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4">{t('common.contact_us')}</h3>
+            <p className="text-muted-foreground mb-6">{t('tiktok_section.response_time')}</p>
+            <WhatsAppButton size="lg" variant="primary" />
+          </FadeInUpDiv>
+        </Container>
+      </section>
+
       {/* Lead Capture Form */}
-      <section id="lead-form" className="py-12 md:py-16 px-4 bg-primary/5">
+      <section id="lead-form" className="py-12 md:py-16 px-4 bg-gradient-to-b from-background to-muted/20">
         <Container size="default">
           <FadeInUpDiv className="max-w-2xl mx-auto">
             <SectionHeader

@@ -31,7 +31,13 @@
     "description": "Expert support for Moroccan students pursuing undergraduate and graduate programs at top US universities. Professional guidance from application to arrival.",
     "cta_primary": "WhatsApp Us Now",
     "cta_secondary": "Book Free Consultation",
-    "trust_note": "⚠️ We provide professional guidance but cannot guarantee visa approval. Our process is transparent and compliant with all regulations."
+    "trust_note": "⚠️ We provide professional guidance but cannot guarantee visa approval. Our process is transparent and compliant with all regulations.",
+    "morocco_to_usa": "Morocco to USA",
+    "secondary_line": "Helping Moroccan students study in the USA step by step",
+    "timeline": "Typical timeline: 6-12 months from start to travel",
+    "trust_transparent": "Transparent process",
+    "trust_no_guarantee": "No visa guarantee",
+    "trust_ethical": "Ethical guidance"
   },
   "trust": {
     "title": "Why Students Choose Us",
@@ -781,7 +787,69 @@
     "no_guarantee_text": "IMPORTANT: Refunds are NOT provided simply because: (a) You did not get admitted to universities; (b) Your visa application was denied; (c) You did not receive scholarships; (d) Results were not what you hoped for. These outcomes are not guaranteed and are not grounds for refund. Our refund policy is based on service delivery, not outcomes.",
     
     "contact_refund_title": "11. Contact for Refund Requests",
-    "contact_refund_text": "Email: refunds@studyfrontier.com\nSubject Line: \"Refund Request - [Your Name]\"\nResponse Time: 2 business days (acknowledgment), 5-7 business days (decision)\n\nFor general questions about this policy: support@studyfrontier.com"
+    "contact_refund_text": "Email: refunds@studyfrontier.com\\nSubject Line: \\\"Refund Request - [Your Name]\\\"\\nResponse Time: 2 business days (acknowledgment), 5-7 business days (decision)\\n\\nFor general questions about this policy: support@studyfrontier.com"
+  },
+  "tiktok_section": {
+    "title": "Came from TikTok? Start here.",
+    "subtitle": "Here's exactly how we help you get started",
+    "step1_title": "Free Consultation",
+    "step1_description": "Chat with us on WhatsApp to discuss your goals and eligibility",
+    "step2_title": "University Applications",
+    "step2_description": "We guide you through selecting and applying to the right US universities",
+    "step3_title": "Visa Preparation",
+    "step3_description": "DS-160 assistance and interview prep to maximize your chances",
+    "response_time": "We usually reply within 30 minutes"
+  },
+  "timeline": {
+    "title": "Your Journey Timeline",
+    "subtitle": "Typical timeline from start to arrival in the USA",
+    "phase1_title": "Preparation",
+    "phase1_duration": "1-2 months",
+    "phase2_title": "Applications",
+    "phase2_duration": "1-3 months",
+    "phase3_title": "Visa Process",
+    "phase3_duration": "1-2 months",
+    "total_timeline": "Total: 6-12 months (varies by individual circumstances)"
+  },
+  "qualification": {
+    "title": "Who This Is For",
+    "subtitle": "Be honest with yourself - is this right for you?",
+    "for_you_title": "This is for you if:",
+    "for_you_1": "You're serious about studying abroad and willing to put in the work",
+    "for_you_2": "You're ready to prepare documents and follow a structured process",
+    "for_you_3": "You understand that visa approval depends on many factors",
+    "for_you_4": "You want transparent guidance with realistic expectations",
+    "not_for_you_title": "This is NOT for you if:",
+    "not_for_you_1": "You're looking for visa guarantees or shortcuts",
+    "not_for_you_2": "You're not ready to start the process seriously",
+    "not_for_you_3": "You expect someone else to do everything for you",
+    "not_for_you_4": "You're not prepared for the timeline and financial commitment"
+  },
+  "founder": {
+    "title": "Meet Your Counselor",
+    "subtitle": "Personal guidance from an experienced education consultant",
+    "photo_placeholder": "Photo",
+    "quote": "I guide students step by step with transparency and real expectations.",
+    "bio": "With years of experience helping Moroccan students navigate the complex US admissions and visa process, I'm committed to providing honest, ethical guidance. My approach is simple: no false promises, complete transparency, and support at every step of your journey.",
+    "commitment": "My commitment: I will never guarantee visa approval or university admission. Instead, I'll help you build the strongest possible application and prepare thoroughly for every step."
+  },
+  "costs": {
+    "title": "Typical Costs to Study in the USA",
+    "subtitle": "Plan your budget with realistic estimates",
+    "tuition_title": "Tuition & Fees",
+    "tuition_range": "$15,000 - $60,000/year",
+    "tuition_note": "Varies significantly by university type and program",
+    "living_title": "Living Expenses",
+    "living_range": "$10,000 - $20,000/year",
+    "living_note": "Housing, food, transport, and personal expenses",
+    "application_title": "Application Costs",
+    "application_range": "$2,000 - $5,000",
+    "application_note": "Tests, application fees, visa, and our service fees",
+    "disclaimer_title": "Important Note",
+    "disclaimer_text": "These are estimates only and vary by university, location, and lifestyle. Always verify current costs with your chosen universities. Financial documentation showing adequate funds is required for visa approval."
+  },
+  "urgency": {
+    "message": "🎓 Fall 2026 intake now open - Start your application today"
   },
   "disclaimer_page": {
     "title": "Important Legal Disclaimers",
