@@ -57,7 +57,7 @@ export function CredibilitySection() {
 
         <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {credibilityItems.map((item, index) => (
-            <FadeInUpDiv key={index} delay={index * 0.1}>
+            <FadeInUpDiv key={index}>
               <Card className="h-full border-2 hover:shadow-lg transition-all hover:border-primary/30">
                 <CardContent className="pt-6 text-center">
                   <div className={`w-16 h-16 mx-auto mb-4 rounded-2xl ${item.bgColor} flex items-center justify-center`}>
@@ -73,7 +73,7 @@ export function CredibilitySection() {
           ))}
         </StaggerContainer>
 
-        <FadeInUpDiv delay={0.5} className="mt-10 text-center">
+        <FadeInUpDiv className="mt-10 text-center">
           <div className="inline-block max-w-3xl bg-muted/50 rounded-xl p-5 border border-border">
             <p className="text-sm text-muted-foreground">
               <strong className="text-foreground">Important:</strong> We do not and cannot guarantee visa approval or university admission. 
