@@ -30,30 +30,41 @@ export function EnhancedHero() {
             {t('hero.secondary_line')}
           </p>
 
-          {/* Timeline Indicator */}
-          <FadeInUpDiv delay={0.2} className="mb-8">
-            <div className="inline-flex items-center gap-3 px-6 py-3 bg-blue-50 dark:bg-blue-950/20 rounded-full border-2 border-blue-200 dark:border-blue-800">
+          {/* Timeline Indicator - Updated for better conversion */}
+          <FadeInUpDiv delay={0.2} className="mb-6">
+            <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-950/20 dark:to-cyan-950/20 rounded-full border-2 border-blue-300 dark:border-blue-700 shadow-sm">
               <Clock className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-              <span className="text-sm md:text-base font-semibold text-blue-900 dark:text-blue-100">
-                {t('hero.timeline')}
+              <span className="text-sm md:text-base font-bold text-blue-900 dark:text-blue-100">
+                From Morocco to the USA in 6-12 months
               </span>
             </div>
           </FadeInUpDiv>
+          
+          {/* WhatsApp Response Time */}
+          <FadeInUpDiv delay={0.25} className="mb-8">
+            <p className="text-sm text-muted-foreground italic">
+              💬 WhatsApp replies within hours
+            </p>
+          </FadeInUpDiv>
 
-          {/* Micro-trust elements */}
+          {/* Micro-trust elements - Enhanced */}
           <FadeInUpDiv delay={0.3} className="mb-8">
-            <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-sm">
-              <div className="flex items-center gap-2">
-                <Shield className="h-4 w-4 text-green-600" />
-                <span className="text-muted-foreground">{t('hero.trust_transparent')}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <AlertCircle className="h-4 w-4 text-amber-600" />
-                <span className="text-muted-foreground">{t('hero.trust_no_guarantee')}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Shield className="h-4 w-4 text-blue-600" />
-                <span className="text-muted-foreground">{t('hero.trust_ethical')}</span>
+            <div className="inline-block px-6 py-3 bg-muted/50 rounded-xl border border-border">
+              <div className="flex flex-wrap items-center justify-center gap-3 md:gap-5 text-xs md:text-sm">
+                <div className="flex items-center gap-2">
+                  <Shield className="h-4 w-4 text-green-600" />
+                  <span className="font-medium">Transparent process</span>
+                </div>
+                <span className="text-muted-foreground">•</span>
+                <div className="flex items-center gap-2">
+                  <AlertCircle className="h-4 w-4 text-amber-600" />
+                  <span className="font-medium">No visa guarantee</span>
+                </div>
+                <span className="text-muted-foreground">•</span>
+                <div className="flex items-center gap-2">
+                  <Shield className="h-4 w-4 text-blue-600" />
+                  <span className="font-medium">Ethical guidance</span>
+                </div>
               </div>
             </div>
           </FadeInUpDiv>

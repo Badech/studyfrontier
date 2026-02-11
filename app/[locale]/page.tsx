@@ -19,6 +19,9 @@ import { TimelineVisual } from '@/components/timeline-visual';
 import { QualificationSection } from '@/components/qualification-section';
 import { FounderSection } from '@/components/founder-section';
 import { CostTransparency } from '@/components/cost-transparency';
+import { EligibilityCheckSection } from '@/components/eligibility-check-section';
+import { TestimonialsSection } from '@/components/testimonials-section';
+import { CredibilitySection } from '@/components/credibility-section';
 
 export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
@@ -35,6 +38,12 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
       {/* TikTok Visitor Section */}
       <TikTokVisitorSection />
+
+      {/* Eligibility Check Section - High Priority Form */}
+      <EligibilityCheckSection />
+
+      {/* Credibility & ICEF Standards Section */}
+      <CredibilitySection />
 
       {/* Original Hero - Remove this section */}
       <section className="hidden py-12 md:py-20 px-4 bg-gradient-to-b from-primary/5 via-background to-background">
@@ -217,6 +226,9 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
       {/* Founder Section */}
       <FounderSection />
+
+      {/* Testimonials Section */}
+      <TestimonialsSection />
 
       {/* Cost Transparency */}
       <CostTransparency />

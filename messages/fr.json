@@ -1,4 +1,4 @@
-{
+﻿{
   "common": {
     "whatsapp_cta": "Discuter sur WhatsApp",
     "learn_more": "En savoir plus",
@@ -140,7 +140,7 @@
     "refund": "Politique de remboursement",
     "disclaimer": "Avertissement",
     "social": "Suivez-nous",
-    "copyright": "© 2024 Edu Agency. Tous droits réservés.",
+    "copyright": "© 2024 StudyFrontier. Tous droits réservés.",
     "usa_focus": "Focus USA",
     "more_countries_soon": "Plus de pays bientôt disponibles",
     "important_notice": "Avis Important :",
@@ -651,7 +651,7 @@
   "terms": {
     "title": "Conditions d'Utilisation",
     "last_updated": "Dernière mise à jour : Janvier 2024",
-    "intro": "Ces Conditions d'Utilisation (« Conditions ») régissent votre utilisation des services de conseil en éducation fournis par Edu Agency (« nous », « notre »). En utilisant nos services, vous (« Client », « vous ») acceptez d'être lié par ces Conditions. Veuillez les lire attentivement.",
+    "intro": "Ces Conditions d'Utilisation (« Conditions ») régissent votre utilisation des services de conseil en éducation fournis par StudyFrontier (« nous », « notre »). En utilisant nos services, vous (« Client », « vous ») acceptez d'être lié par ces Conditions. Veuillez les lire attentivement.",
     "acceptance_title": "1. Acceptation des Conditions",
     "acceptance_text": "En signant un accord de service, en effectuant un paiement ou en utilisant nos services, vous reconnaissez avoir lu, compris et accepté d'être lié par ces Conditions et notre Politique de Confidentialité. Si vous n'êtes pas d'accord, n'utilisez pas nos services.",
     "services_title": "2. Portée des Services",
@@ -679,7 +679,7 @@
     "severability_title": "13. Divisibilité",
     "severability_text": "Si une disposition de ces Conditions est jugée invalide ou inapplicable, les dispositions restantes restent pleinement en vigueur.",
     "entire_agreement_title": "14. Accord Complet",
-    "entire_agreement_text": "Ces Conditions, ainsi que notre Politique de Confidentialité, Politique de Remboursement et tout accord de service signé, constituent l'accord complet entre vous et Edu Agency concernant nos services et remplacent tous les accords ou ententes antérieurs.",
+    "entire_agreement_text": "Ces Conditions, ainsi que notre Politique de Confidentialité, Politique de Remboursement et tout accord de service signé, constituent l'accord complet entre vous et StudyFrontier concernant nos services et remplacent tous les accords ou ententes antérieurs.",
     "contact_terms_title": "15. Informations de Contact",
     "contact_terms_text": "Pour toute question concernant ces Conditions, contactez-nous à : Email : legal@eduagency.com (ou info@eduagency.com) | Téléphone/WhatsApp : +212 6XX XXX XXX | Adresse : Casablanca, Maroc"
   },

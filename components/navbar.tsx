@@ -42,7 +42,7 @@ export function Navbar() {
             {/* Logo */}
             <Link href={`/${locale}`} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <GraduationCap className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">Edu Agency</span>
+              <span className="text-xl font-bold">StudyFrontier</span>
             </Link>
 
             {/* Desktop Navigation */}

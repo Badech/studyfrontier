@@ -34,15 +34,15 @@ export function Footer() {
             <div className="lg:col-span-1">
               <div className="flex items-center gap-2 mb-4">
                 <GraduationCap className="h-6 w-6 text-primary" />
-                <span className="font-bold text-lg">Edu Agency</span>
+                <span className="font-bold text-lg">StudyFrontier</span>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
                 {t('footer.tagline')}
               </p>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:info@eduagency.com" className="hover:text-primary transition-colors">
-                  info@eduagency.com
+                <a href="mailto:contact@studyfrontier.com" className="hover:text-primary transition-colors">
+                  contact@studyfrontier.com
                 </a>
               </div>
             </div>
@@ -106,19 +106,45 @@ export function Footer() {
 
           {/* Compliance Notice */}
           <div className="mt-12 pt-8 border-t">
-            <div className="bg-muted/50 rounded-xl p-4 mb-6">
+            {/* Professional Compliance Statement */}
+            <div className="bg-gradient-to-r from-muted/50 to-muted/30 rounded-xl p-5 mb-6 border border-border">
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 dark:bg-amber-900/20 flex items-center justify-center">
+                  <span className="text-amber-600 dark:text-amber-500 font-bold">⚠️</span>
+                </div>
+                <div className="flex-1">
+                  <p className="text-xs text-muted-foreground leading-relaxed">
+                    <strong className="text-foreground">{t('footer.important_notice')}</strong>{' '}
+                    {t('footer.important_notice_text')}{' '}
+                    <Link href={`/${locale}/disclaimer`} className="text-primary hover:underline font-medium">
+                      {t('footer.read_full_disclaimer')} →
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Microcopy for credibility */}
+            <div className="text-center mb-6">
+              <p className="text-xs text-muted-foreground mb-2">
+                🇲🇦 Serving students across Morocco | 📍 Guidance from application to arrival
+              </p>
               <p className="text-xs text-muted-foreground">
-                <strong className="text-foreground">⚠️ {t('footer.important_notice')}</strong>{' '}
-                {t('footer.important_notice_text')}{' '}
-                <Link href={`/${locale}/disclaimer`} className="text-primary hover:underline">
-                  {t('footer.read_full_disclaimer')} →
-                </Link>
+                Clear steps. No hidden promises. Transparent guidance.
               </p>
             </div>
 
             {/* Copyright */}
-            <div className="text-center text-sm text-muted-foreground">
-              {t('footer.copyright')}
+            <div className="text-center">
+              <p className="text-sm font-medium text-foreground mb-1">
+                StudyFrontier
+              </p>
+              <p className="text-xs text-muted-foreground">
+                {t('footer.copyright')}
+              </p>
+              <p className="text-xs text-muted-foreground mt-1">
+                contact@studyfrontier.com
+              </p>
             </div>
           </div>
         </div>
