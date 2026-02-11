@@ -24,7 +24,7 @@ export function TestimonialsSection() {
         {/* Placeholder for upcoming testimonials */}
         <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {[1, 2, 3].map((index) => (
-            <FadeInUpDiv key={index} delay={index * 0.1}>
+            <FadeInUpDiv key={index} >
               <Card className="h-full border-2 hover:shadow-lg transition-all">
                 <CardContent className="pt-6">
                   <div className="flex items-center gap-1 mb-4">
@@ -58,7 +58,7 @@ export function TestimonialsSection() {
           ))}
         </StaggerContainer>
 
-        <FadeInUpDiv delay={0.4} className="text-center mt-8">
+        <FadeInUpDiv className="text-center mt-8">
           <p className="text-sm text-muted-foreground">
             We&apos;re building our collection of success stories. Check back soon!
           </p>

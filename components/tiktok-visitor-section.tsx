@@ -41,7 +41,7 @@ export function TikTokVisitorSection() {
 
         <StaggerContainer className="grid md:grid-cols-3 gap-6 mb-8">
           {steps.map((step, index) => (
-            <FadeInUpDiv key={index} delay={index * 0.1}>
+            <FadeInUpDiv key={index} >
               <Card className="h-full border-2 hover:border-primary/50 transition-all hover:shadow-lg">
                 <CardContent className="pt-6 text-center">
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
@@ -58,7 +58,7 @@ export function TikTokVisitorSection() {
           ))}
         </StaggerContainer>
 
-        <FadeInUpDiv delay={0.3} className="text-center">
+        <FadeInUpDiv className="text-center">
           <WhatsAppButton size="lg" variant="success" className="mb-3" />
           <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
             <Clock className="h-4 w-4" />

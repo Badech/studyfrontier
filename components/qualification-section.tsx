@@ -36,7 +36,7 @@ export function QualificationSection() {
 
         <StaggerContainer className="grid md:grid-cols-2 gap-6 md:gap-8">
           {/* This IS for you */}
-          <FadeInUpDiv delay={0.1}>
+          <FadeInUpDiv >
             <Card className="h-full border-2 border-green-500/30 bg-green-50/50 dark:bg-green-950/10 hover:shadow-xl transition-all">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-green-700 dark:text-green-400">
@@ -58,7 +58,7 @@ export function QualificationSection() {
           </FadeInUpDiv>
 
           {/* This is NOT for you */}
-          <FadeInUpDiv delay={0.2}>
+          <FadeInUpDiv >
             <Card className="h-full border-2 border-red-500/30 bg-red-50/50 dark:bg-red-950/10 hover:shadow-xl transition-all">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-red-700 dark:text-red-400">

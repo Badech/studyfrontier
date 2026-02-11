@@ -20,7 +20,7 @@ export function FounderSection() {
           </p>
         </FadeInUpDiv>
 
-        <FadeInUpDiv delay={0.2}>
+        <FadeInUpDiv >
           <Card className="overflow-hidden hover:shadow-xl transition-all border-2">
             <CardContent className="p-0">
               <div className="grid md:grid-cols-5 gap-0">

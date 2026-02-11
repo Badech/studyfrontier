@@ -31,7 +31,7 @@ export function EnhancedHero() {
           </p>
 
           {/* Timeline Indicator - Updated for better conversion */}
-          <FadeInUpDiv delay={0.2} className="mb-6">
+          <FadeInUpDiv className="mb-6">
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-950/20 dark:to-cyan-950/20 rounded-full border-2 border-blue-300 dark:border-blue-700 shadow-sm">
               <Clock className="h-5 w-5 text-blue-600 dark:text-blue-400" />
               <span className="text-sm md:text-base font-bold text-blue-900 dark:text-blue-100">
@@ -41,14 +41,14 @@ export function EnhancedHero() {
           </FadeInUpDiv>
           
           {/* WhatsApp Response Time */}
-          <FadeInUpDiv delay={0.25} className="mb-8">
+          <FadeInUpDiv className="mb-8">
             <p className="text-sm text-muted-foreground italic">
               💬 WhatsApp replies within hours
             </p>
           </FadeInUpDiv>
 
           {/* Micro-trust elements - Enhanced */}
-          <FadeInUpDiv delay={0.3} className="mb-8">
+          <FadeInUpDiv className="mb-8">
             <div className="inline-block px-6 py-3 bg-muted/50 rounded-xl border border-border">
               <div className="flex flex-wrap items-center justify-center gap-3 md:gap-5 text-xs md:text-sm">
                 <div className="flex items-center gap-2">
@@ -70,12 +70,12 @@ export function EnhancedHero() {
           </FadeInUpDiv>
 
           {/* CTA Buttons */}
-          <FadeInUpDiv delay={0.4} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+          <FadeInUpDiv className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <WhatsAppButton size="lg" variant="primary" />
           </FadeInUpDiv>
 
           {/* Trust note */}
-          <FadeInUpDiv delay={0.5}>
+          <FadeInUpDiv >
             <div className="bg-muted/50 rounded-xl p-4 text-sm text-muted-foreground max-w-2xl mx-auto">
               <p>{t('hero.trust_note')}</p>
             </div>

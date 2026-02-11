@@ -51,7 +51,7 @@ export function TimelineVisual() {
             
             <div className="grid grid-cols-3 gap-8 relative z-10">
               {phases.map((phase, index) => (
-                <FadeInUpDiv key={index} delay={index * 0.2}>
+                <FadeInUpDiv key={index} >
                   <div className={`${phase.bgColor} rounded-2xl p-6 border-2 border-primary/20 hover:border-primary/40 transition-all hover:shadow-lg`}>
                     <div className={`w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br ${phase.color} flex items-center justify-center`}>
                       <phase.icon className="h-8 w-8 text-white" />
@@ -68,7 +68,7 @@ export function TimelineVisual() {
             </div>
           </div>
           
-          <FadeInUpDiv delay={0.6} className="text-center mt-8">
+          <FadeInUpDiv className="text-center mt-8">
             <p className="text-base font-semibold text-primary">
               {t('total_timeline')}
             </p>
@@ -78,7 +78,7 @@ export function TimelineVisual() {
         {/* Mobile: Vertical Timeline */}
         <div className="md:hidden space-y-6">
           {phases.map((phase, index) => (
-            <FadeInUpDiv key={index} delay={index * 0.15}>
+            <FadeInUpDiv key={index} >
               <div className="flex gap-4">
                 <div className="flex flex-col items-center">
                   <div className={`w-14 h-14 rounded-full bg-gradient-to-br ${phase.color} flex items-center justify-center flex-shrink-0`}>
@@ -98,7 +98,7 @@ export function TimelineVisual() {
             </FadeInUpDiv>
           ))}
           
-          <FadeInUpDiv delay={0.5} className="text-center pt-4">
+          <FadeInUpDiv className="text-center pt-4">
             <p className="text-base font-semibold text-primary">
               {t('total_timeline')}
             </p>
