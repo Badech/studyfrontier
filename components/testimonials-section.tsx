@@ -17,7 +17,7 @@ export function TestimonialsSection() {
             Student Success Stories
           </h2>
           <p className="text-lg text-muted-foreground">
-            Real experiences from students we've guided
+            Real experiences from students we&apos;ve guided
           </p>
         </FadeInUpDiv>
 
@@ -60,7 +60,7 @@ export function TestimonialsSection() {
 
         <FadeInUpDiv delay={0.4} className="text-center mt-8">
           <p className="text-sm text-muted-foreground">
-            We're building our collection of success stories. Check back soon!
+            We&apos;re building our collection of success stories. Check back soon!
           </p>
         </FadeInUpDiv>
       </Container>

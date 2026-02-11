@@ -39,7 +39,7 @@ export function FounderSection() {
                   <div className="relative">
                     <Quote className="h-8 w-8 text-primary/20 absolute -top-2 -left-2" />
                     <blockquote className="text-lg md:text-xl italic text-muted-foreground mb-6 pl-6">
-                      "{t('quote')}"
+                      &ldquo;{t('quote')}&rdquo;
                     </blockquote>
                   </div>
                   
