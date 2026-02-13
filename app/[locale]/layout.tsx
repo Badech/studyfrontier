@@ -45,12 +45,12 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir="ltr" suppressHydrationWarning>
-      <body className={inter.className}>
+    <html lang={locale} dir="ltr" suppressHydrationWarning className="overflow-x-hidden">
+      <body className={`${inter.className} overflow-x-hidden`}>
         <NextIntlClientProvider messages={messages}>
-          <div className="flex min-h-screen flex-col">
+          <div className="flex min-h-screen flex-col overflow-x-hidden w-full">
             <Navbar />
-            <main className="flex-1">
+            <main className="flex-1 overflow-x-hidden w-full">
               {children}
             </main>
             <Footer />

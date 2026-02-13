@@ -2,7 +2,7 @@
 
 import { MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { getWhatsAppLink } from '@/lib/utils';
+import { getWhatsAppLink, cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
 
 interface WhatsAppButtonProps {
@@ -31,10 +31,10 @@ export function WhatsAppButton({
       onClick={handleClick}
       variant={variant}
       size={size}
-      className={className}
+      className={cn("w-full sm:w-auto", className)}
     >
-      {showIcon && <MessageCircle className="h-5 w-5" />}
-      {t('whatsapp_cta')}
+      {showIcon && <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />}
+      <span className="truncate">{t('whatsapp_cta')}</span>
     </Button>
   );
 }

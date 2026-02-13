@@ -84,6 +84,15 @@
   body {
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  * {
+    max-width: 100%;
   }
   
   /* Typography system with 8px rhythm */
