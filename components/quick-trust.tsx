@@ -8,7 +8,7 @@ export function QuickTrust() {
   const t = useTranslations('simple');
 
   return (
-    <section className="py-12 px-4">
+    <section className="py-16 md:py-20 px-4">
       <Container size="default">
         <div className="max-w-2xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">

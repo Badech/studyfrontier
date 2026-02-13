@@ -10,34 +10,34 @@ export function ContactSection() {
   const t = useTranslations('simple');
 
   return (
-    <section className="py-16 md:py-20 px-4 bg-muted/30">
+    <section className="py-20 md:py-24 px-4">
       <Container size="default">
         {/* Section Title */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <div className="text-center mb-14 md:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-5">
             {t('contact.title')}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             {t('contact.subtitle')}
           </p>
         </div>
         
         {/* Contact Cards */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
           {/* WhatsApp Card */}
           <Card className="text-center">
-            <CardHeader>
-              <div className="mx-auto mb-4 h-14 w-14 rounded-full bg-[#25D366]/10 flex items-center justify-center">
-                <MessageCircle className="h-7 w-7 text-[#25D366]" />
+            <CardHeader className="pb-4">
+              <div className="mx-auto mb-4 h-16 w-16 rounded-full bg-[#25D366]/10 flex items-center justify-center">
+                <MessageCircle className="h-8 w-8 text-[#25D366]" />
               </div>
-              <CardTitle className="text-xl mb-2">{t('contact.whatsapp_title')}</CardTitle>
-              <CardDescription className="text-base mb-4">
+              <CardTitle className="text-lg sm:text-xl mb-3">{t('contact.whatsapp_title')}</CardTitle>
+              <CardDescription className="text-sm sm:text-base leading-relaxed mb-4">
                 {t('contact.whatsapp_desc')}
               </CardDescription>
             </CardHeader>
-            <CardContent>
-              <WhatsAppButton size="lg" className="w-full" />
-              <p className="text-sm text-muted-foreground mt-4">
+            <CardContent className="pt-2">
+              <WhatsAppButton size="lg" className="w-full min-h-[48px]" />
+              <p className="text-xs sm:text-sm text-muted-foreground mt-4">
                 {t('contact.instant_response')}
               </p>
             </CardContent>
@@ -45,23 +45,23 @@ export function ContactSection() {
           
           {/* Email Card */}
           <Card className="text-center">
-            <CardHeader>
-              <div className="mx-auto mb-4 h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center">
-                <Mail className="h-7 w-7 text-primary" />
+            <CardHeader className="pb-4">
+              <div className="mx-auto mb-4 h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center">
+                <Mail className="h-8 w-8 text-primary" />
               </div>
-              <CardTitle className="text-xl mb-2">{t('contact.email_title')}</CardTitle>
-              <CardDescription className="text-base mb-4">
+              <CardTitle className="text-lg sm:text-xl mb-3">{t('contact.email_title')}</CardTitle>
+              <CardDescription className="text-sm sm:text-base leading-relaxed mb-4">
                 {t('contact.email_desc')}
               </CardDescription>
             </CardHeader>
-            <CardContent>
+            <CardContent className="pt-2">
               <a 
                 href="mailto:contact@studyfrontier.com"
-                className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors w-full"
+                className="inline-flex items-center justify-center rounded-md bg-primary px-4 sm:px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors w-full min-h-[48px]"
               >
                 contact@studyfrontier.com
               </a>
-              <p className="text-sm text-muted-foreground mt-4">
+              <p className="text-xs sm:text-sm text-muted-foreground mt-4">
                 {t('contact.instant_response')}
               </p>
             </CardContent>

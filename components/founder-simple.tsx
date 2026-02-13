@@ -9,7 +9,7 @@ export function FounderSimple() {
   const t = useTranslations('simple');
 
   return (
-    <section id="founder" className="py-16 md:py-20 px-4 bg-muted/30">
+    <section id="founder" className="py-20 md:py-24 px-4 bg-muted/30">
       <Container size="default">
         <div className="max-w-3xl mx-auto">
           <Card>
@@ -30,7 +30,7 @@ export function FounderSimple() {
                 
                 {/* Founder Text */}
                 <div className="text-center md:text-left">
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                  <p className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed">
                     {t('founder.intro')}
                   </p>
                 </div>
