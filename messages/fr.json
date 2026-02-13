@@ -9,7 +9,8 @@
     "hero": {
       "headline": "Étudier aux États-Unis — Accompagnement étape par étape pour les étudiants marocains",
       "subheadline": "Nous vous aidons à choisir des programmes, préparer des documents et postuler en toute confiance.",
-      "reassurance": "✓ Consultation gratuite · Sans engagement"
+      "reassurance": "✓ Consultation gratuite · Sans engagement",
+      "guide_text": "Guidant les étudiants marocains étape par étape."
     },
     "trust": {
       "point1": "✓ Conseils honnêtes",
@@ -33,7 +34,7 @@
       "step4": "Vous postulez en toute confiance"
     },
     "founder": {
-      "intro": "Bonjour, je suis Bader, fondateur de StudyFrontier. J'ai créé cette agence pour aider les étudiants marocains à étudier aux États-Unis. Mon approche est claire, honnête et étape par étape."
+      "intro": "Bonjour, je suis Bader, fondateur de StudyFrontier. J'aide les étudiants marocains à étudier aux États-Unis avec des conseils clairs et honnêtes."
     },
     "contact": {
       "title": "Contactez-nous",

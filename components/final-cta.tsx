@@ -8,7 +8,7 @@ export function FinalCTA() {
   const t = useTranslations('simple');
 
   return (
-    <section id="contact" className="py-20 md:py-28 px-4 bg-gradient-to-b from-background to-primary/5 border-t border-border/40">
+    <section id="contact" className="py-24 md:py-32 px-4 bg-gradient-to-b from-muted/20 via-primary/10 to-primary/5 border-t-2 border-primary/20">
       <Container size="default">
         <div className="max-w-2xl mx-auto text-center">
           {/* Headline */}
@@ -17,12 +17,12 @@ export function FinalCTA() {
           </h2>
           
           {/* Supporting Text - simplified and shorter */}
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 md:mb-10 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-10 md:mb-12 leading-relaxed">
             {t('final_cta.text')}
           </p>
           
           {/* Large WhatsApp Button - extra large for easy tapping */}
-          <WhatsAppButton size="xl" variant="primary" className="min-h-[56px]" />
+          <WhatsAppButton size="xl" variant="primary" className="min-h-[60px] md:min-h-[64px] shadow-lg" />
         </div>
       </Container>
     </section>
