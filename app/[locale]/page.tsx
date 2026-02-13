@@ -4,6 +4,7 @@ import { QuickTrust } from '@/components/quick-trust';
 import { WhatWeHelp } from '@/components/what-we-help';
 import { HowItWorksSimple } from '@/components/how-it-works-simple';
 import { FounderSimple } from '@/components/founder-simple';
+import { ContactSection } from '@/components/contact-section';
 import { FinalCTA } from '@/components/final-cta';
 
 export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
@@ -26,7 +27,10 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
       {/* 5. Founder Section */}
       <FounderSimple />
 
-      {/* 6. Final CTA Section */}
+      {/* 6. Contact Section */}
+      <ContactSection />
+
+      {/* 7. Final CTA Section */}
       <FinalCTA />
     </div>
   );

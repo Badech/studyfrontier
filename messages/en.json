@@ -44,6 +44,15 @@
     "final_cta": {
       "headline": "Not sure where to start?",
       "text": "Send us a message and we will guide you step by step."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "We're here to help you every step of the way. Reach out anytime.",
+      "whatsapp_title": "WhatsApp",
+      "whatsapp_desc": "Send us a message on WhatsApp",
+      "email_title": "Email",
+      "email_desc": "Send us an email",
+      "instant_response": "✓ Instant response · Available 24/7"
     }
   },
   "locales": {

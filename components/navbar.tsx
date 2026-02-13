@@ -20,7 +20,6 @@ export function Navbar() {
 
   const navLinks = [
     { href: `/${locale}`, label: t('home') },
-    { href: `/${locale}/contact`, label: t('contact') },
   ];
 
   const isActive = (href: string) => {
