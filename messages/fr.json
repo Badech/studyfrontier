@@ -62,12 +62,8 @@
   },
   "nav": {
     "home": "Accueil",
-    "programs": "Programmes",
-    "services": "Services",
-    "how_it_works": "Comment ça marche",
-    "faq": "FAQ",
-    "contact": "Contact",
-    "partners": "Pour les partenaires"
+    "about": "À propos",
+    "contact": "Contact"
   },
   "hero": {
     "title": "Étudiez aux États-Unis depuis le Maroc",

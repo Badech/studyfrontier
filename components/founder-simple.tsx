@@ -9,7 +9,7 @@ export function FounderSimple() {
   const t = useTranslations('simple');
 
   return (
-    <section className="py-16 md:py-20 px-4 bg-muted/30">
+    <section id="founder" className="py-16 md:py-20 px-4 bg-muted/30">
       <Container size="default">
         <div className="max-w-3xl mx-auto">
           <Card>

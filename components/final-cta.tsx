@@ -8,7 +8,7 @@ export function FinalCTA() {
   const t = useTranslations('simple');
 
   return (
-    <section className="py-16 md:py-24 px-4 bg-gradient-to-b from-background to-primary/5">
+    <section id="contact" className="py-16 md:py-24 px-4 bg-gradient-to-b from-background to-primary/5">
       <Container size="default">
         <div className="max-w-2xl mx-auto text-center">
           {/* Headline */}

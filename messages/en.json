@@ -62,12 +62,8 @@
   },
   "nav": {
     "home": "Home",
-    "programs": "Programs",
-    "services": "Services",
-    "how_it_works": "How It Works",
-    "faq": "FAQ",
-    "contact": "Contact",
-    "partners": "For Partners"
+    "about": "About",
+    "contact": "Contact"
   },
   "hero": {
     "title": "Study in the USA from Morocco",
