@@ -1,6 +1,6 @@
 ﻿{
   "common": {
-    "whatsapp_cta": "Discuter sur WhatsApp",
+    "whatsapp_cta": "Commencer une consultation gratuite sur WhatsApp",
     "learn_more": "En savoir plus",
     "get_started": "Commencer",
     "contact_us": "Nous contacter",
@@ -10,6 +10,41 @@
     "language": "Langue",
     "toggle_menu": "Basculer le menu",
     "whatsapp_aria": "Contactez-nous sur WhatsApp"
+  },
+  "simple": {
+    "hero": {
+      "headline": "Étudier aux États-Unis — Accompagnement étape par étape pour les étudiants marocains",
+      "subheadline": "Nous vous aidons à choisir des programmes, préparer des documents et postuler en toute confiance.",
+      "reassurance": "✓ Consultation gratuite · Sans engagement"
+    },
+    "trust": {
+      "point1": "✓ Conseils honnêtes",
+      "point2": "✓ Accompagnement étape par étape",
+      "point3": "✓ Processus clair et transparent"
+    },
+    "help": {
+      "title": "Comment nous pouvons vous aider",
+      "card1_title": "Sélection de programmes",
+      "card1_desc": "Nous vous aidons à choisir la bonne école et le bon programme.",
+      "card2_title": "Accompagnement des candidatures",
+      "card2_desc": "Nous vous guidons à travers les formulaires et les documents requis.",
+      "card3_title": "Préparation et soutien",
+      "card3_desc": "Nous vous aidons à vous préparer aux entretiens et aux prochaines étapes."
+    },
+    "process": {
+      "title": "Comment ça marche",
+      "step1": "Contactez-nous sur WhatsApp",
+      "step2": "Nous examinons votre situation",
+      "step3": "Nous guidons votre candidature",
+      "step4": "Vous postulez en toute confiance"
+    },
+    "founder": {
+      "intro": "Bonjour, je m'appelle Bader, fondateur de StudyFrontier. J'ai créé cette agence pour aider les étudiants marocains à naviguer dans le processus d'études aux États-Unis de manière claire et honnête."
+    },
+    "final_cta": {
+      "headline": "Vous ne savez pas par où commencer ?",
+      "text": "Envoyez-nous un message et nous vous guiderons étape par étape."
+    }
   },
   "locales": {
     "en": "English",

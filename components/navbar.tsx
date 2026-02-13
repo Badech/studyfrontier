@@ -20,10 +20,6 @@ export function Navbar() {
 
   const navLinks = [
     { href: `/${locale}`, label: t('home') },
-    { href: `/${locale}/services`, label: t('services') },
-    { href: `/${locale}/programs`, label: t('programs') },
-    { href: `/${locale}/how-it-works`, label: t('how_it_works') },
-    { href: `/${locale}/faq`, label: t('faq') },
     { href: `/${locale}/contact`, label: t('contact') },
   ];
 
@@ -61,12 +57,7 @@ export function Navbar() {
                   {link.label}
                 </Link>
               ))}
-            </div>
-
-            {/* Right side - Desktop */}
-            <div className="hidden lg:flex items-center gap-4">
               <LocaleSwitcher />
-              <WhatsAppButton size="default" />
             </div>
 
             {/* Mobile menu button */}
@@ -105,9 +96,8 @@ export function Navbar() {
                   </Link>
                 ))}
                 
-                <div className="pt-4 border-t space-y-3">
+                <div className="pt-4 border-t">
                   <LocaleSwitcher />
-                  <WhatsAppButton className="w-full" />
                 </div>
               </div>
             </Container>
