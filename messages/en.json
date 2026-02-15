@@ -56,7 +56,15 @@
     "contact": "Contact"
   },
   "footer": {
-    "copyright": "© 2024 StudyFrontier. All rights reserved."
+    "copyright": "© 2024 StudyFrontier. All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "paragraph1": "We collect information such as name, phone number, and email only to contact students regarding study abroad guidance.",
+    "paragraph2": "We do not sell or share personal data with third parties.",
+    "paragraph3": "Information is used only for communication and consultation purposes.",
+    "paragraph4": "If you want your information removed, you may contact us via WhatsApp."
   },
   "locales": {
     "en": "English",

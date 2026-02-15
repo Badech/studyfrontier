@@ -56,7 +56,15 @@
     "contact": "Contact"
   },
   "footer": {
-    "copyright": "© 2024 StudyFrontier. Tous droits réservés."
+    "copyright": "© 2024 StudyFrontier. Tous droits réservés.",
+    "privacy": "Politique de confidentialité"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "paragraph1": "Nous collectons des informations telles que le nom, le numéro de téléphone et l'e-mail uniquement pour contacter les étudiants concernant les conseils d'études à l'étranger.",
+    "paragraph2": "Nous ne vendons ni ne partageons de données personnelles avec des tiers.",
+    "paragraph3": "Les informations sont utilisées uniquement à des fins de communication et de consultation.",
+    "paragraph4": "Si vous souhaitez que vos informations soient supprimées, vous pouvez nous contacter via WhatsApp."
   },
   "locales": {
     "en": "English",

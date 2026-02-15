@@ -1,12 +1,14 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Container } from '@/components/ui/container';
 import { GraduationCap, Mail, MessageCircle } from 'lucide-react';
 import { getWhatsAppLink } from '@/lib/utils';
+import Link from 'next/link';
 
 export function Footer() {
   const t = useTranslations();
+  const locale = useLocale();
 
   return (
     <footer className="border-t bg-muted/10 mt-auto">
@@ -42,8 +44,18 @@ export function Footer() {
               </div>
             </div>
 
+            {/* Privacy Policy Link */}
+            <div className="pt-4">
+              <Link 
+                href={`/${locale}/privacy`}
+                className="text-sm text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline"
+              >
+                {t('footer.privacy')}
+              </Link>
+            </div>
+
             {/* Copyright */}
-            <div className="pt-6 border-t">
+            <div className="pt-2 border-t">
               <p className="text-xs text-muted-foreground">
                 {t('footer.copyright')}
               </p>
