@@ -3,7 +3,9 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Container } from '@/components/ui/container';
 import { GraduationCap, Mail, MessageCircle } from 'lucide-react';
-import { getWhatsAppLink } from '@/lib/utils';
+import { BRAND_CONFIG } from '@/lib/config/brand';
+import { WhatsAppLinkHandler } from '@/components/whatsapp-link-handler';
+import { ComplianceDisclaimer } from '@/components/compliance-disclaimer';
 import Link from 'next/link';
 
 export function Footer() {
@@ -19,28 +21,30 @@ export function Footer() {
             {/* Logo */}
             <div className="flex items-center justify-center gap-2">
               <GraduationCap className="h-6 w-6 text-primary" />
-              <span className="font-bold text-lg">StudyFrontier</span>
+              <span className="font-bold text-lg">{BRAND_CONFIG.brandName}</span>
             </div>
             
             {/* Contact Info */}
             <div className="space-y-3">
               <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:contact@studyfrontier.com" className="hover:text-primary transition-colors">
-                  contact@studyfrontier.com
+                <a href={BRAND_CONFIG.email.mailtoLink} className="hover:text-primary transition-colors">
+                  {BRAND_CONFIG.email.primary}
                 </a>
               </div>
               
               <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                 <MessageCircle className="h-4 w-4" />
-                <a 
-                  href={getWhatsAppLink()} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:text-primary transition-colors"
-                >
-                  +212 708 026 571
-                </a>
+                <WhatsAppLinkHandler source="footer">
+                  {({ onClick }) => (
+                    <button
+                      onClick={onClick}
+                      className="hover:text-primary transition-colors"
+                    >
+                      {BRAND_CONFIG.whatsapp.numberDisplay}
+                    </button>
+                  )}
+                </WhatsAppLinkHandler>
               </div>
             </div>
 
@@ -74,8 +78,13 @@ export function Footer() {
               </div>
             </div>
 
+            {/* Compliance Disclaimer */}
+            <div className="pt-4">
+              <ComplianceDisclaimer variant="compact" className="justify-center" />
+            </div>
+
             {/* Copyright */}
-            <div className="pt-2 border-t">
+            <div className="pt-4 border-t">
               <p className="text-xs text-muted-foreground">
                 {t('footer.copyright')}
               </p>

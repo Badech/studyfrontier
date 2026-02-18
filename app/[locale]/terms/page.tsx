@@ -65,6 +65,11 @@ export default async function TermsPage({ params: { locale } }: Props) {
           <p className="text-muted-foreground mb-4">{t('section7.content')}</p>
         </section>
 
+        <section>
+          <h2 className="text-2xl font-semibold mb-4">{t('section8.title')}</h2>
+          <p className="text-muted-foreground mb-4">{t('section8.content')}</p>
+        </section>
+
         <section className="mt-12 p-6 bg-muted rounded-lg">
           <h2 className="text-xl font-semibold mb-4">{t('contact.title')}</h2>
           <p className="text-muted-foreground">{t('contact.content')}</p>

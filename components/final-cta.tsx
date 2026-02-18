@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Container } from '@/components/ui/container';
 import { WhatsAppButton } from '@/components/whatsapp-button';
+import { ComplianceDisclaimer } from '@/components/compliance-disclaimer';
 
 export function FinalCTA() {
   const t = useTranslations('simple');
@@ -22,7 +23,19 @@ export function FinalCTA() {
           </p>
           
           {/* Large WhatsApp Button - extra large for easy tapping */}
-          <WhatsAppButton size="xl" variant="primary" className="min-h-[60px] md:min-h-[64px] shadow-lg" />
+          <div className="mb-4">
+            <WhatsAppButton 
+              size="xl" 
+              variant="primary" 
+              className="min-h-[60px] md:min-h-[64px] shadow-lg" 
+              source="final-cta"
+            />
+          </div>
+          
+          {/* Compliance Disclaimer */}
+          <div className="max-w-xl mx-auto">
+            <ComplianceDisclaimer variant="compact" />
+          </div>
         </div>
       </Container>
     </section>

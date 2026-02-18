@@ -1,10 +1,23 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { Container } from '@/components/ui/container';
+import type { Metadata } from 'next';
 
-export default function PrivacyPage({ params: { locale } }: { params: { locale: string } }) {
+type Props = {
+  params: { locale: string };
+};
+
+export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: 'metadata.privacy' });
+  
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
+
+export default async function PrivacyPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
-  const t = useTranslations('privacy');
+  const t = await getTranslations({ locale, namespace: 'privacy' });
 
   return (
     <div className="py-16 md:py-24 px-4">
@@ -15,6 +28,11 @@ export default function PrivacyPage({ params: { locale } }: { params: { locale: 
             {t('title')}
           </h1>
 
+          {/* Last Updated */}
+          <p className="text-sm text-muted-foreground mb-8">
+            {t('lastUpdated')}: {new Date().toLocaleDateString(locale)}
+          </p>
+
           {/* Privacy Content */}
           <div className="prose prose-gray max-w-none">
             <div className="space-y-6 text-base sm:text-lg leading-relaxed text-muted-foreground">
@@ -22,6 +40,7 @@ export default function PrivacyPage({ params: { locale } }: { params: { locale: 
               <p>{t('paragraph2')}</p>
               <p>{t('paragraph3')}</p>
               <p>{t('paragraph4')}</p>
+              <p>{t('paragraph5')}</p>
             </div>
           </div>
         </div>

@@ -10,6 +10,7 @@ import { LocaleSwitcher } from '@/components/locale-switcher';
 import { WhatsAppButton } from '@/components/whatsapp-button';
 import { GraduationCap, Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { BRAND_CONFIG } from '@/lib/config/brand';
 
 export function Navbar() {
   const t = useTranslations('nav');
@@ -48,7 +49,7 @@ export function Navbar() {
             {/* Logo */}
             <Link href={`/${locale}`} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <GraduationCap className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">StudyFrontier</span>
+              <span className="text-xl font-bold">{BRAND_CONFIG.brandName}</span>
             </Link>
 
             {/* Desktop Navigation */}

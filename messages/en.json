@@ -30,7 +30,11 @@
     "whatsapp_cta": "Start Free Consultation on WhatsApp",
     "language": "Language",
     "toggle_menu": "Toggle menu",
-    "whatsapp_aria": "Contact us on WhatsApp"
+    "whatsapp_aria": "Contact us on WhatsApp",
+    "disclaimer": "We provide guidance and support only. Admission and visa decisions are made by universities and embassies.",
+    "disclaimer_short": "We provide guidance only. Admission/visa decisions are made by universities and embassies.",
+    "read_full_terms": "Read full terms",
+    "step": "Step"
   },
   "simple": {
     "hero": {
@@ -53,24 +57,76 @@
       "card3_title": "Preparation Support",
       "card3_desc": "We help you prepare for interviews and next steps."
     },
-    "process": {
+    "how_it_works": {
       "title": "How It Works",
-      "step1": "Contact us on WhatsApp",
-      "step2": "We review your situation",
-      "step3": "We guide your application",
-      "step4": "You apply with confidence"
+      "subtitle": "Our simple 4-step process to guide your study abroad journey",
+      "step1": {
+        "title": "Eligibility Review",
+        "description": "We assess your academic background, goals, and qualifications to determine your study abroad readiness."
+      },
+      "step2": {
+        "title": "University Matching",
+        "description": "We help you identify universities and programs that align with your profile, interests, and budget."
+      },
+      "step3": {
+        "title": "Application & Document Preparation",
+        "description": "We guide you through the application process, provide document checklists, and review your materials."
+      },
+      "step4": {
+        "title": "Visa Preparation Guidance",
+        "description": "We help you prepare for the visa interview process and ensure you have all required documentation."
+      },
+      "disclaimer": "We guide you through the process; final decisions are made by institutions."
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Professional guidance for your study abroad journey",
+      "service1": {
+        "title": "University Selection",
+        "description": "Expert guidance on choosing the right universities and programs based on your academic profile and career goals."
+      },
+      "service2": {
+        "title": "Application Support",
+        "description": "Step-by-step assistance with university applications, essays, and submission requirements."
+      },
+      "service3": {
+        "title": "Document Checklist & Review",
+        "description": "Comprehensive checklists and professional review of your application documents to ensure completeness."
+      },
+      "service4": {
+        "title": "Visa Interview Preparation",
+        "description": "Coaching and preparation for visa interviews, including common questions and best practices."
+      },
+      "disclaimer": "We guide you through the process; final decisions are made by institutions."
     },
     "founder": {
       "intro": "Hi, I'm Bader, founder of StudyFrontier. I help Moroccan students navigate studying in the USA with clear, honest guidance."
     },
     "contact": {
-      "title": "Get in Touch",
-      "subtitle": "We're here to help you every step of the way. Reach out anytime.",
+      "title": "Contact Us",
+      "subtitle": "Professional consultation and support",
       "whatsapp_title": "WhatsApp",
-      "whatsapp_desc": "Send us a message on WhatsApp",
+      "whatsapp_desc": "Primary contact method",
       "email_title": "Email",
-      "email_desc": "Send us an email",
-      "instant_response": "✓ Instant response · Available 24/7"
+      "email_desc": "For detailed inquiries",
+      "location_title": "Location",
+      "location_desc": "Morocco (Remote Support)",
+      "languages_title": "Languages",
+      "languages_desc": "English, Français, العربية",
+      "hours_title": "Business Hours",
+      "hours_desc": "Monday - Saturday: 9 AM - 6 PM (GMT+1)",
+      "response_time": "✓ Fast response · Usually replies within 24 hours",
+      "consultation_note": "Free initial consultation available"
+    },
+    "testimonials": {
+      "title": "Student Experiences",
+      "subtitle": "Hear from students we've helped on their study abroad journey",
+      "coming_soon": {
+        "title": "Coming Soon",
+        "description": "We're currently collecting testimonials from students we've worked with. Check back soon to read about their experiences.",
+        "note": "Real experiences from real students only"
+      },
+      "disclaimer": "Results vary. Testimonials reflect individual experiences."
     },
     "final_cta": {
       "headline": "Not sure where to start?",
@@ -95,7 +151,8 @@
     "paragraph1": "We collect information such as name, phone number, and email only to contact students regarding study abroad guidance.",
     "paragraph2": "We do not sell or share personal data with third parties.",
     "paragraph3": "Information is used only for communication and consultation purposes.",
-    "paragraph4": "If you want your information removed, you may contact us via WhatsApp."
+    "paragraph4": "We retain your information for as long as necessary to provide our services, typically for the duration of your application process and up to 2 years afterward for follow-up support.",
+    "paragraph5": "If you want your information removed, you may contact us via WhatsApp or email at any time. We will delete your data within 30 days of your request."
   },
   "terms": {
     "title": "Terms of Service",
@@ -121,11 +178,15 @@
       "content": "All content, materials, and resources provided by StudyFrontier remain our intellectual property. Clients may not reproduce, distribute, or use our materials for commercial purposes without written permission."
     },
     "section6": {
-      "title": "6. Limitation of Liability",
-      "content": "StudyFrontier is not liable for any direct, indirect, incidental, or consequential damages arising from the use of our services. Our liability is limited to the amount of fees paid for services."
+      "title": "6. Payment and Refunds",
+      "content": "Payment terms and refund policies are detailed in our Refund Policy. Initial consultations are free. Refunds for paid services are handled on a case-by-case basis and do not apply to work already completed."
     },
     "section7": {
-      "title": "7. Changes to Terms",
+      "title": "7. Limitation of Liability",
+      "content": "StudyFrontier is not liable for any direct, indirect, incidental, or consequential damages arising from the use of our services. Our liability is limited to the amount of fees paid for services."
+    },
+    "section8": {
+      "title": "8. Changes to Terms",
       "content": "We reserve the right to modify these terms at any time. Continued use of our services after changes constitutes acceptance of the modified terms."
     },
     "contact": {
@@ -200,16 +261,52 @@
     }
   },
   "accessibility": {
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Skip to main content",
+    "compliance_disclaimer_label": "Compliance disclaimer",
+    "close_button": "Close",
+    "whatsapp_fallback_title": "Open WhatsApp",
+    "whatsapp_fallback_description": "Click the button below to open WhatsApp, or copy the link:",
+    "open_whatsapp_button": "Open WhatsApp",
+    "copy_link_button": "Copy Link",
+    "link_copied": "Link Copied!"
   },
   "about": {
     "hero": {
       "title": "About StudyFrontier",
-      "subtitle": "Empowering Moroccan students to achieve their dreams of studying in the USA"
+      "subtitle": "Educational consulting agency helping Moroccan students study in the USA"
+    },
+    "what_we_are": {
+      "title": "What We Are",
+      "type": "Educational Consulting Agency",
+      "who_we_help": "Moroccan Students",
+      "scope": "University Application & Visa Preparation Guidance",
+      "languages": "English, Français, العربية",
+      "location": "Morocco (Remote Support)",
+      "description": "StudyFrontier is a professional educational consulting agency based in Morocco. We provide honest, transparent guidance to Moroccan students seeking to study at universities in the United States. Our services are delivered remotely in English, French, and Arabic."
+    },
+    "what_we_do": {
+      "title": "What We Do",
+      "subtitle": "Professional guidance and support services",
+      "item1": "Application guidance and step-by-step support",
+      "item2": "University and program selection assistance",
+      "item3": "Document review and preparation checklists",
+      "item4": "Interview preparation and coaching",
+      "item5": "Visa application process guidance",
+      "item6": "Scholarship search and application support"
+    },
+    "what_we_dont": {
+      "title": "What We Don't Do",
+      "subtitle": "Clear boundaries for ethical service",
+      "item1": "We do not guarantee admission outcomes",
+      "item2": "We do not provide fake or fraudulent documents",
+      "item3": "We do not promise visa approvals",
+      "item4": "We do not make decisions on your behalf",
+      "item5": "We do not have special relationships with universities",
+      "item6": "We do not offer bribes or shortcuts"
     },
     "mission": {
       "title": "Our Mission",
-      "content": "StudyFrontier was founded with a clear mission: to provide honest, transparent, and effective guidance to Moroccan students seeking to study in the United States. We believe every student deserves access to quality education, and we're here to make that journey smoother and more achievable."
+      "content": "To provide honest, transparent, and effective guidance to Moroccan students seeking to study in the United States. We believe every student deserves access to quality education through legitimate pathways."
     },
     "values": {
       "title": "Our Core Values",
@@ -223,23 +320,8 @@
         "content": "Your success is our success. We tailor our guidance to your unique situation, goals, and aspirations."
       },
       "value3": {
-        "title": "Excellence",
-        "content": "We maintain the highest standards in everything we do, from application guidance to ongoing support."
-      }
-    },
-    "why": {
-      "title": "Why Choose StudyFrontier?",
-      "reason1": {
-        "title": "Local Expertise, Global Reach",
-        "content": "We understand both the Moroccan education system and US university requirements, giving you the best of both worlds."
-      },
-      "reason2": {
-        "title": "Proven Track Record",
-        "content": "Our students have been accepted to top universities across the United States. We know what works."
-      },
-      "reason3": {
-        "title": "Personalized Support",
-        "content": "Every student is unique. We provide customized guidance tailored to your academic profile and career goals."
+        "title": "Ethical Practice",
+        "content": "We maintain the highest ethical standards. All our services are legitimate, legal, and transparent."
       }
     },
     "cta": {

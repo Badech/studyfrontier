@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { WhatsAppButton } from '@/components/whatsapp-button';
 import { Container } from '@/components/ui/container';
+import { ComplianceDisclaimer } from '@/components/compliance-disclaimer';
 
 export function SimpleHero() {
   const t = useTranslations('simple');
@@ -22,8 +23,18 @@ export function SimpleHero() {
           </p>
           
           {/* Primary CTA - larger on mobile for easy tapping */}
-          <div className="mb-2">
-            <WhatsAppButton size="xl" variant="primary" className="min-h-[56px] md:min-h-[60px]" />
+          <div className="mb-3">
+            <WhatsAppButton 
+              size="xl" 
+              variant="primary" 
+              className="min-h-[56px] md:min-h-[60px]" 
+              source="hero-cta"
+            />
+          </div>
+          
+          {/* Compliance Disclaimer */}
+          <div className="mb-4 max-w-xl mx-auto">
+            <ComplianceDisclaimer variant="compact" />
           </div>
           
           {/* Reassurance text */}

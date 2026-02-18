@@ -30,7 +30,11 @@
     "whatsapp_cta": "Commencer la consultation gratuite sur WhatsApp",
     "language": "Langue",
     "toggle_menu": "Basculer le menu",
-    "whatsapp_aria": "Contactez-nous sur WhatsApp"
+    "whatsapp_aria": "Contactez-nous sur WhatsApp",
+    "disclaimer": "Nous offrons uniquement un accompagnement. Les décisions d'admission et de visa appartiennent aux universités et ambassades.",
+    "disclaimer_short": "Accompagnement uniquement. Les décisions d'admission et de visa appartiennent aux universités et ambassades.",
+    "read_full_terms": "Lire les conditions complètes",
+    "step": "Étape"
   },
   "simple": {
     "hero": {
@@ -53,24 +57,76 @@
       "card3_title": "Soutien à la préparation",
       "card3_desc": "Nous vous aidons à vous préparer pour les entretiens et les prochaines étapes."
     },
-    "process": {
-      "title": "Comment ça marche",
-      "step1": "Contactez-nous sur WhatsApp",
-      "step2": "Nous examinons votre situation",
-      "step3": "Nous guidons votre candidature",
-      "step4": "Vous postulez en toute confiance"
+    "how_it_works": {
+      "title": "Comment Ça Marche",
+      "subtitle": "Notre processus simple en 4 étapes pour guider votre parcours d'études à l'étranger",
+      "step1": {
+        "title": "Examen d'Éligibilité",
+        "description": "Nous évaluons votre parcours académique, vos objectifs et vos qualifications pour déterminer votre préparation aux études à l'étranger."
+      },
+      "step2": {
+        "title": "Correspondance Universitaire",
+        "description": "Nous vous aidons à identifier les universités et programmes qui correspondent à votre profil, vos intérêts et votre budget."
+      },
+      "step3": {
+        "title": "Préparation de Candidature et Documents",
+        "description": "Nous vous guidons à travers le processus de candidature, fournissons des listes de contrôle et révisons vos documents."
+      },
+      "step4": {
+        "title": "Guidance pour la Préparation du Visa",
+        "description": "Nous vous aidons à préparer l'entretien de visa et à vous assurer que vous disposez de tous les documents requis."
+      },
+      "disclaimer": "Nous vous guidons tout au long du processus ; les décisions finales sont prises par les institutions."
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Accompagnement professionnel pour votre parcours d'études à l'étranger",
+      "service1": {
+        "title": "Sélection d'Université",
+        "description": "Conseils d'experts pour choisir les bonnes universités et programmes en fonction de votre profil académique et objectifs de carrière."
+      },
+      "service2": {
+        "title": "Soutien aux Candidatures",
+        "description": "Assistance étape par étape pour les candidatures universitaires, essais et exigences de soumission."
+      },
+      "service3": {
+        "title": "Liste de Contrôle et Révision des Documents",
+        "description": "Listes complètes et révision professionnelle de vos documents de candidature pour assurer l'exhaustivité."
+      },
+      "service4": {
+        "title": "Préparation à l'Entretien de Visa",
+        "description": "Coaching et préparation pour les entretiens de visa, y compris les questions courantes et les meilleures pratiques."
+      },
+      "disclaimer": "Nous vous guidons tout au long du processus ; les décisions finales sont prises par les institutions."
     },
     "founder": {
       "intro": "Bonjour, je suis Bader, fondateur de StudyFrontier. J'aide les étudiants marocains à étudier aux États-Unis avec des conseils clairs et honnêtes."
     },
     "contact": {
       "title": "Contactez-nous",
-      "subtitle": "Nous sommes là pour vous aider à chaque étape. Contactez-nous à tout moment.",
+      "subtitle": "Consultation et accompagnement professionnels",
       "whatsapp_title": "WhatsApp",
-      "whatsapp_desc": "Envoyez-nous un message sur WhatsApp",
+      "whatsapp_desc": "Méthode de contact principale",
       "email_title": "Email",
-      "email_desc": "Envoyez-nous un email",
-      "instant_response": "✓ Réponse instantanée · Disponible 24h/24 et 7j/7"
+      "email_desc": "Pour les demandes détaillées",
+      "location_title": "Localisation",
+      "location_desc": "Maroc (Support à distance)",
+      "languages_title": "Langues",
+      "languages_desc": "English, Français, العربية",
+      "hours_title": "Heures d'ouverture",
+      "hours_desc": "Lundi - Samedi : 9h - 18h (GMT+1)",
+      "response_time": "✓ Réponse rapide · Réponse généralement sous 24 heures",
+      "consultation_note": "Consultation initiale gratuite disponible"
+    },
+    "testimonials": {
+      "title": "Expériences Étudiantes",
+      "subtitle": "Découvrez les témoignages des étudiants que nous avons aidés dans leur parcours d'études à l'étranger",
+      "coming_soon": {
+        "title": "Bientôt Disponible",
+        "description": "Nous collectons actuellement des témoignages d'étudiants avec qui nous avons travaillé. Revenez bientôt pour lire leurs expériences.",
+        "note": "Uniquement de vraies expériences de vrais étudiants"
+      },
+      "disclaimer": "Les résultats varient. Les témoignages reflètent des expériences individuelles."
     },
     "final_cta": {
       "headline": "Vous ne savez pas par où commencer ?",
@@ -95,7 +151,8 @@
     "paragraph1": "Nous collectons des informations telles que le nom, le numéro de téléphone et l'e-mail uniquement pour contacter les étudiants concernant les conseils d'études à l'étranger.",
     "paragraph2": "Nous ne vendons ni ne partageons de données personnelles avec des tiers.",
     "paragraph3": "Les informations sont utilisées uniquement à des fins de communication et de consultation.",
-    "paragraph4": "Si vous souhaitez que vos informations soient supprimées, vous pouvez nous contacter via WhatsApp."
+    "paragraph4": "Nous conservons vos informations aussi longtemps que nécessaire pour fournir nos services, généralement pendant la durée de votre processus de candidature et jusqu'à 2 ans après pour le suivi.",
+    "paragraph5": "Si vous souhaitez que vos informations soient supprimées, vous pouvez nous contacter via WhatsApp ou par e-mail à tout moment. Nous supprimerons vos données dans les 30 jours suivant votre demande."
   },
   "terms": {
     "title": "Conditions d'utilisation",
@@ -121,11 +178,15 @@
       "content": "Tout le contenu, les matériaux et les ressources fournis par StudyFrontier restent notre propriété intellectuelle. Les clients ne peuvent pas reproduire, distribuer ou utiliser nos matériaux à des fins commerciales sans autorisation écrite."
     },
     "section6": {
-      "title": "6. Limitation de responsabilité",
-      "content": "StudyFrontier n'est pas responsable des dommages directs, indirects, accessoires ou consécutifs découlant de l'utilisation de nos services. Notre responsabilité est limitée au montant des frais payés pour les services."
+      "title": "6. Paiement et remboursements",
+      "content": "Les conditions de paiement et les politiques de remboursement sont détaillées dans notre Politique de remboursement. Les consultations initiales sont gratuites. Les remboursements pour les services payants sont traités au cas par cas et ne s'appliquent pas aux travaux déjà effectués."
     },
     "section7": {
-      "title": "7. Modifications des conditions",
+      "title": "7. Limitation de responsabilité",
+      "content": "StudyFrontier n'est pas responsable des dommages directs, indirects, accessoires ou consécutifs découlant de l'utilisation de nos services. Notre responsabilité est limitée au montant des frais payés pour les services."
+    },
+    "section8": {
+      "title": "8. Modifications des conditions",
       "content": "Nous nous réservons le droit de modifier ces conditions à tout moment. L'utilisation continue de nos services après les modifications constitue une acceptation des conditions modifiées."
     },
     "contact": {
@@ -200,16 +261,52 @@
     }
   },
   "accessibility": {
-    "skipToContent": "Passer au contenu principal"
+    "skipToContent": "Passer au contenu principal",
+    "compliance_disclaimer_label": "Avis de conformité",
+    "close_button": "Fermer",
+    "whatsapp_fallback_title": "Ouvrir WhatsApp",
+    "whatsapp_fallback_description": "Cliquez sur le bouton ci-dessous pour ouvrir WhatsApp, ou copiez le lien :",
+    "open_whatsapp_button": "Ouvrir WhatsApp",
+    "copy_link_button": "Copier le lien",
+    "link_copied": "Lien copié !"
   },
   "about": {
     "hero": {
       "title": "À propos de StudyFrontier",
-      "subtitle": "Aider les étudiants marocains à réaliser leurs rêves d'études aux États-Unis"
+      "subtitle": "Agence de conseil en éducation aidant les étudiants marocains à étudier aux États-Unis"
+    },
+    "what_we_are": {
+      "title": "Ce que nous sommes",
+      "type": "Agence de conseil en éducation",
+      "who_we_help": "Étudiants marocains",
+      "scope": "Candidature universitaire et préparation aux visas",
+      "languages": "English, Français, العربية",
+      "location": "Maroc (Support à distance)",
+      "description": "StudyFrontier est une agence de conseil en éducation professionnelle basée au Maroc. Nous fournissons des conseils honnêtes et transparents aux étudiants marocains qui souhaitent étudier dans des universités aux États-Unis. Nos services sont fournis à distance en anglais, français et arabe."
+    },
+    "what_we_do": {
+      "title": "Ce que nous faisons",
+      "subtitle": "Services de conseil et de soutien professionnels",
+      "item1": "Conseils de candidature et soutien étape par étape",
+      "item2": "Assistance pour la sélection d'universités et de programmes",
+      "item3": "Révision de documents et listes de contrôle de préparation",
+      "item4": "Préparation aux entretiens et coaching",
+      "item5": "Conseils sur le processus de demande de visa",
+      "item6": "Recherche de bourses et soutien aux candidatures"
+    },
+    "what_we_dont": {
+      "title": "Ce que nous ne faisons pas",
+      "subtitle": "Limites claires pour un service éthique",
+      "item1": "Nous ne garantissons pas les résultats d'admission",
+      "item2": "Nous ne fournissons pas de faux documents ou frauduleux",
+      "item3": "Nous ne promettons pas l'approbation de visas",
+      "item4": "Nous ne prenons pas de décisions à votre place",
+      "item5": "Nous n'avons pas de relations spéciales avec les universités",
+      "item6": "Nous n'offrons pas de pots-de-vin ou de raccourcis"
     },
     "mission": {
       "title": "Notre Mission",
-      "content": "StudyFrontier a été fondé avec une mission claire : fournir des conseils honnêtes, transparents et efficaces aux étudiants marocains qui souhaitent étudier aux États-Unis. Nous croyons que chaque étudiant mérite un accès à une éducation de qualité, et nous sommes là pour rendre ce voyage plus fluide et plus réalisable."
+      "content": "Fournir des conseils honnêtes, transparents et efficaces aux étudiants marocains qui souhaitent étudier aux États-Unis. Nous croyons que chaque étudiant mérite un accès à une éducation de qualité par des voies légitimes."
     },
     "values": {
       "title": "Nos Valeurs Fondamentales",
@@ -223,23 +320,8 @@
         "content": "Votre succès est notre succès. Nous adaptons nos conseils à votre situation, vos objectifs et vos aspirations uniques."
       },
       "value3": {
-        "title": "Excellence",
-        "content": "Nous maintenons les normes les plus élevées dans tout ce que nous faisons, de l'orientation des candidatures au soutien continu."
-      }
-    },
-    "why": {
-      "title": "Pourquoi Choisir StudyFrontier?",
-      "reason1": {
-        "title": "Expertise Locale, Portée Mondiale",
-        "content": "Nous comprenons à la fois le système éducatif marocain et les exigences des universités américaines, vous offrant le meilleur des deux mondes."
-      },
-      "reason2": {
-        "title": "Antécédents Prouvés",
-        "content": "Nos étudiants ont été acceptés dans les meilleures universités des États-Unis. Nous savons ce qui fonctionne."
-      },
-      "reason3": {
-        "title": "Soutien Personnalisé",
-        "content": "Chaque étudiant est unique. Nous fournissons des conseils personnalisés adaptés à votre profil académique et à vos objectifs de carrière."
+        "title": "Pratique Éthique",
+        "content": "Nous maintenons les normes éthiques les plus élevées. Tous nos services sont légitimes, légaux et transparents."
       }
     },
     "cta": {

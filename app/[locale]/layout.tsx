@@ -10,6 +10,7 @@ import { Footer } from '@/components/footer';
 import { FloatingWhatsApp } from '@/components/floating-whatsapp';
 import { SkipLink } from '@/components/skip-link';
 import { StructuredData, getOrganizationSchema, getWebsiteSchema, getEducationalOrganizationSchema } from '@/lib/structured-data';
+import { BRAND_CONFIG } from '@/lib/config/brand';
 import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,16 +22,16 @@ export function generateStaticParams() {
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'metadata.home' });
   
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://studyfrontier.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || BRAND_CONFIG.websiteUrl;
   const currentUrl = `${siteUrl}/${locale}`;
   
   return {
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
-    authors: [{ name: 'StudyFrontier', url: siteUrl }],
-    creator: 'StudyFrontier',
-    publisher: 'StudyFrontier',
+    authors: [{ name: BRAND_CONFIG.brandName, url: siteUrl }],
+    creator: BRAND_CONFIG.brandName,
+    publisher: BRAND_CONFIG.brandName,
     formatDetection: {
       email: false,
       address: false,
@@ -49,7 +50,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       title: t('title'),
       description: t('description'),
       url: currentUrl,
-      siteName: 'StudyFrontier',
+      siteName: BRAND_CONFIG.brandName,
       locale: locale,
       type: 'website',
       images: [
@@ -57,7 +58,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
           url: `${siteUrl}/images/og-image.png`,
           width: 1200,
           height: 630,
-          alt: 'StudyFrontier - Study in USA',
+          alt: `${BRAND_CONFIG.brandName} - Study in USA`,
         },
       ],
     },
@@ -113,7 +114,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir="ltr" suppressHydrationWarning className="overflow-x-hidden">
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning className="overflow-x-hidden">
       <head>
         <StructuredData data={getOrganizationSchema()} />
         <StructuredData data={getWebsiteSchema(locale)} />

@@ -1,0 +1,23 @@
+IMPORTANT: SEO Assets Required
+================================
+
+The following image assets are currently MISSING and should be created before production:
+
+Required Files:
+--------------
+1. /public/favicon.ico (16x16, 32x32, 48x48 multi-size)
+2. /public/apple-touch-icon.png (180x180 px)
+3. /public/android-chrome-192x192.png (192x192 px)
+4. /public/android-chrome-512x512.png (512x512 px)
+5. /public/images/og-image.png (1200x630 px)
+6. /public/images/logo.png (512x512 px)
+
+Quick Action:
+-------------
+1. Use https://realfavicongenerator.net/ for favicons
+2. Create og-image.png with brand name and tagline
+3. Extract logo from existing founder.svg or create new
+
+See /public/images/README-ASSETS.md for detailed instructions.
+
+Status: The site will build without these, but SEO/sharing will be impacted.

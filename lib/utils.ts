@@ -1,21 +1,40 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { 
+  getWhatsAppLink as getBrandWhatsAppLink, 
+  buildWhatsAppLink as buildBrandWhatsAppLink,
+  formatPhoneNumber as formatBrandPhone 
+} from '@/lib/config/brand';
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+/**
+ * Get WhatsApp link with optional custom message
+ * Now uses brand config for single source of truth
+ * @deprecated Use buildWhatsAppLink instead for better source tracking
+ */
 export function getWhatsAppLink(message?: string): string {
-  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '212600000000';
-  const defaultMessage = process.env.NEXT_PUBLIC_WHATSAPP_DEFAULT_MESSAGE || 
-    'Hello, I want to learn more about study abroad programs';
-  const encodedMessage = encodeURIComponent(message || defaultMessage);
-  // Phone number should be digits only in env var
-  const digitsOnly = phoneNumber.replace(/[^0-9]/g, '');
-  return `https://wa.me/${digitsOnly}?text=${encodedMessage}`;
+  return getBrandWhatsAppLink(message);
 }
 
-export function formatPhoneNumber(phone: string): string {
-  // Format international phone numbers
-  return phone.replace(/(\+\d{3})(\d{3})(\d{3})(\d{3})/, '$1 $2 $3 $4');
+/**
+ * Build WhatsApp link with source tracking and proper encoding
+ * @param options - Configuration for the WhatsApp message
+ */
+export function buildWhatsAppLink(options?: {
+  text?: string;
+  source?: string;
+  name?: string;
+}): string {
+  return buildBrandWhatsAppLink(options);
+}
+
+/**
+ * Format phone number for display
+ * Now uses brand config for single source of truth
+ */
+export function formatPhoneNumber(format: 'international' | 'e164' | 'digits' = 'international'): string {
+  return formatBrandPhone(format);
 }

@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
 import { locales } from '@/i18n';
+import { BRAND_CONFIG } from '@/lib/config/brand';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://studyfrontier.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || BRAND_CONFIG.websiteUrl;
   
   // Define all pages
   const pages = ['', '/privacy', '/terms', '/refund', '/cookies', '/about'];

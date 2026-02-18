@@ -33,6 +33,8 @@ export function LocaleSwitcher() {
             size="sm"
             onClick={() => switchLocale(loc)}
             className="min-w-[60px]"
+            aria-label={`${t('common.language')}: ${t(`locales.${loc}`)}`}
+            aria-current={locale === loc ? 'true' : 'false'}
           >
             {t(`locales.${loc}`)}
           </Button>
