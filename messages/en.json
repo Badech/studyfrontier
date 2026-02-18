@@ -1,4 +1,31 @@
 {
+  "metadata": {
+    "home": {
+      "title": "Study in USA - StudyFrontier | Expert Guidance for Moroccan Students",
+      "description": "Professional study abroad consulting for Moroccan students. Get expert guidance on US university applications, scholarships, and visa support. Free consultation available.",
+      "keywords": "study in USA, Moroccan students, study abroad, US universities, education consulting, Morocco, scholarships, visa support"
+    },
+    "privacy": {
+      "title": "Privacy Policy - StudyFrontier",
+      "description": "Learn how StudyFrontier protects your personal information and privacy."
+    },
+    "terms": {
+      "title": "Terms of Service - StudyFrontier",
+      "description": "Terms and conditions for using StudyFrontier's education consulting services."
+    },
+    "refund": {
+      "title": "Refund Policy - StudyFrontier",
+      "description": "Understanding our refund and cancellation policies for consulting services."
+    },
+    "cookies": {
+      "title": "Cookie Policy - StudyFrontier",
+      "description": "How we use cookies to improve your experience on our website."
+    },
+    "about": {
+      "title": "About Us - StudyFrontier | Your Trusted Education Partner",
+      "description": "Learn about StudyFrontier's mission to help Moroccan students achieve their dreams of studying in the USA."
+    }
+  },
   "common": {
     "whatsapp_cta": "Start Free Consultation on WhatsApp",
     "language": "Language",
@@ -57,14 +84,168 @@
   },
   "footer": {
     "copyright": "© 2024 StudyFrontier. All rights reserved.",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "refund": "Refund Policy",
+    "cookies": "Cookie Policy"
   },
   "privacy": {
     "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
     "paragraph1": "We collect information such as name, phone number, and email only to contact students regarding study abroad guidance.",
     "paragraph2": "We do not sell or share personal data with third parties.",
     "paragraph3": "Information is used only for communication and consultation purposes.",
     "paragraph4": "If you want your information removed, you may contact us via WhatsApp."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated",
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing and using StudyFrontier's services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services."
+    },
+    "section2": {
+      "title": "2. Services Provided",
+      "content": "StudyFrontier provides educational consulting services to help students apply to universities in the United States. Our services include guidance on university selection, application support, and visa preparation. We do not guarantee admission to any institution or visa approval."
+    },
+    "section3": {
+      "title": "3. No Guarantees",
+      "content": "We provide professional guidance and support, but we cannot guarantee university admission, scholarship awards, or visa approval. Educational outcomes depend on many factors including the student's academic qualifications, application quality, and institutional decisions."
+    },
+    "section4": {
+      "title": "4. Client Responsibilities",
+      "content": "Clients are responsible for providing accurate information, meeting deadlines, and actively participating in the application process. Failure to provide accurate information or meet deadlines may affect the outcome of applications."
+    },
+    "section5": {
+      "title": "5. Intellectual Property",
+      "content": "All content, materials, and resources provided by StudyFrontier remain our intellectual property. Clients may not reproduce, distribute, or use our materials for commercial purposes without written permission."
+    },
+    "section6": {
+      "title": "6. Limitation of Liability",
+      "content": "StudyFrontier is not liable for any direct, indirect, incidental, or consequential damages arising from the use of our services. Our liability is limited to the amount of fees paid for services."
+    },
+    "section7": {
+      "title": "7. Changes to Terms",
+      "content": "We reserve the right to modify these terms at any time. Continued use of our services after changes constitutes acceptance of the modified terms."
+    },
+    "contact": {
+      "title": "Questions About Terms?",
+      "content": "If you have any questions about these Terms of Service, please contact us via WhatsApp or email."
+    }
+  },
+  "refund": {
+    "title": "Refund Policy",
+    "lastUpdated": "Last Updated",
+    "section1": {
+      "title": "1. Consultation Services",
+      "content": "Initial consultations are provided free of charge. If you are not satisfied with our initial consultation, there is no obligation to proceed with paid services."
+    },
+    "section2": {
+      "title": "2. Service Packages",
+      "content": "Refunds for service packages are handled on a case-by-case basis. If services have not yet been delivered, you may be eligible for a full or partial refund depending on the stage of the process."
+    },
+    "section3": {
+      "title": "3. Work Already Completed",
+      "content": "Refunds do not apply to work that has already been completed. This includes consultations held, documents reviewed, applications submitted, or other services already provided."
+    },
+    "section4": {
+      "title": "4. Refund Request Process",
+      "content": "To request a refund, contact us via WhatsApp or email with your service details and reason for the request. We will review your request within 5-7 business days and respond with our decision."
+    },
+    "section5": {
+      "title": "5. Processing Time",
+      "content": "Approved refunds will be processed within 14 business days and returned using the original payment method. Please note that bank processing times may vary."
+    },
+    "contact": {
+      "title": "Questions About Refunds?",
+      "content": "If you have any questions about our refund policy, please contact us via WhatsApp or email. We're here to help resolve any concerns."
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated",
+    "section1": {
+      "title": "1. What Are Cookies?",
+      "content": "Cookies are small text files stored on your device when you visit our website. They help us provide you with a better experience by remembering your preferences and analyzing how you use our site."
+    },
+    "section2": {
+      "title": "2. Types of Cookies We Use",
+      "content": "We use essential cookies for site functionality, analytics cookies to understand how visitors use our site (via Vercel Analytics), and preference cookies to remember your language selection. We do not use advertising or tracking cookies."
+    },
+    "section3": {
+      "title": "3. Third-Party Cookies",
+      "content": "We use Vercel Analytics to understand site performance. These analytics are privacy-friendly and do not track personal information. No data is shared with third parties for advertising purposes."
+    },
+    "section4": {
+      "title": "4. Managing Cookies",
+      "content": "You can control and delete cookies through your browser settings. Please note that disabling cookies may affect the functionality of our website, including language preferences."
+    },
+    "contact": {
+      "title": "Questions About Cookies?",
+      "content": "If you have any questions about our cookie usage, please contact us via WhatsApp or email."
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "description": "The page you're looking for doesn't exist or has been moved.",
+      "goHome": "Go Home",
+      "goBack": "Go Back"
+    },
+    "500": {
+      "title": "Something Went Wrong",
+      "description": "We're experiencing technical difficulties. Please try again in a moment.",
+      "tryAgain": "Try Again",
+      "goHome": "Go Home"
+    }
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content"
+  },
+  "about": {
+    "hero": {
+      "title": "About StudyFrontier",
+      "subtitle": "Empowering Moroccan students to achieve their dreams of studying in the USA"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "StudyFrontier was founded with a clear mission: to provide honest, transparent, and effective guidance to Moroccan students seeking to study in the United States. We believe every student deserves access to quality education, and we're here to make that journey smoother and more achievable."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "What drives us every day",
+      "value1": {
+        "title": "Honesty & Transparency",
+        "content": "We provide realistic expectations and honest guidance. No false promises, no hidden fees—just straightforward advice you can trust."
+      },
+      "value2": {
+        "title": "Student-Centered",
+        "content": "Your success is our success. We tailor our guidance to your unique situation, goals, and aspirations."
+      },
+      "value3": {
+        "title": "Excellence",
+        "content": "We maintain the highest standards in everything we do, from application guidance to ongoing support."
+      }
+    },
+    "why": {
+      "title": "Why Choose StudyFrontier?",
+      "reason1": {
+        "title": "Local Expertise, Global Reach",
+        "content": "We understand both the Moroccan education system and US university requirements, giving you the best of both worlds."
+      },
+      "reason2": {
+        "title": "Proven Track Record",
+        "content": "Our students have been accepted to top universities across the United States. We know what works."
+      },
+      "reason3": {
+        "title": "Personalized Support",
+        "content": "Every student is unique. We provide customized guidance tailored to your academic profile and career goals."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "subtitle": "Let's discuss how we can help you achieve your study abroad goals."
+    }
   },
   "locales": {
     "en": "English",

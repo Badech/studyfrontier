@@ -30,6 +30,10 @@ yarn-error.log*
 .env*.local
 .env
 
+# Keep example env files
+!.env.example
+.env
+
 # vercel
 .vercel
 

@@ -44,14 +44,34 @@ export function Footer() {
               </div>
             </div>
 
-            {/* Privacy Policy Link */}
+            {/* Legal Links */}
             <div className="pt-4">
-              <Link 
-                href={`/${locale}/privacy`}
-                className="text-sm text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline"
-              >
-                {t('footer.privacy')}
-              </Link>
+              <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+                <Link 
+                  href={`/${locale}/privacy`}
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline"
+                >
+                  {t('footer.privacy')}
+                </Link>
+                <Link 
+                  href={`/${locale}/terms`}
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline"
+                >
+                  {t('footer.terms')}
+                </Link>
+                <Link 
+                  href={`/${locale}/refund`}
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline"
+                >
+                  {t('footer.refund')}
+                </Link>
+                <Link 
+                  href={`/${locale}/cookies`}
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline"
+                >
+                  {t('footer.cookies')}
+                </Link>
+              </div>
             </div>
 
             {/* Copyright */}

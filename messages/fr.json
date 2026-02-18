@@ -1,4 +1,31 @@
 {
+  "metadata": {
+    "home": {
+      "title": "Étudier aux USA - StudyFrontier | Conseils d'experts pour étudiants marocains",
+      "description": "Conseil professionnel en études à l'étranger pour étudiants marocains. Obtenez des conseils d'experts sur les candidatures universitaires américaines, les bourses et le soutien aux visas. Consultation gratuite disponible.",
+      "keywords": "étudier aux USA, étudiants marocains, études à l'étranger, universités américaines, conseil en éducation, Maroc, bourses, soutien aux visas"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité - StudyFrontier",
+      "description": "Découvrez comment StudyFrontier protège vos informations personnelles et votre vie privée."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation - StudyFrontier",
+      "description": "Termes et conditions d'utilisation des services de conseil en éducation de StudyFrontier."
+    },
+    "refund": {
+      "title": "Politique de remboursement - StudyFrontier",
+      "description": "Comprendre nos politiques de remboursement et d'annulation pour les services de conseil."
+    },
+    "cookies": {
+      "title": "Politique des cookies - StudyFrontier",
+      "description": "Comment nous utilisons les cookies pour améliorer votre expérience sur notre site Web."
+    },
+    "about": {
+      "title": "À propos de nous - StudyFrontier | Votre partenaire éducatif de confiance",
+      "description": "Découvrez la mission de StudyFrontier d'aider les étudiants marocains à réaliser leurs rêves d'étudier aux États-Unis."
+    }
+  },
   "common": {
     "whatsapp_cta": "Commencer la consultation gratuite sur WhatsApp",
     "language": "Langue",
@@ -57,14 +84,168 @@
   },
   "footer": {
     "copyright": "© 2024 StudyFrontier. Tous droits réservés.",
-    "privacy": "Politique de confidentialité"
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "refund": "Politique de remboursement",
+    "cookies": "Politique des cookies"
   },
   "privacy": {
     "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour",
     "paragraph1": "Nous collectons des informations telles que le nom, le numéro de téléphone et l'e-mail uniquement pour contacter les étudiants concernant les conseils d'études à l'étranger.",
     "paragraph2": "Nous ne vendons ni ne partageons de données personnelles avec des tiers.",
     "paragraph3": "Les informations sont utilisées uniquement à des fins de communication et de consultation.",
     "paragraph4": "Si vous souhaitez que vos informations soient supprimées, vous pouvez nous contacter via WhatsApp."
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour",
+    "section1": {
+      "title": "1. Acceptation des conditions",
+      "content": "En accédant et en utilisant les services de StudyFrontier, vous acceptez d'être lié par ces Conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services."
+    },
+    "section2": {
+      "title": "2. Services fournis",
+      "content": "StudyFrontier fournit des services de conseil en éducation pour aider les étudiants à postuler dans des universités aux États-Unis. Nos services incluent des conseils sur la sélection d'universités, l'aide aux candidatures et la préparation aux visas. Nous ne garantissons pas l'admission dans une institution ni l'approbation d'un visa."
+    },
+    "section3": {
+      "title": "3. Aucune garantie",
+      "content": "Nous fournissons des conseils et un soutien professionnels, mais nous ne pouvons garantir l'admission à l'université, l'obtention de bourses ou l'approbation de visa. Les résultats éducatifs dépendent de nombreux facteurs, notamment les qualifications académiques de l'étudiant, la qualité de la candidature et les décisions institutionnelles."
+    },
+    "section4": {
+      "title": "4. Responsabilités du client",
+      "content": "Les clients sont responsables de fournir des informations exactes, de respecter les délais et de participer activement au processus de candidature. Le non-respect de ces obligations peut affecter les résultats des candidatures."
+    },
+    "section5": {
+      "title": "5. Propriété intellectuelle",
+      "content": "Tout le contenu, les matériaux et les ressources fournis par StudyFrontier restent notre propriété intellectuelle. Les clients ne peuvent pas reproduire, distribuer ou utiliser nos matériaux à des fins commerciales sans autorisation écrite."
+    },
+    "section6": {
+      "title": "6. Limitation de responsabilité",
+      "content": "StudyFrontier n'est pas responsable des dommages directs, indirects, accessoires ou consécutifs découlant de l'utilisation de nos services. Notre responsabilité est limitée au montant des frais payés pour les services."
+    },
+    "section7": {
+      "title": "7. Modifications des conditions",
+      "content": "Nous nous réservons le droit de modifier ces conditions à tout moment. L'utilisation continue de nos services après les modifications constitue une acceptation des conditions modifiées."
+    },
+    "contact": {
+      "title": "Questions sur les conditions?",
+      "content": "Si vous avez des questions sur ces Conditions d'utilisation, veuillez nous contacter via WhatsApp ou par e-mail."
+    }
+  },
+  "refund": {
+    "title": "Politique de remboursement",
+    "lastUpdated": "Dernière mise à jour",
+    "section1": {
+      "title": "1. Services de consultation",
+      "content": "Les consultations initiales sont fournies gratuitement. Si vous n'êtes pas satisfait de notre consultation initiale, vous n'avez aucune obligation de poursuivre avec des services payants."
+    },
+    "section2": {
+      "title": "2. Forfaits de services",
+      "content": "Les remboursements pour les forfaits de services sont traités au cas par cas. Si les services n'ont pas encore été fournis, vous pouvez être éligible à un remboursement total ou partiel selon l'étape du processus."
+    },
+    "section3": {
+      "title": "3. Travail déjà effectué",
+      "content": "Les remboursements ne s'appliquent pas au travail déjà effectué. Cela comprend les consultations tenues, les documents examinés, les candidatures soumises ou d'autres services déjà fournis."
+    },
+    "section4": {
+      "title": "4. Processus de demande de remboursement",
+      "content": "Pour demander un remboursement, contactez-nous via WhatsApp ou par e-mail avec les détails de votre service et la raison de votre demande. Nous examinerons votre demande dans les 5 à 7 jours ouvrables et vous répondrons."
+    },
+    "section5": {
+      "title": "5. Délai de traitement",
+      "content": "Les remboursements approuvés seront traités dans les 14 jours ouvrables et retournés en utilisant le mode de paiement d'origine. Veuillez noter que les délais de traitement bancaires peuvent varier."
+    },
+    "contact": {
+      "title": "Questions sur les remboursements?",
+      "content": "Si vous avez des questions sur notre politique de remboursement, veuillez nous contacter via WhatsApp ou par e-mail. Nous sommes là pour vous aider."
+    }
+  },
+  "cookies": {
+    "title": "Politique des cookies",
+    "lastUpdated": "Dernière mise à jour",
+    "section1": {
+      "title": "1. Que sont les cookies?",
+      "content": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez notre site Web. Ils nous aident à vous offrir une meilleure expérience en mémorisant vos préférences et en analysant comment vous utilisez notre site."
+    },
+    "section2": {
+      "title": "2. Types de cookies que nous utilisons",
+      "content": "Nous utilisons des cookies essentiels pour la fonctionnalité du site, des cookies analytiques pour comprendre comment les visiteurs utilisent notre site (via Vercel Analytics) et des cookies de préférence pour mémoriser votre sélection de langue. Nous n'utilisons pas de cookies publicitaires ou de suivi."
+    },
+    "section3": {
+      "title": "3. Cookies tiers",
+      "content": "Nous utilisons Vercel Analytics pour comprendre les performances du site. Ces analyses respectent la vie privée et ne suivent pas les informations personnelles. Aucune donnée n'est partagée avec des tiers à des fins publicitaires."
+    },
+    "section4": {
+      "title": "4. Gestion des cookies",
+      "content": "Vous pouvez contrôler et supprimer les cookies via les paramètres de votre navigateur. Veuillez noter que la désactivation des cookies peut affecter la fonctionnalité de notre site Web, y compris les préférences linguistiques."
+    },
+    "contact": {
+      "title": "Questions sur les cookies?",
+      "content": "Si vous avez des questions sur notre utilisation des cookies, veuillez nous contacter via WhatsApp ou par e-mail."
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Page non trouvée",
+      "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+      "goHome": "Retour à l'accueil",
+      "goBack": "Retour"
+    },
+    "500": {
+      "title": "Une erreur s'est produite",
+      "description": "Nous rencontrons des difficultés techniques. Veuillez réessayer dans un instant.",
+      "tryAgain": "Réessayer",
+      "goHome": "Retour à l'accueil"
+    }
+  },
+  "accessibility": {
+    "skipToContent": "Passer au contenu principal"
+  },
+  "about": {
+    "hero": {
+      "title": "À propos de StudyFrontier",
+      "subtitle": "Aider les étudiants marocains à réaliser leurs rêves d'études aux États-Unis"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "content": "StudyFrontier a été fondé avec une mission claire : fournir des conseils honnêtes, transparents et efficaces aux étudiants marocains qui souhaitent étudier aux États-Unis. Nous croyons que chaque étudiant mérite un accès à une éducation de qualité, et nous sommes là pour rendre ce voyage plus fluide et plus réalisable."
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "subtitle": "Ce qui nous motive chaque jour",
+      "value1": {
+        "title": "Honnêteté et Transparence",
+        "content": "Nous fournissons des attentes réalistes et des conseils honnêtes. Pas de fausses promesses, pas de frais cachés—juste des conseils directs en qui vous pouvez avoir confiance."
+      },
+      "value2": {
+        "title": "Centré sur l'Étudiant",
+        "content": "Votre succès est notre succès. Nous adaptons nos conseils à votre situation, vos objectifs et vos aspirations uniques."
+      },
+      "value3": {
+        "title": "Excellence",
+        "content": "Nous maintenons les normes les plus élevées dans tout ce que nous faisons, de l'orientation des candidatures au soutien continu."
+      }
+    },
+    "why": {
+      "title": "Pourquoi Choisir StudyFrontier?",
+      "reason1": {
+        "title": "Expertise Locale, Portée Mondiale",
+        "content": "Nous comprenons à la fois le système éducatif marocain et les exigences des universités américaines, vous offrant le meilleur des deux mondes."
+      },
+      "reason2": {
+        "title": "Antécédents Prouvés",
+        "content": "Nos étudiants ont été acceptés dans les meilleures universités des États-Unis. Nous savons ce qui fonctionne."
+      },
+      "reason3": {
+        "title": "Soutien Personnalisé",
+        "content": "Chaque étudiant est unique. Nous fournissons des conseils personnalisés adaptés à votre profil académique et à vos objectifs de carrière."
+      }
+    },
+    "cta": {
+      "title": "Prêt à Commencer Votre Voyage?",
+      "subtitle": "Discutons de la façon dont nous pouvons vous aider à atteindre vos objectifs d'études à l'étranger."
+    }
   },
   "locales": {
     "en": "English",
