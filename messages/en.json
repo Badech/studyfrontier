@@ -148,11 +148,43 @@
   "privacy": {
     "title": "Privacy Policy",
     "lastUpdated": "Last Updated",
-    "paragraph1": "We collect information such as name, phone number, and email only to contact students regarding study abroad guidance.",
-    "paragraph2": "We do not sell or share personal data with third parties.",
-    "paragraph3": "Information is used only for communication and consultation purposes.",
-    "paragraph4": "We retain your information for as long as necessary to provide our services, typically for the duration of your application process and up to 2 years afterward for follow-up support.",
-    "paragraph5": "If you want your information removed, you may contact us via WhatsApp or email at any time. We will delete your data within 30 days of your request."
+    "intro": "At StudyFrontier, we are committed to protecting your privacy and handling your personal information with the highest level of care and transparency. This Privacy Policy explains how we collect, use, store, and protect your data.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "content": "We collect only the information necessary to provide our educational consulting services. This includes: your name, email address, phone number, academic background, educational goals, and any documents you choose to share with us during the consultation process. All information is collected with your explicit consent."
+    },
+    "section2": {
+      "title": "2. How We Use Your Information",
+      "content": "Your information is used exclusively for providing educational consulting services, including: communicating with you about your study abroad journey, assessing your eligibility for programs, providing personalized guidance and recommendations, and maintaining records of our consultations to ensure continuity of service."
+    },
+    "section3": {
+      "title": "3. Data Protection & Security",
+      "content": "We implement industry-standard security measures to protect your personal information from unauthorized access, disclosure, or misuse. Your data is stored securely and accessed only by authorized personnel who need it to provide our services. We do not sell, rent, or share your personal information with third parties for marketing purposes."
+    },
+    "section4": {
+      "title": "4. Data Retention",
+      "content": "We retain your information for as long as necessary to provide our services and fulfill the purposes outlined in this policy. Typically, we keep your data for the duration of your application process and up to 2 years afterward to provide follow-up support and maintain service quality. After this period, data is securely deleted unless you request earlier deletion."
+    },
+    "section5": {
+      "title": "5. Your Rights",
+      "content": "You have the right to access, correct, or delete your personal information at any time. You may also request a copy of the data we hold about you or withdraw your consent for us to process your information. To exercise these rights, simply contact us via WhatsApp or email."
+    },
+    "section6": {
+      "title": "6. Data Deletion Requests",
+      "content": "If you wish to have your information removed from our systems, you may contact us at any time via WhatsApp or email. We will process your deletion request within 30 days and confirm once your data has been removed, except where we are required by law to retain certain information."
+    },
+    "section7": {
+      "title": "7. Third-Party Services",
+      "content": "We use carefully selected third-party services to support our operations, including email providers and analytics tools. These services are bound by strict data protection agreements and are only used to enhance our service quality. We do not share your information with universities or visa agencies without your explicit permission."
+    },
+    "section8": {
+      "title": "8. Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. Any changes will be posted on this page with an updated revision date. We encourage you to review this policy periodically."
+    },
+    "contact": {
+      "title": "Questions About Privacy?",
+      "content": "If you have any questions or concerns about how we handle your personal information, please don't hesitate to contact us via WhatsApp or email. We're committed to addressing your privacy concerns promptly and transparently."
+    }
   },
   "terms": {
     "title": "Terms of Service",

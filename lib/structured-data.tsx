@@ -25,8 +25,8 @@ export function getOrganizationSchema(): JsonLd {
       },
     },
     sameAs: [
-      // Add social media profiles when available
-      // Example: 'https://www.instagram.com/studyfrontier',
+      BRAND_CONFIG.social.facebook,
+      BRAND_CONFIG.social.instagram,
     ].filter(Boolean),
     address: {
       '@type': 'PostalAddress',

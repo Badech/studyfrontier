@@ -43,7 +43,7 @@ export function Navbar() {
       id: 'home', 
       label: t('home'), 
       href: `/${locale}`,
-      action: isHomePage ? () => window.scrollTo({ top: 0, behavior: 'smooth' }) : undefined
+      action: isHomePage ? () => { window.scrollTo({ top: 0, behavior: 'smooth' }); setMobileMenuOpen(false); } : undefined
     },
     { 
       id: 'about', 

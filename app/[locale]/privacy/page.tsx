@@ -22,26 +22,115 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
   return (
     <div className="py-16 md:py-24 px-4">
       <Container size="default">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           {/* Page Title */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
             {t('title')}
           </h1>
 
           {/* Last Updated */}
-          <p className="text-sm text-muted-foreground mb-8">
+          <p className="text-sm text-muted-foreground mb-8 pb-8 border-b">
             {t('lastUpdated')}: {new Date().toLocaleDateString(locale)}
           </p>
 
-          {/* Privacy Content */}
-          <div className="prose prose-gray max-w-none">
-            <div className="space-y-6 text-base sm:text-lg leading-relaxed text-muted-foreground">
-              <p>{t('paragraph1')}</p>
-              <p>{t('paragraph2')}</p>
-              <p>{t('paragraph3')}</p>
-              <p>{t('paragraph4')}</p>
-              <p>{t('paragraph5')}</p>
-            </div>
+          {/* Introduction */}
+          <div className="mb-12">
+            <p className="text-lg leading-relaxed text-foreground">
+              {t('intro')}
+            </p>
+          </div>
+
+          {/* Privacy Policy Sections */}
+          <div className="space-y-10">
+            {/* Section 1 */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('section1.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('section1.content')}
+              </p>
+            </section>
+
+            {/* Section 2 */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('section2.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('section2.content')}
+              </p>
+            </section>
+
+            {/* Section 3 */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('section3.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('section3.content')}
+              </p>
+            </section>
+
+            {/* Section 4 */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('section4.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('section4.content')}
+              </p>
+            </section>
+
+            {/* Section 5 */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('section5.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('section5.content')}
+              </p>
+            </section>
+
+            {/* Section 6 */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('section6.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('section6.content')}
+              </p>
+            </section>
+
+            {/* Section 7 */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('section7.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('section7.content')}
+              </p>
+            </section>
+
+            {/* Section 8 */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('section8.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('section8.content')}
+              </p>
+            </section>
+
+            {/* Contact Section */}
+            <section className="mt-12 pt-8 border-t bg-muted/30 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                {t('contact.title')}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {t('contact.content')}
+              </p>
+            </section>
           </div>
         </div>
       </Container>

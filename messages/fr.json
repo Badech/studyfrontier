@@ -148,11 +148,43 @@
   "privacy": {
     "title": "Politique de confidentialité",
     "lastUpdated": "Dernière mise à jour",
-    "paragraph1": "Nous collectons des informations telles que le nom, le numéro de téléphone et l'e-mail uniquement pour contacter les étudiants concernant les conseils d'études à l'étranger.",
-    "paragraph2": "Nous ne vendons ni ne partageons de données personnelles avec des tiers.",
-    "paragraph3": "Les informations sont utilisées uniquement à des fins de communication et de consultation.",
-    "paragraph4": "Nous conservons vos informations aussi longtemps que nécessaire pour fournir nos services, généralement pendant la durée de votre processus de candidature et jusqu'à 2 ans après pour le suivi.",
-    "paragraph5": "Si vous souhaitez que vos informations soient supprimées, vous pouvez nous contacter via WhatsApp ou par e-mail à tout moment. Nous supprimerons vos données dans les 30 jours suivant votre demande."
+    "intro": "Chez StudyFrontier, nous nous engageons à protéger votre vie privée et à traiter vos informations personnelles avec le plus haut niveau de soin et de transparence. Cette Politique de confidentialité explique comment nous collectons, utilisons, stockons et protégeons vos données.",
+    "section1": {
+      "title": "1. Informations que nous collectons",
+      "content": "Nous collectons uniquement les informations nécessaires pour fournir nos services de conseil en éducation. Cela comprend : votre nom, adresse e-mail, numéro de téléphone, parcours académique, objectifs éducatifs et tous les documents que vous choisissez de partager avec nous pendant le processus de consultation. Toutes les informations sont collectées avec votre consentement explicite."
+    },
+    "section2": {
+      "title": "2. Comment nous utilisons vos informations",
+      "content": "Vos informations sont utilisées exclusivement pour fournir des services de conseil en éducation, y compris : communiquer avec vous sur votre parcours d'études à l'étranger, évaluer votre éligibilité aux programmes, fournir des conseils et recommandations personnalisés, et maintenir des enregistrements de nos consultations pour assurer la continuité du service."
+    },
+    "section3": {
+      "title": "3. Protection et sécurité des données",
+      "content": "Nous mettons en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger vos informations personnelles contre l'accès non autorisé, la divulgation ou l'utilisation abusive. Vos données sont stockées en toute sécurité et accessibles uniquement par le personnel autorisé qui en a besoin pour fournir nos services. Nous ne vendons, ne louons ni ne partageons vos informations personnelles avec des tiers à des fins marketing."
+    },
+    "section4": {
+      "title": "4. Conservation des données",
+      "content": "Nous conservons vos informations aussi longtemps que nécessaire pour fournir nos services et atteindre les objectifs décrits dans cette politique. En général, nous conservons vos données pendant la durée de votre processus de candidature et jusqu'à 2 ans après pour fournir un soutien de suivi et maintenir la qualité du service. Après cette période, les données sont supprimées en toute sécurité, sauf si vous demandez une suppression plus tôt."
+    },
+    "section5": {
+      "title": "5. Vos droits",
+      "content": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles à tout moment. Vous pouvez également demander une copie des données que nous détenons sur vous ou retirer votre consentement pour que nous traitions vos informations. Pour exercer ces droits, contactez-nous simplement via WhatsApp ou par e-mail."
+    },
+    "section6": {
+      "title": "6. Demandes de suppression de données",
+      "content": "Si vous souhaitez que vos informations soient supprimées de nos systèmes, vous pouvez nous contacter à tout moment via WhatsApp ou par e-mail. Nous traiterons votre demande de suppression dans les 30 jours et confirmerons une fois vos données supprimées, sauf lorsque nous sommes tenus par la loi de conserver certaines informations."
+    },
+    "section7": {
+      "title": "7. Services tiers",
+      "content": "Nous utilisons des services tiers soigneusement sélectionnés pour soutenir nos opérations, y compris les fournisseurs de messagerie et les outils d'analyse. Ces services sont liés par des accords stricts de protection des données et ne sont utilisés que pour améliorer la qualité de notre service. Nous ne partageons pas vos informations avec les universités ou les agences de visa sans votre permission explicite."
+    },
+    "section8": {
+      "title": "8. Modifications de cette politique",
+      "content": "Nous pouvons mettre à jour cette Politique de confidentialité de temps à autre pour refléter les changements dans nos pratiques ou les exigences légales. Tout changement sera publié sur cette page avec une date de révision mise à jour. Nous vous encourageons à consulter cette politique périodiquement."
+    },
+    "contact": {
+      "title": "Questions sur la confidentialité?",
+      "content": "Si vous avez des questions ou des préoccupations concernant la façon dont nous traitons vos informations personnelles, n'hésitez pas à nous contacter via WhatsApp ou par e-mail. Nous nous engageons à répondre à vos préoccupations en matière de confidentialité rapidement et de manière transparente."
+    }
   },
   "terms": {
     "title": "Conditions d'utilisation",
