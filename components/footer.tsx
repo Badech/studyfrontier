@@ -2,7 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { Container } from '@/components/ui/container';
-import { GraduationCap, Mail, MessageCircle } from 'lucide-react';
+import { GraduationCap, Mail, MessageCircle, Facebook, Instagram } from 'lucide-react';
 import { BRAND_CONFIG } from '@/lib/config/brand';
 import { WhatsAppLinkHandler } from '@/components/whatsapp-link-handler';
 import { ComplianceDisclaimer } from '@/components/compliance-disclaimer';
@@ -46,6 +46,28 @@ export function Footer() {
                   )}
                 </WhatsAppLinkHandler>
               </div>
+            </div>
+
+            {/* Social Media Links */}
+            <div className="flex items-center justify-center gap-4 pt-2">
+              <a 
+                href={BRAND_CONFIG.social.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a 
+                href={BRAND_CONFIG.social.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
             </div>
 
             {/* Legal Links */}

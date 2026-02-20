@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>StudyFrontier - Quick Favicon Setup</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #0ea5e9;
+            margin: 0 0 10px 0;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #64748b;
+            margin: 0 0 30px 0;
+            font-size: 18px;
+        }
+        .status {
+            background: #f0f9ff;
+            border-left: 4px solid #0ea5e9;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .status h2 {
+            margin: 0 0 10px 0;
+            color: #0ea5e9;
+            font-size: 20px;
+        }
+        .method {
+            background: #f8fafc;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 2px solid #e2e8f0;
+        }
+        .method h3 {
+            margin: 0 0 15px 0;
+            color: #1e293b;
+            font-size: 18px;
+        }
+        .method.recommended {
+            border-color: #0ea5e9;
+            background: #f0f9ff;
+        }
+        .method.recommended h3:before {
+            content: "⭐ ";
+        }
+        .button {
+            display: inline-block;
+            background: #0ea5e9;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 10px 10px 10px 0;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+        }
+        .button:hover {
+            background: #0284c7;
+        }
+        .button.secondary {
+            background: #64748b;
+        }
+        .button.secondary:hover {
+            background: #475569;
+        }
+        ol {
+            line-height: 1.8;
+        }
+        code {
+            background: #f1f5f9;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #e11d48;
+            font-size: 14px;
+        }
+        .preview {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+        .preview-item {
+            text-align: center;
+        }
+        .preview-item canvas {
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+        .preview-label {
+            font-size: 12px;
+            color: #64748b;
+        }
+        .success {
+            background: #f0fdf4;
+            border-left: 4px solid #22c55e;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            color: #166534;
+        }
+        .files-needed {
+            background: #fef3c7;
+            border: 2px dashed #f59e0b;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .files-needed h3 {
+            margin: 0 0 10px 0;
+            color: #92400e;
+        }
+        .file-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .file-item {
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 StudyFrontier Favicon Setup</h1>
+        <p class="subtitle">One-click favicon generation for your website</p>
+
+        <div class="status">
+            <h2>✅ Current Status</h2>
+            <p><strong>Good news!</strong> Your Next.js app is already configured to use favicons.</p>
+            <p>You just need to add the image files to your <code>public/</code> folder.</p>
+        </div>
+
+        <div class="preview">
+            <div class="preview-item">
+                <canvas id="preview16" width="32" height="32"></canvas>
+                <div class="preview-label">16×16<br>Browser Tab</div>
+            </div>
+            <div class="preview-item">
+                <canvas id="preview32" width="64" height="64"></canvas>
+                <div class="preview-label">32×32<br>Retina Display</div>
+            </div>
+            <div class="preview-item">
+                <canvas id="preview180" width="180" height="180"></canvas>
+                <div class="preview-label">180×180<br>iOS Icon</div>
+            </div>
+        </div>
+
+        <div class="files-needed">
+            <h3>📁 Files You Need to Add</h3>
+            <p>Add these files to your <code>public/</code> folder:</p>
+            <div class="file-list">
+                <div class="file-item">✅ favicon.svg<br><small>(already created)</small></div>
+                <div class="file-item">❌ favicon.ico<br><small>(needed)</small></div>
+                <div class="file-item">❌ apple-touch-icon.png<br><small>(needed)</small></div>
+                <div class="file-item">❌ android-chrome-192x192.png<br><small>(needed)</small></div>
+                <div class="file-item">❌ android-chrome-512x512.png<br><small>(needed)</small></div>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 40px;">Choose Your Method:</h2>
+
+        <div class="method recommended">
+            <h3>Method 1: Use Favicon.io (RECOMMENDED)</h3>
+            <p><strong>Easiest and fastest method - takes 2 minutes!</strong></p>
+            <ol>
+                <li>Click the button below to open Favicon.io</li>
+                <li>The settings will be pre-configured for you</li>
+                <li>Click "Download" on their site</li>
+                <li>Extract the zip and copy all files to your <code>public/</code> folder</li>
+            </ol>
+            <a href="https://favicon.io/favicon-generator/?t=SF&ff=Inter&fs=70&fc=%23FFF&b=rounded&bc=%230ea5e9" 
+               target="_blank" 
+               class="button">
+                🚀 Open Favicon.io (Pre-configured)
+            </a>
+        </div>
+
+        <div class="method">
+            <h3>Method 2: Download from This Page</h3>
+            <p><strong>Generate and download right here in your browser</strong></p>
+            <ol>
+                <li>Click the "Download Favicons" button below</li>
+                <li>Extract the downloaded zip file</li>
+                <li>Copy all PNG files to your <code>public/</code> folder</li>
+                <li>For favicon.ico, use the converter link provided</li>
+            </ol>
+            <button onclick="downloadFavicons()" class="button">
+                📥 Download Favicons
+            </button>
+            <button onclick="window.location.reload()" class="button secondary">
+                🔄 Regenerate
+            </button>
+        </div>
+
+        <div class="method">
+            <h3>Method 3: Use RealFaviconGenerator</h3>
+            <p><strong>Most comprehensive - generates all formats and sizes</strong></p>
+            <ol>
+                <li>Right-click the preview above and save as image</li>
+                <li>Visit RealFaviconGenerator.net</li>
+                <li>Upload your image</li>
+                <li>Download the generated package</li>
+                <li>Extract to your <code>public/</code> folder</li>
+            </ol>
+            <a href="https://realfavicongenerator.net/" target="_blank" class="button secondary">
+                🔧 Open RealFaviconGenerator
+            </a>
+        </div>
+
+        <div class="success" style="margin-top: 40px;">
+            <h3>🎯 After Adding Files</h3>
+            <p><strong>Your site will automatically use the new favicons!</strong></p>
+            <ol>
+                <li>Run <code>npm run dev</code> to test locally</li>
+                <li>Check your browser tab for the favicon</li>
+                <li>Test on mobile (add to home screen)</li>
+                <li>Deploy to production</li>
+            </ol>
+        </div>
+
+        <div class="status" style="margin-top: 30px;">
+            <h2>🎨 Design Specs</h2>
+            <ul style="margin: 10px 0;">
+                <li><strong>Text:</strong> "SF" (StudyFrontier)</li>
+                <li><strong>Background:</strong> #0ea5e9 (Sky Blue)</li>
+                <li><strong>Text Color:</strong> #ffffff (White)</li>
+                <li><strong>Style:</strong> Modern, professional, rounded</li>
+                <li><strong>Font:</strong> Inter (bold)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script>
+        // Draw favicon on canvas
+        function drawFavicon(canvas, size) {
+            const ctx = canvas.getContext('2d');
+            const displaySize = canvas.width;
+            
+            ctx.clearRect(0, 0, displaySize, displaySize);
+            
+            // Scale for retina
+            const scale = displaySize / size;
+            ctx.scale(scale, scale);
+            
+            // Background with rounded corners
+            const radius = size * 0.1875;
+            ctx.fillStyle = '#0ea5e9';
+            roundRect(ctx, 0, 0, size, size, radius);
+            ctx.fill();
+            
+            // Text
+            const fontSize = Math.floor(size * 0.5);
+            ctx.font = `bold ${fontSize}px Inter, Arial, sans-serif`;
+            ctx.fillStyle = '#ffffff';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('SF', size / 2, size / 2 + 1);
+            
+            // Accent dot
+            if (size >= 32) {
+                ctx.fillStyle = '#f97316';
+                ctx.beginPath();
+                ctx.arc(size * 0.78, size * 0.28, size * 0.06, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function roundRect(ctx, x, y, width, height, radius) {
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.arcTo(x + width, y, x + width, y + height, radius);
+            ctx.arcTo(x + width, y + height, x, y + height, radius);
+            ctx.arcTo(x, y + height, x, y, radius);
+            ctx.arcTo(x, y, x + width, y, radius);
+            ctx.closePath();
+        }
+
+        // Draw previews
+        drawFavicon(document.getElementById('preview16'), 16);
+        drawFavicon(document.getElementById('preview32'), 32);
+        drawFavicon(document.getElementById('preview180'), 180);
+
+        async function downloadFavicons() {
+            const sizes = [
+                { name: 'favicon-16x16.png', size: 16 },
+                { name: 'favicon-32x32.png', size: 32 },
+                { name: 'apple-touch-icon.png', size: 180 },
+                { name: 'android-chrome-192x192.png', size: 192 },
+                { name: 'android-chrome-512x512.png', size: 512 },
+            ];
+
+            const zip = new JSZip();
+            const folder = zip.folder('studyfrontier-favicons');
+
+            // Generate each size
+            for (const config of sizes) {
+                const canvas = document.createElement('canvas');
+                canvas.width = config.size;
+                canvas.height = config.size;
+                drawFavicon(canvas, config.size);
+                
+                const blob = await new Promise(resolve => canvas.toBlob(resolve));
+                folder.file(config.name, blob);
+            }
+
+            // Add instructions
+            const instructions = `StudyFrontier Favicons
+======================
+
+Installation:
+1. Copy all PNG files to your public/ folder
+2. For favicon.ico:
+   - Visit: https://www.icoconverter.com/
+   - Upload: favicon-32x32.png
+   - Download and save as: public/favicon.ico
+
+Files included:
+- favicon-16x16.png
+- favicon-32x32.png
+- apple-touch-icon.png (180x180)
+- android-chrome-192x192.png
+- android-chrome-512x512.png
+
+Your Next.js app is already configured!
+
+Design: SF monogram, #0ea5e9 background, white text
+Generated: ${new Date().toLocaleString()}
+`;
+            
+            folder.file('INSTALLATION.txt', instructions);
+
+            // Generate zip
+            const content = await zip.generateAsync({ type: 'blob' });
+            saveAs(content, 'studyfrontier-favicons.zip');
+
+            alert('✅ Favicons downloaded!\n\nExtract the zip and copy files to your public/ folder.\nSee INSTALLATION.txt for details.');
+        }
+    </script>
+</body>
+</html>

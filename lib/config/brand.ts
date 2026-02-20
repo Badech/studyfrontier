@@ -44,11 +44,14 @@ export const BRAND_CONFIG = {
     codes: ["en", "fr", "ar"],
   },
   
-  // Social Media (for future use)
+  // Social Media
   social: {
-    // facebook: "https://www.facebook.com/studyfrontier",
-    // instagram: "https://www.instagram.com/studyfrontier",
+    facebook: "https://web.facebook.com/studyFrontier",
+    instagram: "https://www.instagram.com/study.frontier1/",
+    // Add more as needed:
+    // twitter: "https://twitter.com/studyfrontier",
     // linkedin: "https://www.linkedin.com/company/studyfrontier",
+    // youtube: "https://www.youtube.com/@studyfrontier",
   },
 } as const;
 

@@ -35,10 +35,28 @@ export function Navbar() {
     setMobileMenuOpen(false);
   };
 
+  // Check if we're on homepage
+  const isHomePage = pathname === `/${locale}` || pathname === `/${locale}/`;
+
   const navLinks = [
-    { id: 'home', label: t('home'), action: () => window.scrollTo({ top: 0, behavior: 'smooth' }) },
-    { id: 'about', label: t('about'), action: () => scrollToSection('founder') },
-    { id: 'contact', label: t('contact'), action: () => scrollToSection('contact') },
+    { 
+      id: 'home', 
+      label: t('home'), 
+      href: `/${locale}`,
+      action: isHomePage ? () => window.scrollTo({ top: 0, behavior: 'smooth' }) : undefined
+    },
+    { 
+      id: 'about', 
+      label: t('about'), 
+      href: `/${locale}#founder`,
+      action: isHomePage ? () => scrollToSection('founder') : undefined
+    },
+    { 
+      id: 'contact', 
+      label: t('contact'), 
+      href: `/${locale}#contact`,
+      action: isHomePage ? () => scrollToSection('contact') : undefined
+    },
   ];
 
   return (
@@ -54,15 +72,28 @@ export function Navbar() {
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-6">
-              {navLinks.map((link) => (
-                <button
-                  key={link.id}
-                  onClick={link.action}
-                  className="text-sm font-medium transition-colors hover:text-primary text-muted-foreground"
-                >
-                  {link.label}
-                </button>
-              ))}
+              {navLinks.map((link) => {
+                if (link.action && isHomePage) {
+                  return (
+                    <button
+                      key={link.id}
+                      onClick={link.action}
+                      className="text-sm font-medium transition-colors hover:text-primary text-muted-foreground"
+                    >
+                      {link.label}
+                    </button>
+                  );
+                }
+                return (
+                  <Link
+                    key={link.id}
+                    href={link.href}
+                    className="text-sm font-medium transition-colors hover:text-primary text-muted-foreground"
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
               <LocaleSwitcher />
             </div>
 
@@ -86,15 +117,29 @@ export function Navbar() {
           <div className="lg:hidden border-t bg-background">
             <Container>
               <div className="py-4 space-y-3">
-                {navLinks.map((link) => (
-                  <button
-                    key={link.id}
-                    onClick={link.action}
-                    className="block w-full text-left px-4 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent"
-                  >
-                    {link.label}
-                  </button>
-                ))}
+                {navLinks.map((link) => {
+                  if (link.action && isHomePage) {
+                    return (
+                      <button
+                        key={link.id}
+                        onClick={link.action}
+                        className="block w-full text-left px-4 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent"
+                      >
+                        {link.label}
+                      </button>
+                    );
+                  }
+                  return (
+                    <Link
+                      key={link.id}
+                      href={link.href}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="block w-full text-left px-4 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent"
+                    >
+                      {link.label}
+                    </Link>
+                  );
+                })}
                 
                 <div className="pt-4 border-t">
                   <LocaleSwitcher />
