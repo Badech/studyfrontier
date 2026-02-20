@@ -15,7 +15,7 @@ Professional business identity clearly stated:
 | **Business Type** | Educational Consulting Agency |
 | **Who We Help** | Moroccan Students |
 | **Scope of Service** | University Application & Visa Preparation Guidance |
-| **Location** | Morocco (Remote Support) |
+| **Location** | United States (Remote Support Worldwide) |
 | **Languages Supported** | English, Français, العربية |
 
 **Description:**
@@ -68,13 +68,13 @@ Critical for compliance - sets clear ethical boundaries:
 ### **Contact Methods:**
 
 #### **1. WhatsApp** (Primary Contact)
-- **Number:** +212 708-026571
+- **Number:** +1 571-690-4684
 - **Description:** Primary contact method
 - **CTA:** Start Free Consultation on WhatsApp
 - **Source Tracking:** contact-section
 
 #### **2. Email** (Detailed Inquiries)
-- **Address:** contact@studyfrontier.com
+- **Address:** Contact@studyfrontier.com
 - **Description:** For detailed inquiries
 - **Direct mailto link:** Yes
 
@@ -88,7 +88,7 @@ Critical for compliance - sets clear ethical boundaries:
 ### **Additional Information:**
 
 #### **4. Location**
-- **Details:** Morocco (Remote Support)
+- **Details:** United States (Remote Support Worldwide)
 - **Icon:** Map Pin
 - **Transparency:** Clear about remote service delivery
 
@@ -279,8 +279,8 @@ Critical for compliance - sets clear ethical boundaries:
 
 Before going live:
 - [ ] Verify business hours are accurate (Mon-Sat, 9 AM - 6 PM GMT+1)
-- [ ] Confirm WhatsApp number is correct (+212 708-026571)
-- [ ] Verify email is working (contact@studyfrontier.com)
+- [ ] Confirm WhatsApp number is correct (+1 571-690-4684)
+- [ ] Verify email is working (Contact@studyfrontier.com)
 - [ ] Test all mailto links
 - [ ] Check translations match in FR and AR (if needed)
 - [ ] Review "What We Don't Do" for accuracy

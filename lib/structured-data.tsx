@@ -11,7 +11,7 @@ export function getOrganizationSchema(): JsonLd {
     name: BRAND_CONFIG.brandName,
     url: siteUrl,
     logo: `${siteUrl}/images/logo.png`,
-    description: 'Professional study abroad consulting for Moroccan students seeking to study in the USA',
+    description: 'Professional study abroad consulting for international students seeking to study in the USA',
     email: BRAND_CONFIG.email.primary,
     contactPoint: {
       '@type': 'ContactPoint',
@@ -46,7 +46,7 @@ export function getWebsiteSchema(locale: string): JsonLd {
     '@type': 'WebSite',
     name: BRAND_CONFIG.brandName,
     url: `${siteUrl}/${locale}`,
-    description: 'Study in the USA - Professional guidance for Moroccan students',
+    description: 'Study in the USA - Professional guidance for international students',
     inLanguage: locale,
     potentialAction: {
       '@type': 'SearchAction',
@@ -81,7 +81,7 @@ export function getEducationalOrganizationSchema(): JsonLd {
     '@type': 'EducationalOrganization',
     name: BRAND_CONFIG.brandName,
     url: siteUrl,
-    description: 'Study abroad consulting agency helping Moroccan students apply to universities in the United States',
+    description: 'Study abroad consulting agency helping international students apply to universities in the United States',
     areaServed: {
       '@type': 'Country',
       name: BRAND_CONFIG.location.country,

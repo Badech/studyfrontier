@@ -6,7 +6,7 @@
 - ✅ No placeholder numbers (212600000000)
 - ✅ No hardcoded emails outside BRAND_CONFIG
 - ✅ 9 files now importing BRAND_CONFIG
-- ✅ Standardized formatting: `+212 708-026571`
+- ✅ Standardized formatting: `+1 571-690-4684`
 
 ---
 
@@ -18,22 +18,22 @@
 ```typescript
 export const BRAND_CONFIG = {
   brandName: "StudyFrontier",
-  websiteUrl: "https://studyfrontier.vercel.app",
+  websiteUrl: "https://studyfrontier.com",
   whatsapp: {
-    numberE164: "+212708026571",
-    numberDigits: "212708026571",
-    numberDisplay: "+212 708-026571",
-    linkDefault: "https://wa.me/212708026571",
+    numberE164: "+1 571-690-4684",
+    numberDigits: "15716904684",
+    numberDisplay: "+1 571-690-4684",
+    linkDefault: "https://wa.me/15716904684",
     prefillText: "Salam ana kmlt form StudyFrontier",
   },
   email: {
-    primary: "contact@studyfrontier.com",
-    mailtoLink: "mailto:contact@studyfrontier.com",
+    primary: "Contact@studyfrontier.com",
+    mailtoLink: "mailto:Contact@studyfrontier.com",
   },
   location: {
     country: "Morocco",
     countryCode: "MA",
-    serviceDescription: "Morocco (Remote Support)",
+    serviceDescription: "United States (Remote Support Worldwide)",
   },
   languages: {
     supported: ["English", "Français", "العربية"],
@@ -150,9 +150,9 @@ export const BRAND_CONFIG = {
         
         <div className="flex items-center gap-2">
           <Mail className="h-4 w-4" />
--         <a href="mailto:contact@studyfrontier.com">
+-         <a href="mailto:Contact@studyfrontier.com">
 +         <a href={BRAND_CONFIG.email.mailtoLink}>
--           contact@studyfrontier.com
+-           Contact@studyfrontier.com
 +           {BRAND_CONFIG.email.primary}
           </a>
         </div>
@@ -160,7 +160,7 @@ export const BRAND_CONFIG = {
         <div className="flex items-center gap-2">
           <MessageCircle className="h-4 w-4" />
           <a href={getWhatsAppLink()}>
--           +212 708 026 571
+-           +1 571-690-4684
 +           {BRAND_CONFIG.whatsapp.numberDisplay}
           </a>
         </div>
@@ -180,9 +180,9 @@ export const BRAND_CONFIG = {
   export function ContactSection() {
     return (
       <CardContent>
--       <a href="mailto:contact@studyfrontier.com">
+-       <a href="mailto:Contact@studyfrontier.com">
 +       <a href={BRAND_CONFIG.email.mailtoLink}>
--         contact@studyfrontier.com
+-         Contact@studyfrontier.com
 +         {BRAND_CONFIG.email.primary}
         </a>
       </CardContent>
@@ -278,19 +278,19 @@ export const BRAND_CONFIG = {
 - **Total changes:** ~300 lines added, ~50 lines removed
 
 ### Hardcoded Values Removed
-- ❌ `+212600000000` (placeholder) → ✅ `+212708026571` (real)
-- ❌ `+212XXXXXXXXX` (placeholder) → ✅ `+212708026571` (real)
-- ❌ `+212 708 026 571` (hardcoded) → ✅ `BRAND_CONFIG.whatsapp.numberDisplay`
-- ❌ `contact@studyfrontier.com` (hardcoded 4×) → ✅ `BRAND_CONFIG.email.primary`
+- ❌ `+212600000000` (placeholder) → ✅ `+1 571-690-4684` (real)
+- ❌ `+212XXXXXXXXX` (placeholder) → ✅ `+1 571-690-4684` (real)
+- ❌ `+1 571-690-4684` (hardcoded) → ✅ `BRAND_CONFIG.whatsapp.numberDisplay`
+- ❌ `Contact@studyfrontier.com` (hardcoded 4×) → ✅ `BRAND_CONFIG.email.primary`
 - ❌ `"StudyFrontier"` (hardcoded 6×) → ✅ `BRAND_CONFIG.brandName`
 - ❌ `https://studyfrontier.com` (hardcoded 3×) → ✅ `BRAND_CONFIG.websiteUrl`
 
 ### Phone Number Formatting - Now Standardized
 | Before | After | Usage |
 |--------|-------|-------|
-| `+212 708 026 571` | `+212 708-026571` | Display format |
-| Various formats | `+212708026571` | E.164 format |
-| Various formats | `212708026571` | wa.me links |
+| `+1 571-690-4684` | `+1 571-690-4684` | Display format |
+| Various formats | `+1 571-690-4684` | E.164 format |
+| Various formats | `15716904684` | wa.me links |
 
 ---
 
@@ -303,7 +303,7 @@ grep -rn "212600000000" --include="*.ts" --include="*.tsx" --exclude-dir=node_mo
 
 ### Check for hardcoded emails (should only be in brand.ts):
 ```bash
-grep -rn '"contact@studyfrontier.com"' --include="*.ts" --include="*.tsx" --exclude-dir=node_modules
+grep -rn '"Contact@studyfrontier.com"' --include="*.ts" --include="*.tsx" --exclude-dir=node_modules
 ```
 
 ### Verify BRAND_CONFIG imports (should show 9 files):
@@ -325,7 +325,7 @@ Get-ChildItem -Recurse -Include *.ts,*.tsx | Where-Object { $_.FullName -notmatc
 - [x] Removed all hardcoded phone numbers
 - [x] Removed all hardcoded emails
 - [x] Removed all hardcoded brand names (where appropriate)
-- [x] Standardized phone formatting to `+212 708-026571`
+- [x] Standardized phone formatting to `+1 571-690-4684`
 - [x] Updated 9 files to import BRAND_CONFIG
 - [x] Created verification scripts
 - [x] Verified no hardcoded values remain
@@ -346,10 +346,10 @@ Get-ChildItem -Recurse -Include *.ts,*.tsx | Where-Object { $_.FullName -notmatc
 
 All contact details now managed in: **`lib/config/brand.ts`**
 
-- **Phone:** +212 708-026571
-- **Email:** contact@studyfrontier.com
-- **Website:** https://studyfrontier.vercel.app
+- **Phone:** +1 571-690-4684
+- **Email:** Contact@studyfrontier.com
+- **Website:** https://studyfrontier.com
 - **Brand:** StudyFrontier
-- **Location:** Morocco (Remote Support)
+- **Location:** United States (Remote Support Worldwide)
 
 To update any contact info, edit `lib/config/brand.ts` - all references update automatically!

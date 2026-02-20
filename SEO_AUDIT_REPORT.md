@@ -49,7 +49,7 @@ Comprehensive SEO implementation with proper structured data, page-level metadat
   openGraph: {
     title: "Study in USA - StudyFrontier | Expert Guidance for Moroccan Students",
     description: "Professional study abroad consulting...",
-    url: "https://studyfrontier.vercel.app/en",
+    url: "https://studyfrontier.com/en",
     images: [{
       url: "/images/og-image.png",
       width: 1200,
@@ -72,14 +72,14 @@ Comprehensive SEO implementation with proper structured data, page-level metadat
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "StudyFrontier",
-  "url": "https://studyfrontier.vercel.app",
-  "email": "contact@studyfrontier.com",
+  "url": "https://studyfrontier.com",
+  "email": "Contact@studyfrontier.com",
   "logo": "/images/logo.png",
   "description": "Professional study abroad consulting for Moroccan students seeking to study in the USA",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+212708026571",
-    "email": "contact@studyfrontier.com",
+    "telephone": "+1 571-690-4684",
+    "email": "Contact@studyfrontier.com",
     "contactType": "Customer Service",
     "availableLanguage": ["English", "Français", "العربية"],
     "areaServed": {
@@ -103,7 +103,7 @@ Comprehensive SEO implementation with proper structured data, page-level metadat
 ```
 
 **Updates Made:**
-- ✅ Added email: `contact@studyfrontier.com`
+- ✅ Added email: `Contact@studyfrontier.com`
 - ✅ Enhanced contactPoint with email
 - ✅ Structured areaServed as Country object
 - ✅ Added top-level areaServed
@@ -122,7 +122,7 @@ Comprehensive SEO implementation with proper structured data, page-level metadat
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
   "name": "StudyFrontier",
-  "url": "https://studyfrontier.vercel.app",
+  "url": "https://studyfrontier.com",
   "serviceType": [
     "Educational Consulting",
     "University Application Support",
@@ -250,8 +250,8 @@ Disallow: /api/
 Disallow: /admin/
 Disallow: /_next/
 
-Sitemap: https://studyfrontier.vercel.app/sitemap.xml
-Host: https://studyfrontier.vercel.app
+Sitemap: https://studyfrontier.com/sitemap.xml
+Host: https://studyfrontier.com
 ```
 
 **Robots Configuration:**
@@ -343,7 +343,7 @@ education consulting, Morocco, scholarships, visa support"
 ```html
 <meta property="og:title" content="Study in USA - StudyFrontier" />
 <meta property="og:description" content="Professional study abroad consulting..." />
-<meta property="og:url" content="https://studyfrontier.vercel.app/en" />
+<meta property="og:url" content="https://studyfrontier.com/en" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="StudyFrontier" />
 <meta property="og:locale" content="en" />
@@ -377,9 +377,9 @@ education consulting, Morocco, scholarships, visa support"
 
 ```html
 <!-- For /en page -->
-<link rel="alternate" hreflang="en" href="https://studyfrontier.vercel.app/en" />
-<link rel="alternate" hreflang="fr" href="https://studyfrontier.vercel.app/fr" />
-<link rel="alternate" hreflang="ar" href="https://studyfrontier.vercel.app/ar" />
+<link rel="alternate" hreflang="en" href="https://studyfrontier.com/en" />
+<link rel="alternate" hreflang="fr" href="https://studyfrontier.com/fr" />
+<link rel="alternate" hreflang="ar" href="https://studyfrontier.com/ar" />
 ```
 
 **Per-Locale Features:**
@@ -393,7 +393,7 @@ education consulting, Morocco, scholarships, visa support"
 **Sitemap Alternates:**
 ```xml
 <url>
-  <loc>https://studyfrontier.vercel.app/en</loc>
+  <loc>https://studyfrontier.com/en</loc>
   <xhtml:link rel="alternate" hreflang="en" href=".../en" />
   <xhtml:link rel="alternate" hreflang="fr" href=".../fr" />
   <xhtml:link rel="alternate" hreflang="ar" href=".../ar" />

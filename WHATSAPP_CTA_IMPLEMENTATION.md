@@ -66,19 +66,19 @@ Handles failed `window.open` attempts with:
 
 ### Example 1: Hero CTA
 ```
-https://wa.me/212708026571?text=Salam%2C%20Kmlt%20eligibility%2Fform.%20Source%3A%20hero-cta.
+https://wa.me/15716904684?text=Salam%2C%20Kmlt%20eligibility%2Fform.%20Source%3A%20hero-cta.
 ```
 **Decodes to:** `Salam, Kmlt eligibility/form. Source: hero-cta.`
 
 ### Example 2: Contact Section
 ```
-https://wa.me/212708026571?text=Salam%2C%20Kmlt%20eligibility%2Fform.%20Source%3A%20contact-section.
+https://wa.me/15716904684?text=Salam%2C%20Kmlt%20eligibility%2Fform.%20Source%3A%20contact-section.
 ```
 **Decodes to:** `Salam, Kmlt eligibility/form. Source: contact-section.`
 
 ### Example 3: With User Name
 ```
-https://wa.me/212708026571?text=Salam%2C%20ana%20Ahmed.%20Kmlt%20eligibility%2Fform.%20Source%3A%20form.
+https://wa.me/15716904684?text=Salam%2C%20ana%20Ahmed.%20Kmlt%20eligibility%2Fform.%20Source%3A%20form.
 ```
 **Decodes to:** `Salam, ana Ahmed. Kmlt eligibility/form. Source: form.`
 
@@ -104,8 +104,8 @@ https://wa.me/212708026571?text=Salam%2C%20ana%20Ahmed.%20Kmlt%20eligibility%2Ff
 
 ### ✅ Number Verification
 - [x] NO placeholder numbers (`212600000000`, `XXXXXXXXX`)
-- [x] All links use: `212708026571`
-- [x] Proper formatting: `+212 708-026571` (display)
+- [x] All links use: `15716904684`
+- [x] Proper formatting: `+1 571-690-4684` (display)
 
 ---
 
@@ -172,7 +172,7 @@ const link = buildWhatsAppLink({
   source: 'newsletter',
   name: 'User123'
 });
-// Returns: https://wa.me/212708026571?text=Salam%2C%20ana%20User123...
+// Returns: https://wa.me/15716904684?text=Salam%2C%20ana%20User123...
 ```
 
 ---
@@ -220,7 +220,7 @@ WhatsApp automatically decodes this when displaying the message.
 ### ❌ Don't Do This:
 ```typescript
 // DON'T hardcode phone numbers
-window.open('https://wa.me/212708026571', '_blank');
+window.open('https://wa.me/15716904684', '_blank');
 
 // DON'T skip source tracking
 <WhatsAppButton size="lg" /> // Missing source!
@@ -274,7 +274,7 @@ Source: about-page-cta  → From about page
 5. Mobile compatibility................. ✅ PASS
 6. Desktop compatibility................ ✅ PASS
 7. URL encoding correct................. ✅ PASS
-8. Real number (212708026571)........... ✅ PASS
+8. Real number (15716904684)........... ✅ PASS
 ```
 
 ---
@@ -314,9 +314,9 @@ Before deploying:
 ## 📞 Contact Information
 
 All WhatsApp links use:
-- **Number:** +212 708-026571
-- **Format:** +212708026571 (E.164)
-- **Link:** https://wa.me/212708026571
+- **Number:** +1 571-690-4684
+- **Format:** +1 571-690-4684 (E.164)
+- **Link:** https://wa.me/15716904684
 
 **Source:** `lib/config/brand.ts` (BRAND_CONFIG.whatsapp)
 

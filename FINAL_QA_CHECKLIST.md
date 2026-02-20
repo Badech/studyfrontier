@@ -12,7 +12,7 @@
 **Status**: ✅ **PASS**
 
 **Verification:**
-- ✅ WhatsApp number: `+212708026571` (correct format)
+- ✅ WhatsApp number: `+1 571-690-4684` (correct format)
 - ✅ Number centralized in `lib/config/brand.ts`
 - ✅ All WhatsApp CTAs use `buildWhatsAppLink()` function
 - ✅ No hardcoded numbers in components
@@ -27,9 +27,9 @@
 ```typescript
 // lib/config/brand.ts
 whatsapp: {
-  numberE164: "+212708026571",
-  numberDigits: "212708026571",
-  numberDisplay: "+212 708-026571",
+  numberE164: "+1 571-690-4684",
+  numberDigits: "15716904684",
+  numberDisplay: "+1 571-690-4684",
 }
 ```
 
@@ -39,8 +39,8 @@ whatsapp: {
 **Status**: ✅ **PASS**
 
 **Verification:**
-- ✅ Email: `contact@studyfrontier.com`
-- ✅ WhatsApp: `+212 708-026571`
+- ✅ Email: `Contact@studyfrontier.com`
+- ✅ WhatsApp: `+1 571-690-4684`
 - ✅ Both centralized in `lib/config/brand.ts`
 - ✅ No hardcoded contact info in components
 - ✅ Contact info appears correctly in:

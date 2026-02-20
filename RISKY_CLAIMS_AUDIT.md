@@ -321,7 +321,7 @@ WhatsApp Card:
 
 Email Card:
   Send us an email
-  [contact@studyfrontier.com]
+  [Contact@studyfrontier.com]
   ✓ Fast response · Usually replies within 24 hours
 ```
 
@@ -334,7 +334,7 @@ Carte WhatsApp:
 
 Carte Email:
   Envoyez-nous un email
-  [contact@studyfrontier.com]
+  [Contact@studyfrontier.com]
   ✓ Réponse rapide · Réponse généralement sous 24 heures
 ```
 
@@ -347,7 +347,7 @@ Carte Email:
 
 بطاقة البريد الإلكتروني:
   أرسل لنا بريدًا إلكترونيًا
-  [contact@studyfrontier.com]
+  [Contact@studyfrontier.com]
   ✓ استجابة سريعة · عادة نرد خلال 24 ساعة
 ```
 

@@ -8,34 +8,34 @@
 export const BRAND_CONFIG = {
   // Brand Identity
   brandName: "StudyFrontier",
-  websiteUrl: "https://studyfrontier.vercel.app",
+  websiteUrl: "https://studyfrontier.com",
   
   // WhatsApp Configuration
   whatsapp: {
     // E.164 format with country code (for display with +)
-    numberE164: "+212708026571",
+    numberE164: "+15716904684",
     // Digits only (for wa.me links)
-    numberDigits: "212708026571",
+    numberDigits: "15716904684",
     // Formatted for display (international format)
-    numberDisplay: "+212 708-026571",
+    numberDisplay: "+1 571-690-4684",
     // Direct WhatsApp link
-    linkDefault: "https://wa.me/212708026571",
-    // Default prefill message (Moroccan Darija)
-    prefillText: "Salam ana kmlt form StudyFrontier",
+    linkDefault: "https://wa.me/15716904684",
+    // Default prefill message
+    prefillText: "Hello, I completed the StudyFrontier form",
   },
   
   // Email Configuration
   email: {
-    primary: "contact@studyfrontier.com",
+    primary: "Contact@studyfrontier.com",
     // Mailto link
-    mailtoLink: "mailto:contact@studyfrontier.com",
+    mailtoLink: "mailto:Contact@studyfrontier.com",
   },
   
   // Location & Service Area
   location: {
-    country: "Morocco",
-    countryCode: "MA",
-    serviceDescription: "Morocco (Remote Support)",
+    country: "United States",
+    countryCode: "US",
+    serviceDescription: "United States (Remote Support Worldwide)",
   },
   
   // Languages

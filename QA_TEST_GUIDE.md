@@ -7,7 +7,7 @@
 #### Test 1: Hero CTA
 1. Go to: `http://localhost:3000/en`
 2. Click the large WhatsApp button in hero section
-3. **Expected:** Opens `https://wa.me/212708026571?text=...` in new tab
+3. **Expected:** Opens `https://wa.me/15716904684?text=...` in new tab
 4. **Message should contain:** `Source: hero-cta`
 
 #### Test 2: Contact Section
@@ -24,7 +24,7 @@
 
 #### Test 4: Footer Link
 1. Scroll to footer
-2. Click on the phone number `+212 708-026571`
+2. Click on the phone number `+1 571-690-4684`
 3. **Expected:** Opens WhatsApp with message
 4. **Message should contain:** `Source: footer`
 
@@ -62,7 +62,7 @@
 ### ✅ Mobile Testing (iOS Safari / Android Chrome)
 
 #### Test 8: Mobile - Hero CTA
-1. Open on mobile: `https://studyfrontier.vercel.app/en`
+1. Open on mobile: `https://studyfrontier.com/en`
 2. Tap large WhatsApp button in hero
 3. **Expected:** 
    - Opens WhatsApp app (if installed)
@@ -89,7 +89,7 @@
 1. Go to: `http://localhost:3000/fr`
 2. Click any WhatsApp button
 3. **Expected:** 
-   - Link still uses `212708026571`
+   - Link still uses `15716904684`
    - Source tracking still works
    - Opens WhatsApp correctly
 
@@ -97,7 +97,7 @@
 1. Go to: `http://localhost:3000/ar`
 2. Click any WhatsApp button
 3. **Expected:**
-   - Link still uses `212708026571`
+   - Link still uses `15716904684`
    - Source tracking still works
    - Opens WhatsApp correctly
 
@@ -108,7 +108,7 @@
 #### Test 13: Check Message Format
 1. Click any WhatsApp CTA
 2. Look at the URL in browser/new tab
-3. **Should see:** `wa.me/212708026571?text=Salam%2C%20Kmlt...`
+3. **Should see:** `wa.me/15716904684?text=Salam%2C%20Kmlt...`
 4. **Verify encoding:**
    - Space → `%20`
    - Comma → `%2C`
@@ -136,7 +136,7 @@
    - `212600000000` ❌
    - `XXXXXXXXX` ❌
 6. **Must contain:**
-   - `212708026571` ✅
+   - `15716904684` ✅
 
 #### Test 16: Console Errors
 1. Open browser console (F12)
@@ -170,7 +170,7 @@ Stop deployment if you see:
 ❌ **Console errors** when clicking CTA
 ❌ **WhatsApp doesn't open** on mobile
 ❌ **No fallback modal** when popup blocked
-❌ **Wrong number** (not `212708026571`)
+❌ **Wrong number** (not `15716904684`)
 ❌ **Missing source tag** in message
 
 ---
@@ -240,7 +240,7 @@ Result: [ ] PASS / [ ] FAIL
 **Check:** URL encoding - special characters should be encoded.
 
 ### Issue: Wrong phone number
-**Check:** `lib/config/brand.ts` - verify `numberDigits: "212708026571"`
+**Check:** `lib/config/brand.ts` - verify `numberDigits: "15716904684"`
 
 ### Issue: No source tag in message
 **Check:** Component has `source="..."` prop

@@ -95,9 +95,9 @@ All contact information is centralized in `lib/config/brand.ts` and consistently
 
 | Contact Method | Configuration | Usage |
 |---------------|--------------|-------|
-| Email | `contact@studyfrontier.com` | ✅ Consistent across all pages |
-| WhatsApp | `+212 708-026571` | ✅ Consistent across all pages |
-| Location | Morocco (Remote Support) | ✅ Consistent |
+| Email | `Contact@studyfrontier.com` | ✅ Consistent across all pages |
+| WhatsApp | `+1 571-690-4684` | ✅ Consistent across all pages |
+| Location | United States (Remote Support Worldwide) | ✅ Consistent |
 | Languages | English, Français, العربية | ✅ Consistent |
 
 **Verification**: ✅ No hardcoded contact info found outside brand config

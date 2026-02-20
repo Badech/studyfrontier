@@ -13,8 +13,8 @@ cp .env.example .env.local
 
 Edit `.env.local`:
 ```env
-NEXT_PUBLIC_WHATSAPP_NUMBER=+212708026571
-NEXT_PUBLIC_CONTACT_EMAIL=contact@studyfrontier.com
+NEXT_PUBLIC_WHATSAPP_NUMBER=+1 571-690-4684
+NEXT_PUBLIC_CONTACT_EMAIL=Contact@studyfrontier.com
 NEXT_PUBLIC_COMPANY_NAME=StudyFrontier
 NEXT_PUBLIC_SITE_URL=https://studyfrontier.com
 ```

@@ -13,25 +13,25 @@ All contact details, brand identity, and configuration have been successfully ce
 ```typescript
 export const BRAND_CONFIG = {
   brandName: "StudyFrontier",
-  websiteUrl: "https://studyfrontier.vercel.app",
+  websiteUrl: "https://studyfrontier.com",
   
   whatsapp: {
-    numberE164: "+212708026571",           // For display with +
-    numberDigits: "212708026571",           // For wa.me links
-    numberDisplay: "+212 708-026571",       // Formatted display
-    linkDefault: "https://wa.me/212708026571",
+    numberE164: "+1 571-690-4684",           // For display with +
+    numberDigits: "15716904684",           // For wa.me links
+    numberDisplay: "+1 571-690-4684",       // Formatted display
+    linkDefault: "https://wa.me/15716904684",
     prefillText: "Salam ana kmlt form StudyFrontier",
   },
   
   email: {
-    primary: "contact@studyfrontier.com",
-    mailtoLink: "mailto:contact@studyfrontier.com",
+    primary: "Contact@studyfrontier.com",
+    mailtoLink: "mailto:Contact@studyfrontier.com",
   },
   
   location: {
     country: "Morocco",
     countryCode: "MA",
-    serviceDescription: "Morocco (Remote Support)",
+    serviceDescription: "United States (Remote Support Worldwide)",
   },
   
   languages: {
@@ -56,8 +56,8 @@ export const BRAND_CONFIG = {
 ### **Components Updated**
 | Component | Before | After |
 |-----------|--------|-------|
-| `components/footer.tsx` | Hardcoded `+212 708 026 571` | `BRAND_CONFIG.whatsapp.numberDisplay` |
-| `components/footer.tsx` | Hardcoded `contact@studyfrontier.com` | `BRAND_CONFIG.email.primary` |
+| `components/footer.tsx` | Hardcoded `+1 571-690-4684` | `BRAND_CONFIG.whatsapp.numberDisplay` |
+| `components/footer.tsx` | Hardcoded `Contact@studyfrontier.com` | `BRAND_CONFIG.email.primary` |
 | `components/contact-section.tsx` | Hardcoded email | `BRAND_CONFIG.email.mailtoLink` |
 | `components/navbar.tsx` | Hardcoded "StudyFrontier" | `BRAND_CONFIG.brandName` |
 | `components/whatsapp-button.tsx` | Direct env vars | Uses `getWhatsAppLink()` helper |
@@ -102,9 +102,9 @@ export const BRAND_CONFIG = {
 
 | Format | Value | Usage |
 |--------|-------|-------|
-| **E.164** | `+212708026571` | Structured data, schemas |
-| **Display** | `+212 708-026571` | UI display, footer, contact cards |
-| **Digits Only** | `212708026571` | WhatsApp wa.me links |
+| **E.164** | `+1 571-690-4684` | Structured data, schemas |
+| **Display** | `+1 571-690-4684` | UI display, footer, contact cards |
+| **Digits Only** | `15716904684` | WhatsApp wa.me links |
 
 ---
 
@@ -213,15 +213,15 @@ Run the verification script to confirm:
 ## 🎯 Partner Approval Impact
 
 ### **Before:**
-- ⚠️ Hardcoded phone: `+212 708 026 571` in footer
-- ⚠️ Hardcoded email: `contact@studyfrontier.com` in 2 places
+- ⚠️ Hardcoded phone: `+1 571-690-4684` in footer
+- ⚠️ Hardcoded email: `Contact@studyfrontier.com` in 2 places
 - ⚠️ Placeholder fallbacks: `+212600000000`
 - ⚠️ Inconsistent formatting
 
 ### **After:**
 - ✅ Single source of truth
 - ✅ No placeholders anywhere
-- ✅ Standardized formatting: `+212 708-026571`
+- ✅ Standardized formatting: `+1 571-690-4684`
 - ✅ Easy to audit
 - ✅ Professional & consistent
 
@@ -237,7 +237,7 @@ Before deploying to production:
 - [ ] Run `.\scripts\verify-contacts.ps1` → should pass
 - [ ] Test all WhatsApp buttons open correct number
 - [ ] Test all email links use correct address
-- [ ] Verify phone number displays as `+212 708-026571` format
+- [ ] Verify phone number displays as `+1 571-690-4684` format
 - [ ] Check structured data with [Google Rich Results Test](https://search.google.com/test/rich-results)
 - [ ] Confirm no console errors mentioning contact info
 
